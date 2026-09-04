@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1cpp_r_a_n_s3_p_sed" kind="class" language="C++" prot="public">
     <compoundname>proteus::cppRANS3PSed</compoundname>
     <basecompoundref refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base" prot="public" virt="non-virtual">proteus::cppRANS3PSed_base</basecompoundref>
-    <includes refid="_r_a_n_s3_p_sed_8h" local="no">/Users/cekees/proteus/proteus/mprans/RANS3PSed.h</includes>
+    <includes refid="_r_a_n_s3_p_sed_8h" local="no">/work/cekees/proteus/proteus/mprans/RANS3PSed.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,66 +39,71 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1ac19e94825587e6f2eed2ec25527ee492" prot="public" static="no" mutable="no">
         <type><ref refid="classproteus_1_1cpp_hsu_sed_stress" kindref="compound">cppHsuSedStress</ref>&lt; 3 &gt;</type>
         <definition>cppHsuSedStress&lt;3&gt; proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::closure</definition>
         <argsstring></argsstring>
         <name>closure</name>
+        <qualifiedname>proteus::cppRANS3PSed::closure</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="55" column="23" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="55" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="55" column="23" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1ad82cf990ee3277f3a9974569cd863759" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
         <argsstring></argsstring>
         <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::cppRANS3PSed::nDOF_test_X_trial_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="56" column="17" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="56" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="56" column="17" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a38e85cd1aa07ce311a3bf51efed94c93" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::cppRANS3PSed::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="57" column="22" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="57" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="57" column="22" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="57" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1ac41675470c05bbe85e6e39b6afd5aa45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cppRANS3PSed</definition>
         <argsstring>()</argsstring>
         <name>cppRANS3PSed</name>
+        <qualifiedname>proteus::cppRANS3PSed::cppRANS3PSed</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="58" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="58" bodyend="79"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="58" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="58" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a3615f265b1da3620220c885262c96e13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::setSedClosure</definition>
         <argsstring>(double aDarcy, double betaForch, double grain, double packFraction, double packMargin, double maxFraction, double frFraction, double sigmaC, double C3e, double C4e, double eR, double fContact, double mContact, double nContact, double angFriction, double vos_limiter, double mu_fr_limiter)</argsstring>
         <name>setSedClosure</name>
+        <qualifiedname>proteus::cppRANS3PSed::setSedClosure</qualifiedname>
         <reimplements refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base_1a6d8b4ed2c6082bd488aa3cfb83035037">setSedClosure</reimplements>
         <param>
           <type>double</type>
@@ -174,13 +179,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="81" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="81" bodyend="116"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="81" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="81" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a53df626617905746e05332bdba8017ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedHeaviside</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedHeaviside</name>
+        <qualifiedname>proteus::cppRANS3PSed::smoothedHeaviside</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -195,13 +201,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="118" column="21" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="118" bodyend="130"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="118" column="21" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="118" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1ace4301d760df17dfcba7b6615b45cd88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedHeaviside_integral</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedHeaviside_integral</name>
+        <qualifiedname>proteus::cppRANS3PSed::smoothedHeaviside_integral</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -216,13 +223,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="132" column="21" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="132" bodyend="151"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="132" column="21" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="132" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1ad6dfc840f12108c348effc6930dfd582" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedDirac</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedDirac</name>
+        <qualifiedname>proteus::cppRANS3PSed::smoothedDirac</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -237,13 +245,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="153" column="21" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="153" bodyend="163"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="153" column="21" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="153" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1aa98daf1d8f30ef2212508d540b9cd64b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(const double eps_rho, const double eps_mu, const double sigma, const double rho_0, double nu_0, const double rho_1, double nu_1, const double rho_s, const double h_e, const double smagorinskyConstant, const int turbulenceClosureModel, const double g[nSpace], const double useVF, const double &amp;vf, const double &amp;phi, const double n[nSpace], const double &amp;kappa, const double vos, const double &amp;p, const double grad_p[nSpace], const double grad_u[nSpace], const double grad_v[nSpace], const double grad_w[nSpace], const double &amp;u, const double &amp;v, const double &amp;w, const double &amp;uStar, const double &amp;vStar, const double &amp;wStar, double &amp;eddy_viscosity, double &amp;mom_u_acc, double &amp;dmom_u_acc_u, double &amp;mom_v_acc, double &amp;dmom_v_acc_v, double &amp;mom_w_acc, double &amp;dmom_w_acc_w, double mass_adv[nSpace], double dmass_adv_u[nSpace], double dmass_adv_v[nSpace], double dmass_adv_w[nSpace], double mom_u_adv[nSpace], double dmom_u_adv_u[nSpace], double dmom_u_adv_v[nSpace], double dmom_u_adv_w[nSpace], double mom_v_adv[nSpace], double dmom_v_adv_u[nSpace], double dmom_v_adv_v[nSpace], double dmom_v_adv_w[nSpace], double mom_w_adv[nSpace], double dmom_w_adv_u[nSpace], double dmom_w_adv_v[nSpace], double dmom_w_adv_w[nSpace], double mom_uu_diff_ten[nSpace], double mom_vv_diff_ten[nSpace], double mom_ww_diff_ten[nSpace], double mom_uv_diff_ten[1], double mom_uw_diff_ten[1], double mom_vu_diff_ten[1], double mom_vw_diff_ten[1], double mom_wu_diff_ten[1], double mom_wv_diff_ten[1], double &amp;mom_u_source, double &amp;mom_v_source, double &amp;mom_w_source, double &amp;mom_u_ham, double dmom_u_ham_grad_p[nSpace], double dmom_u_ham_grad_u[nSpace], double &amp;mom_v_ham, double dmom_v_ham_grad_p[nSpace], double dmom_v_ham_grad_v[nSpace], double &amp;mom_w_ham, double dmom_w_ham_grad_p[nSpace], double dmom_w_ham_grad_w[nSpace])</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::cppRANS3PSed::evaluateCoefficients</qualifiedname>
         <param>
           <type>const double</type>
           <declname>eps_rho</declname>
@@ -579,13 +588,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="166" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="166" bodyend="444"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="166" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="166" bodyend="444"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a5986ebd909a68158b7271e968415b73c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::updateDarcyForchheimerTerms_Ergun</definition>
         <argsstring>(const double alpha, const double beta, const double eps_rho, const double eps_mu, const double rho_0, const double nu_0, const double rho_1, const double nu_1, double nu_t, const double useVF, const double vf, const double phi, const double u, const double v, const double w, const double uStar, const double vStar, const double wStar, const double eps_s, const double vos, const double u_f, const double v_f, const double w_f, const double uStar_f, const double vStar_f, const double wStar_f, double &amp;mom_u_source, double &amp;mom_v_source, double &amp;mom_w_source, double dmom_u_source[nSpace], double dmom_v_source[nSpace], double dmom_w_source[nSpace], double gradC_x, double gradC_y, double gradC_z)</argsstring>
         <name>updateDarcyForchheimerTerms_Ergun</name>
+        <qualifiedname>proteus::cppRANS3PSed::updateDarcyForchheimerTerms_Ergun</qualifiedname>
         <param>
           <type>const double</type>
           <declname>alpha</declname>
@@ -735,13 +745,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="447" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="447" bodyend="518"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="447" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="447" bodyend="518"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a20f031a97906437d5796322f77760840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::updatePenaltyForPacking</definition>
         <argsstring>(const double vos, const double u, const double v, const double w, double &amp;mom_u_source, double &amp;mom_v_source, double &amp;mom_w_source, double dmom_u_source[nSpace], double dmom_v_source[nSpace], double dmom_w_source[nSpace])</argsstring>
         <name>updatePenaltyForPacking</name>
+        <qualifiedname>proteus::cppRANS3PSed::updatePenaltyForPacking</qualifiedname>
         <param>
           <type>const double</type>
           <declname>vos</declname>
@@ -791,13 +802,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="521" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="521" bodyend="545"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="521" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="521" bodyend="545"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1aa847e29534fae4e6e0a08024771352cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::updateFrictionalPressure</definition>
         <argsstring>(const double vos, const double grad_vos[nSpace], double &amp;mom_u_source, double &amp;mom_v_source, double &amp;mom_w_source)</argsstring>
         <name>updateFrictionalPressure</name>
+        <qualifiedname>proteus::cppRANS3PSed::updateFrictionalPressure</qualifiedname>
         <param>
           <type>const double</type>
           <declname>vos</declname>
@@ -825,13 +837,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="551" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="551" bodyend="562"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="551" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="551" bodyend="562"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1afb8bccee4d7d4c89ad1d19a918bca858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::updateFrictionalStress</definition>
         <argsstring>(const double LAG_MU_FR, const double mu_fr_last, double &amp;mu_fr_new, const double vos, const double eps_rho, const double eps_mu, const double rho_0, const double nu_0, const double rho_1, const double nu_1, const double rho_s, const double useVF, const double vf, const double phi, const double grad_u[nSpace], const double grad_v[nSpace], const double grad_w[nSpace], double mom_uu_diff_ten[nSpace], double mom_uv_diff_ten[1], double mom_uw_diff_ten[1], double mom_vv_diff_ten[nSpace], double mom_vu_diff_ten[1], double mom_vw_diff_ten[1], double mom_ww_diff_ten[nSpace], double mom_wu_diff_ten[1], double mom_wv_diff_ten[1])</argsstring>
         <name>updateFrictionalStress</name>
+        <qualifiedname>proteus::cppRANS3PSed::updateFrictionalStress</qualifiedname>
         <param>
           <type>const double</type>
           <declname>LAG_MU_FR</declname>
@@ -954,13 +967,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="565" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="565" bodyend="618"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="565" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="565" bodyend="618"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a305cc67c0e932cddf8a42cf39da09ef4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;hFactor, const double &amp;elementDiameter, const double &amp;dmt, const double &amp;dm, const double df[nSpace], const double &amp;a, const double &amp;pfac, double &amp;tau_v, double &amp;tau_p, double &amp;cfl)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::cppRANS3PSed::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>hFactor</declname>
@@ -1008,13 +1022,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="623" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="623" bodyend="655"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="623" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="623" bodyend="655"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1ad00ddab934ba5c67c902241fbbe521a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;Ct_sge, const double &amp;Cd_sge, const double G[nSpace *nSpace], const double &amp;G_dd_G, const double &amp;tr_G, const double &amp;A0, const double Ai[nSpace], const double &amp;Kij, const double &amp;pfac, double &amp;tau_v, double &amp;tau_p, double &amp;q_cfl)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::cppRANS3PSed::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>Ct_sge</declname>
@@ -1071,13 +1086,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="657" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="657" bodyend="676"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="657" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="657" bodyend="676"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a72e0a022520468b3d29b7e3626871f60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tauRes</definition>
         <argsstring>(const double &amp;tau_p, const double &amp;tau_v, const double &amp;pdeResidualP, const double &amp;pdeResidualU, const double &amp;pdeResidualV, const double &amp;pdeResidualW, double &amp;subgridErrorP, double &amp;subgridErrorU, double &amp;subgridErrorV, double &amp;subgridErrorW)</argsstring>
         <name>calculateSubgridError_tauRes</name>
+        <qualifiedname>proteus::cppRANS3PSed::calculateSubgridError_tauRes</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>tau_p</declname>
@@ -1124,13 +1140,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="678" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="678" bodyend="695"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="678" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="678" bodyend="695"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1ad321b35a852f2c57b571c886815cca05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridErrorDerivatives_tauRes</definition>
         <argsstring>(const double &amp;tau_p, const double &amp;tau_v, const double dpdeResidualP_du[nDOF_trial_element], const double dpdeResidualP_dv[nDOF_trial_element], const double dpdeResidualP_dw[nDOF_trial_element], const double dpdeResidualU_dp[nDOF_trial_element], const double dpdeResidualU_du[nDOF_trial_element], const double dpdeResidualV_dp[nDOF_trial_element], const double dpdeResidualV_dv[nDOF_trial_element], const double dpdeResidualW_dp[nDOF_trial_element], const double dpdeResidualW_dw[nDOF_trial_element], double dsubgridErrorP_du[nDOF_trial_element], double dsubgridErrorP_dv[nDOF_trial_element], double dsubgridErrorP_dw[nDOF_trial_element], double dsubgridErrorU_dp[nDOF_trial_element], double dsubgridErrorU_du[nDOF_trial_element], double dsubgridErrorV_dp[nDOF_trial_element], double dsubgridErrorV_dv[nDOF_trial_element], double dsubgridErrorW_dp[nDOF_trial_element], double dsubgridErrorW_dw[nDOF_trial_element])</argsstring>
         <name>calculateSubgridErrorDerivatives_tauRes</name>
+        <qualifiedname>proteus::cppRANS3PSed::calculateSubgridErrorDerivatives_tauRes</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>tau_p</declname>
@@ -1235,13 +1252,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="697" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="697" bodyend="735"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="697" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="697" bodyend="735"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1abade80fd88bb6038b8ffcf27504cd3bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFlux</definition>
         <argsstring>(const int &amp;isDOFBoundary_p, const int &amp;isDOFBoundary_u, const int &amp;isDOFBoundary_v, const int &amp;isDOFBoundary_w, const int &amp;isFluxBoundary_p, const int &amp;isFluxBoundary_u, const int &amp;isFluxBoundary_v, const int &amp;isFluxBoundary_w, const double &amp;oneByRho, const double &amp;bc_oneByRho, const double n[nSpace], const double &amp;vos, const double &amp;bc_p, const double &amp;bc_u, const double &amp;bc_v, const double &amp;bc_w, const double bc_f_mass[nSpace], const double bc_f_umom[nSpace], const double bc_f_vmom[nSpace], const double bc_f_wmom[nSpace], const double &amp;bc_flux_mass, const double &amp;bc_flux_umom, const double &amp;bc_flux_vmom, const double &amp;bc_flux_wmom, const double &amp;p, const double &amp;u, const double &amp;v, const double &amp;w, const double f_mass[nSpace], const double f_umom[nSpace], const double f_vmom[nSpace], const double f_wmom[nSpace], const double df_mass_du[nSpace], const double df_mass_dv[nSpace], const double df_mass_dw[nSpace], const double df_umom_dp[nSpace], const double df_umom_du[nSpace], const double df_umom_dv[nSpace], const double df_umom_dw[nSpace], const double df_vmom_dp[nSpace], const double df_vmom_du[nSpace], const double df_vmom_dv[nSpace], const double df_vmom_dw[nSpace], const double df_wmom_dp[nSpace], const double df_wmom_du[nSpace], const double df_wmom_dv[nSpace], const double df_wmom_dw[nSpace], double &amp;flux_mass, double &amp;flux_umom, double &amp;flux_vmom, double &amp;flux_wmom, double *velocity_star, double *velocity)</argsstring>
         <name>exteriorNumericalAdvectiveFlux</name>
+        <qualifiedname>proteus::cppRANS3PSed::exteriorNumericalAdvectiveFlux</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_p</declname>
@@ -1484,13 +1502,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="738" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="738" bodyend="870"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="738" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="738" bodyend="870"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1afdb0f801bbb7c9d293c3db185a2f43ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFluxDerivatives</definition>
         <argsstring>(const int &amp;isDOFBoundary_p, const int &amp;isDOFBoundary_u, const int &amp;isDOFBoundary_v, const int &amp;isDOFBoundary_w, const int &amp;isFluxBoundary_p, const int &amp;isFluxBoundary_u, const int &amp;isFluxBoundary_v, const int &amp;isFluxBoundary_w, const double &amp;oneByRho, const double n[nSpace], const double &amp;vos, const double &amp;bc_p, const double &amp;bc_u, const double &amp;bc_v, const double &amp;bc_w, const double bc_f_mass[nSpace], const double bc_f_umom[nSpace], const double bc_f_vmom[nSpace], const double bc_f_wmom[nSpace], const double &amp;bc_flux_mass, const double &amp;bc_flux_umom, const double &amp;bc_flux_vmom, const double &amp;bc_flux_wmom, const double &amp;p, const double &amp;u, const double &amp;v, const double &amp;w, const double f_mass[nSpace], const double f_umom[nSpace], const double f_vmom[nSpace], const double f_wmom[nSpace], const double df_mass_du[nSpace], const double df_mass_dv[nSpace], const double df_mass_dw[nSpace], const double df_umom_dp[nSpace], const double df_umom_du[nSpace], const double df_umom_dv[nSpace], const double df_umom_dw[nSpace], const double df_vmom_dp[nSpace], const double df_vmom_du[nSpace], const double df_vmom_dv[nSpace], const double df_vmom_dw[nSpace], const double df_wmom_dp[nSpace], const double df_wmom_du[nSpace], const double df_wmom_dv[nSpace], const double df_wmom_dw[nSpace], double &amp;dflux_mass_du, double &amp;dflux_mass_dv, double &amp;dflux_mass_dw, double &amp;dflux_umom_dp, double &amp;dflux_umom_du, double &amp;dflux_umom_dv, double &amp;dflux_umom_dw, double &amp;dflux_vmom_dp, double &amp;dflux_vmom_du, double &amp;dflux_vmom_dv, double &amp;dflux_vmom_dw, double &amp;dflux_wmom_dp, double &amp;dflux_wmom_du, double &amp;dflux_wmom_dv, double &amp;dflux_wmom_dw, double *velocity_star)</argsstring>
         <name>exteriorNumericalAdvectiveFluxDerivatives</name>
+        <qualifiedname>proteus::cppRANS3PSed::exteriorNumericalAdvectiveFluxDerivatives</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_p</declname>
@@ -1769,13 +1788,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="873" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="873" bodyend="1021"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="873" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="873" bodyend="1021"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a10337220439d28581ea3a43578215d98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalDiffusiveFlux</definition>
         <argsstring>(const double &amp;eps, const double &amp;phi, int *rowptr, int *colind, const int &amp;isDOFBoundary, const int &amp;isFluxBoundary, const double n[nSpace], double *bc_a, const double &amp;bc_u, const double &amp;bc_flux, double *a, const double grad_potential[nSpace], const double &amp;u, const double &amp;penalty, double &amp;flux)</argsstring>
         <name>exteriorNumericalDiffusiveFlux</name>
+        <qualifiedname>proteus::cppRANS3PSed::exteriorNumericalDiffusiveFlux</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>eps</declname>
@@ -1844,13 +1864,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="1024" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="1024" bodyend="1069"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="1024" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="1024" bodyend="1069"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1af74978eb8e1ddc674df03f981c3001aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ExteriorNumericalDiffusiveFluxJacobian</definition>
         <argsstring>(const double &amp;eps, const double &amp;phi, int *rowptr, int *colind, const int &amp;isDOFBoundary, const int &amp;isFluxBoundary, const double n[nSpace], double *a, const double &amp;v, const double grad_v[nSpace], const double &amp;penalty)</argsstring>
         <name>ExteriorNumericalDiffusiveFluxJacobian</name>
+        <qualifiedname>proteus::cppRANS3PSed::ExteriorNumericalDiffusiveFluxJacobian</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>eps</declname>
@@ -1903,13 +1924,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="1073" column="16" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="1073" bodyend="1103"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="1073" column="16" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="1073" bodyend="1103"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1aac19996ea6d610dcbab36f13f931cdb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::cppRANS3PSed::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base_1a96d6d8dc1c6554276d804a7babf497cc">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -1921,13 +1943,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="1105" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="1105" bodyend="2694"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="1105" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="1105" bodyend="2694"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1aaf8fac1abd80e2eea3cf2b63ff352175" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::cppRANS3PSed::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base_1a31dd62cbf065d2107714c82d888fe37b">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -1939,13 +1962,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="2696" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="2696" bodyend="4333"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="2696" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="2696" bodyend="4333"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_r_a_n_s3_p_sed_1a3a16221cbc8adef08c9c5c7d7e4d387a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateVelocityAverage</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateVelocityAverage</name>
+        <qualifiedname>proteus::cppRANS3PSed::calculateVelocityAverage</qualifiedname>
         <reimplements refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base_1ae2b9412b7b3599ba78211979272c87f5">calculateVelocityAverage</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -1957,30 +1981,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="4335" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="4335" bodyend="4504"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="4335" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="4335" bodyend="4504"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>proteus::cppRANS3PSed_base</label>
-        <link refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base"/>
-      </node>
       <node id="1">
         <label>proteus::cppRANS3PSed&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1cpp_r_a_n_s3_p_sed"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="2">
         <label>proteus::cppRANS3PSed_base</label>
         <link refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base"/>
       </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="3">
         <label>proteus::cppHsuSedStress&lt; 3 &gt;</label>
         <link refid="classproteus_1_1cpp_hsu_sed_stress"/>
@@ -1994,8 +2014,12 @@
           <edgelabel>closure</edgelabel>
         </childnode>
       </node>
+      <node id="2">
+        <label>proteus::cppRANS3PSed_base</label>
+        <link refid="classproteus_1_1cpp_r_a_n_s3_p_sed__base"/>
+      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" line="52" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="53" bodyend="4505"/>
+    <location file="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" line="52" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PSed.h" bodystart="53" bodyend="4505"/>
     <listofallmembers>
       <member refid="classproteus_1_1cpp_r_a_n_s3_p_sed_1aaf8fac1abd80e2eea3cf2b63ff352175" prot="public" virt="virtual"><scope>proteus::cppRANS3PSed</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1cpp_r_a_n_s3_p_sed_1aac19996ea6d610dcbab36f13f931cdb7" prot="public" virt="virtual"><scope>proteus::cppRANS3PSed</scope><name>calculateResidual</name></member>

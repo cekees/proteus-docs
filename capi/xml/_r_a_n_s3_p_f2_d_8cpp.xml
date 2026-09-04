@@ -1,47 +1,84 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_r_a_n_s3_p_f2_d_8cpp" kind="file" language="C++">
     <compoundname>RANS3PF2D.cpp</compoundname>
     <includes local="yes">pybind11/pybind11.h</includes>
     <includes local="yes">pybind11/stl_bind.h</includes>
     <includes refid="_r_a_n_s3_p_f2_d_8h" local="yes">RANS3PF2D.h</includes>
     <incdepgraph>
-      <node id="6">
-        <label>valarray</label>
-      </node>
-      <node id="17">
-        <label>iomanip</label>
-      </node>
-      <node id="19">
-        <label>equivalent_polynomials_coefficients_quad.h</label>
-        <link refid="equivalent__polynomials__coefficients__quad_8h"/>
-      </node>
-      <node id="5">
-        <label>cmath</label>
-      </node>
-      <node id="16">
-        <label>cassert</label>
-      </node>
-      <node id="25">
-        <label>xtensor/xio.hpp</label>
-      </node>
-      <node id="23">
-        <label>stdexcept</label>
-      </node>
-      <node id="24">
-        <label>string</label>
-      </node>
       <node id="11">
         <label>CompKernel.h</label>
         <link refid="_comp_kernel_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="22">
-        <label>map</label>
+      <node id="12">
+        <label>ModelFactory.h</label>
+        <link refid="_model_factory_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="14">
-        <label>xtensor-python/pyarray.hpp</label>
+      <node id="15">
+        <label>equivalent_polynomials.h</label>
+        <link refid="equivalent__polynomials_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>equivalent_polynomials_coefficients.h</label>
+        <link refid="equivalent__polynomials__coefficients_8h"/>
+      </node>
+      <node id="22">
+        <label>equivalent_polynomials_coefficients_quad.h</label>
+        <link refid="equivalent__polynomials__coefficients__quad_8h"/>
+      </node>
+      <node id="23">
+        <label>equivalent_polynomials_utils.h</label>
+        <link refid="equivalent__polynomials__utils_8h"/>
+      </node>
+      <node id="20">
+        <label>ifemBasisCoefficients_wrapper.h</label>
+        <link refid="ifem_basis_coefficients__wrapper_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ArgumentsDict.h</label>
+        <link refid="_arguments_dict_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>RANS3PF2D.cpp</label>
@@ -52,52 +89,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-      </node>
-      <node id="20">
-        <label>equivalent_polynomials_utils.h</label>
-        <link refid="equivalent__polynomials__utils_8h"/>
-      </node>
-      <node id="15">
-        <label>equivalent_polynomials.h</label>
-        <link refid="equivalent__polynomials_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>equivalent_polynomials_coefficients.h</label>
-        <link refid="equivalent__polynomials__coefficients_8h"/>
-      </node>
-      <node id="8">
-        <label>vector</label>
-      </node>
-      <node id="21">
-        <label>ArgumentsDict.h</label>
-        <link refid="_arguments_dict_8h"/>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>pybind11/pybind11.h</label>
       </node>
       <node id="4">
         <label>RANS3PF2D.h</label>
@@ -122,11 +113,8 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>iostream</label>
       </node>
       <node id="13">
         <label>SedClosure.h</label>
@@ -138,23 +126,57 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>set</label>
+      <node id="16">
+        <label>array</label>
       </node>
-      <node id="3">
-        <label>pybind11/stl_bind.h</label>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="5">
+        <label>cmath</label>
       </node>
       <node id="10">
         <label>cstring</label>
       </node>
-      <node id="12">
-        <label>ModelFactory.h</label>
-        <link refid="_model_factory_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
+      <node id="18">
+        <label>iomanip</label>
+      </node>
+      <node id="7">
+        <label>iostream</label>
+      </node>
+      <node id="25">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="3">
+        <label>pybind11/stl_bind.h</label>
+      </node>
+      <node id="9">
+        <label>set</label>
+      </node>
+      <node id="19">
+        <label>stdexcept</label>
+      </node>
+      <node id="26">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>valarray</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+      <node id="14">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
+      <node id="27">
+        <label>xtensor/io/xio.hpp</label>
       </node>
     </incdepgraph>
-      <sectiondef kind="define">
+    <innerclass refid="classcpp_r_a_n_s3_p_f2_d__base" prot="public">cppRANS3PF2D_base</innerclass>
+    <sectiondef kind="define">
       <memberdef kind="define" id="_r_a_n_s3_p_f2_d_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
         <name>FORCE_IMPORT_ARRAY</name>
         <briefdescription>
@@ -163,10 +185,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" line="4" column="9" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" bodystart="4" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_r_a_n_s3_p_f2_d_8cpp_1ab7ad23aab2d015babdc13f4ee305d44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>PYBIND11_MODULE</definition>
@@ -184,9 +206,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" line="21" column="1" bodyfile="/Users/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" bodystart="21" bodyend="31"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" line="21" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/RANS3PF2D.cpp" bodystart="21" bodyend="31"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -199,7 +221,7 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_r_a_n_s3_p_f2_d_8h" kindref="compound">RANS3PF2D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">py<sp/>=<sp/>pybind11;</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classproteus_1_1cpp_r_a_n_s3_p_f2_d__base" kindref="compound">proteus::cppRANS3PF2D_base</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1cpp_r_a_n_s3_p_f2_d__base" kindref="compound">proteus::cppRANS3PF2D_base</ref>;</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__GNUC__)<sp/>&amp;&amp;<sp/>!defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">workaround</highlight></codeline>
@@ -212,19 +234,19 @@
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="_r_a_n_s3_p_f2_d_8cpp_1ab7ad23aab2d015babdc13f4ee305d44b" refkind="member"><highlight class="normal"><ref refid="_r_a_n_s3_p_f2_d_8cpp_1ab7ad23aab2d015babdc13f4ee305d44b" kindref="member">PYBIND11_MODULE</ref>(cRANS3PF2D,<sp/>m)</highlight></codeline>
+<codeline lineno="21" refid="_r_a_n_s3_p_f2_d_8cpp_1ab7ad23aab2d015babdc13f4ee305d44b" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cRANS3PF2D,<sp/>m)</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>xt::import_numpy();</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>py::class_&lt;cppRANS3PF2D_base&gt;(m,<sp/></highlight><highlight class="stringliteral">&quot;cppRANS3PF2D_base&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(<ref refid="_fourier_8cpp_1a2858154e2009b0e6e616f313177762bc" kindref="member">py::init</ref>(&amp;<ref refid="namespaceproteus_1aa0252dace81bc41f1e2241bf1a0d9a9a" kindref="member">proteus::newRANS3PF2D</ref>))</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal">,<sp/>&amp;cppRANS3PF2D_base::calculateResidual)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal">,<sp/>&amp;cppRANS3PF2D_base::calculateJacobian)</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateVelocityAverage&quot;</highlight><highlight class="normal">,<sp/>&amp;cppRANS3PF2D_base::calculateVelocityAverage)</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;getBoundaryDOFs&quot;</highlight><highlight class="normal">,<sp/>&amp;cppRANS3PF2D_base::getBoundaryDOFs);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(py::init(&amp;<ref refid="namespaceproteus_1a46825ee1b1ae44f9ecc963443400a836" kindref="member">proteus::newRANS3PF2D</ref>))</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="classcpp_r_a_n_s3_p_f2_d__base_1a0c7239d7343974cd07ef6cbc50fe42de" kindref="member">cppRANS3PF2D_base::calculateResidual</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="classcpp_r_a_n_s3_p_f2_d__base_1a947685ff9b9d15ea407f7fc36aaaf92f" kindref="member">cppRANS3PF2D_base::calculateJacobian</ref>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateVelocityAverage&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="classcpp_r_a_n_s3_p_f2_d__base_1a50ddb60088e80890cbf731f18b58230c" kindref="member">cppRANS3PF2D_base::calculateVelocityAverage</ref>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;getBoundaryDOFs&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="classcpp_r_a_n_s3_p_f2_d__base_1abf6a2ff0f08163562224e04677933f18" kindref="member">cppRANS3PF2D_base::getBoundaryDOFs</ref>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/RANS3PF2D.cpp"/>
+    <location file="/work/cekees/proteus/proteus/mprans/RANS3PF2D.cpp"/>
   </compounddef>
 </doxygen>

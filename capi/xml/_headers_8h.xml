@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_headers_8h" kind="file" language="C++">
     <compoundname>Headers.h</compoundname>
     <includedby refid="_fourier_8cpp" local="yes">Fourier.cpp</includedby>
@@ -9,10 +9,6 @@
       <node id="2">
         <label>Fourier.cpp</label>
         <link refid="_fourier_8cpp"/>
-      </node>
-      <node id="3">
-        <label>Inout.cpp</label>
-        <link refid="_inout_8cpp"/>
       </node>
       <node id="1">
         <label>Headers.h</label>
@@ -24,12 +20,16 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
+      <node id="3">
+        <label>Inout.cpp</label>
+        <link refid="_inout_8cpp"/>
+      </node>
       <node id="4">
         <label>Subroutines.cpp</label>
         <link refid="_subroutines_8cpp"/>
       </node>
     </invincdepgraph>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_headers_8h_1aed3139cd68677866e9ef0665d1ad1ef4" prot="public" static="no">
         <name>Skip</name>
         <initializer>fgets(dummy,100,Input1)</initializer>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="1" column="9" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="1" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="1" column="9" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="1" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_headers_8h_1a1daf785e3f68d293c7caa1c756d5cb74" prot="public" static="no">
         <name>pi</name>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="2" column="9" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="2" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="2" column="9" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_headers_8h_1afa85674f034d00d641e579588a123444" prot="public" static="no">
         <name>iff</name>
@@ -63,29 +63,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="3" column="9" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="3" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="3" column="9" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="3" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_headers_8h_1a355125bc7c72a18ed70d4a3e24a3e0ce" prot="public" static="no">
         <name>HI</name>
-        <initializer>&quot;\t%10.6<ref refid="group__analytical_solutions_1ga5f01b1fc0e3cb358aa6411861cedc62c" kindref="member">f</ref>&quot;</initializer>
+        <initializer>&quot;\t%10.6f&quot;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="4" column="9" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="4" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_headers_8h_1af6756f4391699fde08af441bb7d9d49f" prot="public" static="no">
         <name>LO</name>
-        <initializer>&quot;\t%7.4<ref refid="group__analytical_solutions_1ga5f01b1fc0e3cb358aa6411861cedc62c" kindref="member">f</ref>&quot;</initializer>
+        <initializer>&quot;\t%7.4f&quot;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="5" column="9" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="5" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="5" column="9" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="5" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_headers_8h_1a00a69c13c1d2fa3062422eaee4c52008" prot="public" static="no">
         <name>Readtext</name>
@@ -97,25 +97,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="6" column="9" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="6" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="6" column="9" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="6" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_headers_8h_1af366e78f8645c4171b281fff5185454a" prot="public" static="no">
         <name>Read</name>
         <param><defname>x</defname></param>
         <param><defname>y</defname></param>
-        <initializer>{fscanf(Input1,&quot;%&quot;#y, &amp;x);<ref refid="jf_8h_1a62f51fe2ffd96f75285d1da18e1ce809" kindref="member">Skip</ref>;}</initializer>
+        <initializer>{fscanf(Input1,&quot;%&quot;#y, &amp;x);<ref refid="_headers_8h_1aed3139cd68677866e9ef0665d1ad1ef4" kindref="member">Skip</ref>;}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="7" column="9" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="7" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="7" column="9" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="7" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="var">
+    </sectiondef>
+    <sectiondef kind="var">
       <memberdef kind="variable" id="_headers_8h_1a172a20466bb3dd9379bb2143bfbeb1e4" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int Current_criterion</definition>
         <argsstring></argsstring>
         <name>Current_criterion</name>
@@ -125,10 +125,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="27" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="27" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="27" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a08a4b8173deed2dbe6993d906ff006cb" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int n</definition>
         <argsstring></argsstring>
         <name>n</name>
@@ -138,10 +138,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="28" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="28" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="28" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a58e2c29a4baf54159834ba079d08f602" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int Nprofiles</definition>
         <argsstring></argsstring>
         <name>Nprofiles</name>
@@ -151,10 +151,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="29" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="29" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="29" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a8d89c1c01f11c291e3bf8dfeb781946d" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int ns</definition>
         <argsstring></argsstring>
         <name>ns</name>
@@ -164,10 +164,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="30" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="30" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="30" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a5ae4803c4bbba017b625cb5e5b3e6219" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int nstep</definition>
         <argsstring></argsstring>
         <name>nstep</name>
@@ -177,10 +177,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="31" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="31" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="31" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a8242dee47c9f3525c44e230a3a2d954c" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int num</definition>
         <argsstring></argsstring>
         <name>num</name>
@@ -190,10 +190,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="32" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="32" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="32" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a75dde92eec1297f87deda0fe215773cf" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int number</definition>
         <argsstring></argsstring>
         <name>number</name>
@@ -203,10 +203,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="33" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="33" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="33" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ae4f2bca90b1de69264be2795bdcd001d" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int Points</definition>
         <argsstring></argsstring>
         <name>Points</name>
@@ -216,10 +216,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="34" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="34" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="34" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a31c2a08abdd4c799a11963a946df7b7b" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int Surface_points</definition>
         <argsstring></argsstring>
         <name>Surface_points</name>
@@ -229,10 +229,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="35" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="35" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="35" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a1b8eed57b0f22422909fda3998456bf5" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
+        <type><ref refid="_fourier_8cpp_1a91adff1610bdf681555a8f2e330dc963" kindref="member">Int</ref></type>
         <definition>Int wave</definition>
         <argsstring></argsstring>
         <name>wave</name>
@@ -242,10 +242,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="36" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="36" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="36" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a21088ebd92b5ed9b7cc32cb31bda2e89" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> **</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> **</type>
         <definition>Double** sol</definition>
         <argsstring></argsstring>
         <name>sol</name>
@@ -255,10 +255,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="40" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="40" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="40" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a713b4ebff2afa5e6dd2945d5f83f6307" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * B</definition>
         <argsstring></argsstring>
         <name>B</name>
@@ -268,10 +268,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="41" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="41" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="41" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ae62d0b7e5a1af6ff6d6257554340d2d1" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * coeff</definition>
         <argsstring></argsstring>
         <name>coeff</name>
@@ -281,10 +281,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="42" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="42" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="42" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a58b1bd289f6ea2af0011261ea4e74c95" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * cosa</definition>
         <argsstring></argsstring>
         <name>cosa</name>
@@ -294,10 +294,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="43" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="43" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="43" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a117c4e9cde832599b9e0767f35e2cb27" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * rhs1</definition>
         <argsstring></argsstring>
         <name>rhs1</name>
@@ -307,10 +307,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="44" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="44" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="44" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1af3345be82f6601fd459019c6d75b1f29" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * rhs2</definition>
         <argsstring></argsstring>
         <name>rhs2</name>
@@ -320,10 +320,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="45" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="45" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="45" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a995bb1509a6943811fef5e852eb5b454" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * sina</definition>
         <argsstring></argsstring>
         <name>sina</name>
@@ -333,10 +333,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="46" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="46" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="46" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ac39fb431d54fa94a455bbdf2e4d91fff" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * Tanh</definition>
         <argsstring></argsstring>
         <name>Tanh</name>
@@ -346,10 +346,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="47" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="47" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="47" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1aa565e3a13199f860447a094f48c9dd6b" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * Y</definition>
         <argsstring></argsstring>
         <name>Y</name>
@@ -359,10 +359,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="48" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="48" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="48" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a9d199fcfc162b9ad09d4c9426e713a74" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref> *</type>
         <definition>Double * z</definition>
         <argsstring></argsstring>
         <name>z</name>
@@ -372,10 +372,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="49" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="49" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="49" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a6246c5264b2f72ebaf8690aab8288e1a" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Bernoulli_check</definition>
         <argsstring></argsstring>
         <name>Bernoulli_check</name>
@@ -385,10 +385,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="53" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="53" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="53" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double c</definition>
         <argsstring></argsstring>
         <name>c</name>
@@ -398,10 +398,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="54" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="54" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="54" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a576d0ef34cb2180b614d05f257a76567" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double ce</definition>
         <argsstring></argsstring>
         <name>ce</name>
@@ -411,10 +411,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="55" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="55" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="55" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1aff5d6bceef73e23cd16d9c23a818ca4a" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double crit</definition>
         <argsstring></argsstring>
         <name>crit</name>
@@ -424,10 +424,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="56" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="56" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="56" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a7cb75ab3309b4db118cbc3e9e21cba75" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double criter</definition>
         <argsstring></argsstring>
         <name>criter</name>
@@ -437,10 +437,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="57" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="57" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="57" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a523e58fd6261d8bf366c532c1267b225" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double cs</definition>
         <argsstring></argsstring>
         <name>cs</name>
@@ -450,10 +450,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="58" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="58" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="58" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1afa66c5e494f9798d09025ed1f9ae090b" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Current</definition>
         <argsstring></argsstring>
         <name>Current</name>
@@ -463,10 +463,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="59" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="59" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="59" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a347de017615607348d9496c352f2f6e4" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double dphidt</definition>
         <argsstring></argsstring>
         <name>dphidt</name>
@@ -476,10 +476,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="60" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="60" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="60" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1add244ad89e3638ad32211f7ecdab7831" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double dudt</definition>
         <argsstring></argsstring>
         <name>dudt</name>
@@ -489,10 +489,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="61" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="61" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="61" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a047d769bf00fe5c3be2f98b865f8f689" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double dvdt</definition>
         <argsstring></argsstring>
         <name>dvdt</name>
@@ -502,10 +502,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="62" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="62" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="62" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a33a7c5fd90e75bb95ad5d774bf957076" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Eta</definition>
         <argsstring></argsstring>
         <name>Eta</name>
@@ -515,10 +515,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="63" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="63" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="63" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a760cfab91ff5a05317014c341a24853f" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double f</definition>
         <argsstring></argsstring>
         <name>f</name>
@@ -528,10 +528,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="64" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="64" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="64" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a633037a59f66fd11edddfafad4d3104a" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double H</definition>
         <argsstring></argsstring>
         <name>H</name>
@@ -541,10 +541,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="65" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="65" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="65" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a5554d9ddb970ea46ca620bfa405ba2a3" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Height</definition>
         <argsstring></argsstring>
         <name>Height</name>
@@ -554,10 +554,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="66" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="66" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="66" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1af8440e121a521c0022823229e88cd1a8" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Highest</definition>
         <argsstring></argsstring>
         <name>Highest</name>
@@ -567,10 +567,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="67" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="67" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="67" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a37996e8bc08a8ba963041be8c1cd22ce" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Hoverd</definition>
         <argsstring></argsstring>
         <name>Hoverd</name>
@@ -580,10 +580,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="68" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="68" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="68" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a4dbff2664c02385f0a9a62cc755b7b3c" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double height</definition>
         <argsstring></argsstring>
         <name>height</name>
@@ -593,10 +593,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="69" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="69" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="69" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a572e157cebed05acf68fca88e9c9579a" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double kd</definition>
         <argsstring></argsstring>
         <name>kd</name>
@@ -606,10 +606,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="70" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="70" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="70" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a917a4d5c96cde47e52523d9e8a9e08c1" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double ke</definition>
         <argsstring></argsstring>
         <name>ke</name>
@@ -619,10 +619,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="71" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="71" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="71" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a499d78bdc2c754c7a4cf8d39ed245e9f" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double L</definition>
         <argsstring></argsstring>
         <name>L</name>
@@ -632,10 +632,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="72" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="72" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="72" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a55b21f9cd6fded5b67b9266cc53498f8" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double MaxH</definition>
         <argsstring></argsstring>
         <name>MaxH</name>
@@ -645,10 +645,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="73" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="73" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="73" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a5ec2b9d66dbe5ab537a78c8c6e73a2a7" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Mean_half_keta_squared</definition>
         <argsstring></argsstring>
         <name>Mean_half_keta_squared</name>
@@ -658,10 +658,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="74" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="74" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="74" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ad361b0f40ce6a79f768e7e67abf39483" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double pe</definition>
         <argsstring></argsstring>
         <name>pe</name>
@@ -671,10 +671,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="75" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="75" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="75" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double phi</definition>
         <argsstring></argsstring>
         <name>phi</name>
@@ -684,10 +684,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="76" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="76" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="76" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a1a4dd154b77e2e56f793a399214d9296" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Pressure</definition>
         <argsstring></argsstring>
         <name>Pressure</name>
@@ -697,10 +697,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="77" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="77" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="77" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double psi</definition>
         <argsstring></argsstring>
         <name>psi</name>
@@ -710,10 +710,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="78" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="78" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="78" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ad39d1297da3441075b937d1ae80571ea" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double pulse</definition>
         <argsstring></argsstring>
         <name>pulse</name>
@@ -723,10 +723,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="79" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="79" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="79" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ab8d83b3526dced5e412b93bcc089927f" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double Q</definition>
         <argsstring></argsstring>
         <name>Q</name>
@@ -736,10 +736,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="80" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="80" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="80" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a1fd0784d88f1dd3a465423f8a63d1af2" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double q</definition>
         <argsstring></argsstring>
         <name>q</name>
@@ -749,10 +749,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="81" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="81" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="81" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ac8e838e6f10957014cfbeb426045ceea" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double R</definition>
         <argsstring></argsstring>
         <name>R</name>
@@ -762,10 +762,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="82" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="82" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="82" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a51d5468d74b4eccfb8e26ea458562120" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double r</definition>
         <argsstring></argsstring>
         <name>r</name>
@@ -775,10 +775,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="83" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="83" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="83" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double s</definition>
         <argsstring></argsstring>
         <name>s</name>
@@ -788,10 +788,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="84" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="84" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="84" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a4236a05d5d04839f0af91439cb8820b8" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double sum</definition>
         <argsstring></argsstring>
         <name>sum</name>
@@ -801,10 +801,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="85" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="85" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="85" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a432c4efec69057ea02d7fce22a7e30c3" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double sxx</definition>
         <argsstring></argsstring>
         <name>sxx</name>
@@ -814,10 +814,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="86" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="86" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="86" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a38fec5c94a02f67ba7bf45025dd3ac80" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double T</definition>
         <argsstring></argsstring>
         <name>T</name>
@@ -827,10 +827,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="87" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="87" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="87" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a64e1fe39afc10b00a4f50198aef8626d" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double U</definition>
         <argsstring></argsstring>
         <name>U</name>
@@ -840,10 +840,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="88" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="88" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="88" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a81073496b3df485c6b59c5823819310b" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double u</definition>
         <argsstring></argsstring>
         <name>u</name>
@@ -853,10 +853,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="89" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="89" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="89" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1adf4642805534c658ee6450604dedc1d1" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double ub2</definition>
         <argsstring></argsstring>
         <name>ub2</name>
@@ -866,10 +866,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="90" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="90" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="90" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a1dd36ca42f6dc0b650f15e01fc72c00e" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double ubar</definition>
         <argsstring></argsstring>
         <name>ubar</name>
@@ -879,10 +879,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="91" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="91" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="91" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a9e4b770383e9f981e0936b9e817dbe0d" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double ut</definition>
         <argsstring></argsstring>
         <name>ut</name>
@@ -892,10 +892,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="92" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="92" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="92" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a630fcf9a038e13713f56aedeb723f019" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double ux</definition>
         <argsstring></argsstring>
         <name>ux</name>
@@ -905,10 +905,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="93" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="93" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="93" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ab2abb77f1a9fe8d1be7b3306797d1612" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double uy</definition>
         <argsstring></argsstring>
         <name>uy</name>
@@ -918,10 +918,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="94" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="94" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="94" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1abb6e996fea4e5f276fdcec0c7d809274" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double v</definition>
         <argsstring></argsstring>
         <name>v</name>
@@ -931,10 +931,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="95" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="95" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="95" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ab95e531ab677a7d3e6c4722a0314dc16" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double vt</definition>
         <argsstring></argsstring>
         <name>vt</name>
@@ -944,10 +944,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="96" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="96" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="96" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1ae920d60831fd60b11f1b758a12e87eff" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double vx</definition>
         <argsstring></argsstring>
         <name>vx</name>
@@ -957,10 +957,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="97" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="97" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="97" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_headers_8h_1a9891a031d6c4d31d28333ae6e6f6b746" prot="public" static="no" mutable="no">
-        <type><ref refid="_subroutines_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
+        <type><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></type>
         <definition>Double vy</definition>
         <argsstring></argsstring>
         <name>vy</name>
@@ -970,9 +970,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/fenton/Headers.h" line="98" column="1" bodyfile="/Users/cekees/proteus/proteus/fenton/Headers.h" bodystart="98" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/fenton/Headers.h" line="98" column="1" bodyfile="/work/cekees/proteus/proteus/fenton/Headers.h" bodystart="98" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -1031,7 +1031,7 @@
 <codeline lineno="51"><highlight class="normal"><ref refid="_fourier_8cpp_1ab255c8e32d555c305816584a4578d1b3" kindref="member">Double</ref></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="_headers_8h_1a6246c5264b2f72ebaf8690aab8288e1a" refkind="member"><highlight class="normal"><ref refid="_headers_8h_1a6246c5264b2f72ebaf8690aab8288e1a" kindref="member">Bernoulli_check</ref>,</highlight></codeline>
-<codeline lineno="54" refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" refkind="member"><highlight class="normal"><ref refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" kindref="member">c</ref>,</highlight></codeline>
+<codeline lineno="54" refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" refkind="member"><highlight class="normal"><ref refid="jf_8h_1a63f410abde93141c9013b7d3f3971738" kindref="member">c</ref>,</highlight></codeline>
 <codeline lineno="55" refid="_headers_8h_1a576d0ef34cb2180b614d05f257a76567" refkind="member"><highlight class="normal"><ref refid="_headers_8h_1a576d0ef34cb2180b614d05f257a76567" kindref="member">ce</ref>,</highlight></codeline>
 <codeline lineno="56" refid="_headers_8h_1aff5d6bceef73e23cd16d9c23a818ca4a" refkind="member"><highlight class="normal"><ref refid="_headers_8h_1aff5d6bceef73e23cd16d9c23a818ca4a" kindref="member">crit</ref>,</highlight></codeline>
 <codeline lineno="57" refid="_headers_8h_1a7cb75ab3309b4db118cbc3e9e21cba75" refkind="member"><highlight class="normal"><ref refid="_headers_8h_1a7cb75ab3309b4db118cbc3e9e21cba75" kindref="member">criter</ref>,</highlight></codeline>
@@ -1077,6 +1077,6 @@
 <codeline lineno="97" refid="_headers_8h_1ae920d60831fd60b11f1b758a12e87eff" refkind="member"><highlight class="normal"><ref refid="_headers_8h_1ae920d60831fd60b11f1b758a12e87eff" kindref="member">vx</ref>,</highlight></codeline>
 <codeline lineno="98" refid="_headers_8h_1a9891a031d6c4d31d28333ae6e6f6b746" refkind="member"><highlight class="normal"><ref refid="_headers_8h_1a9891a031d6c4d31d28333ae6e6f6b746" kindref="member">vy</ref>;</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/fenton/Headers.h"/>
+    <location file="/work/cekees/proteus/proteus/fenton/Headers.h"/>
   </compounddef>
 </doxygen>

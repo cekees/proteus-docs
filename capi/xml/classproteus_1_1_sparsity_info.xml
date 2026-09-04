@@ -1,135 +1,145 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_sparsity_info" kind="class" language="C++" prot="public">
     <compoundname>proteus::SparsityInfo</compoundname>
-    <includes refid="sparsity_8h" local="no">/Users/cekees/proteus/proteus/sparsity.h</includes>
-      <sectiondef kind="public-attrib">
+    <includes refid="sparsity_8h" local="no">/work/cekees/proteus/proteus/sparsity.h</includes>
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1_sparsity_info_1a9da24e2f0e1b7fa4d9dbe329d91734d7" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int proteus::SparsityInfo::nrows</definition>
         <argsstring></argsstring>
         <name>nrows</name>
+        <qualifiedname>proteus::SparsityInfo::nrows</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="72" column="9" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="72" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="72" column="9" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_sparsity_info_1a6e66260619271e1b3dc7570bd9d17523" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int proteus::SparsityInfo::nnz</definition>
         <argsstring></argsstring>
         <name>nnz</name>
+        <qualifiedname>proteus::SparsityInfo::nnz</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="73" column="9" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="73" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="73" column="9" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_sparsity_info_1ad166d66e83f86556c56b8faea235969e" prot="public" static="no" mutable="no">
         <type>int *</type>
         <definition>int* proteus::SparsityInfo::rowptr</definition>
         <argsstring></argsstring>
         <name>rowptr</name>
+        <qualifiedname>proteus::SparsityInfo::rowptr</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="74" column="9" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="74" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="74" column="9" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_sparsity_info_1ae957e9f6c0574ab8cb15db4e82c86d44" prot="public" static="no" mutable="no">
         <type>int *</type>
         <definition>int * proteus::SparsityInfo::colind</definition>
         <argsstring></argsstring>
         <name>colind</name>
+        <qualifiedname>proteus::SparsityInfo::colind</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="74" column="16" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="74" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="74" column="16" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_sparsity_info_1ab273d82b7376fdfd49fc28f31ecddeb6" prot="public" static="no" mutable="no">
         <type>double *</type>
         <definition>double* proteus::SparsityInfo::nzval</definition>
         <argsstring></argsstring>
         <name>nzval</name>
+        <qualifiedname>proteus::SparsityInfo::nzval</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="75" column="12" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="75" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="75" column="12" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="75" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-attrib">
+    </sectiondef>
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classproteus_1_1_sparsity_info_1a610411d081f8704a31299ea1550072c8" prot="private" static="no" mutable="no">
         <type>std::map&lt; int, std::set&lt; int &gt; &gt;</type>
         <definition>std::map&lt;int,std::set&lt;int&gt; &gt; proteus::SparsityInfo::columnIndecesMap</definition>
         <argsstring></argsstring>
         <name>columnIndecesMap</name>
+        <qualifiedname>proteus::SparsityInfo::columnIndecesMap</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="77" column="14" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="77" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="77" column="14" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_sparsity_info_1a1f94cef01abbf5408ee078f14af1c2c3" prot="private" static="no" mutable="no">
         <type>std::map&lt; int, std::map&lt; int, int &gt; &gt;</type>
         <definition>std::map&lt;int,std::map&lt;int,int&gt; &gt; proteus::SparsityInfo::columnOffsetsMap</definition>
         <argsstring></argsstring>
         <name>columnOffsetsMap</name>
+        <qualifiedname>proteus::SparsityInfo::columnOffsetsMap</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="78" column="14" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="78" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="78" column="14" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="78" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_sparsity_info_1ac8aa95af72a89d2da4857cefb701f1d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>proteus::SparsityInfo::SparsityInfo</definition>
         <argsstring>()</argsstring>
         <name>SparsityInfo</name>
+        <qualifiedname>proteus::SparsityInfo::SparsityInfo</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="13" column="5" bodyfile="/Users/cekees/proteus/proteus/sparsity.cpp" bodystart="491" bodyend="495"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="13" column="5" bodyfile="/work/cekees/proteus/proteus/sparsity.cpp" bodystart="491" bodyend="495"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_sparsity_info_1aaecd0197c9040d8b099622c1a28ef398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>proteus::SparsityInfo::~SparsityInfo</definition>
         <argsstring>()</argsstring>
         <name>~SparsityInfo</name>
+        <qualifiedname>proteus::SparsityInfo::~SparsityInfo</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="14" column="5" bodyfile="/Users/cekees/proteus/proteus/sparsity.cpp" bodystart="497" bodyend="505"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="14" column="5" bodyfile="/work/cekees/proteus/proteus/sparsity.cpp" bodystart="497" bodyend="505"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_sparsity_info_1a7f2b531351d7f75609f8272464b0f04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::SparsityInfo::findNonzeros</definition>
         <argsstring>(int nElements_global, int nDOF_test_element, int nDOF_trial_element, int *nFreeDOF_test, int *freeGlobal_test, int *nFreeDOF_trial, int *freeGlobal_trial, int offset_test, int stride_test, int offset_trial, int stride_trial, int hasNumericalFlux, int hasDiffusionInMixedForm, int needNumericalFluxJacobian, int nElementBoundaries_element, int *elementNeighborsArray, int nInteriorElementBoundaries_global, int *interiorElementBoundariesArray, int *elementBoundaryElementsArray, int *elementBoundaryLocalElementBoundariesArray, int hasFluxBoundaryConditions, int nExteriorElementBoundaries_global, int *exteriorElementBoundariesArray, int hasOutflowBoundary, int needOutflowJacobian)</argsstring>
         <name>findNonzeros</name>
+        <qualifiedname>proteus::SparsityInfo::findNonzeros</qualifiedname>
         <param>
           <type>int</type>
           <declname>nElements_global</declname>
@@ -236,13 +246,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="15" column="10" bodyfile="/Users/cekees/proteus/proteus/sparsity.cpp" bodystart="5" bodyend="204"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="15" column="10" bodyfile="/work/cekees/proteus/proteus/sparsity.cpp" bodystart="5" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_sparsity_info_1a10a902c1a4e56db5707289f815f7998c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::SparsityInfo::getOffsets_CSR</definition>
         <argsstring>(int nElements_global, int nDOF_test_element, int nDOF_trial_element, int *nFreeDOF_test, int *freeGlobal_test, int *nFreeDOF_trial, int *freeGlobal_trial, int offset_test, int stride_test, int offset_trial, int stride_trial, int hasNumericalFlux, int hasDiffusionInMixedForm, int needNumericalFluxJacobian, int nElementBoundaries_element, int *elementNeighborsArray, int nInteriorElementBoundaries_global, int *interiorElementBoundariesArray, int *elementBoundaryElementsArray, int *elementBoundaryLocalElementBoundariesArray, int hasFluxBoundaryConditions, int nExteriorElementBoundaries_global, int *exteriorElementBoundariesArray, int hasOutflowBoundary, int needOutflowJacobian, int *rowptr, int *csrRowIndeces, int *csrColumnOffsets, int *csrColumnOffsets_eNebN, int *csrColumnOffsets_eb, int *csrColumnOffsets_eb_eNebN)</argsstring>
         <name>getOffsets_CSR</name>
+        <qualifiedname>proteus::SparsityInfo::getOffsets_CSR</qualifiedname>
         <param>
           <type>int</type>
           <declname>nElements_global</declname>
@@ -373,27 +384,28 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="40" column="10" bodyfile="/Users/cekees/proteus/proteus/sparsity.cpp" bodystart="206" bodyend="455"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="40" column="10" bodyfile="/work/cekees/proteus/proteus/sparsity.cpp" bodystart="206" bodyend="455"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_sparsity_info_1a09af4182b50d6bc2a024183be612fa58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::SparsityInfo::getCSR</definition>
         <argsstring>()</argsstring>
         <name>getCSR</name>
+        <qualifiedname>proteus::SparsityInfo::getCSR</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/sparsity.h" line="71" column="10" bodyfile="/Users/cekees/proteus/proteus/sparsity.cpp" bodystart="457" bodyend="489"/>
+        <location file="/work/cekees/proteus/proteus/sparsity.h" line="71" column="10" bodyfile="/work/cekees/proteus/proteus/sparsity.cpp" bodystart="457" bodyend="489"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/sparsity.h" line="10" column="3" bodyfile="/Users/cekees/proteus/proteus/sparsity.h" bodystart="11" bodyend="79"/>
+    <location file="/work/cekees/proteus/proteus/sparsity.h" line="10" column="3" bodyfile="/work/cekees/proteus/proteus/sparsity.h" bodystart="11" bodyend="79"/>
     <listofallmembers>
       <member refid="classproteus_1_1_sparsity_info_1ae957e9f6c0574ab8cb15db4e82c86d44" prot="public" virt="non-virtual"><scope>proteus::SparsityInfo</scope><name>colind</name></member>
       <member refid="classproteus_1_1_sparsity_info_1a610411d081f8704a31299ea1550072c8" prot="private" virt="non-virtual"><scope>proteus::SparsityInfo</scope><name>columnIndecesMap</name></member>

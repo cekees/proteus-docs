@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="time_integration_8h" kind="file" language="C++">
     <compoundname>timeIntegration.h</compoundname>
     <includedby refid="time_integration_8c" local="yes">timeIntegration.c</includedby>
@@ -15,8 +15,8 @@
         </childnode>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="time_integration_8h_1a4127f0dac4c6727643a35ef5b08c52c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+    <sectiondef kind="func">
+      <memberdef kind="function" id="time_integration_8h_1a4127f0dac4c6727643a35ef5b08c52c3" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void psiTCtteDT</definition>
         <argsstring>(int nPoints, double tau, double dtn, double dtnm1, double *yn, double *ypn, double *ypnm1, double *dtnp1)</argsstring>
@@ -59,9 +59,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="10" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="12" bodyend="44" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="10" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="10" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="12" bodyend="44" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="10" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1abea1ba024d9478ef434dbb8136a9ddb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1abea1ba024d9478ef434dbb8136a9ddb6" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void applyDGlimitingP1Lagrange1d</definition>
         <argsstring>(int limiterFlag, int nElements_global, int nNodes_element, int nElementBoundaries_element, int nDOF_element, int *elementNodesArray, int *elementNeighborsArray, double *nodeArray, double *elementBarycentersArray, int *l2g, int *tag, double *Uin, double *Uout)</argsstring>
@@ -124,9 +124,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="24" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="214" bodyend="308" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="24" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="24" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="214" bodyend="308" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="24" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1a3f1710078b0966d1f9a541acec203636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1a3f1710078b0966d1f9a541acec203636" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void applyDGlimitingP1Lagrange1d_withVacuumTol</definition>
         <argsstring>(int enforcePositivity, double vacuumTol, int nElements_global, int nNodes_element, int nElementBoundaries_element, int nDOF_element, int *elementNodesArray, int *elementNeighborsArray, double *nodeArray, double *elementBarycentersArray, int *l2g, int *tag, double *Uin, double *Uout)</argsstring>
@@ -193,9 +193,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="39" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="310" bodyend="407" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="39" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="39" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="310" bodyend="407" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="39" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1af5f8369d84530fe85fb64fc2e53babc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1af5f8369d84530fe85fb64fc2e53babc0" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void computeElementNeighborShapeGradients</definition>
         <argsstring>(int nElements_global, int nElementBoundaries_element, int nSpace, const int *elementBoundariesArray, const int *elementNeighborsArray, double *elementBarycentersArray, double *elementBoundaryBarycentersArray, double *elementNeighborShapeGradients)</argsstring>
@@ -238,9 +238,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="54" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="409" bodyend="647" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="54" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="54" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="409" bodyend="647" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="54" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1a2db73f651161710b19cb5ee9db4d30a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1a2db73f651161710b19cb5ee9db4d30a1" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void computeCockburnDGlimiterArrays2d</definition>
         <argsstring>(int nElements_global, int nElementBoundaries_element, int nSpace, const int *elementBoundariesArray, const int *elementNeighborsArray, const double *elementBarycentersArray, const double *elementBoundaryBarycentersArray, const double *elementNeighborShapeGradients, double *alphas, int *alphaNeighbors)</argsstring>
@@ -291,9 +291,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="63" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="649" bodyend="734" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="63" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="63" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="649" bodyend="734" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="63" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1a9de596328e4984b24833597f0bde0242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1a9de596328e4984b24833597f0bde0242" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void applyCockburnDGlimiterP1Lagrange2d</definition>
         <argsstring>(double nu, double Mh2, int nElements_global, int nElementBoundaries_element, int nSpace, int nDOF_element, int *elementNeighborsArray, int *l2g, int *tag, double *alphas, int *alphaNeighbors, double *Uin, double *Uout)</argsstring>
@@ -356,9 +356,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="74" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="736" bodyend="838" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="74" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="74" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="736" bodyend="838" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="74" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1a78d4c6225bed11d19d3f68b9153a4b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1a78d4c6225bed11d19d3f68b9153a4b44" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void applyDurlofskyDGlimiterP1Lagrange2d</definition>
         <argsstring>(int killExtrema, int allowMinWithUndershoot, int nElements_global, int nElementBoundaries_element, int nNodes_element, int nSpace, int nDOF_element, const int *elementNeighborsArray, const int *elementBoundariesArray, const int *elementNodesArray, const double *nodeArray, const double *elementBarycentersArray, const double *elementBoundaryBarycentersArray, const double *elementNeighborShapeGradients, const int *l2g, const double *grad_v0, double *elementAverages, int *tag, double *Uin, double *Uout)</argsstring>
@@ -449,9 +449,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="88" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="879" bodyend="1105" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="88" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="88" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="879" bodyend="1105" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="88" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1a342bc0a581bc34ff211e66edc7894a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1a342bc0a581bc34ff211e66edc7894a29" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void applyDurlofskyDGlimiterP1Lagrange3d</definition>
         <argsstring>(int killExtrema, int allowMinWithUndershoot, int nElements_global, int nElementBoundaries_element, int nNodes_element, int nSpace, int nDOF_element, const int *elementNeighborsArray, const int *elementBoundariesArray, const int *elementNodesArray, const double *nodeArray, const double *elementBarycentersArray, const double *elementBoundaryBarycentersArray, const double *elementNeighborShapeGradients, const int *l2g, const double *grad_v0, double *elementAverages, int *tag, double *Uin, double *Uout)</argsstring>
@@ -542,9 +542,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="110" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="1107" bodyend="1395" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="110" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="110" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="1107" bodyend="1395" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="110" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="time_integration_8h_1a327dfb72eaa310f00bc9992b22633bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="time_integration_8h_1a327dfb72eaa310f00bc9992b22633bf2" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void applyDurlofskyDGlimiterP1Lagrange2d_withVacuumTol</definition>
         <argsstring>(int killExtrema, int allowMinWithUndershoot, int enforcePositivity, double vacuumTol, int nElements_global, int nElementBoundaries_element, int nNodes_element, int nSpace, int nDOF_element, const int *elementNeighborsArray, const int *elementBoundariesArray, const int *elementNodesArray, const double *nodeArray, const double *elementBarycentersArray, const double *elementBoundaryBarycentersArray, const double *elementNeighborShapeGradients, const int *l2g, const double *grad_v0, double *elementAverages, int *tag, double *Uin, double *Uout)</argsstring>
@@ -643,9 +643,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/timeIntegration.h" line="131" column="6" bodyfile="/Users/cekees/proteus/proteus/timeIntegration.c" bodystart="1397" bodyend="1640" declfile="/Users/cekees/proteus/proteus/timeIntegration.h" declline="131" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/timeIntegration.h" line="131" column="6" bodyfile="/work/cekees/proteus/proteus/timeIntegration.c" bodystart="1397" bodyend="1640" declfile="/work/cekees/proteus/proteus/timeIntegration.h" declline="131" declcolumn="6"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
 <para>c interface for implementation of time discretization algorithms </para>
     </briefdescription>
@@ -653,11 +653,11 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>VTIMEINTEGRATION_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VTIMEINTEGRATION_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="comment">/*Pseudo-Transient<sp/>Continuation<sp/>TTE<sp/>formula<sp/>choice<sp/>for<sp/>dt*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VTIMEINTEGRATION_H</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*Pseudo-Transient<sp/>Continuation<sp/>TTE<sp/>formula<sp/>choice<sp/>for<sp/>dt*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1a4127f0dac4c6727643a35ef5b08c52c3" kindref="member">psiTCtteDT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nPoints,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1a4127f0dac4c6727643a35ef5b08c52c3" kindref="member">psiTCtteDT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nPoints,</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tau,</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dtn,</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dtnm1,</highlight></codeline>
@@ -671,7 +671,7 @@
 <codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/>DG<sp/>limiting<sp/>schemes</highlight></codeline>
 <codeline lineno="22"><highlight class="comment"><sp/>*************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1abea1ba024d9478ef434dbb8136a9ddb6" kindref="member">applyDGlimitingP1Lagrange1d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>limiterFlag,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1abea1ba024d9478ef434dbb8136a9ddb6" kindref="member">applyDGlimitingP1Lagrange1d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>limiterFlag,</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nNodes_element,</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElementBoundaries_element,</highlight></codeline>
@@ -686,7 +686,7 @@
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uout);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1a3f1710078b0966d1f9a541acec203636" kindref="member">applyDGlimitingP1Lagrange1d_withVacuumTol</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>enforcePositivity,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1a3f1710078b0966d1f9a541acec203636" kindref="member">applyDGlimitingP1Lagrange1d_withVacuumTol</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>enforcePositivity,</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vacuumTol,</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nNodes_element,</highlight></codeline>
@@ -701,7 +701,7 @@
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uin,</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uout);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1af5f8369d84530fe85fb64fc2e53babc0" kindref="member">computeElementNeighborShapeGradients</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1af5f8369d84530fe85fb64fc2e53babc0" kindref="member">computeElementNeighborShapeGradients</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElementBoundaries_element,</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpace,</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>elementBoundariesArray,</highlight></codeline>
@@ -710,7 +710,7 @@
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>elementBoundaryBarycentersArray,</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>elementNeighborShapeGradients);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1a2db73f651161710b19cb5ee9db4d30a1" kindref="member">computeCockburnDGlimiterArrays2d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1a2db73f651161710b19cb5ee9db4d30a1" kindref="member">computeCockburnDGlimiterArrays2d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElementBoundaries_element,</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpace,</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>elementBoundariesArray,</highlight></codeline>
@@ -721,7 +721,7 @@
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>alphas,</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/>alphaNeighbors);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1a9de596328e4984b24833597f0bde0242" kindref="member">applyCockburnDGlimiterP1Lagrange2d</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>nu,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1a9de596328e4984b24833597f0bde0242" kindref="member">applyCockburnDGlimiterP1Lagrange2d</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>nu,</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mh2,</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElementBoundaries_element,</highlight></codeline>
@@ -735,7 +735,7 @@
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uin,</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uout);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1a78d4c6225bed11d19d3f68b9153a4b44" kindref="member">applyDurlofskyDGlimiterP1Lagrange2d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>killExtrema,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1a78d4c6225bed11d19d3f68b9153a4b44" kindref="member">applyDurlofskyDGlimiterP1Lagrange2d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>killExtrema,</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>allowMinWithUndershoot,</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElementBoundaries_element,</highlight></codeline>
@@ -757,7 +757,7 @@
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uout);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1a342bc0a581bc34ff211e66edc7894a29" kindref="member">applyDurlofskyDGlimiterP1Lagrange3d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>killExtrema,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1a342bc0a581bc34ff211e66edc7894a29" kindref="member">applyDurlofskyDGlimiterP1Lagrange3d</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>killExtrema,</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>allowMinWithUndershoot,</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElements_global,</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nElementBoundaries_element,</highlight></codeline>
@@ -778,7 +778,7 @@
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uin,</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>Uout);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8h_1a327dfb72eaa310f00bc9992b22633bf2" kindref="member">applyDurlofskyDGlimiterP1Lagrange2d_withVacuumTol</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>killExtrema,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_integration_8c_1a327dfb72eaa310f00bc9992b22633bf2" kindref="member">applyDurlofskyDGlimiterP1Lagrange2d_withVacuumTol</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>killExtrema,</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>allowMinWithUndershoot,</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>enforcePositivity,</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vacuumTol,</highlight></codeline>
@@ -803,6 +803,6 @@
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/timeIntegration.h"/>
+    <location file="/work/cekees/proteus/proteus/timeIntegration.h"/>
   </compounddef>
 </doxygen>

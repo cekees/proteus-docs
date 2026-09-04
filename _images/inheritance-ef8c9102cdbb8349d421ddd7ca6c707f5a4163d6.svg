@@ -1,0 +1,386 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="618pt" height="614pt" viewBox="0.00 0.00 618.00 614.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 609.75)">
+<ns0:title>inheritance0624bf74da</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>AddedMassNewton</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.AddedMassNewton" ns1:title="AddedMassNewton" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="511.5,-605.75 401.75,-605.75 401.75,-585 511.5,-585 511.5,-605.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-592.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AddedMassNewton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>Newton</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.Newton" ns1:title="A simple iterative solver that is Newton's method" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="250.12,-312.75 196.12,-312.75 196.12,-292 250.12,-292 250.12,-312.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.12" y="-299.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Newton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Newton-&gt;AddedMassNewton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.47,-309.55C256.95,-312.52 263.24,-316.66 267.5,-322.38 335.33,-413.47 222.76,-495.49 303.5,-575.38 327.11,-598.74 363.81,-604.08 395.25,-603.43" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="395.76,-605.16 400.7,-603.24 395.65,-601.66 395.76,-605.16" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>CLSVOFNewton</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.CLSVOFNewton" ns1:title="CLSVOFNewton" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="502.5,-566.75 410.75,-566.75 410.75,-546 502.5,-546 502.5,-566.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-553.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CLSVOFNewton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>Newton-&gt;CLSVOFNewton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.37,-309.63C256.85,-312.59 263.17,-316.71 267.5,-322.38 326.08,-399 234.09,-469.41 303.5,-536.38 329.56,-561.52 370.84,-565.6 403.83,-563.89" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="404.67,-565.59 409.55,-563.53 404.45,-562.1 404.67,-565.59" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>ExplicitConsistentMassMatrixForRichards</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.ExplicitConsistentMassMatrixForRichards" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="565.5,-527.75 347.75,-527.75 347.75,-507 565.5,-507 565.5,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitConsistentMassMatrixForRichards</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>Newton-&gt;ExplicitConsistentMassMatrixForRichards</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.24,-309.73C256.72,-312.7 263.07,-316.79 267.5,-322.38 316.86,-384.58 245.36,-443.29 303.5,-497.38 314.25,-507.38 327.43,-514 341.48,-518.23" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="341.54,-520.06 346.83,-519.7 342.47,-516.69 341.54,-520.06" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>ExplicitConsistentMassMatrixForVOF</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.ExplicitConsistentMassMatrixForVOF" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="554.62,-488.75 358.62,-488.75 358.62,-468 554.62,-468 554.62,-488.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-475.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitConsistentMassMatrixForVOF</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>Newton-&gt;ExplicitConsistentMassMatrixForVOF</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.49,-310.11C256.81,-313.06 263.02,-317.04 267.5,-322.38 307.72,-370.25 256.55,-417.08 303.5,-458.38 317.16,-470.39 334.35,-477.41 352.23,-481.26" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="352.32,-483.06 357.57,-482.3 352.99,-479.63 352.32,-483.06" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>ExplicitConsistentMassMatrixShallowWaterEquationsSolver</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.ExplicitConsistentMassMatrixShallowWaterEquationsSolver" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="609.75,-449.75 303.5,-449.75 303.5,-429 609.75,-429 609.75,-449.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-436.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitConsistentMassMatrixShallowWaterEquationsSolver</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>Newton-&gt;ExplicitConsistentMassMatrixShallowWaterEquationsSolver</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.6,-310.62C256.77,-313.54 262.88,-317.39 267.5,-322.38 298.75,-356.11 267.54,-390.71 303.5,-419.38 306.23,-421.55 309.09,-423.56 312.04,-425.41" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="311.61,-427.18 316.81,-428.19 313.37,-424.16 311.61,-427.18" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>ExplicitConsistentMassMatrixWithRedistancing</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.ExplicitConsistentMassMatrixWithRedistancing" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="579.75,-410.75 333.5,-410.75 333.5,-390 579.75,-390 579.75,-410.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-397.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitConsistentMassMatrixWithRedistancing</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>Newton-&gt;ExplicitConsistentMassMatrixWithRedistancing</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.39,-311.51C256.43,-314.38 262.53,-317.98 267.5,-322.38 290.24,-342.46 278.01,-363.93 303.5,-380.38 310.96,-385.19 319.05,-389.08 327.48,-392.22" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="327.36,-394.04 332.66,-394.03 328.52,-390.73 327.36,-394.04" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>ExplicitLumpedMassMatrix</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.ExplicitLumpedMassMatrix" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="530.62,-371.75 382.62,-371.75 382.62,-351 530.62,-351 530.62,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitLumpedMassMatrix</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>Newton-&gt;ExplicitLumpedMassMatrix</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M248.1,-313.15C254.44,-316.08 261.25,-319.29 267.5,-322.38 283.72,-330.39 286.26,-335.89 303.5,-341.38 326.57,-348.72 352.43,-353.37 376.19,-356.31" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="376.59,-358.12 381.76,-356.97 377,-354.64 376.59,-358.12" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>ExplicitLumpedMassMatrixForRichards</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.ExplicitLumpedMassMatrixForRichards" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="559.12,-332.75 354.12,-332.75 354.12,-312 559.12,-312 559.12,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitLumpedMassMatrixForRichards</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>Newton-&gt;ExplicitLumpedMassMatrixForRichards</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.23,-304.63C274.21,-306.7 311.41,-309.92 347.6,-313.04" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="347.98,-314.83 353.11,-313.52 348.28,-311.34 347.98,-314.83" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>ExplicitLumpedMassMatrixShallowWaterEquationsSolver</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.ExplicitLumpedMassMatrixShallowWaterEquationsSolver" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="603.38,-293.75 309.88,-293.75 309.88,-273 603.38,-273 603.38,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitLumpedMassMatrixShallowWaterEquationsSolver</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>Newton-&gt;ExplicitLumpedMassMatrixShallowWaterEquationsSolver</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.23,-300.23C267.47,-298.82 291.55,-296.84 317.18,-294.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="317.77,-296.45 322.61,-294.29 317.49,-292.96 317.77,-296.45" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>MoveMeshMonitorNewton</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.MoveMeshMonitorNewton" ns1:title="MoveMeshMonitorNewton" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="528.75,-254.75 384.5,-254.75 384.5,-234 528.75,-234 528.75,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MoveMeshMonitorNewton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>Newton-&gt;MoveMeshMonitorNewton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M248.05,-291.51C254.39,-288.58 261.22,-285.39 267.5,-282.38 283.62,-274.63 286.4,-269.61 303.5,-264.38 327.11,-257.14 353.58,-252.53 377.73,-249.58" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="378.63,-251.24 383.39,-248.92 378.22,-247.76 378.63,-251.24" />
+</ns0:g>
+
+<ns0:g id="node21" class="node">
+<ns0:title>NewtonWithL2ProjectionForMassCorrection</ns0:title>
+<ns0:g id="a_node21"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NewtonWithL2ProjectionForMassCorrection" ns1:title="This is a fake solver meant to be used with optimized code" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="570,-215.75 343.25,-215.75 343.25,-195 570,-195 570,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NewtonWithL2ProjectionForMassCorrection</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge18" class="edge">
+<ns0:title>Newton-&gt;NewtonWithL2ProjectionForMassCorrection</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.37,-293.21C256.41,-290.34 262.51,-286.75 267.5,-282.38 290.03,-262.62 278.26,-241.52 303.5,-225.38 313.63,-218.9 324.91,-214.08 336.63,-210.54" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="337.73,-212.05 342.07,-209.01 336.78,-208.68 337.73,-212.05" />
+</ns0:g>
+
+<ns0:g id="node23" class="node">
+<ns0:title>POD_DEIM_Newton</ns0:title>
+<ns0:g id="a_node23"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.POD_DEIM_Newton" ns1:title="Newton's method on the reduced order system based on POD" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="511.88,-176.75 401.38,-176.75 401.38,-156 511.88,-156 511.88,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">POD_DEIM_Newton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge19" class="edge">
+<ns0:title>Newton-&gt;POD_DEIM_Newton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.58,-294.12C256.76,-291.2 262.87,-287.36 267.5,-282.38 298.52,-248.99 267.82,-214.72 303.5,-186.38 328.81,-166.26 364.32,-160.73 394.66,-160.46" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="395.29,-162.22 400.29,-160.48 395.3,-158.72 395.29,-162.22" />
+</ns0:g>
+
+<ns0:g id="node24" class="node">
+<ns0:title>POD_Newton</ns0:title>
+<ns0:g id="a_node24"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.POD_Newton" ns1:title="Newton's method on the reduced order system based on POD" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="496.5,-137.75 416.75,-137.75 416.75,-117 496.5,-117 496.5,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">POD_Newton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge20" class="edge">
+<ns0:title>Newton-&gt;POD_Newton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.48,-294.64C256.8,-291.69 263.01,-287.7 267.5,-282.38 307.49,-234.87 256.83,-188.34 303.5,-147.38 332.33,-122.06 376.88,-118.9 410.33,-120.98" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="410.57,-122.75 415.68,-121.37 410.82,-119.26 410.57,-122.75" />
+</ns0:g>
+
+<ns0:g id="node25" class="node">
+<ns0:title>PicardNewton</ns0:title>
+<ns0:g id="a_node25"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.PicardNewton" ns1:title="PicardNewton" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="498.38,-98.75 414.88,-98.75 414.88,-78 498.38,-78 498.38,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PicardNewton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge21" class="edge">
+<ns0:title>Newton-&gt;PicardNewton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.23,-295.02C256.71,-292.05 263.06,-287.96 267.5,-282.38 316.63,-220.54 245.65,-162.13 303.5,-108.38 331.24,-82.6 375.08,-79.28 408.58,-81.43" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="408.84,-83.2 413.96,-81.83 409.1,-79.71 408.84,-83.2" />
+</ns0:g>
+
+<ns0:g id="node26" class="node">
+<ns0:title>SSPRKNewton</ns0:title>
+<ns0:g id="a_node26"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.SSPRKNewton" ns1:title="Version of Newton for SSPRK so doesn't refactor unnecessarily" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="499.12,-59.75 414.12,-59.75 414.12,-39 499.12,-39 499.12,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SSPRKNewton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge22" class="edge">
+<ns0:title>Newton-&gt;SSPRKNewton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.37,-295.12C256.85,-292.15 263.17,-288.04 267.5,-282.38 325.84,-206.12 234.38,-136.01 303.5,-69.38 330.58,-43.27 374.07,-39.88 407.63,-42.09" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="407.9,-43.86 413.02,-42.5 408.17,-40.37 407.9,-43.86" />
+</ns0:g>
+
+<ns0:g id="node27" class="node">
+<ns0:title>TwoStageNewton</ns0:title>
+<ns0:g id="a_node27"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.TwoStageNewton" ns1:title="Solves a 2 Stage problem via Newton's solve" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="506.62,-20.75 406.62,-20.75 406.62,0 506.62,0 506.62,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="456.62" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwoStageNewton</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge23" class="edge">
+<ns0:title>Newton-&gt;TwoStageNewton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M250.47,-295.2C256.95,-292.23 263.24,-288.09 267.5,-282.38 335.09,-191.65 223.05,-109.93 303.5,-30.38 328.27,-5.88 367.43,-1.19 399.82,-2.47" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="400.36,-4.25 405.45,-2.76 400.54,-0.75 400.36,-4.25" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>FAS</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.FAS" ns1:title="A generic nonlinear multigrid W cycle using the Full Approximation Scheme (FAS)." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="98.38,-283.75 44.38,-283.75 44.38,-263 98.38,-263 98.38,-283.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71.38" y="-270.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FAS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>FasTwoLevel</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.FasTwoLevel" ns1:title="A generic nonlinear two-level solver based on the full approximation scheme. (FAS)." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="261.5,-273.75 184.75,-273.75 184.75,-253 261.5,-253 261.5,-273.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.12" y="-260.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FasTwoLevel</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>NonlinearSolver</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NonlinearSolver" ns1:title="The base class for nonlinear solvers." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="118.38,-215.75 24.37,-215.75 24.37,-195 118.38,-195 118.38,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71.38" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NonlinearSolver</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge16" class="edge">
+<ns0:title>NonlinearSolver-&gt;Newton</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M88.48,-216.23C102.85,-226.01 124.41,-240.87 142.75,-254.38 159.07,-266.39 161.43,-271.84 178.75,-282.38 182.55,-284.69 186.66,-286.91 190.78,-288.97" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="190.45,-290.75 195.71,-291.36 191.97,-287.6 190.45,-290.75" />
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>NonlinearSolver-&gt;FasTwoLevel</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M100.19,-216.15C125.12,-225.8 161.75,-239.99 188.35,-250.29" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="188.2,-252.11 193.5,-252.29 189.47,-248.85 188.2,-252.11" />
+</ns0:g>
+
+<ns0:g id="node16" class="node">
+<ns0:title>NLGaussSeidel</ns0:title>
+<ns0:g id="a_node16"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NLGaussSeidel" ns1:title="Nonlinear Gauss-Seidel." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="267.5,-234.75 178.75,-234.75 178.75,-214 267.5,-214 267.5,-234.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.12" y="-221.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NLGaussSeidel</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>NonlinearSolver-&gt;NLGaussSeidel</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M118.53,-211.23C135.52,-213.39 154.84,-215.84 172.15,-218.03" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="172.5,-219.84 177.68,-218.74 172.94,-216.37 172.5,-219.84" />
+</ns0:g>
+
+<ns0:g id="node17" class="node">
+<ns0:title>NLJacobi</ns0:title>
+<ns0:g id="a_node17"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NLJacobi" ns1:title="Nonlinear Jacobi iteration." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="252.12,-195.75 194.12,-195.75 194.12,-175 252.12,-175 252.12,-195.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.12" y="-182.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NLJacobi</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>NonlinearSolver-&gt;NLJacobi</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M118.53,-199.21C140.7,-196.25 166.85,-192.76 187.32,-190.02" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="188.28,-191.66 193.01,-189.26 187.82,-188.19 188.28,-191.66" />
+</ns0:g>
+
+<ns0:g id="node19" class="node">
+<ns0:title>NLStarILU</ns0:title>
+<ns0:g id="a_node19"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NLStarILU" ns1:title="Nonlinear alternating Schwarz on node stars." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="255.12,-156.75 191.12,-156.75 191.12,-136 255.12,-136 255.12,-156.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.12" y="-143.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NLStarILU</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge15" class="edge">
+<ns0:title>NonlinearSolver-&gt;NLStarILU</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M99.84,-194.55C124.88,-184.69 161.94,-170.09 188.7,-159.55" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="189.86,-160.97 193.88,-157.51 188.58,-157.71 189.86,-160.97" />
+</ns0:g>
+
+<ns0:g id="node20" class="node">
+<ns0:title>NewtonNS</ns0:title>
+<ns0:g id="a_node20"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NewtonNS" ns1:title="A simple iterative solver that is Newton's method" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="256.62,-117.75 189.62,-117.75 189.62,-97 256.62,-97 256.62,-117.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.12" y="-104.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NewtonNS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge17" class="edge">
+<ns0:title>NonlinearSolver-&gt;NewtonNS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M85.22,-194.63C104.65,-178.69 143.04,-148.41 178.75,-127.38 182.58,-125.12 186.71,-122.93 190.85,-120.88" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="192.03,-122.25 195.78,-118.5 190.51,-119.1 192.03,-122.25" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>MultilevelNonlinearSolver</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.MultilevelNonlinearSolver" ns1:title="A generic multilevel solver." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="142.75,-351.75 0,-351.75 0,-331 142.75,-331 142.75,-351.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71.38" y="-338.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MultilevelNonlinearSolver</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node18" class="node">
+<ns0:title>NLNI</ns0:title>
+<ns0:g id="a_node18"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NLNI" ns1:title="Nonlinear nested iteration." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="250.12,-351.75 196.12,-351.75 196.12,-331 250.12,-331 250.12,-351.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.12" y="-338.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NLNI</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge14" class="edge">
+<ns0:title>MultilevelNonlinearSolver-&gt;NLNI</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M142.87,-341.38C159.03,-341.38 175.47,-341.38 189.16,-341.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="189.89,-343.13 194.89,-341.38 189.89,-339.63 189.89,-343.13" />
+</ns0:g>
+
+<ns0:g id="node22" class="node">
+<ns0:title>NonlinearEquation</ns0:title>
+<ns0:g id="a_node22"><ns0:a ns1:href="../api/proteus.NonlinearSolvers.html#proteus.NonlinearSolvers.NonlinearEquation" ns1:title="The base class for nonlinear equations." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="124.38,-390.75 18.38,-390.75 18.38,-370 124.38,-370 124.38,-390.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71.38" y="-377.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NonlinearEquation</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

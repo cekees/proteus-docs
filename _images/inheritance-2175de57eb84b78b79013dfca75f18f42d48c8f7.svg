@@ -1,0 +1,494 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="775pt" height="682pt" viewBox="0.00 0.00 775.00 682.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 677.75)">
+<ns0:title>inheritance3db099f6f4</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>BackwardEuler</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.BackwardEuler" ns1:title="BackwardEuler" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="311.75,-332.75 223,-332.75 223,-312 311.75,-312 311.75,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BackwardEuler</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>BackwardEuler_cfl</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.BackwardEuler_cfl" ns1:title="Take a fraction of the max (over all components and elements)" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="544.5,-371.75 439.25,-371.75 439.25,-351 544.5,-351 544.5,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BackwardEuler_cfl</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>BackwardEuler-&gt;BackwardEuler_cfl</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M312.07,-330.03C346.67,-336.1 395.29,-344.62 433.11,-351.25" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="433.1,-353.03 438.33,-352.17 433.71,-349.58 433.1,-353.03" />
+</ns0:g>
+
+<ns0:g id="node30" class="node">
+<ns0:title>PsiTCtte_new</ns0:title>
+<ns0:g id="a_node30"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.PsiTCtte_new" ns1:title="PsiTCtte_new" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="532.5,-332.75 451.25,-332.75 451.25,-312 532.5,-312 532.5,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PsiTCtte_new</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge24" class="edge">
+<ns0:title>BackwardEuler-&gt;PsiTCtte_new</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M312.07,-322.38C350.39,-322.38 405.92,-322.38 444.91,-322.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="445.26,-324.13 450.26,-322.38 445.26,-320.63 445.26,-324.13" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>TI_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.TI_base" ns1:title="The base class for time discretizations of tightly coupled systems" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="98,-176.75 44,-176.75 44,-156 98,-156 98,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TI_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>TI_base-&gt;BackwardEuler</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M76.96,-176.88C89.74,-202.72 126.44,-269.64 178,-302.38 189.52,-309.69 203.37,-314.34 216.66,-317.3" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="216.72,-319.1 221.97,-318.39 217.43,-315.67 216.72,-319.1" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>CentralDifference_2ndD</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.CentralDifference_2ndD" ns1:title="CentralDifference_2ndD" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="333.5,-293.75 201.25,-293.75 201.25,-273 333.5,-273 333.5,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CentralDifference_2ndD</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>TI_base-&gt;CentralDifference_2ndD</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M80.35,-177.05C96.75,-197.26 135.34,-241.07 178,-263.38 183.33,-266.16 189.04,-268.56 194.9,-270.63" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="194.79,-272.44 200.08,-272.35 195.89,-269.12 194.79,-272.44" />
+</ns0:g>
+
+<ns0:g id="node19" class="node">
+<ns0:title>ExplicitRK_base</ns0:title>
+<ns0:g id="a_node19"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.ExplicitRK_base" ns1:title="base class for explicit RK schemes which can be written in" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="314.38,-254.75 220.38,-254.75 220.38,-234 314.38,-234 314.38,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExplicitRK_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge14" class="edge">
+<ns0:title>TI_base-&gt;ExplicitRK_base</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M88.2,-177.11C108.42,-190.07 144.45,-211.68 178,-224.38 189.4,-228.69 202,-232.22 214.02,-235.05" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="214.25,-236.9 219.51,-236.3 215.02,-233.49 214.25,-236.9" />
+</ns0:g>
+
+<ns0:g id="node20" class="node">
+<ns0:title>FLCBDF</ns0:title>
+<ns0:g id="a_node20"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.FLCBDF" ns1:title="FLCBDF" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="294.5,-215.75 240.25,-215.75 240.25,-195 294.5,-195 294.5,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FLCBDF</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge15" class="edge">
+<ns0:title>TI_base-&gt;FLCBDF</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M98.21,-171.63C133.28,-178.67 195.46,-191.15 233.59,-198.8" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="233.97,-200.66 239.21,-199.93 234.66,-197.23 233.97,-200.66" />
+</ns0:g>
+
+<ns0:g id="node22" class="node">
+<ns0:title>ForwardEuler</ns0:title>
+<ns0:g id="a_node22"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.ForwardEuler" ns1:title="ForwardEuler" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="307.25,-176.75 227.5,-176.75 227.5,-156 307.25,-156 307.25,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ForwardEuler</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge17" class="edge">
+<ns0:title>TI_base-&gt;ForwardEuler</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M98.21,-166.38C129.56,-166.38 182.57,-166.38 220.7,-166.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="221.4,-168.13 226.4,-166.38 221.4,-164.63 221.4,-168.13" />
+</ns0:g>
+
+<ns0:g id="node23" class="node">
+<ns0:title>ForwardEuler_A</ns0:title>
+<ns0:g id="a_node23"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.ForwardEuler_A" ns1:title="ForwardEuler_A" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="313.25,-137.75 221.5,-137.75 221.5,-117 313.25,-117 313.25,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ForwardEuler_A</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge18" class="edge">
+<ns0:title>TI_base-&gt;ForwardEuler_A</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M98.21,-161.12C128.12,-155.12 177.73,-145.16 215.33,-137.62" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="215.96,-139.27 220.52,-136.58 215.27,-135.84 215.96,-139.27" />
+</ns0:g>
+
+<ns0:g id="node24" class="node">
+<ns0:title>ForwardEuler_H</ns0:title>
+<ns0:g id="a_node24"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.ForwardEuler_H" ns1:title="ForwardEuler_H" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="313.62,-98.75 221.12,-98.75 221.12,-78 313.62,-78 313.62,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ForwardEuler_H</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge19" class="edge">
+<ns0:title>TI_base-&gt;ForwardEuler_H</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M88.2,-155.64C108.42,-142.68 144.45,-121.07 178,-108.38 189.53,-104.01 202.28,-100.45 214.42,-97.6" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="215.48,-99.16 219.97,-96.35 214.7,-95.74 215.48,-99.16" />
+</ns0:g>
+
+<ns0:g id="node28" class="node">
+<ns0:title>OuterTheta</ns0:title>
+<ns0:g id="a_node28"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.OuterTheta" ns1:title="OuterTheta" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="302.75,-59.75 232,-59.75 232,-39 302.75,-39 302.75,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">OuterTheta</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge22" class="edge">
+<ns0:title>TI_base-&gt;OuterTheta</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M80.35,-155.7C96.75,-135.49 135.34,-91.68 178,-69.38 192.64,-61.72 210.15,-56.98 225.71,-54.05" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="226.42,-55.7 231.04,-53.11 225.81,-52.25 226.42,-55.7" />
+</ns0:g>
+
+<ns0:g id="node35" class="node">
+<ns0:title>VBDF</ns0:title>
+<ns0:g id="a_node35"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.VBDF" ns1:title="Variable coefficient bdf's just first and second order" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="294.38,-20.75 240.38,-20.75 240.38,0 294.38,0 294.38,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">VBDF</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge29" class="edge">
+<ns0:title>TI_base-&gt;VBDF</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M76.96,-155.87C89.74,-130.03 126.44,-63.11 178,-30.38 194.68,-19.79 216.26,-14.77 233.92,-12.41" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="234.72,-14.08 239.48,-11.75 234.31,-10.61 234.72,-14.08" />
+</ns0:g>
+
+<ns0:g id="node29" class="node">
+<ns0:title>PsiTCtte</ns0:title>
+<ns0:g id="a_node29"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.PsiTCtte" ns1:title="PsiTCtte" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="724.75,-390.75 669,-390.75 669,-370 724.75,-370 724.75,-390.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="696.88" y="-377.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PsiTCtte</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge23" class="edge">
+<ns0:title>BackwardEuler_cfl-&gt;PsiTCtte</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M544.89,-366.24C581.89,-369.71 630.51,-374.26 662.45,-377.25" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="662.71,-379.03 667.86,-377.75 663.04,-375.54 662.71,-379.03" />
+</ns0:g>
+
+<ns0:g id="node31" class="node">
+<ns0:title>SSP</ns0:title>
+<ns0:g id="a_node31"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.SSP" ns1:title="SSP" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="723.88,-351.75 669.88,-351.75 669.88,-331 723.88,-331 723.88,-351.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="696.88" y="-338.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SSP</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge25" class="edge">
+<ns0:title>BackwardEuler_cfl-&gt;SSP</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M544.89,-356.25C582.22,-352.57 631.38,-347.73 663.3,-344.58" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="663.89,-346.28 668.7,-344.05 663.55,-342.8 663.89,-346.28" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>CockburnNotesLimiter2d_base</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.CockburnNotesLimiter2d_base" ns1:title="CockburnNotesLimiter2d_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="350,-478.75 184.75,-478.75 184.75,-458 350,-458 350,-478.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-465.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CockburnNotesLimiter2d_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>DGlimiterP1Lagrange2d</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterP1Lagrange2d" ns1:title="apply standard, Cockburn RKDG limiter in 2d (maybe)" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="558,-527.75 425.75,-527.75 425.75,-507 558,-507 558,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterP1Lagrange2d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>CockburnNotesLimiter2d_base-&gt;DGlimiterP1Lagrange2d</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M317.04,-479.18C329.96,-482.11 343.9,-485.31 356.75,-488.38 372.79,-492.2 376.67,-493.73 392.75,-497.38 404.52,-500.04 417.12,-502.74 429.23,-505.24" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="429.52,-507.09 434.77,-506.38 430.23,-503.66 429.52,-507.09" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>DGlimiterP2Lagrange2d</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterP2Lagrange2d" ns1:title="canonical (I hope) 2d DG limiting procedure when original" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="558,-488.75 425.75,-488.75 425.75,-468 558,-468 558,-488.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-475.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterP2Lagrange2d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>CockburnNotesLimiter2d_base-&gt;DGlimiterP2Lagrange2d</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M350.28,-472.06C372.83,-473.07 397.12,-474.16 419.06,-475.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="419.66,-476.93 424.73,-475.4 419.81,-473.43 419.66,-476.93" />
+</ns0:g>
+
+<ns0:g id="node18" class="node">
+<ns0:title>DGlimiterPkMonomial2d</ns0:title>
+<ns0:g id="a_node18"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterPkMonomial2d" ns1:title="canonical (I hope) 2d DG limiting procedure when original" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="559.88,-449.75 423.88,-449.75 423.88,-429 559.88,-429 559.88,-449.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-436.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterPkMonomial2d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>CockburnNotesLimiter2d_base-&gt;DGlimiterPkMonomial2d</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M350.28,-457.7C372.27,-454.83 395.91,-451.75 417.41,-448.95" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="418.23,-450.61 422.96,-448.23 417.78,-447.14 418.23,-450.61" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>UnstructuredLimiter_base</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.UnstructuredLimiter_base" ns1:title="UnstructuredLimiter_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="142,-420.75 0,-420.75 0,-400 142,-400 142,-420.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71" y="-407.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">UnstructuredLimiter_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>UnstructuredLimiter_base-&gt;CockburnNotesLimiter2d_base</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M108.1,-421.15C141,-430.97 189.61,-445.47 224.27,-455.81" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="224.12,-457.59 229.41,-457.34 225.12,-454.24 224.12,-457.59" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>DGlimiterDurlofskyP1Lagrange2d</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterDurlofskyP1Lagrange2d" ns1:title="DGlimiterDurlofskyP1Lagrange2d" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="356.75,-420.75 178,-420.75 178,-400 356.75,-400 356.75,-420.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-407.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterDurlofskyP1Lagrange2d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>UnstructuredLimiter_base-&gt;DGlimiterDurlofskyP1Lagrange2d</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M142.45,-410.38C151.81,-410.38 161.52,-410.38 171.21,-410.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="171.82,-412.13 176.82,-410.38 171.82,-408.63 171.82,-412.13" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>DGlimiterDurlofskyP1Lagrange3d</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterDurlofskyP1Lagrange3d" ns1:title="DGlimiterDurlofskyP1Lagrange3d" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="356.75,-381.75 178,-381.75 178,-361 356.75,-361 356.75,-381.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-368.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterDurlofskyP1Lagrange3d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>UnstructuredLimiter_base-&gt;DGlimiterDurlofskyP1Lagrange3d</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M126.14,-399.51C151,-394.52 180.56,-388.59 206.12,-383.46" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="206.88,-385.1 211.44,-382.4 206.2,-381.66 206.88,-385.1" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>DGlimiterDurlofskyP1Lagrange2d_Sw</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterDurlofskyP1Lagrange2d_Sw" ns1:title="DGlimiterDurlofskyP1Lagrange2d_Sw" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="591,-410.75 392.75,-410.75 392.75,-390 591,-390 591,-410.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-397.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterDurlofskyP1Lagrange2d_Sw</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>DGlimiterDurlofskyP1Lagrange2d-&gt;DGlimiterDurlofskyP1Lagrange2d_Sw</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M356.95,-406.39C366.5,-405.97 376.27,-405.53 385.98,-405.09" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="386.68,-406.81 391.6,-404.84 386.52,-403.31 386.68,-406.81" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>DGlimiterP1Lagrange1d</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterP1Lagrange1d" ns1:title="canonical (I hope) 1d DG limiting procedure when original" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="137.12,-517.75 4.88,-517.75 4.88,-497 137.12,-497 137.12,-517.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71" y="-504.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterP1Lagrange1d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>DGlimiterP1Lagrange1d_Sw</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterP1Lagrange1d_Sw" ns1:title="DGP1 version of limiting that applies minmod limiting for h &lt; h_eps" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="343.25,-517.75 191.5,-517.75 191.5,-497 343.25,-497 343.25,-517.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-504.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterP1Lagrange1d_Sw</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>DGlimiterP1Lagrange1d-&gt;DGlimiterP1Lagrange1d_Sw</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M137.54,-507.38C152.71,-507.38 169.05,-507.38 184.82,-507.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="185.31,-509.13 190.31,-507.38 185.31,-505.63 185.31,-509.13" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>DGlimiterP2Lagrange1d</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterP2Lagrange1d" ns1:title="canonical (I hope) 1d DG limiting procedure when original" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="137.12,-556.75 4.88,-556.75 4.88,-536 137.12,-536 137.12,-556.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71" y="-543.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterP2Lagrange1d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>DGlimiterP2Lagrange1d_Sw</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterP2Lagrange1d_Sw" ns1:title="DGP1 version of limiting that applies minmod limiting for h &lt; h_eps" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="343.25,-556.75 191.5,-556.75 191.5,-536 343.25,-536 343.25,-556.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-543.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterP2Lagrange1d_Sw</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>DGlimiterP2Lagrange1d-&gt;DGlimiterP2Lagrange1d_Sw</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M137.54,-546.38C152.71,-546.38 169.05,-546.38 184.82,-546.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="185.31,-548.13 190.31,-546.38 185.31,-544.63 185.31,-548.13" />
+</ns0:g>
+
+<ns0:g id="node16" class="node">
+<ns0:title>DGlimiterPkMonomial1d</ns0:title>
+<ns0:g id="a_node16"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterPkMonomial1d" ns1:title="canonical (I hope) 1d DG limiting procedure when original" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="139,-595.75 3,-595.75 3,-575 139,-575 139,-595.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71" y="-582.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterPkMonomial1d</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node17" class="node">
+<ns0:title>DGlimiterPkMonomial1d_Sw</ns0:title>
+<ns0:g id="a_node17"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.DGlimiterPkMonomial1d_Sw" ns1:title="DGPk version of limiting that applies minmod limiting for h &lt; h_eps" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="345.12,-595.75 189.62,-595.75 189.62,-575 345.12,-575 345.12,-595.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-582.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DGlimiterPkMonomial1d_Sw</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>DGlimiterPkMonomial1d-&gt;DGlimiterPkMonomial1d_Sw</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M139.44,-585.38C153.54,-585.38 168.57,-585.38 183.17,-585.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="183.64,-587.13 188.64,-585.38 183.64,-583.63 183.64,-587.13" />
+</ns0:g>
+
+<ns0:g id="node27" class="node">
+<ns0:title>LinearSSPRKintegration</ns0:title>
+<ns0:g id="a_node27"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.LinearSSPRKintegration" ns1:title="implementation of Explicit RK schemes for ODE that are SSP for" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="557.25,-293.75 426.5,-293.75 426.5,-273 557.25,-273 557.25,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LinearSSPRKintegration</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge21" class="edge">
+<ns0:title>ExplicitRK_base-&gt;LinearSSPRKintegration</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M314.75,-252.5C346.05,-257.99 387.89,-265.32 422.93,-271.47" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="422.97,-273.25 428.19,-272.39 423.57,-269.8 422.97,-273.25" />
+</ns0:g>
+
+<ns0:g id="node32" class="node">
+<ns0:title>SSPRKPIintegration</ns0:title>
+<ns0:g id="a_node32"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.SSPRKPIintegration" ns1:title="So called SSP RK integration with limiting step at end of each" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="546.75,-254.75 437,-254.75 437,-234 546.75,-234 546.75,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SSPRKPIintegration</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge26" class="edge">
+<ns0:title>ExplicitRK_base-&gt;SSPRKPIintegration</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M314.75,-244.38C348.34,-244.38 394.06,-244.38 430.5,-244.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="430.97,-246.13 435.97,-244.38 430.97,-242.63 430.97,-246.13" />
+</ns0:g>
+
+<ns0:g id="node21" class="node">
+<ns0:title>FLCBDF_TwophaseDarcy_fc</ns0:title>
+<ns0:g id="a_node21"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.FLCBDF_TwophaseDarcy_fc" ns1:title="FLCBDF_TwophaseDarcy_fc" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="567,-215.75 416.75,-215.75 416.75,-195 567,-195 567,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="491.88" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FLCBDF_TwophaseDarcy_fc</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge16" class="edge">
+<ns0:title>FLCBDF-&gt;FLCBDF_TwophaseDarcy_fc</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M294.77,-205.38C323.07,-205.38 369.41,-205.38 409.94,-205.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="410.63,-207.13 415.63,-205.38 410.63,-203.63 410.63,-207.13" />
+</ns0:g>
+
+<ns0:g id="node25" class="node">
+<ns0:title>ForwardIntegrator</ns0:title>
+<ns0:g id="a_node25"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.ForwardIntegrator" ns1:title="class that is responsible for basic process of integrating a problem" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="122.5,-653.75 19.5,-653.75 19.5,-633 122.5,-633 122.5,-653.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="71" y="-640.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ForwardIntegrator</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node33" class="node">
+<ns0:title>SignedDistanceIntegrator</ns0:title>
+<ns0:g id="a_node33"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.SignedDistanceIntegrator" ns1:title="apply some form of pseudo-transient continuation or direct solve to" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="337.25,-673.75 197.5,-673.75 197.5,-653 337.25,-653 337.25,-673.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-660.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SignedDistanceIntegrator</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge27" class="edge">
+<ns0:title>ForwardIntegrator-&gt;SignedDistanceIntegrator</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M122.82,-648.6C143.58,-650.74 168.04,-653.26 190.83,-655.6" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="191.3,-657.41 196.46,-656.18 191.66,-653.93 191.3,-657.41" />
+</ns0:g>
+
+<ns0:g id="node34" class="node">
+<ns0:title>SteadyStateIntegrator</ns0:title>
+<ns0:g id="a_node34"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.SteadyStateIntegrator" ns1:title="apply some form of pseudo-transient continuation or direct solve to" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="329,-634.75 205.75,-634.75 205.75,-614 329,-614 329,-634.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="267.38" y="-621.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SteadyStateIntegrator</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge28" class="edge">
+<ns0:title>ForwardIntegrator-&gt;SteadyStateIntegrator</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M122.82,-638.41C146.15,-636.13 174.14,-633.39 199.18,-630.94" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="199.92,-632.63 204.72,-630.4 199.58,-629.15 199.92,-632.63" />
+</ns0:g>
+
+<ns0:g id="node26" class="node">
+<ns0:title>LinearSSPRKPIintegration</ns0:title>
+<ns0:g id="a_node26"><ns0:a ns1:href="../api/proteus.TimeIntegration.html#proteus.TimeIntegration.LinearSSPRKPIintegration" ns1:title="Linear SSP RK integration with limiting step at end of each phase, this one" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="766.75,-293.75 627,-293.75 627,-273 766.75,-273 766.75,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="696.88" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LinearSSPRKPIintegration</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge20" class="edge">
+<ns0:title>LinearSSPRKintegration-&gt;LinearSSPRKPIintegration</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M557.66,-283.38C577.64,-283.38 599.82,-283.38 620.45,-283.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="621.04,-285.13 626.04,-283.38 621.04,-281.63 621.04,-285.13" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

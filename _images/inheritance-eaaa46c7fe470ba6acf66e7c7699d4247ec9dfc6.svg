@@ -1,0 +1,209 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="457pt" height="380pt" viewBox="0.00 0.00 457.00 380.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 375.75)">
+<ns0:title>inheritance56adf9a4e7</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>FLCBDF_controller</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.FLCBDF_controller" ns1:title="FLCBDF_controller" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="242.38,-371.75 136.38,-371.75 136.38,-351 242.38,-351 242.38,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FLCBDF_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>FLCBDF_controller_sys</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.FLCBDF_controller_sys" ns1:title="FLCBDF_controller_sys" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="449.25,-371.75 321.5,-371.75 321.5,-351 449.25,-351 449.25,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="385.38" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FLCBDF_controller_sys</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>FLCBDF_controller-&gt;FLCBDF_controller_sys</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M242.87,-361.38C265.02,-361.38 291.12,-361.38 314.83,-361.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="315.37,-363.13 320.37,-361.38 315.37,-359.63 315.37,-363.13" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>SC_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.SC_base" ns1:title="A simple fixed time stepping controller with no error/stability" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="57.25,-195.75 0,-195.75 0,-175 57.25,-175 57.25,-195.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="28.62" y="-182.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SC_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>SC_base-&gt;FLCBDF_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M30.62,-196.07C33.85,-224.53 46.76,-302.58 93.25,-341.38 103.59,-350 116.72,-355.19 129.9,-358.25" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="129.96,-360.05 135.21,-359.36 130.67,-356.63 129.96,-360.05" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>GustafssonFullNewton_dt_controller</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.GustafssonFullNewton_dt_controller" ns1:title="Try version of basic Gustafsson and Soederlind 97 time step selection strategy" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="285.5,-332.75 93.25,-332.75 93.25,-312 285.5,-312 285.5,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GustafssonFullNewton_dt_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>SC_base-&gt;GustafssonFullNewton_dt_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M32.19,-196.11C38.37,-219.44 56.34,-274.9 93.25,-302.38 96.62,-304.88 100.22,-307.09 104,-309.03" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="103.68,-310.82 108.95,-311.37 105.18,-307.65 103.68,-310.82" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>HeuristicNL_dt_controller</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.HeuristicNL_dt_controller" ns1:title="Classical Heuristic step controller that picks time step based on threshholds in nonlinear" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="258.88,-293.75 119.88,-293.75 119.88,-273 258.88,-273 258.88,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">HeuristicNL_dt_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>SC_base-&gt;HeuristicNL_dt_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M35.22,-196.17C44.71,-213.32 65.64,-246.56 93.25,-263.38 99.56,-267.21 106.49,-270.33 113.64,-272.85" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="113.68,-274.7 118.98,-274.59 114.77,-271.37 113.68,-274.7" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>Min_dt_RKcontroller</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Min_dt_RKcontroller" ns1:title="Min_dt_RKcontroller" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="246.5,-254.75 132.25,-254.75 132.25,-234 246.5,-234 246.5,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Min_dt_RKcontroller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>SC_base-&gt;Min_dt_RKcontroller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M44.03,-196.2C56.45,-205.04 75.19,-217.19 93.25,-224.38 103.5,-228.45 114.73,-231.75 125.75,-234.41" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="125.85,-236.22 131.11,-235.64 126.64,-232.81 125.85,-236.22" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>Min_dt_controller</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Min_dt_controller" ns1:title="Min_dt_controller" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="239.75,-215.75 139,-215.75 139,-195 239.75,-195 239.75,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Min_dt_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>SC_base-&gt;Min_dt_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M57.64,-188.9C78.24,-191.5 106.92,-195.11 132.17,-198.29" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="132.58,-200.11 137.76,-199 133.02,-196.64 132.58,-200.11" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>Newton_controller</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Newton_controller" ns1:title="Same as SC_base but since there is no dt we have not &#160;way to retry" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="242,-176.75 136.75,-176.75 136.75,-156 242,-156 242,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Newton_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>SC_base-&gt;Newton_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M57.64,-182.02C77.66,-179.63 105.33,-176.31 130.05,-173.36" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="130.76,-175.03 135.52,-172.7 130.34,-171.56 130.76,-175.03" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>Osher_PsiTC_controller</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Osher_PsiTC_controller" ns1:title="Osher_PsiTC_controller" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="253.25,-137.75 125.5,-137.75 125.5,-117 253.25,-117 253.25,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Osher_PsiTC_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>SC_base-&gt;Osher_PsiTC_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M44.32,-174.67C56.77,-166.08 75.4,-154.36 93.25,-147.38 101.42,-144.18 110.2,-141.46 119,-139.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="119.93,-140.72 124.35,-137.8 119.08,-137.32 119.93,-140.72" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>Osher_PsiTC_controller2</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Osher_PsiTC_controller2" ns1:title="Osher_PsiTC_controller2" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="256.25,-98.75 122.5,-98.75 122.5,-78 256.25,-78 256.25,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Osher_PsiTC_controller2</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>SC_base-&gt;Osher_PsiTC_controller2</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M35.26,-174.72C44.79,-157.79 65.8,-124.97 93.25,-108.38 100.27,-104.13 108.05,-100.78 116.06,-98.13" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="117.22,-99.6 121.49,-96.46 116.2,-96.26 117.22,-99.6" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>Osher_controller</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Osher_controller" ns1:title="Osher_controller" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="237.5,-59.75 141.25,-59.75 141.25,-39 237.5,-39 237.5,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Osher_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>SC_base-&gt;Osher_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M32.22,-174.73C38.46,-151.6 56.54,-96.61 93.25,-69.38 105.23,-60.49 120.27,-55.36 134.84,-52.44" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="135.69,-54.07 140.3,-51.46 135.07,-50.62 135.69,-54.07" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>PsiTCtte_controller</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.PsiTCtte_controller" ns1:title="PsiTCtte_controller" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="243.12,-20.75 135.62,-20.75 135.62,0 243.12,0 243.12,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="189.38" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PsiTCtte_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>SC_base-&gt;PsiTCtte_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M30.64,-174.75C33.94,-146.47 46.97,-68.9 93.25,-30.38 103.39,-21.93 116.22,-16.78 129.13,-13.7" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="130.21,-15.26 134.73,-12.5 129.48,-11.83 130.21,-15.26" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>Min_dt_cfl_controller</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Min_dt_cfl_controller" ns1:title="Min_dt_cfl_controller" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="444,-234.75 326.75,-234.75 326.75,-214 444,-214 444,-234.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="385.38" y="-221.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Min_dt_cfl_controller</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>Min_dt_controller-&gt;Min_dt_cfl_controller</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M240.08,-210.24C264.51,-212.64 294.23,-215.55 320.33,-218.1" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="320.64,-219.89 325.78,-218.64 320.98,-216.41 320.64,-219.89" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>Min_dt_controller_FCT</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.StepControl.html#proteus.StepControl.Min_dt_controller_FCT" ns1:title="controller try and implement a piece of FCT methodology where first step is" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="447.75,-195.75 323,-195.75 323,-175 447.75,-175 447.75,-195.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="385.38" y="-182.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Min_dt_controller_FCT</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>Min_dt_controller-&gt;Min_dt_controller_FCT</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M240.08,-200.25C263.27,-197.86 291.22,-194.98 316.33,-192.39" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="317.1,-194.07 321.89,-191.82 316.74,-190.59 317.1,-194.07" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

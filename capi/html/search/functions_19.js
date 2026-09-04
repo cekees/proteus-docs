@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['zerojacobian_5fcsr_4298',['zeroJacobian_CSR',['../group__fem_integrals.html#gabc3c73092355e88b4e951ea0985f3709',1,'zeroJacobian_CSR(int nNonzeros, double *jac):&#160;femIntegrals.c'],['../group__fem_integrals.html#gabc3c73092355e88b4e951ea0985f3709',1,'zeroJacobian_CSR(int nNonzeros, double *jac):&#160;femIntegrals.c']]],
-  ['zx_4299',['ZX',['../namespaceequivalent__polynomials.html#af63ba62549e7eda39fcdeeedad1d9b34',1,'equivalent_polynomials']]],
-  ['zy_4300',['ZY',['../namespaceequivalent__polynomials.html#a5d71cdba9f3ad56b8b593501eb4f93da',1,'equivalent_polynomials']]],
-  ['zz_4301',['ZZ',['../namespaceequivalent__polynomials.html#a8b669ff3b96038723835272644b5a1e2',1,'equivalent_polynomials']]]
+  ['yx_0',['YX',['../namespaceequivalent__polynomials.html#ae12febd75efb9d26932f52a301314d7d',1,'equivalent_polynomials']]],
+  ['yy_1',['YY',['../namespaceequivalent__polynomials.html#a66658cd883b58f139d511307d2ec0e72',1,'equivalent_polynomials']]],
+  ['yz_2',['YZ',['../namespaceequivalent__polynomials.html#ac5ae44e4abfd29c6a8df1a167b63f412',1,'equivalent_polynomials']]]
 ];

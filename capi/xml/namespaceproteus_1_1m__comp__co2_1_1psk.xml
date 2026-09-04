@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="namespaceproteus_1_1m__comp__co2_1_1psk" kind="namespace" language="C++">
+    <compoundname>proteus::m_comp_co2::psk</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1_1psk_1a8d6f3d1d99e7e1172d895210cc88e11e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::m_comp_co2::psk::vgm_pc_from_Se</definition>
+        <argsstring>(const double Se, const double alpha, const double n_vg, double &amp;pc, double &amp;Dpc_DSe, double &amp;D2pc_DSe2)</argsstring>
+        <name>vgm_pc_from_Se</name>
+        <qualifiedname>proteus::m_comp_co2::psk::vgm_pc_from_Se</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>Se</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Dpc_DSe</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>D2pc_DSe2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1524" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1524" bodyend="1608"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1_1psk_1aec4a7d56ee016b1695c103d215eaaf1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::m_comp_co2::psk::bc_pc_from_Se</definition>
+        <argsstring>(const double Se, const double alpha, const double lam, double &amp;pc, double &amp;Dpc_DSe, double &amp;D2pc_DSe2)</argsstring>
+        <name>bc_pc_from_Se</name>
+        <qualifiedname>proteus::m_comp_co2::psk::bc_pc_from_Se</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>Se</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>lam</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Dpc_DSe</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>D2pc_DSe2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1631" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1631" bodyend="1744"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1_1psk_1aa5eeb910eb9f8ec2ae33d1578968c343" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::m_comp_co2::psk::vgm_wetting_from_Se</definition>
+        <argsstring>(const double Se, const double, const double n_vg, const double thetaR, const double thetaSR, double &amp;thetaW, double &amp;DthetaW_DSe, double &amp;KWr, double &amp;DKWr_DSe)</argsstring>
+        <name>vgm_wetting_from_Se</name>
+        <qualifiedname>proteus::m_comp_co2::psk::vgm_wetting_from_Se</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>Se</declname>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>thetaW</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DthetaW_DSe</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>KWr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DKWr_DSe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1759" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1759" bodyend="1796"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1_1psk_1a17742852fa039b96f5aeee7f5e71a855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::m_comp_co2::psk::vgm_kr_nonwetting_from_Se</definition>
+        <argsstring>(const double Se_w, const double, const double n_vg, double &amp;KNr, double &amp;DKNr_DSe, const double Se_trap=1.0)</argsstring>
+        <name>vgm_kr_nonwetting_from_Se</name>
+        <qualifiedname>proteus::m_comp_co2::psk::vgm_kr_nonwetting_from_Se</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>Se_w</declname>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>KNr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DKNr_DSe</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>Se_trap</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1798" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1798" bodyend="1835"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1_1psk_1a2b23e0d3d3f34f44426a079f44e90fe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::m_comp_co2::psk::bc_wetting_from_Se</definition>
+        <argsstring>(const double Se, const double, const double lam, const double thetaR, const double thetaSR, double &amp;thetaW, double &amp;DthetaW_DSe, double &amp;KWr, double &amp;DKWr_DSe)</argsstring>
+        <name>bc_wetting_from_Se</name>
+        <qualifiedname>proteus::m_comp_co2::psk::bc_wetting_from_Se</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>Se</declname>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>lam</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>thetaW</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DthetaW_DSe</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>KWr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DKWr_DSe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1837" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1837" bodyend="1864"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1_1psk_1a373ae83cd1b8c821ebf698e887a4aa94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::m_comp_co2::psk::bc_kr_nonwetting_from_Se</definition>
+        <argsstring>(const double Se_w, const double, const double lam, double &amp;KNr, double &amp;DKNr_DSe, const double Se_trap=1.0)</argsstring>
+        <name>bc_kr_nonwetting_from_Se</name>
+        <qualifiedname>proteus::m_comp_co2::psk::bc_kr_nonwetting_from_Se</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>Se_w</declname>
+        </param>
+        <param>
+          <type>const double</type>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>lam</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>KNr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DKNr_DSe</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>Se_trap</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1866" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1866" bodyend="1972"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1486" column="1"/>
+  </compounddef>
+</doxygen>

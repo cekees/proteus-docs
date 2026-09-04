@@ -1,43 +1,46 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_r_d_l_s__base" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>proteus::RDLS_base</compoundname>
     <derivedcompoundref refid="classproteus_1_1_r_d_l_s" prot="public" virt="non-virtual">proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
-    <includes refid="_r_d_l_s_8h" local="no">/Users/cekees/proteus/proteus/mprans/RDLS.h</includes>
-      <sectiondef kind="public-attrib">
+    <includes refid="_r_d_l_s_8h" local="no">/work/cekees/proteus/proteus/mprans/RDLS.h</includes>
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1_r_d_l_s__base_1a3ca77687396b8b097009379b369932b1" prot="public" static="no" mutable="no">
         <type>std::valarray&lt; double &gt;</type>
         <definition>std::valarray&lt;double&gt; proteus::RDLS_base::weighted_lumped_mass_matrix</definition>
         <argsstring></argsstring>
         <name>weighted_lumped_mass_matrix</name>
+        <qualifiedname>proteus::RDLS_base::weighted_lumped_mass_matrix</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="30" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="30" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="37" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="37" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1ae4cbb2b0f904a397750129e6ab6f7a3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
         <definition>virtual proteus::RDLS_base::~RDLS_base</definition>
         <argsstring>()</argsstring>
         <name>~RDLS_base</name>
+        <qualifiedname>proteus::RDLS_base::~RDLS_base</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="31" column="13" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="31" bodyend="31"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="38" column="13" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1aa7e0eb2db93d5728d109aa802e307b3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void proteus::RDLS_base::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)=0</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::RDLS_base::calculateResidual</qualifiedname>
         <reimplementedby refid="classproteus_1_1_r_d_l_s_1a9d49d5cfc43abfd2d345e4b2a8f493dd">calculateResidual</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -53,13 +56,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="32" column="18"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="39" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1a57b64b8f711adcfafc84f83db827611f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void proteus::RDLS_base::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)=0</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::RDLS_base::calculateJacobian</qualifiedname>
         <reimplementedby refid="classproteus_1_1_r_d_l_s_1afeb39c244077a7e21efa9fa6fc0b6725">calculateJacobian</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -75,13 +79,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="33" column="18"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="40" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1aa6eb4309c8eff96bb2bcdaa19cecd7b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void proteus::RDLS_base::calculateResidual_ellipticRedist</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)=0</argsstring>
         <name>calculateResidual_ellipticRedist</name>
+        <qualifiedname>proteus::RDLS_base::calculateResidual_ellipticRedist</qualifiedname>
         <reimplementedby refid="classproteus_1_1_r_d_l_s_1a3bd5cc6924fa7231d887917dddd49119">calculateResidual_ellipticRedist</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -97,13 +102,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="34" column="18"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="41" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1a1feb3404a559a8c2f3b9d481182d0012" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void proteus::RDLS_base::calculateJacobian_ellipticRedist</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)=0</argsstring>
         <name>calculateJacobian_ellipticRedist</name>
+        <qualifiedname>proteus::RDLS_base::calculateJacobian_ellipticRedist</qualifiedname>
         <reimplementedby refid="classproteus_1_1_r_d_l_s_1a9288a61732a5aab7f3723ad49ce21618">calculateJacobian_ellipticRedist</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -119,13 +125,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="35" column="18"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="42" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1a1c60fa12019be18b662e5e0b88d42121" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void proteus::RDLS_base::normalReconstruction</definition>
         <argsstring>(arguments_dict &amp;args)=0</argsstring>
         <name>normalReconstruction</name>
+        <qualifiedname>proteus::RDLS_base::normalReconstruction</qualifiedname>
         <reimplementedby refid="classproteus_1_1_r_d_l_s_1a3ea8a5f08a2029ca252e8ae74a13160d">normalReconstruction</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -137,14 +144,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="36" column="18"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="43" column="18"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1ada88ecc8b8ca9536f09c9c1396d5f09f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+      <memberdef kind="function" id="classproteus_1_1_r_d_l_s__base_1a88031c10a5df6d17161afe206ac472e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::tuple&lt; double, double, double &gt;</type>
-        <definition>virtual std::tuple&lt;double, double, double&gt; proteus::RDLS_base::calculateMetricsAtEOS</definition>
+        <definition>virtual std::tuple&lt; double, double, double &gt; proteus::RDLS_base::calculateMetricsAtEOS</definition>
         <argsstring>(arguments_dict &amp;args)=0</argsstring>
         <name>calculateMetricsAtEOS</name>
-        <reimplementedby refid="classproteus_1_1_r_d_l_s_1a2cf36afc6b590b0e8f7020bd243a03e1">calculateMetricsAtEOS</reimplementedby>
+        <qualifiedname>proteus::RDLS_base::calculateMetricsAtEOS</qualifiedname>
+        <reimplementedby refid="classproteus_1_1_r_d_l_s_1a1e0007f157ab6c51d3570a9984dad882">calculateMetricsAtEOS</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
           <declname>args</declname>
@@ -155,23 +163,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="37" column="24"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="44" column="24"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1">
-        <label>proteus::RDLS_base</label>
-        <link refid="classproteus_1_1_r_d_l_s__base"/>
-      </node>
       <node id="2">
         <label>proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_r_d_l_s"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="1">
+        <label>proteus::RDLS_base</label>
+        <link refid="classproteus_1_1_r_d_l_s__base"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -186,11 +194,11 @@
         <label>std::valarray&lt; double &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="27" column="3" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="28" bodyend="38"/>
+    <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="34" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="35" bodyend="45"/>
     <listofallmembers>
       <member refid="classproteus_1_1_r_d_l_s__base_1a57b64b8f711adcfafc84f83db827611f" prot="public" virt="pure-virtual"><scope>proteus::RDLS_base</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1_r_d_l_s__base_1a1feb3404a559a8c2f3b9d481182d0012" prot="public" virt="pure-virtual"><scope>proteus::RDLS_base</scope><name>calculateJacobian_ellipticRedist</name></member>
-      <member refid="classproteus_1_1_r_d_l_s__base_1ada88ecc8b8ca9536f09c9c1396d5f09f" prot="public" virt="pure-virtual"><scope>proteus::RDLS_base</scope><name>calculateMetricsAtEOS</name></member>
+      <member refid="classproteus_1_1_r_d_l_s__base_1a88031c10a5df6d17161afe206ac472e8" prot="public" virt="pure-virtual"><scope>proteus::RDLS_base</scope><name>calculateMetricsAtEOS</name></member>
       <member refid="classproteus_1_1_r_d_l_s__base_1aa7e0eb2db93d5728d109aa802e307b3f" prot="public" virt="pure-virtual"><scope>proteus::RDLS_base</scope><name>calculateResidual</name></member>
       <member refid="classproteus_1_1_r_d_l_s__base_1aa6eb4309c8eff96bb2bcdaa19cecd7b4" prot="public" virt="pure-virtual"><scope>proteus::RDLS_base</scope><name>calculateResidual_ellipticRedist</name></member>
       <member refid="classproteus_1_1_r_d_l_s__base_1a1c60fa12019be18b662e5e0b88d42121" prot="public" virt="pure-virtual"><scope>proteus::RDLS_base</scope><name>normalReconstruction</name></member>

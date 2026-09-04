@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="namespaceproteus_1_1m__comp__co2" kind="namespace" language="C++">
+    <compoundname>proteus::m_comp_co2</compoundname>
+    <innerclass refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base" prot="public">proteus::m_comp_co2::M_comp_co2_base</innerclass>
+    <innerclass refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2" prot="public">proteus::m_comp_co2::M_comp_co2</innerclass>
+    <innernamespace refid="namespaceproteus_1_1m__comp__co2_1_1psk">proteus::m_comp_co2::psk</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1a1564a7ea1eb95edacbc95c6ba2ce20e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::ENTROPY</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>ENTROPY</name>
+        <qualifiedname>proteus::m_comp_co2::ENTROPY</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="38" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1a1982336d3998de9a942bc37cb663f3ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::DENTROPY</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>DENTROPY</name>
+        <qualifiedname>proteus::m_comp_co2::DENTROPY</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="42" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1af3700ce1f2e68688a7f641e984e69407" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::ENTROPY_LOG</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>ENTROPY_LOG</name>
+        <qualifiedname>proteus::m_comp_co2::ENTROPY_LOG</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="47" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1a47671d3323b2690eca74374359d757e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::DENTROPY_LOG</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>DENTROPY_LOG</name>
+        <qualifiedname>proteus::m_comp_co2::DENTROPY_LOG</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="51" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1m__comp__co2_1a42e755b121ea77b421c41d66fed8ef71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_m__comp__co2__base" kindref="compound">M_comp_co2_base</ref> *</type>
+        <definition>M_comp_co2_base * proteus::m_comp_co2::newm_comp_co2</definition>
+        <argsstring>(int nSpaceIn, int nQuadraturePoints_elementIn, int nDOF_mesh_trial_elementIn, int nDOF_trial_elementIn, int nDOF_test_elementIn, int nQuadraturePoints_elementBoundaryIn, int CompKernelFlag)</argsstring>
+        <name>newm_comp_co2</name>
+        <qualifiedname>proteus::m_comp_co2::newm_comp_co2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nSpaceIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nQuadraturePoints_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_mesh_trial_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_trial_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_test_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nQuadraturePoints_elementBoundaryIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CompKernelFlag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="5676" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="5676" bodyend="5686"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="34" column="1"/>
+  </compounddef>
+</doxygen>

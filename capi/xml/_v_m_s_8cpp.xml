@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_v_m_s_8cpp" kind="file" language="C++">
     <compoundname>VMS.cpp</compoundname>
     <includes refid="_mesh_adapt_p_u_m_i_8h" local="yes">MeshAdaptPUMI.h</includes>
@@ -13,50 +13,55 @@
     <includes local="no">iostream</includes>
     <includes local="no">fstream</includes>
     <incdepgraph>
-      <node id="8">
-        <label>list</label>
-      </node>
-      <node id="22">
-        <label>apfMesh.h</label>
-      </node>
-      <node id="10">
-        <label>iomanip</label>
-      </node>
-      <node id="17">
-        <label>queue</label>
-      </node>
-      <node id="23">
-        <label>apfShape.h</label>
-      </node>
-      <node id="24">
-        <label>apfDynamicMatrix.h</label>
-      </node>
-      <node id="13">
-        <label>cmath</label>
-      </node>
-      <node id="12">
-        <label>cassert</label>
-      </node>
-      <node id="7">
-        <label>map</label>
-      </node>
-      <node id="11">
-        <label>fstream</label>
-      </node>
-      <node id="18">
-        <label>PyEmbeddedFunctions.h</label>
-        <link refid="_py_embedded_functions_8h"/>
+      <node id="2">
+        <label>MeshAdaptPUMI.h</label>
+        <link refid="_mesh_adapt_p_u_m_i_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
       </node>
-      <node id="20">
-        <label>PCU.h</label>
+      <node id="1">
+        <label>VMS.cpp</label>
+        <link refid="_v_m_s_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
       <node id="19">
-        <label>Python.h</label>
-      </node>
-      <node id="5">
-        <label>vector</label>
+        <label>PyEmbeddedFunctions.h</label>
+        <link refid="_py_embedded_functions_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>mesh.h</label>
@@ -81,72 +86,76 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="16">
-        <label>apfNumbering.h</label>
-      </node>
-      <node id="14">
-        <label>apf.h</label>
-      </node>
-      <node id="2">
-        <label>MeshAdaptPUMI.h</label>
-        <link refid="_mesh_adapt_p_u_m_i_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
       </node>
-      <node id="1">
-        <label>VMS.cpp</label>
-        <link refid="_v_m_s_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>iostream</label>
-      </node>
-      <node id="15">
-        <label>apfMesh2.h</label>
+      <node id="20">
+        <label>PCU.h</label>
       </node>
       <node id="21">
-        <label>petscksp.h</label>
+        <label>PCU_C.h</label>
       </node>
-      <node id="4">
-        <label>set</label>
+      <node id="14">
+        <label>Python.h</label>
       </node>
       <node id="6">
         <label>algorithm</label>
       </node>
+      <node id="15">
+        <label>apf.h</label>
+      </node>
+      <node id="25">
+        <label>apfDynamicMatrix.h</label>
+      </node>
+      <node id="23">
+        <label>apfMesh.h</label>
+      </node>
+      <node id="16">
+        <label>apfMesh2.h</label>
+      </node>
+      <node id="17">
+        <label>apfNumbering.h</label>
+      </node>
+      <node id="24">
+        <label>apfShape.h</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="13">
+        <label>cmath</label>
+      </node>
+      <node id="11">
+        <label>fstream</label>
+      </node>
+      <node id="10">
+        <label>iomanip</label>
+      </node>
+      <node id="9">
+        <label>iostream</label>
+      </node>
+      <node id="8">
+        <label>list</label>
+      </node>
+      <node id="7">
+        <label>map</label>
+      </node>
+      <node id="22">
+        <label>petscksp.h</label>
+      </node>
+      <node id="18">
+        <label>queue</label>
+      </node>
+      <node id="4">
+        <label>set</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
     </incdepgraph>
     <innerclass refid="struct_inputs" prot="public">Inputs</innerclass>
-      <sectiondef kind="var">
-      <memberdef kind="variable" id="_v_m_s_8cpp_1a190ff8a4b88c3f62a7da15f5a2b8c227" prot="public" static="no" mutable="no">
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_v_m_s_8cpp_1a190ff8a4b88c3f62a7da15f5a2b8c227" prot="public" static="no" extern="yes" mutable="no">
         <type>int</type>
         <definition>int approx_order</definition>
         <argsstring></argsstring>
@@ -157,9 +166,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="15" column="12" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ErrorResidualMethod.cpp" bodystart="20" bodyend="-1" declfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="15" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="15" column="12" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ErrorResidualMethod.cpp" bodystart="20" bodyend="-1" declfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="15" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="variable" id="_v_m_s_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="_v_m_s_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" prot="public" static="no" extern="yes" mutable="no">
         <type>int</type>
         <definition>int int_order</definition>
         <argsstring></argsstring>
@@ -170,9 +179,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="16" column="12" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ErrorResidualMethod.cpp" bodystart="21" bodyend="-1" declfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="16" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="16" column="12" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ErrorResidualMethod.cpp" bodystart="21" bodyend="-1" declfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="16" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="variable" id="_v_m_s_8cpp_1a383b07af68441ce2b4adaaf8d8cc9d90" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="_v_m_s_8cpp_1a383b07af68441ce2b4adaaf8d8cc9d90" prot="public" static="no" extern="yes" mutable="no">
         <type>double</type>
         <definition>double nu_0</definition>
         <argsstring></argsstring>
@@ -183,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="15" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ErrorResidualMethod.cpp" bodystart="22" bodyend="-1" declfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="17" declcolumn="15"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="15" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ErrorResidualMethod.cpp" bodystart="22" bodyend="-1" declfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="17" declcolumn="15"/>
       </memberdef>
       <memberdef kind="variable" id="_v_m_s_8cpp_1ae5896ebfee35f22242123e4ae82c81d9" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -196,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="19" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="17" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="19" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_v_m_s_8cpp_1ae5f5d9edb66645eab31a7c8389493ce7" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -209,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="23" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="17" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="23" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_v_m_s_8cpp_1a751e53c9d8dfaf696b11b86e0c1b42e9" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -222,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="28" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="17" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="17" column="28" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_v_m_s_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -235,10 +244,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="18" column="8" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="18" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="18" column="8" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="18" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_v_m_s_8cpp_1a164fc6e48b9d7449eb3b8468cd6fa97d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double get_nu_err</definition>
@@ -254,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="269" column="8" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="269" bodyend="282" declfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="38" declcolumn="8"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="269" column="8" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="269" bodyend="282" declfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="38" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="_v_m_s_8cpp_1a187bd810025d62ee6656ccb4eb11087b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>apf::Vector3</type>
@@ -275,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="284" column="14" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="284" bodyend="317" declfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="39" declcolumn="14"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="284" column="14" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="284" bodyend="317" declfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" declline="39" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="_v_m_s_8cpp_1ab452256c5c64bf565b7037f6011a8a3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -300,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="42" column="13" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="42" bodyend="51"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="42" column="13" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="42" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="_v_m_s_8cpp_1ad8c6db273a807a30066ebba3c9a2c175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>apf::Matrix3x3</type>
@@ -317,9 +326,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="53" column="16" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="53" bodyend="68"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" line="53" column="16" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp" bodystart="53" bodyend="68"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -339,10 +348,10 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//Global<sp/>variables<sp/>used<sp/>to<sp/>make<sp/>it<sp/>easier<sp/>to<sp/>pass<sp/>these<sp/>variables<sp/>from<sp/>MeshAdaptPUMIDrvr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_v_m_s_8cpp_1a190ff8a4b88c3f62a7da15f5a2b8c227" kindref="member">approx_order</ref>;<sp/></highlight><highlight class="comment">//shape<sp/>function<sp/>order</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_v_m_s_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" kindref="member">int_order</ref>;<sp/></highlight><highlight class="comment">//integration<sp/>order</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="_v_m_s_8cpp_1a751e53c9d8dfaf696b11b86e0c1b42e9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_v_m_s_8cpp_1a383b07af68441ce2b4adaaf8d8cc9d90" kindref="member">nu_0</ref>,<ref refid="_v_m_s_8cpp_1ae5896ebfee35f22242123e4ae82c81d9" kindref="member">nu_1</ref>,<ref refid="_v_m_s_8cpp_1ae5f5d9edb66645eab31a7c8389493ce7" kindref="member">rho_0</ref>,<ref refid="_v_m_s_8cpp_1a751e53c9d8dfaf696b11b86e0c1b42e9" kindref="member">rho_1</ref>;</highlight></codeline>
-<codeline lineno="18" refid="_v_m_s_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_v_m_s_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_error_residual_method_8cpp_1a190ff8a4b88c3f62a7da15f5a2b8c227" kindref="member">approx_order</ref>;<sp/></highlight><highlight class="comment">//shape<sp/>function<sp/>order</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_error_residual_method_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" kindref="member">int_order</ref>;<sp/></highlight><highlight class="comment">//integration<sp/>order</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_v_m_s_8cpp_1ae5896ebfee35f22242123e4ae82c81d9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_error_residual_method_8cpp_1a383b07af68441ce2b4adaaf8d8cc9d90" kindref="member">nu_0</ref>,<ref refid="_error_residual_method_8cpp_1ae5896ebfee35f22242123e4ae82c81d9" kindref="member">nu_1</ref>,<ref refid="_error_residual_method_8cpp_1ae5f5d9edb66645eab31a7c8389493ce7" kindref="member">rho_0</ref>,<ref refid="_error_residual_method_8cpp_1a751e53c9d8dfaf696b11b86e0c1b42e9" kindref="member">rho_1</ref>;</highlight></codeline>
+<codeline lineno="18" refid="c_mesh_adapt_p_u_m_i_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="c_mesh_adapt_p_u_m_i_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="struct_inputs" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_inputs" kindref="compound">Inputs</ref>{</highlight></codeline>
 <codeline lineno="21" refid="struct_inputs_1a4a81972c8e25309ea51622e8edd7d810" refkind="member"><highlight class="normal"><sp/><sp/>apf::Vector3<sp/><ref refid="struct_inputs_1a4a81972c8e25309ea51622e8edd7d810" kindref="member">vel_vect</ref>;<sp/><sp/></highlight></codeline>
@@ -366,14 +375,14 @@
 <codeline lineno="39"><highlight class="normal">apf::Vector3<sp/><ref refid="_v_m_s_8cpp_1a187bd810025d62ee6656ccb4eb11087b" kindref="member">getResidual</ref>(apf::Vector3<sp/>qpt,</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_inputs" kindref="compound">Inputs</ref><sp/>&amp;info);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="_v_m_s_8cpp_1ab452256c5c64bf565b7037f6011a8a3c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_v_m_s_8cpp_1ab452256c5c64bf565b7037f6011a8a3c" kindref="member">getProps</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*rho,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*nu,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaT)</highlight></codeline>
+<codeline lineno="42" refid="_v_m_s_8cpp_1ab452256c5c64bf565b7037f6011a8a3c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_error_residual_method_8cpp_1a130b13be7930b394d5c3a31f25fdd6ff" kindref="member">getProps</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*rho,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*nu,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaT)</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//Function<sp/>used<sp/>to<sp/>transfer<sp/>MeshAdaptPUMIDrvr<sp/>variables<sp/>into<sp/>global<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1ae5f5d9edb66645eab31a7c8389493ce7" kindref="member">rho_0</ref><sp/>=<sp/>rho[0];</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1a383b07af68441ce2b4adaaf8d8cc9d90" kindref="member">nu_0</ref><sp/>=<sp/>nu[0];<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1a751e53c9d8dfaf696b11b86e0c1b42e9" kindref="member">rho_1</ref><sp/>=<sp/>rho[1];</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1ae5896ebfee35f22242123e4ae82c81d9" kindref="member">nu_1</ref><sp/>=<sp/>nu[1];</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref><sp/>=<sp/>deltaT;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="_error_residual_method_8cpp_1ae5f5d9edb66645eab31a7c8389493ce7" kindref="member">rho_0</ref><sp/>=<sp/>rho[0];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><ref refid="_error_residual_method_8cpp_1a383b07af68441ce2b4adaaf8d8cc9d90" kindref="member">nu_0</ref><sp/>=<sp/>nu[0];<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><ref refid="_error_residual_method_8cpp_1a751e53c9d8dfaf696b11b86e0c1b42e9" kindref="member">rho_1</ref><sp/>=<sp/>rho[1];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="_error_residual_method_8cpp_1ae5896ebfee35f22242123e4ae82c81d9" kindref="member">nu_1</ref><sp/>=<sp/>nu[1];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="c_mesh_adapt_p_u_m_i_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref><sp/>=<sp/>deltaT;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
@@ -396,11 +405,11 @@
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70" refid="class_mesh_adapt_p_u_m_i_drvr_1a9aadede4097af6ffdc77d3eea775d5ff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1a9aadede4097af6ffdc77d3eea775d5ff" kindref="member">MeshAdaptPUMIDrvr::get_VMS_error</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>&amp;total_error_out)<sp/></highlight></codeline>
 <codeline lineno="71"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self()==0)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self(PCUObj)==0)</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;The<sp/>beginning<sp/>of<sp/>the<sp/>VMS\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1ab452256c5c64bf565b7037f6011a8a3c" kindref="member">getProps</ref>(rho,nu,delta_T);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1a190ff8a4b88c3f62a7da15f5a2b8c227" kindref="member">approx_order</ref><sp/>=<sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1acc45546f4adbd6a6c18c82c432e5dd0e" kindref="member">approximation_order</ref>;<sp/></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><ref refid="_v_m_s_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" kindref="member">int_order</ref><sp/>=<sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1a1e4333322f04b1b4e0d9b787611d6cce" kindref="member">integration_order</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><ref refid="_error_residual_method_8cpp_1a130b13be7930b394d5c3a31f25fdd6ff" kindref="member">getProps</ref>(rho,nu,delta_T);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><ref refid="_error_residual_method_8cpp_1a190ff8a4b88c3f62a7da15f5a2b8c227" kindref="member">approx_order</ref><sp/>=<sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1acc45546f4adbd6a6c18c82c432e5dd0e" kindref="member">approximation_order</ref>;<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><ref refid="_error_residual_method_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" kindref="member">int_order</ref><sp/>=<sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1a1e4333322f04b1b4e0d9b787611d6cce" kindref="member">integration_order</ref>;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1ab670020f8485275221bf5fa0b8872cad" kindref="member">nsd</ref><sp/>=<sp/>m-&gt;getDimension();</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//*****<sp/>Get<sp/>Solution<sp/>Fields<sp/>First<sp/>*****//</highlight><highlight class="normal"></highlight></codeline>
@@ -415,18 +424,18 @@
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>velf_old<sp/>=<sp/>m-&gt;findField(</highlight><highlight class="stringliteral">&quot;velocity_old&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>velf_old<sp/>=<sp/>velf;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self()==0)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self(PCUObj)==0)</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;WARNING:<sp/>old<sp/>velocity<sp/>field<sp/>not<sp/>found.<sp/>Will<sp/>proceed<sp/>as<sp/>if<sp/>unsteady<sp/>term<sp/>is<sp/>0.<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_v_m_s_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="c_mesh_adapt_p_u_m_i_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref><sp/>=<sp/>1.0;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/>assert(velf_old);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//*****<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*****//</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self()==0)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self(PCUObj)==0)</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Got<sp/>the<sp/>solution<sp/>fields\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//*****<sp/>Compute<sp/>the<sp/>viscosity<sp/>field<sp/>*****//</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="101"><highlight class="comment"><sp/><sp/>apf::Field*<sp/>visc<sp/>=<sp/>getViscosityField(voff);</highlight></codeline>
-<codeline lineno="102"><highlight class="comment"><sp/><sp/>if(PCU_Comm_Self()==0)</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/>if(PCU_Comm_Self(PCUObj)==0)</highlight></codeline>
 <codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/><sp/>std::cout&lt;&lt;&quot;Got<sp/>viscosity<sp/>fields<sp/>\n&quot;;</highlight></codeline>
 <codeline lineno="104"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/>freeField(vmsErrH1);</highlight></codeline>
@@ -435,7 +444,7 @@
 <codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//vmsErrH1<sp/>=<sp/>apf::createField(m,&quot;VMSH1&quot;,apf::SCALAR,apf::getVoronoiShape(nsd,1));</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/>vmsErrH1<sp/>=<sp/>apf::createField(m,</highlight><highlight class="stringliteral">&quot;VMSH1&quot;</highlight><highlight class="normal">,apf::SCALAR,apf::getVoronoiShape(<ref refid="class_mesh_adapt_p_u_m_i_drvr_1ab670020f8485275221bf5fa0b8872cad" kindref="member">nsd</ref>,1));</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self()==0)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self(PCUObj)==0)</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Created<sp/>the<sp/>error<sp/>fields\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Start<sp/>computing<sp/>element<sp/>quantities</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numqpt;<sp/></highlight><highlight class="comment">//number<sp/>of<sp/>quadrature<sp/>points</highlight><highlight class="normal"></highlight></codeline>
@@ -476,7 +485,7 @@
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>strongResidualTauL2;</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tau_m;</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>areaCheck=0.0;</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>numqpt=apf::countIntPoints(element,<ref refid="_v_m_s_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" kindref="member">int_order</ref>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>numqpt=apf::countIntPoints(element,<ref refid="_error_residual_method_8cpp_1a79e0fac6a31e27e81ccdf887a707eaaa" kindref="member">int_order</ref>);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/>//Start<sp/>the<sp/>quadrature<sp/>loop</highlight></codeline>
@@ -583,9 +592,9 @@
 <codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>count++;</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//end<sp/>loop<sp/>over<sp/>elements</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/></highlight></codeline>
-<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//PCU_Add_Doubles(&amp;VMSerrTotalL2,1);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>PCU_Add_Doubles(&amp;VMSerrTotalH1,1);</highlight></codeline>
-<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self()==0)</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//PCU_Add_Doubles(PCUObj,<sp/>&amp;VMSerrTotalL2,1);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>PCU_Add_Doubles(PCUObj,<sp/>&amp;VMSerrTotalH1,1);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PCU_Comm_Self(PCUObj)==0)</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cout&lt;&lt;std::scientific&lt;&lt;std::setprecision(15)&lt;&lt;</highlight><highlight class="stringliteral">&quot;Total<sp/>Error<sp/>H1<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;sqrt(VMSerrTotalH1)&lt;&lt;std::endl;</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1afa325a32876160388cba8f8fe81e0ce0" kindref="member">total_error</ref><sp/>=<sp/>sqrt(VMSerrTotalH1);</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>total_error_out<sp/>=<sp/>sqrt(VMSerrTotalH1);</highlight></codeline>
@@ -632,7 +641,7 @@
 <codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>apf::Vector3<sp/>tempResidual<sp/>=<sp/>(tempConv<sp/>+<sp/>grad_pres/info.<ref refid="struct_inputs_1afe2a643c71b9258462f0b206b247fa14" kindref="member">density</ref>);</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//acceleration<sp/>term</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>tempResidual<sp/>=<sp/>tempResidual<sp/>+<sp/>(vel_vect-vel_vect_old)/<ref refid="_v_m_s_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref>;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>tempResidual<sp/>=<sp/>tempResidual<sp/>+<sp/>(vel_vect-vel_vect_old)/<ref refid="c_mesh_adapt_p_u_m_i_8cpp_1a3b9eac77f31697a0a072c8225eca4c97" kindref="member">dt_err</ref>;</highlight></codeline>
 <codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//std::cout&lt;&lt;&quot;What<sp/>is<sp/>the<sp/>acceleration<sp/>contribution?<sp/>&quot;&lt;&lt;(vel_vect-vel_vect_old)/dt_err&lt;&lt;std::endl;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight></codeline>
 <codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>info.<ref refid="struct_inputs_1a4a81972c8e25309ea51622e8edd7d810" kindref="member">vel_vect</ref><sp/>=<sp/>vel_vect;</highlight></codeline>
@@ -643,6 +652,6 @@
 <codeline lineno="316"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tempResidual;</highlight></codeline>
 <codeline lineno="317"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp"/>
+    <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/VMS.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classcpp_pres_init__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>cppPresInit_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1cpp_pres_init" prot="public" virt="non-virtual">proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_pres_init_8h" local="no">/work/cekees/proteus/proteus/mprans/PresInit.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcpp_pres_init__base_1a460445f36aa1c8419e15088554a9fcb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::cppPresInit_base::~cppPresInit_base</definition>
+        <argsstring>()</argsstring>
+        <name>~cppPresInit_base</name>
+        <qualifiedname>cppPresInit_base::~cppPresInit_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="17" column="13" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classcpp_pres_init__base_1af4a994aba1964a2189156e43c00edc55" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::cppPresInit_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>cppPresInit_base::calculateResidual</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="18" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classcpp_pres_init__base_1a12b6ea4a62a55679a9680b73a5585ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::cppPresInit_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>cppPresInit_base::calculateJacobian</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="19" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>cppPresInit_base</label>
+        <link refid="classcpp_pres_init__base"/>
+      </node>
+      <node id="2">
+        <label>proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1cpp_pres_init"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="14" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classcpp_pres_init__base_1a12b6ea4a62a55679a9680b73a5585ee1" prot="public" virt="pure-virtual"><scope>cppPresInit_base</scope><name>calculateJacobian</name></member>
+      <member refid="classcpp_pres_init__base_1af4a994aba1964a2189156e43c00edc55" prot="public" virt="pure-virtual"><scope>cppPresInit_base</scope><name>calculateResidual</name></member>
+      <member refid="classcpp_pres_init__base_1a460445f36aa1c8419e15088554a9fcb2" prot="public" virt="virtual"><scope>cppPresInit_base</scope><name>~cppPresInit_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

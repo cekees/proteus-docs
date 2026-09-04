@@ -1,4 +1,5 @@
 <map id="proteus::ElastoPlastic_base" name="proteus::ElastoPlastic_base">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,191,69"/>
-<area shape="rect" id="node2" href="$classproteus_1_1_elasto_plastic.html" title=" " alt="" coords="239,5,549,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,205,76"/>
+<area shape="rect" id="Node000002" href="$classproteus_1_1_elasto_plastic.html" title=" " alt="" coords="253,5,602,118"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,59,255,61,250,62,221,64"/>
 </map>

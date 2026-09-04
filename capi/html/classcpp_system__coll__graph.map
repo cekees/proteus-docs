@@ -1,7 +1,11 @@
 <map id="cppSystem" name="cppSystem">
-<area shape="rect" id="node1" title=" " alt="" coords="220,200,308,227"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,103,200,130"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="224,103,304,130"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="201,5,327,47"/>
-<area shape="rect" id="node5" title=" " alt="" coords="329,96,511,137"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="289,217,382,245"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,99,205,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,149,246,191,304,216,299,216,244,195,159,154"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="228,108,443,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="338,149,338,218,333,215,334,153"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="467,108,554,136"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="479,143,398,195,359,219,357,214,396,191,474,145"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="441,5,580,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="512,64,513,109,508,106,509,68"/>
 </map>

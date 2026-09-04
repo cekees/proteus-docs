@@ -3,5 +3,5 @@ proteus.mprans.MoveMeshMonitor module
 
 .. automodule:: proteus.mprans.MoveMeshMonitor
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

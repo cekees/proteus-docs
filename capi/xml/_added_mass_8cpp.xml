@@ -1,55 +1,26 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_added_mass_8cpp" kind="file" language="C++">
     <compoundname>AddedMass.cpp</compoundname>
     <includes refid="_added_mass_8h" local="yes">AddedMass.h</includes>
     <incdepgraph>
-      <node id="1">
-        <label>AddedMass.cpp</label>
-        <link refid="_added_mass_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>cmath</label>
-      </node>
-      <node id="12">
-        <label>xtensor/xio.hpp</label>
-      </node>
-      <node id="9">
-        <label>stdexcept</label>
-      </node>
-      <node id="10">
-        <label>string</label>
-      </node>
       <node id="5">
         <label>CompKernel.h</label>
         <link refid="_comp_kernel_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>map</label>
-      </node>
-      <node id="11">
-        <label>xtensor-python/pyarray.hpp</label>
-      </node>
-      <node id="7">
-        <label>ArgumentsDict.h</label>
-        <link refid="_arguments_dict_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+      <node id="6">
+        <label>ModelFactory.h</label>
+        <link refid="_model_factory_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>iostream</label>
+      <node id="1">
+        <label>AddedMass.cpp</label>
+        <link refid="_added_mass_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>AddedMass.h</label>
@@ -67,15 +38,44 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>ModelFactory.h</label>
-        <link refid="_model_factory_8h"/>
-        <childnode refid="4" relation="include">
+      <node id="7">
+        <label>ArgumentsDict.h</label>
+        <link refid="_arguments_dict_8h"/>
+        <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cmath</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="9">
+        <label>stdexcept</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
+      <node id="12">
+        <label>xtensor/io/xio.hpp</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespacext">xt</innernamespace>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_added_mass_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
         <name>FORCE_IMPORT_ARRAY</name>
         <briefdescription>
@@ -84,10 +84,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/AddedMass.cpp" line="1" column="9" bodyfile="/Users/cekees/proteus/proteus/mprans/AddedMass.cpp" bodystart="1" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/AddedMass.cpp" line="1" column="9" bodyfile="/work/cekees/proteus/proteus/mprans/AddedMass.cpp" bodystart="1" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_added_mass_8cpp_1accb359481091355cbb595ac383ac015c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>PYBIND11_MODULE</definition>
@@ -105,9 +105,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/AddedMass.cpp" line="20" column="1" bodyfile="/Users/cekees/proteus/proteus/mprans/AddedMass.cpp" bodystart="20" bodyend="32"/>
+        <location file="/work/cekees/proteus/proteus/mprans/AddedMass.cpp" line="20" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/AddedMass.cpp" bodystart="20" bodyend="32"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -132,10 +132,10 @@
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="_added_mass_8cpp_1accb359481091355cbb595ac383ac015c" refkind="member"><highlight class="normal"><ref refid="_added_mass_8cpp_1accb359481091355cbb595ac383ac015c" kindref="member">PYBIND11_MODULE</ref>(cAddedMass,<sp/>m)</highlight></codeline>
+<codeline lineno="20" refid="_added_mass_8cpp_1accb359481091355cbb595ac383ac015c" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cAddedMass,<sp/>m)</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classproteus_1_1cpp_added_mass__base" kindref="compound">proteus::cppAddedMass_base</ref>;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceproteus_1a1e946eaf50f2f25f664f85a47db114a4" kindref="member">proteus::newAddedMass</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1cpp_added_mass__base" kindref="compound">proteus::cppAddedMass_base</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceproteus_1a9f82d549e24fe1f86a5833c8883b053b" kindref="member">proteus::newAddedMass</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>xt::import_numpy();</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
@@ -143,9 +143,9 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal">,<sp/>&amp;cppAddedMass_base::calculateResidual)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal">,<sp/>&amp;cppAddedMass_base::calculateJacobian);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>m.def(</highlight><highlight class="stringliteral">&quot;newAddedMass&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespaceproteus_1a1e946eaf50f2f25f664f85a47db114a4" kindref="member">newAddedMass</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>m.def(</highlight><highlight class="stringliteral">&quot;newAddedMass&quot;</highlight><highlight class="normal">,<sp/>newAddedMass);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/AddedMass.cpp"/>
+    <location file="/work/cekees/proteus/proteus/mprans/AddedMass.cpp"/>
   </compounddef>
 </doxygen>

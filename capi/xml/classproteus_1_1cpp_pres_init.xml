@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1cpp_pres_init" kind="class" language="C++" prot="public">
     <compoundname>proteus::cppPresInit</compoundname>
     <basecompoundref refid="classproteus_1_1cpp_pres_init__base" prot="public" virt="non-virtual">proteus::cppPresInit_base</basecompoundref>
-    <includes refid="_pres_init_8h" local="no">/Users/cekees/proteus/proteus/mprans/PresInit.h</includes>
+    <includes refid="_pres_init_8h" local="no">/work/cekees/proteus/proteus/mprans/PresInit.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,40 +39,43 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1cpp_pres_init_1a84879b12b7a14ec7667bbf88405ee149" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::cppPresInit::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="32" column="20" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="32" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="32" column="20" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="32" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1a3230a7b83dc60eb1d63f06c8c30df881" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cppPresInit</definition>
         <argsstring>()</argsstring>
         <name>cppPresInit</name>
+        <qualifiedname>proteus::cppPresInit::cppPresInit</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="33" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="33" bodyend="34"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="33" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="33" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1a076340f5d73493e714cad199e6b5a9f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedHeaviside</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedHeaviside</name>
+        <qualifiedname>proteus::cppPresInit::smoothedHeaviside</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -87,13 +90,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="35" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="35" bodyend="47"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="35" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="35" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1aa46776c5c851765cf0595773b0dada54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedHeaviside_integral</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedHeaviside_integral</name>
+        <qualifiedname>proteus::cppPresInit::smoothedHeaviside_integral</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -108,13 +112,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="49" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="49" bodyend="65"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="49" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="49" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1afebcd3e341dd107b9bd0007bb916c505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedDirac</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedDirac</name>
+        <qualifiedname>proteus::cppPresInit::smoothedDirac</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -129,13 +134,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="67" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="67" bodyend="77"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="67" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="67" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1aee7e7ff407367a3d5ecdc1032d45a4e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(const double &amp;epsHeaviside, const double &amp;epsDirac, const double &amp;phi, const double &amp;H, const double &amp;u, const double &amp;porosity, double &amp;r, double &amp;dr)</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::cppPresInit::evaluateCoefficients</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>epsHeaviside</declname>
@@ -174,13 +180,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="79" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="79" bodyend="90"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="79" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="79" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1a1b9c10969c344e1c922c422f3efdf2da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateElementResidual</definition>
         <argsstring>(double *mesh_trial_ref, double *mesh_grad_trial_ref, double *mesh_dof, int *mesh_l2g, double *dV_ref, double *u_trial_ref, double *u_grad_trial_ref, double *u_test_ref, double *u_grad_test_ref, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *dS_ref, double *u_trial_trace_ref, double *u_grad_trial_trace_ref, double *u_test_trace_ref, double *u_grad_test_trace_ref, double *normal_ref, double *boundaryJac_ref, int nElements_global, double useMetrics, double epsFactHeaviside, double epsFactDirac, double epsFactDiffusion, int *u_l2g, double *elementDiameter, double *nodeDiametersArray, double *u_dof, double *q_phi, double *q_normal_phi, double *ebqe_phi, double *ebqe_normal_phi, double *q_H, double *q_u, double *q_n, double *ebqe_u, double *ebqe_n, double *q_r, double *q_vos, int offset_u, int stride_u, double *elementResidual_u, int nExteriorElementBoundaries_global, int *exteriorElementBoundariesArray, int *elementBoundaryElementsArray, int *elementBoundaryLocalElementBoundariesArray, double *element_u, int eN)</argsstring>
         <name>calculateElementResidual</name>
+        <qualifiedname>proteus::cppPresInit::calculateElementResidual</qualifiedname>
         <param>
           <type>double *</type>
           <declname>mesh_trial_ref</declname>
@@ -375,13 +382,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="92" column="17" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="92" bodyend="257"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="92" column="17" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="92" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1a2951e41cc7073faddcb859269953b333" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::cppPresInit::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1cpp_pres_init__base_1af4a994aba1964a2189156e43c00edc55">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -393,13 +401,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="258" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="258" bodyend="458"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="258" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="258" bodyend="458"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1a867b06f9f155554ba605c5125bda5b78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateElementJacobian</definition>
         <argsstring>(double *mesh_trial_ref, double *mesh_grad_trial_ref, double *mesh_dof, int *mesh_l2g, double *dV_ref, double *u_trial_ref, double *u_grad_trial_ref, double *u_test_ref, double *u_grad_test_ref, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *dS_ref, double *u_trial_trace_ref, double *u_grad_trial_trace_ref, double *u_test_trace_ref, double *u_grad_test_trace_ref, double *normal_ref, double *boundaryJac_ref, int nElements_global, double useMetrics, double epsFactHeaviside, double epsFactDirac, double epsFactDiffusion, int *u_l2g, double *elementDiameter, double *nodeDiametersArray, double *u_dof, double *q_phi, double *q_normal_phi, double *q_H, double *q_vos, double *elementJacobian_u_u, double *element_u, int eN)</argsstring>
         <name>calculateElementJacobian</name>
+        <qualifiedname>proteus::cppPresInit::calculateElementJacobian</qualifiedname>
         <param>
           <type>double *</type>
           <declname>mesh_trial_ref</declname>
@@ -542,13 +551,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="460" column="17" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="460" bodyend="604"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="460" column="17" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="460" bodyend="604"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1cpp_pres_init_1a7d0bbce9f57faa4f9a301f09485b3b50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::cppPresInit::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1cpp_pres_init__base_1a12b6ea4a62a55679a9680b73a5585ee1">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -560,38 +570,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="605" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="605" bodyend="700"/>
+        <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="605" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="605" bodyend="700"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>proteus::cppPresInit_base</label>
-        <link refid="classproteus_1_1cpp_pres_init__base"/>
-      </node>
       <node id="1">
         <label>proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1cpp_pres_init"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="2">
+        <label>proteus::cppPresInit_base</label>
+        <link refid="classproteus_1_1cpp_pres_init__base"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>proteus::cppPresInit_base</label>
-        <link refid="classproteus_1_1cpp_pres_init__base"/>
-      </node>
       <node id="1">
         <label>proteus::cppPresInit&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1cpp_pres_init"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>proteus::cppPresInit_base</label>
+        <link refid="classproteus_1_1cpp_pres_init__base"/>
+      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/PresInit.h" line="29" column="3" bodyfile="/Users/cekees/proteus/proteus/mprans/PresInit.h" bodystart="30" bodyend="701"/>
+    <location file="/work/cekees/proteus/proteus/mprans/PresInit.h" line="29" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/PresInit.h" bodystart="30" bodyend="701"/>
     <listofallmembers>
       <member refid="classproteus_1_1cpp_pres_init_1a867b06f9f155554ba605c5125bda5b78" prot="public" virt="non-virtual"><scope>proteus::cppPresInit</scope><name>calculateElementJacobian</name></member>
       <member refid="classproteus_1_1cpp_pres_init_1a1b9c10969c344e1c922c422f3efdf2da" prot="public" virt="non-virtual"><scope>proteus::cppPresInit</scope><name>calculateElementResidual</name></member>

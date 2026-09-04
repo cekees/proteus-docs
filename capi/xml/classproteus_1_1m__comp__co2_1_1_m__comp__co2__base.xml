@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>proteus::m_comp_co2::M_comp_co2_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2" prot="public" virt="non-virtual">proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="m__comp__co2_8h" local="no">/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a6eeec2dee1d20ce4aaa6a2f7186c3775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::m_comp_co2::M_comp_co2_base::~M_comp_co2_base</definition>
+        <argsstring>()</argsstring>
+        <name>~M_comp_co2_base</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::~M_comp_co2_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="64" column="11" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1ae83d604d460bf321ef68b7ed1410f210" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::calculateResidual</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a8bcab1cbd126d382d5fb3f2aeca29633">calculateResidual</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="65" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a69e68e0df901e2c793e729c89964fb60" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::calculateJacobian</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a1f412d38fd7afd70ddae385759321527">calculateJacobian</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="66" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1afbf5ff427c250fe969b03f9858d63862" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::invert</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>invert</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::invert</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a678f56cc8811284c5bd6cdeadbf1d074">invert</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="67" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a676068d71d05f284b95a12095a5c9964" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::FCTStep</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>FCTStep</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::FCTStep</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a877ed5c0b296e356cf63c9fc90a21e66">FCTStep</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="68" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1ad7e98fac1fe9207a7d33a1da95db60da" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::kth_FCT_step</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>kth_FCT_step</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::kth_FCT_step</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1accd324e0dcf8ec03007689f431f485d7">kth_FCT_step</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="69" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a4c45900cbc56bcb946ba432a656d6519" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::calculateResidual_entropy_viscosity</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual_entropy_viscosity</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::calculateResidual_entropy_viscosity</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a0f033cdb5b56ce4abfc006cb70e4d5bf">calculateResidual_entropy_viscosity</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="70" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a5404841b2e43cc7c97c5023d2e6cb9cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::calculateMassMatrix</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateMassMatrix</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::calculateMassMatrix</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a87461b1324c46fc0adb8841ea05bf6d3">calculateMassMatrix</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="71" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a7e1070620252949ae5446f6cbd231914" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::dissolutionFlash</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>dissolutionFlash</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::dissolutionFlash</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a7b577baeabb17aa9dfc23ff4a8ae67ca">dissolutionFlash</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="72" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a906545ac2bdb54ce75653cfdb86d395d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::m_comp_co2::M_comp_co2_base::calculateFlashFields</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateFlashFields</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2_base::calculateFlashFields</qualifiedname>
+        <reimplementedby refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2_1a27e8e3e8e78a64e0c5e41cb075e5a498">calculateFlashFields</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="73" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>proteus::m_comp_co2::M_comp_co2_base</label>
+        <link refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base"/>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="61" column="1" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="61" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a906545ac2bdb54ce75653cfdb86d395d" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>calculateFlashFields</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a69e68e0df901e2c793e729c89964fb60" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>calculateJacobian</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a5404841b2e43cc7c97c5023d2e6cb9cc" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>calculateMassMatrix</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1ae83d604d460bf321ef68b7ed1410f210" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>calculateResidual</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a4c45900cbc56bcb946ba432a656d6519" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>calculateResidual_entropy_viscosity</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a7e1070620252949ae5446f6cbd231914" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>dissolutionFlash</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a676068d71d05f284b95a12095a5c9964" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>FCTStep</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1afbf5ff427c250fe969b03f9858d63862" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>invert</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1ad7e98fac1fe9207a7d33a1da95db60da" prot="public" virt="pure-virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>kth_FCT_step</name></member>
+      <member refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base_1a6eeec2dee1d20ce4aaa6a2f7186c3775" prot="public" virt="virtual"><scope>proteus::m_comp_co2::M_comp_co2_base</scope><name>~M_comp_co2_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

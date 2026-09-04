@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_subsurface_transport_coefficients_8h" kind="file" language="C++">
     <compoundname>SubsurfaceTransportCoefficients.h</compoundname>
-    <includedby refid="psk_relations_8h" local="yes">pskRelations.h</includedby>
     <includedby refid="_subsurface_transport_coefficients_8cpp" local="yes">SubsurfaceTransportCoefficients.cpp</includedby>
+    <includedby refid="psk_relations_8h" local="yes">pskRelations.h</includedby>
     <invincdepgraph>
-      <node id="4">
-        <label>twophaseDarcyCoefficients.h</label>
-        <link refid="twophase_darcy_coefficients_8h"/>
+      <node id="2">
+        <label>SubsurfaceTransportCoefficients.cpp</label>
+        <link refid="_subsurface_transport_coefficients_8cpp"/>
       </node>
       <node id="1">
         <label>SubsurfaceTransportCoefficients.h</label>
@@ -17,20 +17,44 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>SubsurfaceTransportCoefficients.cpp</label>
-        <link refid="_subsurface_transport_coefficients_8cpp"/>
+      <node id="7">
+        <label>cm_comp_co2.cpp</label>
+        <link refid="cm__comp__co2_8cpp"/>
       </node>
-      <node id="2">
+      <node id="6">
+        <label>m_comp_co2.h</label>
+        <link refid="m__comp__co2_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
         <label>pskRelations.h</label>
         <link refid="psk_relations_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Richards.h</label>
+        <link refid="_richards_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>cRichards.cpp</label>
+        <link refid="c_richards_8cpp"/>
+      </node>
+      <node id="8">
+        <label>twophaseDarcyCoefficients.h</label>
+        <link refid="twophase_darcy_coefficients_8h"/>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="_subsurface_transport_coefficients_8h_1ac9f4648fa0cfcaae45b175f6036b4305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int findInterval</definition>
@@ -62,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" line="4" column="5" bodyfile="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.cpp" bodystart="8" bodyend="61" declfile="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" declline="4" declcolumn="5"/>
+        <location file="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" line="4" column="5" bodyfile="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.cpp" bodystart="8" bodyend="61" declfile="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" declline="4" declcolumn="5"/>
       </memberdef>
       <memberdef kind="function" id="_subsurface_transport_coefficients_8h_1aeac8954aa1c9218ff9d209a62b5d99b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -103,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" line="6" column="6" bodyfile="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.cpp" bodystart="62" bodyend="93" declfile="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" declline="6" declcolumn="6"/>
+        <location file="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" line="6" column="6" bodyfile="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.cpp" bodystart="62" bodyend="93" declfile="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" declline="6" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="_subsurface_transport_coefficients_8h_1a557960b650d9f0d3080c373ee816ed6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -256,9 +280,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" line="14" column="5" bodyfile="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.cpp" bodystart="345" bodyend="622" declfile="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" declline="14" declcolumn="5"/>
+        <location file="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" line="14" column="5" bodyfile="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.cpp" bodystart="345" bodyend="622" declfile="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h" declline="14" declcolumn="5"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -267,9 +291,9 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SUBSURFACE_TRANSPORT_COEFFICIENTS_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SUBSURFACE_TRANSPORT_COEFFICIENTS_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_subsurface_transport_coefficients_8h_1ac9f4648fa0cfcaae45b175f6036b4305" kindref="member">findInterval</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>vertices,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>ival,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_subsurface_transport_coefficients_8cpp_1ac9f4648fa0cfcaae45b175f6036b4305" kindref="member">findInterval</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>vertices,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>ival,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol);</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_subsurface_transport_coefficients_8h_1aeac8954aa1c9218ff9d209a62b5d99b5" kindref="member">piecewiseLinearTableLookup</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_subsurface_transport_coefficients_8cpp_1aeac8954aa1c9218ff9d209a62b5d99b5" kindref="member">piecewiseLinearTableLookup</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nv,</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>start,</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>y,</highlight></codeline>
@@ -277,7 +301,7 @@
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>xv,</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>yv);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_subsurface_transport_coefficients_8h_1a557960b650d9f0d3080c373ee816ed6e" kindref="member">calculateRusanovFluxSaturationEquationIncomp_PWC</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>safetyFactor,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_subsurface_transport_coefficients_8cpp_1aa7b0f91296c334dc3f04ea70b70dab88" kindref="member">calculateRusanovFluxSaturationEquationIncomp_PWC</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>safetyFactor,</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpace,</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//physical<sp/>information</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//psk<sp/>type</highlight><highlight class="normal"></highlight></codeline>
@@ -327,6 +351,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h"/>
+    <location file="/work/cekees/proteus/proteus/SubsurfaceTransportCoefficients.h"/>
   </compounddef>
 </doxygen>

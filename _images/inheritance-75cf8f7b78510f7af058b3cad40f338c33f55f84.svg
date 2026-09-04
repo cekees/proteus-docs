@@ -1,0 +1,338 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="921pt" height="653pt" viewBox="0.00 0.00 921.00 653.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 648.75)">
+<ns0:title>inheritancee01062b6ab</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>AdvectionDiffusionReactionHaukeSangalliInterpolantWithTransientSubScales_ASGS</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.AdvectionDiffusionReactionHaukeSangalliInterpolantWithTransientSubScales_ASGS" ns1:title="Should be basic Hauke Sangalli approach but computes terms at interpolation points" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="912.75,-644.75 491,-644.75 491,-624 912.75,-624 912.75,-644.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="701.88" y="-631.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AdvectionDiffusionReactionHaukeSangalliInterpolantWithTransientSubScales_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>AdvectionDiffusionReactionHaukeSangalliInterpolant_ASGS</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.AdvectionDiffusionReactionHaukeSangalliInterpolant_ASGS" ns1:title="Should be basic Hauke Sangalli approach but computes terms at interpolation points" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="455,-644.75 149.5,-644.75 149.5,-624 455,-624 455,-644.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-631.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AdvectionDiffusionReactionHaukeSangalliInterpolant_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>AdvectionDiffusionReactionHaukeSangalliInterpolant_ASGS-&gt;AdvectionDiffusionReactionHaukeSangalliInterpolantWithTransientSubScales_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M455.28,-634.38C464.81,-634.38 474.49,-634.38 484.23,-634.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="484.89,-636.13 489.89,-634.38 484.89,-632.63 484.89,-636.13" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>SGE_base</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.SGE_base" ns1:title="SGE_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="88.75,-332.75 24.75,-332.75 24.75,-312 88.75,-312 88.75,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="56.75" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SGE_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>SGE_base-&gt;AdvectionDiffusionReactionHaukeSangalliInterpolant_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.18,-327.23C98.3,-330.16 107.43,-334.85 113.5,-342.38 190.08,-437.27 63.25,-528.17 149.5,-614.38 151.46,-616.33 153.5,-618.16 155.63,-619.87" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="155.07,-621.63 160.13,-623.2 157.15,-618.82 155.07,-621.63" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>AdvectionDiffusionReaction_ASGS</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.AdvectionDiffusionReaction_ASGS" ns1:title="AdvectionDiffusionReaction_ASGS" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="393.5,-605.75 211,-605.75 211,-585 393.5,-585 393.5,-605.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-592.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AdvectionDiffusionReaction_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>SGE_base-&gt;AdvectionDiffusionReaction_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.08,-327.31C98.2,-330.24 107.35,-334.92 113.5,-342.38 180.18,-423.2 74.59,-502.11 149.5,-575.38 164.22,-589.77 183.93,-597.29 204.26,-600.76" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="204.64,-602.59 209.84,-601.6 205.16,-599.13 204.64,-602.59" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>AdvectionLag_ASGS</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.AdvectionLag_ASGS" ns1:title="AdvectionLag_ASGS" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="359,-566.75 245.5,-566.75 245.5,-546 359,-546 359,-566.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-553.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AdvectionLag_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>SGE_base-&gt;AdvectionLag_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.24,-327.52C98.25,-330.46 107.3,-335.09 113.5,-342.38 170.32,-409.17 85.89,-476.01 149.5,-536.38 172.9,-558.57 208.22,-564.22 238.89,-564.02" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="239.64,-565.75 244.61,-563.91 239.57,-562.25 239.64,-565.75" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>Advection_ASGS</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.Advection_ASGS" ns1:title="Advection_ASGS" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="350.38,-527.75 254.12,-527.75 254.12,-507 350.38,-507 350.38,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Advection_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>SGE_base-&gt;Advection_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.04,-327.69C98.05,-330.64 107.14,-335.23 113.5,-342.38 160.52,-395.2 97.12,-449.85 149.5,-497.38 175.52,-520.98 215.12,-525.54 247.35,-524.43" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="248.02,-526.15 252.94,-524.17 247.86,-522.65 248.02,-526.15" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>DarcyFC_ASGS</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.DarcyFC_ASGS" ns1:title="basic stablization for TwophaseDarcy_fc, no advection term" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="346.62,-488.75 257.88,-488.75 257.88,-468 346.62,-468 346.62,-488.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-475.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DarcyFC_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>SGE_base-&gt;DarcyFC_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.02,-328.07C97.92,-331.04 106.96,-335.54 113.5,-342.38 150.83,-381.37 108.23,-423.58 149.5,-458.38 177.31,-481.82 218.76,-485.91 251.32,-484.64" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="252.04,-486.36 256.95,-484.36 251.87,-482.86 252.04,-486.36" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>FFDarcyFC_ASGS</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.FFDarcyFC_ASGS" ns1:title="basic stablization for TwophaseDarcy_fc_ff, only 'mixture' equation has advection term" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="352.62,-449.75 251.88,-449.75 251.88,-429 352.62,-429 352.62,-449.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-436.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FFDarcyFC_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>SGE_base-&gt;FFDarcyFC_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.04,-328.83C97.74,-331.82 106.66,-336.14 113.5,-342.38 141.42,-367.82 119.02,-397.05 149.5,-419.38 176.72,-439.31 214.27,-444.39 245.2,-444.45" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="245.96,-446.19 250.94,-444.4 245.92,-442.69 245.96,-446.19" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>HamiltonJacobiDiffusionReaction_ASGS</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.HamiltonJacobiDiffusionReaction_ASGS" ns1:title="HamiltonJacobiDiffusionReaction_ASGS" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="406.25,-410.75 198.25,-410.75 198.25,-390 406.25,-390 406.25,-410.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-397.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">HamiltonJacobiDiffusionReaction_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>SGE_base-&gt;HamiltonJacobiDiffusionReaction_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.06,-330.72C97.37,-333.7 106.1,-337.54 113.5,-342.38 132.98,-355.09 128.78,-369.8 149.5,-380.38 162.55,-387.03 177.01,-391.75 191.68,-395.05" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="191.98,-396.91 197.24,-396.23 192.71,-393.48 191.98,-396.91" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>HamiltonJacobi_ASGS</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.HamiltonJacobi_ASGS" ns1:title="HamiltonJacobi_ASGS" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="363.12,-371.75 241.38,-371.75 241.38,-351 363.12,-351 363.12,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">HamiltonJacobi_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>SGE_base-&gt;HamiltonJacobi_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.07,-329.45C106.75,-333.3 129.29,-337.96 149.5,-341.38 177.27,-346.07 208.06,-350.31 234.61,-353.66" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="234.98,-355.47 240.16,-354.36 235.42,-352 234.98,-355.47" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>HamiltonJacobi_ASGS_opt</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.HamiltonJacobi_ASGS_opt" ns1:title="HamiltonJacobi_ASGS_opt" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="373.62,-332.75 230.88,-332.75 230.88,-312 373.62,-312 373.62,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">HamiltonJacobi_ASGS_opt</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>SGE_base-&gt;HamiltonJacobi_ASGS_opt</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.08,-322.38C123.01,-322.38 178.38,-322.38 224.05,-322.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="224.67,-324.13 229.67,-322.38 224.67,-320.63 224.67,-324.13" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>NavierStokesASGS_velocity_pressure</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.NavierStokesASGS_velocity_pressure" ns1:title="NavierStokesASGS_velocity_pressure" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="401.38,-293.75 203.12,-293.75 203.12,-273 401.38,-273 401.38,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesASGS_velocity_pressure</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>SGE_base-&gt;NavierStokesASGS_velocity_pressure</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M89.07,-315.3C106.75,-311.45 129.29,-306.79 149.5,-303.38 167.15,-300.39 186.03,-297.59 204.26,-295.08" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="204.94,-296.76 209.66,-294.35 204.47,-293.29 204.94,-296.76" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>NavierStokesASGS_velocity_pressure_opt</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.NavierStokesASGS_velocity_pressure_opt" ns1:title="NavierStokesASGS_velocity_pressure_opt" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="411.88,-254.75 192.62,-254.75 192.62,-234 411.88,-234 411.88,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesASGS_velocity_pressure_opt</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>SGE_base-&gt;NavierStokesASGS_velocity_pressure_opt</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M70.76,-311.54C87.72,-298.06 118.85,-275.47 149.5,-264.38 161.2,-260.14 173.7,-256.78 186.32,-254.13" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="187.22,-255.73 191.77,-253.03 186.53,-252.3 187.22,-255.73" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>NavierStokesASGS_velocity_pressure_optV2</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.NavierStokesASGS_velocity_pressure_optV2" ns1:title="NavierStokesASGS_velocity_pressure_optV2" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="418.25,-215.75 186.25,-215.75 186.25,-195 418.25,-195 418.25,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesASGS_velocity_pressure_optV2</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge14" class="edge">
+<ns0:title>SGE_base-&gt;NavierStokesASGS_velocity_pressure_optV2</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M64.24,-311.66C77.41,-290.99 109.45,-245.83 149.5,-225.38 159,-220.53 169.24,-216.71 179.77,-213.71" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="180.89,-215.22 185.27,-212.24 179.99,-211.84 180.89,-215.22" />
+</ns0:g>
+
+<ns0:g id="node18" class="node">
+<ns0:title>ShallowWater_CFL</ns0:title>
+<ns0:g id="a_node18"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.ShallowWater_CFL" ns1:title="ShallowWater_CFL" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="355.25,-176.75 249.25,-176.75 249.25,-156 355.25,-156 355.25,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ShallowWater_CFL</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge17" class="edge">
+<ns0:title>SGE_base-&gt;ShallowWater_CFL</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M61.45,-311.61C71.17,-285.16 100.09,-216.95 149.5,-186.38 177.03,-169.34 212.73,-163.99 242.58,-163.06" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="243.14,-164.8 248.1,-162.94 243.07,-161.3 243.14,-164.8" />
+</ns0:g>
+
+<ns0:g id="node20" class="node">
+<ns0:title>StokesASGS_velocity</ns0:title>
+<ns0:g id="a_node20"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.StokesASGS_velocity" ns1:title="StokesASGS_velocity" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="361.62,-137.75 242.88,-137.75 242.88,-117 361.62,-117 361.62,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">StokesASGS_velocity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge18" class="edge">
+<ns0:title>SGE_base-&gt;StokesASGS_velocity</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M59.76,-311.89C66.31,-280.83 90.15,-188.81 149.5,-147.38 174.42,-129.98 207.35,-124.14 236.17,-122.99" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="236.93,-124.72 241.88,-122.83 236.83,-121.22 236.93,-124.72" />
+</ns0:g>
+
+<ns0:g id="node21" class="node">
+<ns0:title>StokesASGS_velocity_pressure</ns0:title>
+<ns0:g id="a_node21"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.StokesASGS_velocity_pressure" ns1:title="StokesASGS_velocity_pressure" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="385.25,-98.75 219.25,-98.75 219.25,-78 385.25,-78 385.25,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">StokesASGS_velocity_pressure</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge19" class="edge">
+<ns0:title>SGE_base-&gt;StokesASGS_velocity_pressure</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M58.73,-311.7C62.6,-276.13 80.23,-160.86 149.5,-108.38 167.5,-94.73 190.29,-87.95 212.68,-84.96" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="213.47,-86.63 218.24,-84.31 213.06,-83.16 213.47,-86.63" />
+</ns0:g>
+
+<ns0:g id="node22" class="node">
+<ns0:title>StokesStabilization_1</ns0:title>
+<ns0:g id="a_node22"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.StokesStabilization_1" ns1:title="StokesStabilization_1" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="362.38,-59.75 242.12,-59.75 242.12,-39 362.38,-39 362.38,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">StokesStabilization_1</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge20" class="edge">
+<ns0:title>SGE_base-&gt;StokesStabilization_1</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M57.97,-311.52C59.4,-271.78 70.11,-133.18 149.5,-69.38 173.38,-50.18 206.53,-44.22 235.76,-43.47" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="236.2,-45.21 241.18,-43.39 236.15,-41.71 236.2,-45.21" />
+</ns0:g>
+
+<ns0:g id="node23" class="node">
+<ns0:title>TwophaseStokes_LS_FC_ASGS</ns0:title>
+<ns0:g id="a_node23"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.TwophaseStokes_LS_FC_ASGS" ns1:title="TwophaseStokes_LS_FC_ASGS" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="383.38,-20.75 221.12,-20.75 221.12,0 383.38,0 383.38,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="302.25" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwophaseStokes_LS_FC_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge21" class="edge">
+<ns0:title>SGE_base-&gt;TwophaseStokes_LS_FC_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M57.38,-311.73C56.54,-268.64 59.58,-105.91 149.5,-30.38 167.52,-15.23 191.24,-8.18 214.56,-5.42" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="215.25,-7.11 220.04,-4.86 214.89,-3.63 215.25,-7.11" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>AdvectionDiffusionReactionTransientSubscales_ASGS</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.AdvectionDiffusionReactionTransientSubscales_ASGS" ns1:title="track subgrid scales in time with Backward Euler" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="839.62,-605.75 564.12,-605.75 564.12,-585 839.62,-585 839.62,-605.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="701.88" y="-592.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AdvectionDiffusionReactionTransientSubscales_ASGS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>AdvectionDiffusionReaction_ASGS-&gt;AdvectionDiffusionReactionTransientSubscales_ASGS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M393.97,-595.38C442.31,-595.38 502.89,-595.38 557.43,-595.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="557.95,-597.13 562.95,-595.38 557.95,-593.63 557.95,-597.13" />
+</ns0:g>
+
+<ns0:g id="node16" class="node">
+<ns0:title>NavierStokesTransientSubScalesASGS_velocity_pressure</ns0:title>
+<ns0:g id="a_node16"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.NavierStokesTransientSubScalesASGS_velocity_pressure" ns1:title="NavierStokesTransientSubScalesASGS_velocity_pressure" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="847.88,-312.75 555.88,-312.75 555.88,-292 847.88,-292 847.88,-312.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="701.88" y="-299.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesTransientSubScalesASGS_velocity_pressure</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge15" class="edge">
+<ns0:title>NavierStokesASGS_velocity_pressure-&gt;NavierStokesTransientSubScalesASGS_velocity_pressure</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M401.79,-288.08C446.24,-290.21 499.73,-292.76 549.12,-295.12" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="549.6,-296.9 554.68,-295.39 549.77,-293.4 549.6,-296.9" />
+</ns0:g>
+
+<ns0:g id="node17" class="node">
+<ns0:title>NavierStokesWithBodyForceASGS_velocity_pressure</ns0:title>
+<ns0:g id="a_node17"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.NavierStokesWithBodyForceASGS_velocity_pressure" ns1:title="NavierStokesWithBodyForceASGS_velocity_pressure" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="837.75,-273.75 566,-273.75 566,-253 837.75,-253 837.75,-273.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="701.88" y="-260.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesWithBodyForceASGS_velocity_pressure</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge16" class="edge">
+<ns0:title>NavierStokesASGS_velocity_pressure-&gt;NavierStokesWithBodyForceASGS_velocity_pressure</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M401.79,-278.42C449.31,-276.03 507.18,-273.12 559.31,-270.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="559.97,-272.21 564.88,-270.22 559.8,-268.72 559.97,-272.21" />
+</ns0:g>
+
+<ns0:g id="node19" class="node">
+<ns0:title>SkewStabilization_1</ns0:title>
+<ns0:g id="a_node19"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.SkewStabilization_1" ns1:title="SkewStabilization_1" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="113.5,-371.75 0,-371.75 0,-351 113.5,-351 113.5,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="56.75" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SkewStabilization_1</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

@@ -1,4 +1,6 @@
 <map id="MultilevelMesh" name="MultilevelMesh">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,115,121"/>
-<area shape="rect" id="node2" href="$struct_mesh.html" title=" " alt="" coords="33,5,87,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,106,127,134"/>
+<area shape="rect" id="Node000002" href="$struct_mesh.html" title=" " alt="" coords="38,5,94,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,47,69,106,63,105,64,50"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="109,8,118,12,121,20,112,29,96,31,93,26,110,24,116,19,114,16,110,14"/>
 </map>

@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="cm__comp__co2_8cpp" kind="file" language="C++">
+    <compoundname>cm_comp_co2.cpp</compoundname>
+    <includes local="yes">pybind11/pybind11.h</includes>
+    <includes local="yes">pybind11/stl_bind.h</includes>
+    <includes refid="m__comp__co2_8h" local="yes">m_comp_co2.h</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>CompKernel.h</label>
+        <link refid="_comp_kernel_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ModelFactory.h</label>
+        <link refid="_model_factory_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>SubsurfaceTransportCoefficients.h</label>
+        <link refid="_subsurface_transport_coefficients_8h"/>
+      </node>
+      <node id="19">
+        <label>densityRelations.h</label>
+        <link refid="density_relations_8h"/>
+      </node>
+      <node id="1">
+        <label>cm_comp_co2.cpp</label>
+        <link refid="cm__comp__co2_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>co2_brine_eos.h</label>
+        <link refid="co2__brine__eos_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>co2_brine_flash.h</label>
+        <link refid="co2__brine__flash_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>jet2.h</label>
+        <link refid="jet2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>m_comp_co2.h</label>
+        <link refid="m__comp__co2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>../mprans/ArgumentsDict.h</label>
+        <link refid="_arguments_dict_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>../pskRelations.h</label>
+        <link refid="psk_relations_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>cassert</label>
+      </node>
+      <node id="5">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="12">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="3">
+        <label>pybind11/stl_bind.h</label>
+      </node>
+      <node id="7">
+        <label>stdexcept</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>valarray</label>
+      </node>
+      <node id="14">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
+      <node id="15">
+        <label>xtensor/io/xio.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_m__comp__co2__base" prot="public">M_comp_co2_base</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="cm__comp__co2_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
+        <name>FORCE_IMPORT_ARRAY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/cm_comp_co2.cpp" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/cm_comp_co2.cpp" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="cm__comp__co2_8cpp_1a0207b0902219d68056ed2539b7769d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PYBIND11_MODULE</definition>
+        <argsstring>(cm_comp_co2, m)</argsstring>
+        <name>PYBIND11_MODULE</name>
+        <param>
+          <type>cm_comp_co2</type>
+        </param>
+        <param>
+          <type>m</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/cm_comp_co2.cpp" line="21" column="1" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/cm_comp_co2.cpp" bodystart="21" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;pybind11/pybind11.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pybind11/stl_bind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="cm__comp__co2_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORCE_IMPORT_ARRAY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="m__comp__co2_8h" kindref="compound">m_comp_co2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__GNUC__)<sp/>&amp;&amp;<sp/>!defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">workaround</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>define_allocators()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>std::allocator&lt;int&gt;<sp/><sp/><sp/><sp/>a0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>std::allocator&lt;double&gt;<sp/>a1;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>workaround</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">py<sp/>=<sp/>pybind11;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1m__comp__co2_1_1_m__comp__co2__base" kindref="compound">proteus::m_comp_co2::M_comp_co2_base</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="cm__comp__co2_8cpp_1a0207b0902219d68056ed2539b7769d76" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cm_comp_co2,<sp/>m)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>xt::import_numpy();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>py::class_&lt;M_comp_co2_base&gt;(m,<sp/></highlight><highlight class="stringliteral">&quot;cM_comp_co2_base&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(py::init(&amp;<ref refid="namespaceproteus_1_1m__comp__co2_1a42e755b121ea77b421c41d66fed8ef71" kindref="member">proteus::m_comp_co2::newm_comp_co2</ref>))</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1ae83d604d460bf321ef68b7ed1410f210" kindref="member">M_comp_co2_base::calculateResidual</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1a69e68e0df901e2c793e729c89964fb60" kindref="member">M_comp_co2_base::calculateJacobian</ref>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;invert&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1afbf5ff427c250fe969b03f9858d63862" kindref="member">M_comp_co2_base::invert</ref>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;FCTStep&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1a676068d71d05f284b95a12095a5c9964" kindref="member">M_comp_co2_base::FCTStep</ref>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//.def(&quot;kth_FCT_step&quot;,<sp/>&amp;M_comp_co2_base::kth_FCT_step)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual_entropy_viscosity&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1a4c45900cbc56bcb946ba432a656d6519" kindref="member">M_comp_co2_base::calculateResidual_entropy_viscosity</ref>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMassMatrix&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1a5404841b2e43cc7c97c5023d2e6cb9cc" kindref="member">M_comp_co2_base::calculateMassMatrix</ref>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;dissolutionFlash&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1a7e1070620252949ae5446f6cbd231914" kindref="member">M_comp_co2_base::dissolutionFlash</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateFlashFields&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_m__comp__co2__base_1a906545ac2bdb54ce75653cfdb86d395d" kindref="member">M_comp_co2_base::calculateFlashFields</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/work/cekees/proteus/proteus/m_comp_co2/cm_comp_co2.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,22 +1,23 @@
+
+
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Multi-Body Solid Dynamics &mdash; Proteus 1.8.1 documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
-    <link rel="shortcut icon" href="../_static/tritonBorder.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
+  <title>Multi-Body Solid Dynamics &mdash; Proteus 1.9.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
+    <link rel="shortcut icon" href="../_static/tritonBorder.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=c4cb232b"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -28,15 +29,16 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../index.html">
-            <img src="../_static/corps_logo_cross2.svg" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/corps_logo_cross2.svg" class="logo" alt="Logo"/>
           </a>
-              <div class="version">
-                1.8.1
-              </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -144,7 +146,6 @@
 </ul>
 
         </div>
-        
       </div>
     </nav>
 
@@ -157,8 +158,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Multi-Body Solid Dynamics</li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Multi-Body Solid Dynamics</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com/erdc/proteus/blob/masterdocs/source/models/body_dynamics.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
@@ -169,11 +170,11 @@
            <div itemprop="articleBody">
              
   <section id="multi-body-solid-dynamics">
-<span id="body-dynamics"></span><h1>Multi-Body Solid Dynamics<a class="headerlink" href="#multi-body-solid-dynamics" title="Permalink to this headline"></a></h1>
+<span id="body-dynamics"></span><h1>Multi-Body Solid Dynamics<a class="headerlink" href="#multi-body-solid-dynamics" title="Link to this heading"></a></h1>
 <section id="implementation">
-<h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline"></a></h2>
+<h2>Implementation<a class="headerlink" href="#implementation" title="Link to this heading"></a></h2>
 <p>The module described in this page can be imported as follows:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">proteus.mbd</span> <span class="kn">import</span> <span class="n">CouplingFSI</span> <span class="k">as</span> <span class="n">fsi</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">proteus.mbd</span><span class="w"> </span><span class="kn">import</span> <span class="n">CouplingFSI</span> <span class="k">as</span> <span class="n">fsi</span>
 </pre></div>
 </div>
 <p>Proteus uses wrappers and modified/derived classes from the Chrono engine, an open-source multibody dynamics library available at <a class="reference external" href="https://github.com/projectchrono/chrono">https://github.com/projectchrono/chrono</a>.</p>
@@ -182,15 +183,15 @@ such as Navier-Stokes to retrieve forces and moments, moving (ALE) mesh for
 moving the domain with the structure, and added-mass model.</p>
 </section>
 <section id="classes">
-<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline"></a></h2>
+<h2>Classes<a class="headerlink" href="#classes" title="Link to this heading"></a></h2>
 <section id="protchsystem">
-<h3>ProtChSystem<a class="headerlink" href="#protchsystem" title="Permalink to this headline"></a></h3>
+<h3>ProtChSystem<a class="headerlink" href="#protchsystem" title="Link to this heading"></a></h3>
 <p>The <cite>ProtChSystem</cite> class has a pointer to a Chrono <cite>ChSystem</cite>, and holds the
 general options for the Chrono simulation, such as time step size, gravity,
 etc. All the physical bodies described must be associated to a <cite>ProtChSystem</cite>
 instance.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pychono</span>
-<span class="kn">from</span> <span class="nn">proteus.mbd</span> <span class="kn">import</span> <span class="n">CouplingFSI</span> <span class="k">as</span> <span class="n">fsi</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pychono</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">proteus.mbd</span><span class="w"> </span><span class="kn">import</span> <span class="n">CouplingFSI</span> <span class="k">as</span> <span class="n">fsi</span>
 
 <span class="n">my_system</span> <span class="o">=</span> <span class="n">fsi</span><span class="o">.</span><span class="n">ProtChSystem</span><span class="p">()</span>
 <span class="n">g</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="o">-</span><span class="mf">9.81</span><span class="p">])</span>
@@ -208,7 +209,7 @@ of the different bodies.</p>
 </div>
 </section>
 <section id="protchbody">
-<h3>ProtChBody<a class="headerlink" href="#protchbody" title="Permalink to this headline"></a></h3>
+<h3>ProtChBody<a class="headerlink" href="#protchbody" title="Link to this heading"></a></h3>
 <p>Class for creating a rigid body. It has a Chrono <cite>ChBody</cite> body variable
 (<cite>ProtChBody.ChBody</cite>) accessible within python with some of the
 functionalities/functions of Chrono <cite>ChBody</cite>. It must be associated to a
@@ -235,7 +236,7 @@ matrix (see <cite>ChBodyAddedMass</cite> in proteus.mbd.ChRigidBody.h).</p>
 </div>
 </section>
 <section id="protchmesh">
-<h3>ProtChMesh<a class="headerlink" href="#protchmesh" title="Permalink to this headline"></a></h3>
+<h3>ProtChMesh<a class="headerlink" href="#protchmesh" title="Link to this heading"></a></h3>
 <p>This class creates a <cite>ChMesh</cite> that is needed to create moorings.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">my_mesh</span> <span class="o">=</span> <span class="n">fsi</span><span class="o">.</span><span class="n">ProtChMesh</span><span class="p">(</span><span class="n">system</span><span class="o">=</span><span class="n">my_system</span><span class="p">)</span>
 <span class="n">my_chmesh</span> <span class="o">=</span> <span class="n">my_mesh</span><span class="o">.</span><span class="n">getChronoObject</span><span class="p">()</span>
@@ -243,7 +244,7 @@ matrix (see <cite>ChBodyAddedMass</cite> in proteus.mbd.ChRigidBody.h).</p>
 </div>
 </section>
 <section id="protchmoorings">
-<h3>ProtChMoorings<a class="headerlink" href="#protchmoorings" title="Permalink to this headline"></a></h3>
+<h3>ProtChMoorings<a class="headerlink" href="#protchmoorings" title="Link to this heading"></a></h3>
 <p>This class is for easily creating cables. The following properties must be
 known in order to instantiate a <cite>ProtChMoorings</cite>: <cite>ProtChSystem</cite> instance,
 <cite>Mesh</cite> instance, <cite>length</cite> for the length of the cable/segment, <cite>nb_elems</cite> for
@@ -257,7 +258,7 @@ modulus of the cable/segment.</p>
                                 <span class="n">d</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.01</span><span class="p">]),</span>
                                 <span class="n">rho</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">300.2</span><span class="p">]),</span>
                                 <span class="n">E</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">1e9</span><span class="p">]))</span>
-<span class="c1"># set function to place the nodes along cable (&#39;s&#39; is the position along the 1D cable)</span>
+<span class="c1"># set function to place the nodes along cable ('s' is the position along the 1D cable)</span>
 <span class="n">fpos</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">s</span><span class="p">,</span> <span class="mf">1.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">])</span>  <span class="c1"># position along cable</span>
 <span class="n">ftan</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">])</span>  <span class="c1"># tangent of cable along cable</span>
 <span class="n">my_mooring</span><span class="o">.</span><span class="n">setNodesPositionFunction</span><span class="p">(</span><span class="n">fpos</span><span class="p">,</span> <span class="n">ftan</span><span class="p">)</span>
@@ -282,7 +283,7 @@ sections of the same cable having different material properties).</p>
 </div>
 </section>
 <section id="protchaddedmass">
-<h3>ProtChAddedMass<a class="headerlink" href="#protchaddedmass" title="Permalink to this headline"></a></h3>
+<h3>ProtChAddedMass<a class="headerlink" href="#protchaddedmass" title="Link to this heading"></a></h3>
 <p>A class to deal with the added mass model from proteus.mprans.AddedMass. This
 class should not be instantiated manually and will be automatically
 instantiating as a variable of <cite>ProtChSystem</cite> (accessible as
@@ -297,15 +298,15 @@ rigid bodies.</p>
 </section>
 </section>
 <section id="postprocessing-tools">
-<h2>Postprocessing Tools<a class="headerlink" href="#postprocessing-tools" title="Permalink to this headline"></a></h2>
+<h2>Postprocessing Tools<a class="headerlink" href="#postprocessing-tools" title="Link to this heading"></a></h2>
 <section id="id2">
-<h3>ProtChBody<a class="headerlink" href="#id2" title="Permalink to this headline"></a></h3>
+<h3>ProtChBody<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
 <p>The data related to mooring cables is saved in an csv file, usually
 <code class="docutils literal notranslate"><span class="pre">[my_body.name].csv</span></code>. Additionally, if the added mass model was used, the
 values of the added mass matrix are available in <code class="docutils literal notranslate"><span class="pre">[my_body.name]_Aij_.csv</span></code></p>
 </section>
 <section id="id3">
-<h3>ProtChMoorings<a class="headerlink" href="#id3" title="Permalink to this headline"></a></h3>
+<h3>ProtChMoorings<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <p>The data related to mooring cables is saved in an hdf5 file, usually
 <code class="docutils literal notranslate"><span class="pre">[my_mooring.name].h5</span></code>, which can be read directly with h5py. Another way to
 read and visualise the data is to use the associated <code class="docutils literal notranslate"><span class="pre">[my_mooring.name].xmf</span></code>.

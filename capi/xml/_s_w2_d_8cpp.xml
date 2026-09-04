@@ -1,44 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_s_w2_d_8cpp" kind="file" language="C++">
     <compoundname>SW2D.cpp</compoundname>
     <includes local="yes">pybind11/pybind11.h</includes>
     <includes local="yes">pybind11/stl_bind.h</includes>
     <includes refid="_s_w2_d_8h" local="yes">SW2D.h</includes>
     <incdepgraph>
-      <node id="1">
-        <label>SW2D.cpp</label>
-        <link refid="_s_w2_d_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>cmath</label>
-      </node>
-      <node id="14">
-        <label>xtensor/xio.hpp</label>
-      </node>
-      <node id="11">
-        <label>stdexcept</label>
-      </node>
-      <node id="12">
-        <label>string</label>
-      </node>
       <node id="7">
         <label>CompKernel.h</label>
         <link refid="_comp_kernel_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>map</label>
-      </node>
-      <node id="13">
-        <label>xtensor-python/pyarray.hpp</label>
+      <node id="8">
+        <label>ModelFactory.h</label>
+        <link refid="_model_factory_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="9">
         <label>ArgumentsDict.h</label>
@@ -54,11 +32,15 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>pybind11/pybind11.h</label>
-      </node>
-      <node id="6">
-        <label>iostream</label>
+      <node id="1">
+        <label>SW2D.cpp</label>
+        <link refid="_s_w2_d_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>SW2D.h</label>
@@ -76,17 +58,36 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>pybind11/pybind11.h</label>
+      </node>
       <node id="3">
         <label>pybind11/stl_bind.h</label>
       </node>
-      <node id="8">
-        <label>ModelFactory.h</label>
-        <link refid="_model_factory_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
+      <node id="11">
+        <label>stdexcept</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
+      <node id="14">
+        <label>xtensor/io/xio.hpp</label>
       </node>
     </incdepgraph>
-      <sectiondef kind="define">
+    <innerclass refid="class_s_w2_d__base" prot="public">SW2D_base</innerclass>
+    <sectiondef kind="define">
       <memberdef kind="define" id="_s_w2_d_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
         <name>FORCE_IMPORT_ARRAY</name>
         <briefdescription>
@@ -95,10 +96,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/SW2D.cpp" line="4" column="9" bodyfile="/Users/cekees/proteus/proteus/mprans/SW2D.cpp" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/SW2D.cpp" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/mprans/SW2D.cpp" bodystart="4" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_s_w2_d_8cpp_1aeda45adc40074a5e8094c893584dff81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>PYBIND11_MODULE</definition>
@@ -116,9 +117,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/SW2D.cpp" line="21" column="1" bodyfile="/Users/cekees/proteus/proteus/mprans/SW2D.cpp" bodystart="21" bodyend="31"/>
+        <location file="/work/cekees/proteus/proteus/mprans/SW2D.cpp" line="21" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/SW2D.cpp" bodystart="21" bodyend="31"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -142,20 +143,20 @@
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">py<sp/>=<sp/>pybind11;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classproteus_1_1_s_w2_d__base" kindref="compound">proteus::SW2D_base</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1_s_w2_d__base" kindref="compound">proteus::SW2D_base</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="_s_w2_d_8cpp_1aeda45adc40074a5e8094c893584dff81" refkind="member"><highlight class="normal"><ref refid="_s_w2_d_8cpp_1aeda45adc40074a5e8094c893584dff81" kindref="member">PYBIND11_MODULE</ref>(cSW2D,<sp/>m)</highlight></codeline>
+<codeline lineno="21" refid="_s_w2_d_8cpp_1aeda45adc40074a5e8094c893584dff81" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cSW2D,<sp/>m)</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>xt::import_numpy();</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>py::class_&lt;SW2D_base&gt;(m,<sp/></highlight><highlight class="stringliteral">&quot;cSW2D_base&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(<ref refid="_fourier_8cpp_1a2858154e2009b0e6e616f313177762bc" kindref="member">py::init</ref>(&amp;<ref refid="namespaceproteus_1a678866e867a5ea5e06c3a4ca43fca6b8" kindref="member">proteus::newSW2D</ref>))</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;SW2D_base::calculateResidual)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;SW2D_base::calculateJacobian)</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual_supg&quot;</highlight><highlight class="normal"><sp/><sp/><sp/>,<sp/>&amp;SW2D_base::calculateResidual_supg)</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian_supg&quot;</highlight><highlight class="normal"><sp/><sp/><sp/>,<sp/>&amp;SW2D_base::calculateJacobian_supg);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(py::init(&amp;<ref refid="namespaceproteus_1a7118b1578cea2253427a663ad6ee708c" kindref="member">proteus::newSW2D</ref>))</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_s_w2_d__base_1aee14f6374cf6ad97d9982cda97d9171a" kindref="member">SW2D_base::calculateResidual</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_s_w2_d__base_1a02b204a064c74038b0d5ba28252d49a3" kindref="member">SW2D_base::calculateJacobian</ref>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual_supg&quot;</highlight><highlight class="normal"><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_s_w2_d__base_1a9923788cc446ee8a875be44151df0661" kindref="member">SW2D_base::calculateResidual_supg</ref>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian_supg&quot;</highlight><highlight class="normal"><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_s_w2_d__base_1a8e61524da28af9adf5341732efc15e19" kindref="member">SW2D_base::calculateJacobian_supg</ref>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/SW2D.cpp"/>
+    <location file="/work/cekees/proteus/proteus/mprans/SW2D.cpp"/>
   </compounddef>
 </doxygen>

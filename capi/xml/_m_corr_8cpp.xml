@@ -1,77 +1,38 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_m_corr_8cpp" kind="file" language="C++">
     <compoundname>MCorr.cpp</compoundname>
     <includes local="yes">pybind11/pybind11.h</includes>
     <includes local="yes">pybind11/stl_bind.h</includes>
     <includes refid="_m_corr_8h" local="yes">MCorr.h</includes>
     <incdepgraph>
-      <node id="7">
-        <label>valarray</label>
-      </node>
-      <node id="12">
-        <label>iomanip</label>
-      </node>
-      <node id="14">
-        <label>equivalent_polynomials_coefficients_quad.h</label>
-        <link refid="equivalent__polynomials__coefficients__quad_8h"/>
-      </node>
-      <node id="5">
-        <label>cmath</label>
-      </node>
-      <node id="11">
-        <label>cassert</label>
-      </node>
-      <node id="21">
-        <label>xtensor/xio.hpp</label>
-      </node>
-      <node id="18">
-        <label>stdexcept</label>
-      </node>
-      <node id="19">
-        <label>string</label>
-      </node>
-      <node id="8">
+      <node id="10">
         <label>CompKernel.h</label>
         <link refid="_comp_kernel_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="17">
-        <label>map</label>
-      </node>
-      <node id="20">
-        <label>xtensor-python/pyarray.hpp</label>
-      </node>
-      <node id="15">
-        <label>equivalent_polynomials_utils.h</label>
-        <link refid="equivalent__polynomials__utils_8h"/>
-      </node>
-      <node id="10">
-        <label>equivalent_polynomials.h</label>
-        <link refid="equivalent__polynomials_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
+      <node id="11">
+        <label>ModelFactory.h</label>
+        <link refid="_model_factory_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
+      </node>
+      <node id="12">
+        <label>equivalent_polynomials.h</label>
+        <link refid="equivalent__polynomials_8h"/>
         <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-      </node>
-      <node id="13">
-        <label>equivalent_polynomials_coefficients.h</label>
-        <link refid="equivalent__polynomials__coefficients_8h"/>
-      </node>
-      <node id="16">
-        <label>ArgumentsDict.h</label>
-        <link refid="_arguments_dict_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
@@ -83,11 +44,41 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>pybind11/pybind11.h</label>
+      <node id="19">
+        <label>equivalent_polynomials_coefficients.h</label>
+        <link refid="equivalent__polynomials__coefficients_8h"/>
       </node>
-      <node id="6">
-        <label>iostream</label>
+      <node id="20">
+        <label>equivalent_polynomials_coefficients_quad.h</label>
+        <link refid="equivalent__polynomials__coefficients__quad_8h"/>
+      </node>
+      <node id="21">
+        <label>equivalent_polynomials_utils.h</label>
+        <link refid="equivalent__polynomials__utils_8h"/>
+      </node>
+      <node id="18">
+        <label>ifemBasisCoefficients_wrapper.h</label>
+        <link refid="ifem_basis_coefficients__wrapper_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ArgumentsDict.h</label>
+        <link refid="_arguments_dict_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MCorr.cpp</label>
@@ -97,15 +88,6 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>pybind11/stl_bind.h</label>
-      </node>
-      <node id="9">
-        <label>ModelFactory.h</label>
-        <link refid="_model_factory_8h"/>
-        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -123,13 +105,63 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
+      <node id="13">
+        <label>array</label>
+      </node>
+      <node id="14">
+        <label>cassert</label>
+      </node>
+      <node id="5">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>iomanip</label>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="3">
+        <label>pybind11/stl_bind.h</label>
+      </node>
+      <node id="7">
+        <label>set</label>
+      </node>
+      <node id="17">
+        <label>stdexcept</label>
+      </node>
+      <node id="23">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>valarray</label>
+      </node>
+      <node id="24">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
+      <node id="25">
+        <label>xtensor/io/xio.hpp</label>
+      </node>
     </incdepgraph>
-      <sectiondef kind="define">
+    <innerclass refid="class_m_corr__base" prot="public">MCorr_base</innerclass>
+    <sectiondef kind="define">
       <memberdef kind="define" id="_m_corr_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
         <name>FORCE_IMPORT_ARRAY</name>
         <briefdescription>
@@ -138,10 +170,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.cpp" line="4" column="9" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.cpp" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.cpp" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.cpp" bodystart="4" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_m_corr_8cpp_1a7d136e4d5509e24149b79c4affeb6b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>PYBIND11_MODULE</definition>
@@ -159,9 +191,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.cpp" line="22" column="1" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.cpp" bodystart="22" bodyend="38"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.cpp" line="22" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.cpp" bodystart="22" bodyend="38"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -185,27 +217,27 @@
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">py<sp/>=<sp/>pybind11;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classproteus_1_1_m_corr__base" kindref="compound">proteus::MCorr_base</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>pybind11::return_value_policy;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1_m_corr__base" kindref="compound">proteus::MCorr_base</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">pybind11::return_value_policy;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="_m_corr_8cpp_1a7d136e4d5509e24149b79c4affeb6b87" refkind="member"><highlight class="normal"><ref refid="_m_corr_8cpp_1a7d136e4d5509e24149b79c4affeb6b87" kindref="member">PYBIND11_MODULE</ref>(cMCorr,<sp/>m)</highlight></codeline>
+<codeline lineno="22" refid="_m_corr_8cpp_1a7d136e4d5509e24149b79c4affeb6b87" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cMCorr,<sp/>m)</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>xt::import_numpy();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>py::class_&lt;MCorr_base&gt;(m,<sp/></highlight><highlight class="stringliteral">&quot;cMCorr_base&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(<ref refid="_fourier_8cpp_1a2858154e2009b0e6e616f313177762bc" kindref="member">py::init</ref>(&amp;<ref refid="namespaceproteus_1a776413a1a9d07a0ac1b6c2ab9ea8c263" kindref="member">proteus::newMCorr</ref>))</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::calculateResidual<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::calculateJacobian<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;elementSolve&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::elementSolve<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;elementConstantSolve&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::elementConstantSolve<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;globalConstantRJ&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::globalConstantRJ,<sp/>return_value_policy::take_ownership)</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMass&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::calculateMass,<sp/>return_value_policy::take_ownership)</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;setMassQuadrature&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::setMassQuadrature<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;FCTStep&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::FCTStep<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMassMatrix&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::calculateMassMatrix<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;setMassQuadratureEdgeBasedStabilizationMethods&quot;</highlight><highlight class="normal"><sp/><sp/><sp/>,<sp/>&amp;MCorr_base::setMassQuadratureEdgeBasedStabilizationMethods<sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(py::init(&amp;<ref refid="namespaceproteus_1aead7e21f8b35ededbd156bfd74d6a2f4" kindref="member">proteus::newMCorr</ref>))</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a75a33c08e49c6513080ab87b375172bc" kindref="member">MCorr_base::calculateResidual</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a76aa51d2977c75863ceff94e2d9d7a6b" kindref="member">MCorr_base::calculateJacobian</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;elementSolve&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1af95657e14a4865ff41910447b6089c4c" kindref="member">MCorr_base::elementSolve</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;elementConstantSolve&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a45b214bf06e36a34ad280e034f13da09" kindref="member">MCorr_base::elementConstantSolve</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;globalConstantRJ&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a2260f84cef62301147d41b970609f462" kindref="member">MCorr_base::globalConstantRJ</ref>,<sp/>return_value_policy::take_ownership)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMass&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a5b85f47c721c8ba05b34dff682d54a2a" kindref="member">MCorr_base::calculateMass</ref>,<sp/>return_value_policy::take_ownership)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;setMassQuadrature&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a517ded50a027b99db8399de937299ca6" kindref="member">MCorr_base::setMassQuadrature</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;FCTStep&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a9dca74e35ff11277eb7b2db35c5b6504" kindref="member">MCorr_base::FCTStep</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMassMatrix&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a2fa38ca9e7926158753e94a11e69e351" kindref="member">MCorr_base::calculateMassMatrix</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;setMassQuadratureEdgeBasedStabilizationMethods&quot;</highlight><highlight class="normal"><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_m_corr__base_1a45e659845db0b06a839cf7c8057cf002" kindref="member">MCorr_base::setMassQuadratureEdgeBasedStabilizationMethods</ref><sp/><sp/><sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/MCorr.cpp"/>
+    <location file="/work/cekees/proteus/proteus/mprans/MCorr.cpp"/>
   </compounddef>
 </doxygen>

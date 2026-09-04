@@ -1,56 +1,60 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classchrono_1_1_ch_body_added_mass" kind="class" language="C++" prot="public">
     <compoundname>chrono::ChBodyAddedMass</compoundname>
     <basecompoundref prot="public" virt="non-virtual">ChBody</basecompoundref>
-    <includes refid="_ch_body_added_mass_8h" local="no">/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h</includes>
-      <sectiondef kind="protected-attrib">
+    <includes refid="_ch_body_added_mass_8h" local="no">/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h</includes>
+    <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="classchrono_1_1_ch_body_added_mass_1af7486941756f0f71d7e6934d0453354a" prot="protected" static="no" mutable="no">
         <type><ref refid="classchrono_1_1_ch_variables_body_added_mass" kindref="compound">ChVariablesBodyAddedMass</ref></type>
         <definition>ChVariablesBodyAddedMass chrono::ChBodyAddedMass::variables</definition>
         <argsstring></argsstring>
         <name>variables</name>
+        <qualifiedname>chrono::ChBodyAddedMass::variables</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="10" column="36" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="10" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="10" column="30" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="10" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a34a22e401cf6b4af0f88971784de7b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>chrono::ChBodyAddedMass::ChBodyAddedMass</definition>
         <argsstring>()</argsstring>
         <name>ChBodyAddedMass</name>
+        <qualifiedname>chrono::ChBodyAddedMass::ChBodyAddedMass</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="12" column="11" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="9" bodyend="11"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="12" column="5" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="9" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a4d370279cede29b0cec53fb8408f1693" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
         <definition>virtual chrono::ChBodyAddedMass::~ChBodyAddedMass</definition>
         <argsstring>()</argsstring>
         <name>~ChBodyAddedMass</name>
+        <qualifiedname>chrono::ChBodyAddedMass::~ChBodyAddedMass</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="13" column="19" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="13" bodyend="13"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="13" column="13" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="13" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a16f82cf925e661c4fba3623bb5c31371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::SetMass</definition>
         <argsstring>(double newmass)</argsstring>
         <name>SetMass</name>
+        <qualifiedname>chrono::ChBodyAddedMass::SetMass</qualifiedname>
         <param>
           <type>double</type>
           <declname>newmass</declname>
@@ -61,13 +65,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="14" column="10" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="13" bodyend="16"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="14" column="10" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="13" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1ab5f30b2d7871b769a08e38b5973b4153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::SetInertia</definition>
         <argsstring>(const ChMatrix33&lt;&gt; &amp;iner)</argsstring>
         <name>SetInertia</name>
+        <qualifiedname>chrono::ChBodyAddedMass::SetInertia</qualifiedname>
         <param>
           <type>const ChMatrix33&lt;&gt; &amp;</type>
           <declname>iner</declname>
@@ -78,15 +83,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="15" column="10" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="18" bodyend="21"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="15" column="10" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="18" bodyend="21"/>
       </memberdef>
-      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1af064a4a16c6442794da47915ed4c902a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1af7208bf65a4b646e65f94af1436719e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::SetInertiaXX</definition>
-        <argsstring>(const ChVector&lt;&gt; &amp;iner)</argsstring>
+        <argsstring>(const ChVector3d &amp;iner)</argsstring>
         <name>SetInertiaXX</name>
+        <qualifiedname>chrono::ChBodyAddedMass::SetInertiaXX</qualifiedname>
         <param>
-          <type>const ChVector&lt;&gt; &amp;</type>
+          <type>const ChVector3d &amp;</type>
           <declname>iner</declname>
         </param>
         <briefdescription>
@@ -95,15 +101,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="16" column="10" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="23" bodyend="29"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="16" column="10" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="23" bodyend="29"/>
       </memberdef>
-      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a09607fe374532e6b5a97ccf6a86fb2c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a31cab57f21905ca803fd540116ec91f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::SetInertiaXY</definition>
-        <argsstring>(const ChVector&lt;&gt; &amp;iner)</argsstring>
+        <argsstring>(const ChVector3d &amp;iner)</argsstring>
         <name>SetInertiaXY</name>
+        <qualifiedname>chrono::ChBodyAddedMass::SetInertiaXY</qualifiedname>
         <param>
-          <type>const ChVector&lt;&gt; &amp;</type>
+          <type>const ChVector3d &amp;</type>
           <declname>iner</declname>
         </param>
         <briefdescription>
@@ -112,13 +119,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="17" column="10" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="31" bodyend="40"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="17" column="10" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="31" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a2a8c94d13713b3fede4184c44393933c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::SetMfullmass</definition>
         <argsstring>(ChMatrixDynamic&lt;&gt; Mfullmass_in)</argsstring>
         <name>SetMfullmass</name>
+        <qualifiedname>chrono::ChBodyAddedMass::SetMfullmass</qualifiedname>
         <param>
           <type>ChMatrixDynamic&lt;&gt;</type>
           <declname>Mfullmass_in</declname>
@@ -129,13 +137,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="22" column="10" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="58" bodyend="62"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="22" column="10" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="58" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1adcc36656d22b11d2976f78363a5f88b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::SetInvMfullmass</definition>
         <argsstring>(ChMatrixDynamic&lt;&gt; inv_Mfullmass_in)</argsstring>
         <name>SetInvMfullmass</name>
+        <qualifiedname>chrono::ChBodyAddedMass::SetInvMfullmass</qualifiedname>
         <param>
           <type>ChMatrixDynamic&lt;&gt;</type>
           <declname>inv_Mfullmass_in</declname>
@@ -146,52 +155,56 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="23" column="10"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="23" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1ae3262f0105ef5451b43f90d2b6b5a1c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a43d7169965dd832af37fe57151ac92f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ChVariables &amp;</type>
-        <definition>ChVariables&amp; chrono::ChBodyAddedMass::Variables</definition>
+        <definition>ChVariables &amp; chrono::ChBodyAddedMass::Variables</definition>
         <argsstring>() override</argsstring>
         <name>Variables</name>
+        <qualifiedname>chrono::ChBodyAddedMass::Variables</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="24" column="17" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="24" bodyend="24"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="24" column="17" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="24" bodyend="24"/>
       </memberdef>
-      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a07a52c78b859eaa0d65edb75c0b7880c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a6c33f62f46676a60c43a275ca1794b11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ChVariablesBodyOwnMass &amp;</type>
-        <definition>ChVariablesBodyOwnMass&amp; chrono::ChBodyAddedMass::VariablesBody</definition>
+        <definition>ChVariablesBodyOwnMass &amp; chrono::ChBodyAddedMass::VariablesBody</definition>
         <argsstring>()</argsstring>
         <name>VariablesBody</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesBody</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="25" column="28" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="25" bodyend="25"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="25" column="28" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="25" bodyend="25"/>
       </memberdef>
-      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a2b3db3694a3cffba56bf7407debb6eb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a22588fecbc63ab918095e29798bf34bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classchrono_1_1_ch_variables_body_added_mass" kindref="compound">ChVariablesBodyAddedMass</ref> &amp;</type>
-        <definition>ChVariablesBodyAddedMass&amp; chrono::ChBodyAddedMass::VariablesBodyAddedMass</definition>
+        <definition>ChVariablesBodyAddedMass &amp; chrono::ChBodyAddedMass::VariablesBodyAddedMass</definition>
         <argsstring>()</argsstring>
         <name>VariablesBodyAddedMass</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesBodyAddedMass</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="26" column="30" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="26" bodyend="26"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="26" column="30" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a4e48df3df41ef1e9a4b9930411ca8122" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::IntToDescriptor</definition>
         <argsstring>(const unsigned int off_v, const ChStateDelta &amp;v, const ChVectorDynamic&lt;&gt; &amp;R, const unsigned int off_L, const ChVectorDynamic&lt;&gt; &amp;L, const ChVectorDynamic&lt;&gt; &amp;Qc) override</argsstring>
         <name>IntToDescriptor</name>
+        <qualifiedname>chrono::ChBodyAddedMass::IntToDescriptor</qualifiedname>
         <param>
           <type>const unsigned int</type>
           <declname>off_v</declname>
@@ -222,13 +235,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="33" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="78" bodyend="86"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="33" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="78" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a0b8691fcdfa1de9658219c4a47aa7017" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::IntFromDescriptor</definition>
         <argsstring>(const unsigned int off_v, ChStateDelta &amp;v, const unsigned int off_L, ChVectorDynamic&lt;&gt; &amp;L) override</argsstring>
         <name>IntFromDescriptor</name>
+        <qualifiedname>chrono::ChBodyAddedMass::IntFromDescriptor</qualifiedname>
         <param>
           <type>const unsigned int</type>
           <declname>off_v</declname>
@@ -251,13 +265,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="39" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="88" bodyend="93"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="39" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="88" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1adffba2c2dd0b3d562cb2ed29e877b1d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::IntLoadResidual_F</definition>
         <argsstring>(const unsigned int off, ChVectorDynamic&lt;&gt; &amp;R, const double c) override</argsstring>
         <name>IntLoadResidual_F</name>
+        <qualifiedname>chrono::ChBodyAddedMass::IntLoadResidual_F</qualifiedname>
         <param>
           <type>const unsigned int</type>
           <declname>off</declname>
@@ -276,13 +291,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="43" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="171" bodyend="184"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="43" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="171" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a2e6430f29889de1f73dfb7cc41b9c8fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::IntLoadResidual_Mv</definition>
         <argsstring>(const unsigned int off, ChVectorDynamic&lt;&gt; &amp;R, const ChVectorDynamic&lt;&gt; &amp;w, const double c) override</argsstring>
         <name>IntLoadResidual_Mv</name>
+        <qualifiedname>chrono::ChBodyAddedMass::IntLoadResidual_Mv</qualifiedname>
         <param>
           <type>const unsigned int</type>
           <declname>off</declname>
@@ -305,13 +321,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="45" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="186" bodyend="196"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="45" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="186" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1aaf3ff4c1a7735074cec691fde0d6a87b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::VariablesFbReset</definition>
         <argsstring>() override</argsstring>
         <name>VariablesFbReset</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesFbReset</qualifiedname>
         <briefdescription>
 <para>Sets the &apos;fb&apos; part of the encapsulated ChVariablesBodyOwnMass to zero. </para>
         </briefdescription>
@@ -319,13 +336,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="58" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="102" bodyend="104"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="58" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="102" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a255e3f972cf76fadcf68effcb69b5676" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::VariablesFbLoadForces</definition>
         <argsstring>(double factor=1) override</argsstring>
         <name>VariablesFbLoadForces</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesFbLoadForces</qualifiedname>
         <param>
           <type>double</type>
           <declname>factor</declname>
@@ -338,13 +356,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="62" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="106" bodyend="115"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="62" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="106" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a9ac1b48fa93f4c54dc7ea5d2638f33e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::VariablesQbLoadSpeed</definition>
         <argsstring>() override</argsstring>
         <name>VariablesQbLoadSpeed</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesQbLoadSpeed</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -352,13 +371,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="67" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="121" bodyend="125"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="67" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="121" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a2bc5cfb833abab5bdc7c1204d6231c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::VariablesFbIncrementMq</definition>
         <argsstring>() override</argsstring>
         <name>VariablesFbIncrementMq</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesFbIncrementMq</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -366,13 +386,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="72" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="117" bodyend="119"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="72" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="117" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a411c363975eade48316927a33b26528f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::VariablesQbSetSpeed</definition>
         <argsstring>(double step=0) override</argsstring>
         <name>VariablesQbSetSpeed</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesQbSetSpeed</qualifiedname>
         <param>
           <type>double</type>
           <declname>step</declname>
@@ -385,13 +406,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="80" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="127" bodyend="145"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="80" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="127" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1aedf137bf3351a163a50cc602dae4e267" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::VariablesQbIncrementPosition</definition>
         <argsstring>(double step) override</argsstring>
         <name>VariablesQbIncrementPosition</name>
+        <qualifiedname>chrono::ChBodyAddedMass::VariablesQbIncrementPosition</qualifiedname>
         <param>
           <type>double</type>
           <declname>step</declname>
@@ -403,13 +425,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="88" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="147" bodyend="169"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="88" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="147" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classchrono_1_1_ch_body_added_mass_1a0025a4f168b01c98e06ac64331f18082" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void chrono::ChBodyAddedMass::InjectVariables</definition>
         <argsstring>(ChSystemDescriptor &amp;mdescriptor) override</argsstring>
         <name>InjectVariables</name>
+        <qualifiedname>chrono::ChBodyAddedMass::InjectVariables</qualifiedname>
         <param>
           <type>ChSystemDescriptor &amp;</type>
           <declname>mdescriptor</declname>
@@ -421,9 +444,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="92" column="18" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="97" bodyend="100"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="92" column="18" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.cpp" bodystart="97" bodyend="100"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -440,17 +463,11 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="3">
-        <label>chrono::ChVariablesBodyAddedMass</label>
-        <link refid="classchrono_1_1_ch_variables_body_added_mass"/>
-        <childnode refid="4" relation="public-inheritance">
-        </childnode>
+      <node id="2">
+        <label>ChBody</label>
       </node>
       <node id="4">
         <label>ChVariablesBodyOwnMass</label>
-      </node>
-      <node id="2">
-        <label>ChBody</label>
       </node>
       <node id="1">
         <label>chrono::ChBodyAddedMass</label>
@@ -461,8 +478,14 @@
           <edgelabel>variables</edgelabel>
         </childnode>
       </node>
+      <node id="3">
+        <label>chrono::ChVariablesBodyAddedMass</label>
+        <link refid="classchrono_1_1_ch_variables_body_added_mass"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="8" column="1" bodyfile="/Users/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="8" bodyend="94"/>
+    <location file="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" line="8" column="3" bodyfile="/work/cekees/proteus/proteus/mbd/ChBodyAddedMass.h" bodystart="8" bodyend="94"/>
     <listofallmembers>
       <member refid="classchrono_1_1_ch_body_added_mass_1a34a22e401cf6b4af0f88971784de7b6a" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>ChBodyAddedMass</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1a0025a4f168b01c98e06ac64331f18082" prot="public" virt="virtual"><scope>chrono::ChBodyAddedMass</scope><name>InjectVariables</name></member>
@@ -471,15 +494,15 @@
       <member refid="classchrono_1_1_ch_body_added_mass_1a2e6430f29889de1f73dfb7cc41b9c8fb" prot="public" virt="virtual"><scope>chrono::ChBodyAddedMass</scope><name>IntLoadResidual_Mv</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1a4e48df3df41ef1e9a4b9930411ca8122" prot="public" virt="virtual"><scope>chrono::ChBodyAddedMass</scope><name>IntToDescriptor</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1ab5f30b2d7871b769a08e38b5973b4153" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetInertia</name></member>
-      <member refid="classchrono_1_1_ch_body_added_mass_1af064a4a16c6442794da47915ed4c902a" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetInertiaXX</name></member>
-      <member refid="classchrono_1_1_ch_body_added_mass_1a09607fe374532e6b5a97ccf6a86fb2c1" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetInertiaXY</name></member>
+      <member refid="classchrono_1_1_ch_body_added_mass_1af7208bf65a4b646e65f94af1436719e6" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetInertiaXX</name></member>
+      <member refid="classchrono_1_1_ch_body_added_mass_1a31cab57f21905ca803fd540116ec91f6" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetInertiaXY</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1adcc36656d22b11d2976f78363a5f88b5" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetInvMfullmass</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1a16f82cf925e661c4fba3623bb5c31371" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetMass</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1a2a8c94d13713b3fede4184c44393933c" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>SetMfullmass</name></member>
+      <member refid="classchrono_1_1_ch_body_added_mass_1a43d7169965dd832af37fe57151ac92f3" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>Variables</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1af7486941756f0f71d7e6934d0453354a" prot="protected" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>variables</name></member>
-      <member refid="classchrono_1_1_ch_body_added_mass_1ae3262f0105ef5451b43f90d2b6b5a1c7" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>Variables</name></member>
-      <member refid="classchrono_1_1_ch_body_added_mass_1a07a52c78b859eaa0d65edb75c0b7880c" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>VariablesBody</name></member>
-      <member refid="classchrono_1_1_ch_body_added_mass_1a2b3db3694a3cffba56bf7407debb6eb8" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>VariablesBodyAddedMass</name></member>
+      <member refid="classchrono_1_1_ch_body_added_mass_1a6c33f62f46676a60c43a275ca1794b11" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>VariablesBody</name></member>
+      <member refid="classchrono_1_1_ch_body_added_mass_1a22588fecbc63ab918095e29798bf34bc" prot="public" virt="non-virtual"><scope>chrono::ChBodyAddedMass</scope><name>VariablesBodyAddedMass</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1a2bc5cfb833abab5bdc7c1204d6231c62" prot="public" virt="virtual"><scope>chrono::ChBodyAddedMass</scope><name>VariablesFbIncrementMq</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1a255e3f972cf76fadcf68effcb69b5676" prot="public" virt="virtual"><scope>chrono::ChBodyAddedMass</scope><name>VariablesFbLoadForces</name></member>
       <member refid="classchrono_1_1_ch_body_added_mass_1aaf3ff4c1a7735074cec691fde0d6a87b" prot="public" virt="virtual"><scope>chrono::ChBodyAddedMass</scope><name>VariablesFbReset</name></member>

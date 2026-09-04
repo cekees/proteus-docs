@@ -3,8 +3,8 @@ proteus.MeshAdaptPUMI package
 
 .. automodule:: proteus.MeshAdaptPUMI
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Submodules
 ----------

@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classproteus_1_1_t_a_d_r__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>proteus::TADR_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1_t_a_d_r" prot="public" virt="non-virtual">proteus::TADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_t_a_d_r_8h" local="no">/work/cekees/proteus/proteus/mprans/TADR.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1ae5935b52f226436265b2c5db519d2bf4" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::Rpos</definition>
+        <argsstring></argsstring>
+        <name>Rpos</name>
+        <qualifiedname>proteus::TADR_base::Rpos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="64" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a5132734b924e601fbd0d1aca5fefa885" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::Rneg</definition>
+        <argsstring></argsstring>
+        <name>Rneg</name>
+        <qualifiedname>proteus::TADR_base::Rneg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="64" column="24" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1aef79ef548b8b3ec869056a0fe58e9a0d" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::FluxCorrectionMatrix</definition>
+        <argsstring></argsstring>
+        <name>FluxCorrectionMatrix</name>
+        <qualifiedname>proteus::TADR_base::FluxCorrectionMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="65" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1ae69e2cf284b269300335daef071ea1e6" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::TransportMatrix</definition>
+        <argsstring></argsstring>
+        <name>TransportMatrix</name>
+        <qualifiedname>proteus::TADR_base::TransportMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="66" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a44cf4c9df3538c67cd9bd25df314f9e6" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::DiffusionMatrix</definition>
+        <argsstring></argsstring>
+        <name>DiffusionMatrix</name>
+        <qualifiedname>proteus::TADR_base::DiffusionMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="66" column="35" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1aa80d8718755d6633d3a62ce474cd7fd2" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::TransposeTransportMatrix</definition>
+        <argsstring></argsstring>
+        <name>TransposeTransportMatrix</name>
+        <qualifiedname>proteus::TADR_base::TransposeTransportMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="66" column="51" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1afad4730db2cf6de9e4a653560ce62199" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::psi</definition>
+        <argsstring></argsstring>
+        <name>psi</name>
+        <qualifiedname>proteus::TADR_base::psi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="67" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a39cfe5b0f6ee5dadab9687765b71ee84" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::eta</definition>
+        <argsstring></argsstring>
+        <name>eta</name>
+        <qualifiedname>proteus::TADR_base::eta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="67" column="23" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1af6f77a9a7fa49cace99309dca4f7fb28" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::global_entropy_residual</definition>
+        <argsstring></argsstring>
+        <name>global_entropy_residual</name>
+        <qualifiedname>proteus::TADR_base::global_entropy_residual</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="67" column="27" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a32f0d0c3a08545991577331b5dcba123" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::boundary_integral</definition>
+        <argsstring></argsstring>
+        <name>boundary_integral</name>
+        <qualifiedname>proteus::TADR_base::boundary_integral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="67" column="51" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a2d2edd7557824a85dafd4482bb12d3d3" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::m_dof</definition>
+        <argsstring></argsstring>
+        <name>m_dof</name>
+        <qualifiedname>proteus::TADR_base::m_dof</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="68" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a14f90ddee07232f5fe7c46f0e7001977" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::theta_dof_proj</definition>
+        <argsstring></argsstring>
+        <name>theta_dof_proj</name>
+        <qualifiedname>proteus::TADR_base::theta_dof_proj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="68" column="25" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1af09f63629dd17522d668f9e363725bc5" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::rho_dof_proj</definition>
+        <argsstring></argsstring>
+        <name>rho_dof_proj</name>
+        <qualifiedname>proteus::TADR_base::rho_dof_proj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="68" column="40" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a91fe187ca5882c2182f4672e93c7a07d" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::ML_mass_proj</definition>
+        <argsstring></argsstring>
+        <name>ML_mass_proj</name>
+        <qualifiedname>proteus::TADR_base::ML_mass_proj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="68" column="53" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1aafd72c384fdac382cd924afd47fc63da" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::maxVel</definition>
+        <argsstring></argsstring>
+        <name>maxVel</name>
+        <qualifiedname>proteus::TADR_base::maxVel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="69" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_t_a_d_r__base_1a6d92b122cd70ca36be9132d91760a2a0" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::TADR_base::maxEntRes</definition>
+        <argsstring></argsstring>
+        <name>maxEntRes</name>
+        <qualifiedname>proteus::TADR_base::maxEntRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="69" column="25" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classproteus_1_1_t_a_d_r__base_1adc41b2ac64010c259955eef715a9fbc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::TADR_base::~TADR_base</definition>
+        <argsstring>()</argsstring>
+        <name>~TADR_base</name>
+        <qualifiedname>proteus::TADR_base::~TADR_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="70" column="13" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1_t_a_d_r__base_1a8914d49f70b3af561f8388f74ffa91d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::TADR_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>proteus::TADR_base::calculateResidual</qualifiedname>
+        <reimplementedby refid="classproteus_1_1_t_a_d_r_1a1649f8f431e2ef4f729d02dd069d686a">calculateResidual</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="71" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1_t_a_d_r__base_1aba1d665d824d7af9dd496d8f8384fb47" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::TADR_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>proteus::TADR_base::calculateJacobian</qualifiedname>
+        <reimplementedby refid="classproteus_1_1_t_a_d_r_1a5b12cbf55387b004bf1abe8352d5b383">calculateJacobian</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="72" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1_t_a_d_r__base_1ac2f659141dbb7e838948004320b1337c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::TADR_base::invert</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>invert</name>
+        <qualifiedname>proteus::TADR_base::invert</qualifiedname>
+        <reimplementedby refid="classproteus_1_1_t_a_d_r_1aaf3cc632f7bae026b0cf3f482427ba98">invert</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="73" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1_t_a_d_r__base_1aae4f58215a6e967cdc615c33e293bb4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::TADR_base::FCTStep</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>FCTStep</name>
+        <qualifiedname>proteus::TADR_base::FCTStep</qualifiedname>
+        <reimplementedby refid="classproteus_1_1_t_a_d_r_1a991580676660f4ad3265e74c0ed1a59b">FCTStep</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="74" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>proteus::TADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1_t_a_d_r"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>proteus::TADR_base</label>
+        <link refid="classproteus_1_1_t_a_d_r__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>proteus::TADR_base</label>
+        <link refid="classproteus_1_1_t_a_d_r__base"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>DiffusionMatrix</edgelabel>
+          <edgelabel>FluxCorrectionMatrix</edgelabel>
+          <edgelabel>ML_mass_proj</edgelabel>
+          <edgelabel>Rneg</edgelabel>
+          <edgelabel>Rpos</edgelabel>
+          <edgelabel>TransportMatrix</edgelabel>
+          <edgelabel>TransposeTransportMatrix</edgelabel>
+          <edgelabel>boundary_integral</edgelabel>
+          <edgelabel>eta</edgelabel>
+          <edgelabel>global_entropy_residual</edgelabel>
+          <edgelabel>  ...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::valarray&lt; double &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/work/cekees/proteus/proteus/mprans/TADR.h" line="60" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/TADR.h" bodystart="61" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a32f0d0c3a08545991577331b5dcba123" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>boundary_integral</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1aba1d665d824d7af9dd496d8f8384fb47" prot="public" virt="pure-virtual"><scope>proteus::TADR_base</scope><name>calculateJacobian</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a8914d49f70b3af561f8388f74ffa91d4" prot="public" virt="pure-virtual"><scope>proteus::TADR_base</scope><name>calculateResidual</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a44cf4c9df3538c67cd9bd25df314f9e6" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>DiffusionMatrix</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a39cfe5b0f6ee5dadab9687765b71ee84" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>eta</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1aae4f58215a6e967cdc615c33e293bb4b" prot="public" virt="pure-virtual"><scope>proteus::TADR_base</scope><name>FCTStep</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1aef79ef548b8b3ec869056a0fe58e9a0d" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>FluxCorrectionMatrix</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1af6f77a9a7fa49cace99309dca4f7fb28" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>global_entropy_residual</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1ac2f659141dbb7e838948004320b1337c" prot="public" virt="pure-virtual"><scope>proteus::TADR_base</scope><name>invert</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a2d2edd7557824a85dafd4482bb12d3d3" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>m_dof</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a6d92b122cd70ca36be9132d91760a2a0" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>maxEntRes</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1aafd72c384fdac382cd924afd47fc63da" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>maxVel</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a91fe187ca5882c2182f4672e93c7a07d" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>ML_mass_proj</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1afad4730db2cf6de9e4a653560ce62199" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>psi</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1af09f63629dd17522d668f9e363725bc5" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>rho_dof_proj</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a5132734b924e601fbd0d1aca5fefa885" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>Rneg</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1ae5935b52f226436265b2c5db519d2bf4" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>Rpos</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1a14f90ddee07232f5fe7c46f0e7001977" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>theta_dof_proj</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1ae69e2cf284b269300335daef071ea1e6" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>TransportMatrix</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1aa80d8718755d6633d3a62ce474cd7fd2" prot="public" virt="non-virtual"><scope>proteus::TADR_base</scope><name>TransposeTransportMatrix</name></member>
+      <member refid="classproteus_1_1_t_a_d_r__base_1adc41b2ac64010c259955eef715a9fbc5" prot="public" virt="virtual"><scope>proteus::TADR_base</scope><name>~TADR_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

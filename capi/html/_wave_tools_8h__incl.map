@@ -1,6 +1,9 @@
 <map id="WaveTools.h" name="WaveTools.h">
-<area shape="rect" id="node1" title=" " alt="" coords="75,5,173,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,64,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="88,80,160,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="185,80,253,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="80,5,182,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,68,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,33,67,73,64,69,112,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="92,81,171,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,32,134,66,129,64,129,36"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="195,81,270,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,31,205,71,200,72,148,36"/>
 </map>

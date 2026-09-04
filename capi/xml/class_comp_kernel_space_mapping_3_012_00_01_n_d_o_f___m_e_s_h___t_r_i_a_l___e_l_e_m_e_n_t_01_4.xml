@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4" kind="class" language="C++" prot="public">
     <compoundname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;</compoundname>
-    <includes refid="_comp_kernel_8h" local="no">/Users/cekees/proteus/proteus/CompKernel.h</includes>
+    <includes refid="_comp_kernel_8h" local="no">/work/cekees/proteus/proteus/CompKernel.h</includes>
     <templateparamlist>
       <param>
         <type>int</type>
@@ -10,209 +10,225 @@
         <defname>NDOF_MESH_TRIAL_ELEMENT</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a85596d169fc78cfd97239ebf25fcf81a" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::X</definition>
         <argsstring></argsstring>
         <name>X</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::X</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="624" column="13" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="624" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="645" column="13" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="645" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a1d53aea14ec0568fe08c1ae9db90a5a2" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::Y</definition>
         <argsstring></argsstring>
         <name>Y</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::Y</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="624" column="14" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="624" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="645" column="14" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="645" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a4ca5a9ae5c6f3ba600d1ecb7290ebc8d" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::XX</definition>
         <argsstring></argsstring>
         <name>XX</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::XX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="625" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="625" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="646" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="646" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1aea5d6317986273feffa874e42bc860c5" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::XY</definition>
         <argsstring></argsstring>
         <name>XY</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::XY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="625" column="7" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="625" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="646" column="7" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="646" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1abb886894febdfa2151cc07b550516afb" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::YX</definition>
         <argsstring></argsstring>
         <name>YX</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::YX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="626" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="626" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="647" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="647" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1ae213b36a568f536233cded1db067d4a3" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::YY</definition>
         <argsstring></argsstring>
         <name>YY</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::YY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="626" column="7" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="626" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="647" column="7" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="647" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a7b9a4fd1ef97f34aae26f378e2334c00" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sXX</definition>
         <argsstring></argsstring>
         <name>sXX</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sXX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="627" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="627" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="648" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="648" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a07dab12d85b4f2ca82ebd2ab23063d88" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sXY</definition>
         <argsstring></argsstring>
         <name>sXY</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sXY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="627" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="627" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="648" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="648" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a0f85bed444b674dd6e081822f9daf004" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sYX</definition>
         <argsstring></argsstring>
         <name>sYX</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sYX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="628" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="628" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="649" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="649" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1af042ab62f2049fb00ed97bfe4ef5a520" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sYY</definition>
         <argsstring></argsstring>
         <name>sYY</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::sYY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="628" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="628" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="649" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="649" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1ab83bd9ac3e3e258fba5c2ec1434a7b5d" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::nSymTen</definition>
         <argsstring></argsstring>
         <name>nSymTen</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::nSymTen</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="629" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="629" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="650" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="650" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1abd2c281e5efe25e6274ffbbd32ba82e9" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::XHX</definition>
         <argsstring></argsstring>
         <name>XHX</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::XHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="630" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="630" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="651" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="651" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1aca13f066c581669dbd8738726fc40c46" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::YHX</definition>
         <argsstring></argsstring>
         <name>YHX</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::YHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="631" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="631" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="652" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="652" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a0a3ccc0963598a0420a579d9e53c6c0d" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::HXHX</definition>
         <argsstring></argsstring>
         <name>HXHX</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::HXHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="632" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="632" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="653" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="653" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a449f4065331917066901e0928e933880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::CompKernelSpaceMapping</definition>
         <argsstring>()</argsstring>
         <name>CompKernelSpaceMapping</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::CompKernelSpaceMapping</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="633" column="3" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="633" bodyend="644"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="654" column="3" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="654" bodyend="665"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a199fdea03f254a853097bcf1a5415049" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_element</definition>
         <argsstring>(const int eN, const int k, double *mesh_dof, int *mesh_l2g, double *mesh_trial_ref, double *mesh_grad_trial_ref, double *jac, double &amp;jacDet, double *jacInv, double &amp;x, double &amp;y)</argsstring>
         <name>calculateMapping_element</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_element</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -263,13 +279,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="645" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="645" bodyend="698"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="666" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="666" bodyend="719"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a4247fae5256fa85526e5863cf25c7503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateH_element</definition>
         <argsstring>(const int eN, const int k, double *h_dof, int *mesh_l2g, double *mesh_trial_ref, double &amp;h)</argsstring>
         <name>calculateH_element</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateH_element</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -300,13 +317,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="700" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="700" bodyend="715"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="721" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="721" bodyend="736"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a8cb00ec24e2b91e20ead2272fc5d0b52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_element</definition>
         <argsstring>(const int eN, const int k, double *mesh_velocity_dof, int *mesh_l2g, double *mesh_trial_ref, double &amp;xt, double &amp;yt)</argsstring>
         <name>calculateMappingVelocity_element</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_element</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -341,13 +359,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="717" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="717" bodyend="740"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="738" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="738" bodyend="761"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a7d977b59b85c3200aa3934fd5d7463e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_elementBoundary</definition>
         <argsstring>(const int eN, const int ebN_local, const int kb, const int ebN_local_kb, double *mesh_dof, int *mesh_l2g, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *boundaryJac_ref, double *jac, double &amp;jacDet, double *jacInv, double *boundaryJac, double *metricTensor, double &amp;metricTensorDetSqrt, double *normal_ref, double *normal, double &amp;x, double &amp;y)</argsstring>
         <name>calculateMapping_elementBoundary</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_elementBoundary</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -430,13 +449,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="742" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="742" bodyend="830"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="763" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="763" bodyend="851"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a76f4212117fbcc55610bfc43c12b1a16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_elementBoundary</definition>
         <argsstring>(const int eN, const int ebN_local, const int kb, const int ebN_local_kb, double *mesh_velocity_dof, int *mesh_l2g, double *mesh_trial_trace_ref, double &amp;xt, double &amp;yt, double *normal, double *boundaryJac, double *metricTensor, double &amp;metricTensorDetSqrt)</argsstring>
         <name>calculateMappingVelocity_elementBoundary</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_elementBoundary</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -495,13 +515,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="832" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="832" bodyend="871"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="853" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="853" bodyend="892"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1ac3b7aa18ba01eb8444351ddb30608621" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::valFromDOF</definition>
         <argsstring>(const double *dof, const int *l2g_element, const double *trial_ref, double &amp;val)</argsstring>
         <name>valFromDOF</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::valFromDOF</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>dof</declname>
@@ -524,13 +545,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="872" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="872" bodyend="877"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="893" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="893" bodyend="898"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a88c5123d1b4436fbb4859d9bd57ca10a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::gradFromDOF</definition>
         <argsstring>(const double *dof, const int *l2g_element, const double *grad_trial, double *grad)</argsstring>
         <name>gradFromDOF</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::gradFromDOF</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>dof</declname>
@@ -553,13 +575,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="879" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="879" bodyend="886"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="900" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="900" bodyend="907"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1acae95ddf9ec16064bf698fc539b31304" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::hessFromDOF</definition>
         <argsstring>(const double *dof, const int *l2g_element, const double *hess_trial, double *hess)</argsstring>
         <name>hessFromDOF</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::hessFromDOF</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>dof</declname>
@@ -582,13 +605,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="888" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="888" bodyend="897"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="909" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="909" bodyend="918"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1ab76117da5850741d1adc963568eb744d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_element</definition>
         <argsstring>(const int eN, const int k, double *mesh_dof, int *mesh_l2g, double *mesh_trial_ref, double *mesh_grad_trial_ref, double *jac, double &amp;jacDet, double *jacInv, double &amp;x, double &amp;y, double &amp;z)</argsstring>
         <name>calculateMapping_element</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_element</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -643,13 +667,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="899" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="899" bodyend="924"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="920" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="920" bodyend="945"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1af22400702aac7d692a23e71b4ee30058" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_element</definition>
         <argsstring>(const int eN, const int k, double *mesh_velocity_dof, int *mesh_l2g, double *mesh_trial_ref, double &amp;xt, double &amp;yt, double &amp;zt)</argsstring>
         <name>calculateMappingVelocity_element</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_element</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -688,13 +713,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="925" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="925" bodyend="942"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="946" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="946" bodyend="963"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a09e45850733f7d930cfa85de5cba71e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_elementBoundary</definition>
         <argsstring>(const int eN, const int ebN_local, const int kb, const int ebN_local_kb, double *mesh_dof, int *mesh_l2g, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *boundaryJac_ref, double *jac, double &amp;jacDet, double *jacInv, double *boundaryJac, double *metricTensor, double &amp;metricTensorDetSqrt, double *normal_ref, double *normal, double &amp;x, double &amp;y, double &amp;z)</argsstring>
         <name>calculateMapping_elementBoundary</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMapping_elementBoundary</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -781,13 +807,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="943" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="943" bodyend="983"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="964" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="964" bodyend="1008"/>
       </memberdef>
       <memberdef kind="function" id="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a9d8dd0ee8c1f255c2e6fe10da04e40b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_elementBoundary</definition>
         <argsstring>(const int eN, const int ebN_local, const int kb, const int ebN_local_kb, double *mesh_velocity_dof, int *mesh_l2g, double *mesh_trial_trace_ref, double &amp;xt, double &amp;yt, double &amp;zt, double *normal, double *boundaryJac, double *metricTensor, double &amp;metricTensorDetSqrt)</argsstring>
         <name>calculateMappingVelocity_elementBoundary</name>
+        <qualifiedname>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;::calculateMappingVelocity_elementBoundary</qualifiedname>
         <param>
           <type>const int</type>
           <declname>eN</declname>
@@ -850,14 +877,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="984" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="984" bodyend="1012"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="1009" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="1009" bodyend="1037"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="621" column="1" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="622" bodyend="1013"/>
+    <location file="/work/cekees/proteus/proteus/CompKernel.h" line="642" column="1" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="643" bodyend="1038"/>
     <listofallmembers>
       <member refid="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a4247fae5256fa85526e5863cf25c7503" prot="public" virt="non-virtual"><scope>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;</scope><name>calculateH_element</name></member>
       <member refid="class_comp_kernel_space_mapping_3_012_00_01_n_d_o_f___m_e_s_h___t_r_i_a_l___e_l_e_m_e_n_t_01_4_1a199fdea03f254a853097bcf1a5415049" prot="public" virt="non-virtual"><scope>CompKernelSpaceMapping&lt; 2, NDOF_MESH_TRIAL_ELEMENT &gt;</scope><name>calculateMapping_element</name></member>

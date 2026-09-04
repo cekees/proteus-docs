@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="mohr_coulomb2_8h" kind="file" language="C++">
     <compoundname>mohrCoulomb2.h</compoundname>
     <includedby refid="_elasto_plastic_8h" local="yes">ElastoPlastic.h</includedby>
     <invincdepgraph>
+      <node id="2">
+        <label>ElastoPlastic.h</label>
+        <link refid="_elasto_plastic_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="3">
         <label>cElastoPlastic.cpp</label>
         <link refid="c_elasto_plastic_8cpp"/>
@@ -14,14 +20,8 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>ElastoPlastic.h</label>
-        <link refid="_elasto_plastic_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="mohr_coulomb2_8h_1ac8c6c0917bc47d24ea089d49da67ec46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void mohrCoulomb2</definition>
@@ -69,16 +69,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/mohrCoulomb2.h" line="2" column="13" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/mohrCoulomb2.h" bodystart="2" bodyend="174"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/mohrCoulomb2.h" line="2" column="13" bodyfile="/work/cekees/proteus/proteus/elastoplastic/mohrCoulomb2.h" bodystart="2" bodyend="174"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2" refid="mohr_coulomb2_8h_1ac8c6c0917bc47d24ea089d49da67ec46" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mohr_coulomb2_8h_1ac8c6c0917bc47d24ea089d49da67ec46" kindref="member">mohrCoulomb2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" kindref="member">c</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>stress,<sp/></highlight><highlight class="comment">//inputs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="mohr_coulomb2_8h_1ac8c6c0917bc47d24ea089d49da67ec46" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mohr_coulomb2_8h_1ac8c6c0917bc47d24ea089d49da67ec46" kindref="member">mohrCoulomb2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="jf_8h_1a63f410abde93141c9013b7d3f3971738" kindref="member">c</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>stress,<sp/></highlight><highlight class="comment">//inputs</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/><ref refid="group__analytical_solutions_1ga31fe0a5e02da8c2ed2761f3aabf86e0d" kindref="member">df</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>g,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/><ref refid="_headers_8h_1a51d5468d74b4eccfb8e26ea458562120" kindref="member">r</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>dr)<sp/></highlight><highlight class="comment">//outputs</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sXX=0,sYY=1,sZZ=2,sYZ=3,sZX=4,sXY=5;</highlight></codeline>
@@ -201,7 +201,7 @@
 <codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//f</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref><sp/>=<sp/><sp/>sigma_m*sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)<sp/></highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>+<sp/>sigma_b*(cos_theta/sqrt(3.0)<sp/>-<sp/>(sin_theta*sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>))/3.0)<sp/></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/><ref refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" kindref="member">c</ref>*cos(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/><ref refid="jf_8h_1a63f410abde93141c9013b7d3f3971738" kindref="member">c</ref>*cos(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/>Df_sigma_m<sp/>=<sp/>sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight></codeline>
@@ -227,7 +227,7 @@
 <codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//r</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/>g<sp/>=<sp/><sp/>sigma_m*sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>+<sp/>sigma_b*(cos_theta/sqrt(3.0)<sp/>-<sp/>(sin_theta*sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>))/3.0)<sp/></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/><ref refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" kindref="member">c</ref>*cos(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/><ref refid="jf_8h_1a63f410abde93141c9013b7d3f3971738" kindref="member">c</ref>*cos(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight></codeline>
 <codeline lineno="153"><highlight class="normal"><sp/><sp/>Dg_sigma_m<sp/>=<sp/>sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight></codeline>
@@ -252,6 +252,6 @@
 <codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>Dg_theta*Dtheta_zx;</highlight></codeline>
 <codeline lineno="174"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/elastoplastic/mohrCoulomb2.h"/>
+    <location file="/work/cekees/proteus/proteus/elastoplastic/mohrCoulomb2.h"/>
   </compounddef>
 </doxygen>

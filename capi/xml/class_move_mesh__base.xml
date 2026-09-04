@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="class_move_mesh__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MoveMesh_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1_move_mesh" prot="public" virt="non-virtual">proteus::MoveMesh&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_move_mesh_8h" local="no">/work/cekees/proteus/proteus/mprans/MoveMesh.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_move_mesh__base_1ad6d581727ec997d015146284619b8ad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::MoveMesh_base::~MoveMesh_base</definition>
+        <argsstring>()</argsstring>
+        <name>~MoveMesh_base</name>
+        <qualifiedname>MoveMesh_base::~MoveMesh_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/MoveMesh.h" line="17" column="13" bodyfile="/work/cekees/proteus/proteus/mprans/MoveMesh.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_move_mesh__base_1acd4fea96ccd56df5ba2b0227bb3efd56" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::MoveMesh_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>MoveMesh_base::calculateResidual</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/MoveMesh.h" line="18" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_move_mesh__base_1a8f8cfb774f4c86e1a6ca1b4ef59dfeb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::MoveMesh_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>MoveMesh_base::calculateJacobian</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/MoveMesh.h" line="19" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MoveMesh_base</label>
+        <link refid="class_move_mesh__base"/>
+      </node>
+      <node id="2">
+        <label>proteus::MoveMesh&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1_move_mesh"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/mprans/MoveMesh.h" line="14" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/MoveMesh.h" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_move_mesh__base_1a8f8cfb774f4c86e1a6ca1b4ef59dfeb3" prot="public" virt="pure-virtual"><scope>MoveMesh_base</scope><name>calculateJacobian</name></member>
+      <member refid="class_move_mesh__base_1acd4fea96ccd56df5ba2b0227bb3efd56" prot="public" virt="pure-virtual"><scope>MoveMesh_base</scope><name>calculateResidual</name></member>
+      <member refid="class_move_mesh__base_1ad6d581727ec997d015146284619b8ad4" prot="public" virt="virtual"><scope>MoveMesh_base</scope><name>~MoveMesh_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classproteus_1_1richards_1_1_a_d_r__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>proteus::richards::ADR_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1richards_1_1_a_d_r" prot="public" virt="non-virtual">proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="richards_2_a_d_r_8h" local="no">/work/cekees/proteus/proteus/richards/ADR.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classproteus_1_1richards_1_1_a_d_r__base_1ad97a154c3c46944450a49111e551457a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::richards::ADR_base::~ADR_base</definition>
+        <argsstring>()</argsstring>
+        <name>~ADR_base</name>
+        <qualifiedname>proteus::richards::ADR_base::~ADR_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="25" column="13" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1richards_1_1_a_d_r__base_1a016d32a25bf9f476aa7194f20556a9a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::ADR_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>proteus::richards::ADR_base::calculateResidual</qualifiedname>
+        <reimplementedby refid="classproteus_1_1richards_1_1_a_d_r_1a3805b2caf341dab35bc28446d2018d04">calculateResidual</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="26" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1richards_1_1_a_d_r__base_1a09a56c233c33da9a9f5ab4bdb3f7ff45" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::ADR_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>proteus::richards::ADR_base::calculateJacobian</qualifiedname>
+        <reimplementedby refid="classproteus_1_1richards_1_1_a_d_r_1a57f9eab1bf4a6ca2a0719a03d4388a60">calculateJacobian</reimplementedby>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="27" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1richards_1_1_a_d_r"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>proteus::richards::ADR_base</label>
+        <link refid="classproteus_1_1richards_1_1_a_d_r__base"/>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="21" column="3" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="22" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classproteus_1_1richards_1_1_a_d_r__base_1a09a56c233c33da9a9f5ab4bdb3f7ff45" prot="public" virt="pure-virtual"><scope>proteus::richards::ADR_base</scope><name>calculateJacobian</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r__base_1a016d32a25bf9f476aa7194f20556a9a4" prot="public" virt="pure-virtual"><scope>proteus::richards::ADR_base</scope><name>calculateResidual</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r__base_1ad97a154c3c46944450a49111e551457a" prot="public" virt="virtual"><scope>proteus::richards::ADR_base</scope><name>~ADR_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

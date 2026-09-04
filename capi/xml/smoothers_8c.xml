@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="smoothers_8c" kind="file" language="C++">
     <compoundname>smoothers.c</compoundname>
     <includes local="no">math.h</includes>
@@ -7,15 +7,6 @@
     <includes local="no">string.h</includes>
     <includes refid="smoothers_8h" local="yes">smoothers.h</includes>
     <incdepgraph>
-      <node id="6">
-        <label>slu_ddefs.h</label>
-      </node>
-      <node id="4">
-        <label>string.h</label>
-      </node>
-      <node id="2">
-        <label>math.h</label>
-      </node>
       <node id="1">
         <label>smoothers.c</label>
         <link refid="smoothers_8c"/>
@@ -34,590 +25,35 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
+      <node id="2">
+        <label>math.h</label>
+      </node>
+      <node id="6">
+        <label>slu_ddefs.h</label>
+      </node>
       <node id="3">
         <label>stdio.h</label>
       </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
     </incdepgraph>
-      <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__smoothers_1ga9350ca7fb815ea154342632a660899cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void jacobi_NR_prepare</definition>
-        <argsstring>(SuperMatrix *A, double w, double tol, double *M)</argsstring>
-        <name>jacobi_NR_prepare</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>w</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>tol</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>M</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="10" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="10" bodyend="13"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1gaee90b386397039346db68590e0592d35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void jacobi_NR_solve</definition>
-        <argsstring>(SuperMatrix *A, double *M, double *R, int *node_order, double *dX)</argsstring>
-        <name>jacobi_NR_solve</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>M</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>R</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>node_order</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>dX</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="15" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="15" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga7e0bf68f9d9c6aa1a012251c1d1c37ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void nl_jacobi_NR_solve</definition>
-        <argsstring>(SuperMatrix *A, double *R, int *node_order, double w, double tol, double *dX)</argsstring>
-        <name>nl_jacobi_NR_solve</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>R</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>node_order</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>w</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>tol</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>dX</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="26" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="26" bodyend="69"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga41f85890187fa666de3f87e2185be339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void gauss_seidel_NR_prepare</definition>
-        <argsstring>(SuperMatrix *A, double w, double tol, double *M)</argsstring>
-        <name>gauss_seidel_NR_prepare</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>w</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>tol</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>M</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="71" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="71" bodyend="112"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga674ff17afc25a1113f2372d5e3ea86e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void gauss_seidel_NR_solve</definition>
-        <argsstring>(SuperMatrix *A, double *M, double *R, int *node_order, double *dX)</argsstring>
-        <name>gauss_seidel_NR_solve</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>M</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>R</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>node_order</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>dX</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="114" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="114" bodyend="140"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga5cc96e8ce8530d932e57bbfecd580c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void nl_gauss_seidel_NR_solve</definition>
-        <argsstring>(SuperMatrix *A, double *R, int *node_order, double w, double tol, double *dX)</argsstring>
-        <name>nl_gauss_seidel_NR_solve</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>R</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>node_order</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>w</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>tol</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>dX</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="142" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="142" bodyend="187"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1gae5003bd849b924a913c5f5d43b27a47b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int asm_NR_init</definition>
-        <argsstring>(SuperMatrix *A, int **subdomain_dim_p, int ***l2g_L_p, double ***subdomain_L_p, double ***subdomain_R_p, double ***subdomain_dX_p, PROTEUS_LAPACK_INTEGER ***subdomain_pivots_p)</argsstring>
-        <name>asm_NR_init</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>subdomain_dim_p</declname>
-        </param>
-        <param>
-          <type>int ***</type>
-          <declname>l2g_L_p</declname>
-        </param>
-        <param>
-          <type>double ***</type>
-          <declname>subdomain_L_p</declname>
-        </param>
-        <param>
-          <type>double ***</type>
-          <declname>subdomain_R_p</declname>
-        </param>
-        <param>
-          <type>double ***</type>
-          <declname>subdomain_dX_p</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER ***</type>
-          <declname>subdomain_pivots_p</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="189" column="5" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="189" bodyend="266"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1gac419b711a2a61195e438f2a6d77af9f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void asm_NR_free</definition>
-        <argsstring>(int N, int *subdomain_dim, int **l2g_L, double **subdomain_L, double **subdomain_R, double **subdomain_dX, PROTEUS_LAPACK_INTEGER **subdomain_pivots)</argsstring>
-        <name>asm_NR_free</name>
-        <param>
-          <type>int</type>
-          <declname>N</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>subdomain_dim</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>l2g_L</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_L</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_R</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_dX</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomain_pivots</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="268" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="268" bodyend="291"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga163be4c6ebf0e5b708c4b5e45659402c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void asm_NR_prepare</definition>
-        <argsstring>(SuperMatrix *A, int *subdomain_dim, int **l2g_L, double **subdomainL, PROTEUS_LAPACK_INTEGER **subdomainPivots)</argsstring>
-        <name>asm_NR_prepare</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>subdomain_dim</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>l2g_L</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomainL</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomainPivots</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="293" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="293" bodyend="322"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga4553cd7d6d1ea46f847f553a4a37a63d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void asm_NR_solve</definition>
-        <argsstring>(SuperMatrix *A, double w, double **subdomainL, int *subdomain_dim, int **l2g_L, double *R, double **subdomainR, int *node_order, double **subdomain_dX, double *dX, PROTEUS_LAPACK_INTEGER **subdomainPivots)</argsstring>
-        <name>asm_NR_solve</name>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>w</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomainL</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>subdomain_dim</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>l2g_L</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>R</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomainR</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>node_order</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_dX</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>dX</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomainPivots</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="324" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="324" bodyend="389"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1gac5b22060593964c3fdd61ea4d0803aef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int basm_NR_init</definition>
-        <argsstring>(int rowBlocks, SuperMatrix *A, int **subdomain_dim_p, int ***l2g_L_p, double ***subdomain_L_p, double ***subdomain_R_p, double ***subdomain_dX_p, PROTEUS_LAPACK_INTEGER ***subdomain_pivots_p, PROTEUS_LAPACK_INTEGER ***subdomain_col_pivots_p)</argsstring>
-        <name>basm_NR_init</name>
-        <param>
-          <type>int</type>
-          <declname>rowBlocks</declname>
-        </param>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>subdomain_dim_p</declname>
-        </param>
-        <param>
-          <type>int ***</type>
-          <declname>l2g_L_p</declname>
-        </param>
-        <param>
-          <type>double ***</type>
-          <declname>subdomain_L_p</declname>
-        </param>
-        <param>
-          <type>double ***</type>
-          <declname>subdomain_R_p</declname>
-        </param>
-        <param>
-          <type>double ***</type>
-          <declname>subdomain_dX_p</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER ***</type>
-          <declname>subdomain_pivots_p</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER ***</type>
-          <declname>subdomain_col_pivots_p</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="391" column="5" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="391" bodyend="572"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga714cc9711ca4f2393e30b99e558061ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void basm_NR_free</definition>
-        <argsstring>(int N, int *subdomain_dim, int **l2g_L, double **subdomain_L, double **subdomain_R, double **subdomain_dX, PROTEUS_LAPACK_INTEGER **subdomain_pivots, PROTEUS_LAPACK_INTEGER **subdomain_col_pivots)</argsstring>
-        <name>basm_NR_free</name>
-        <param>
-          <type>int</type>
-          <declname>N</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>subdomain_dim</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>l2g_L</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_L</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_R</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_dX</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomain_pivots</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomain_col_pivots</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="574" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="574" bodyend="600"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga702ce565c2cd9b37d1fdd512387dddae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void basm_NR_prepare</definition>
-        <argsstring>(int rowBlocks, int N, SuperMatrix *A, int *subdomain_dim, int **l2g_L, double **subdomainL, PROTEUS_LAPACK_INTEGER **subdomainPivots, PROTEUS_LAPACK_INTEGER **subdomainColPivots)</argsstring>
-        <name>basm_NR_prepare</name>
-        <param>
-          <type>int</type>
-          <declname>rowBlocks</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>N</declname>
-        </param>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>subdomain_dim</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>l2g_L</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomainL</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomainPivots</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomainColPivots</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="602" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="602" bodyend="666"/>
-      </memberdef>
-      <memberdef kind="function" id="group__smoothers_1ga800d5e6633b77c0106c0abe6b88aec51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void basm_NR_solve</definition>
-        <argsstring>(int rowBlocks, int N, SuperMatrix *A, double w, double **subdomainL, int *subdomain_dim, int **l2g_L, double *R, double **subdomainR, int *node_order, double **subdomain_dX, double *dX, PROTEUS_LAPACK_INTEGER **subdomainPivots, PROTEUS_LAPACK_INTEGER **subdomainColPivots)</argsstring>
-        <name>basm_NR_solve</name>
-        <param>
-          <type>int</type>
-          <declname>rowBlocks</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>N</declname>
-        </param>
-        <param>
-          <type>SuperMatrix *</type>
-          <declname>A</declname>
-        </param>
-        <param>
-          <type>double</type>
-          <declname>w</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomainL</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>subdomain_dim</declname>
-        </param>
-        <param>
-          <type>int **</type>
-          <declname>l2g_L</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>R</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomainR</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>node_order</declname>
-        </param>
-        <param>
-          <type>double **</type>
-          <declname>subdomain_dX</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>dX</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomainPivots</declname>
-        </param>
-        <param>
-          <type>PROTEUS_LAPACK_INTEGER **</type>
-          <declname>subdomainColPivots</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/smoothers.c" line="668" column="6" bodyfile="/Users/cekees/proteus/proteus/smoothers.c" bodystart="668" bodyend="787"/>
-      </memberdef>
-      </sectiondef>
+    <sectiondef kind="user-defined">
+      <member refid="group__smoothers_1ga9350ca7fb815ea154342632a660899cc" kind="function"><name>jacobi_NR_prepare</name></member>
+      <member refid="group__smoothers_1gaee90b386397039346db68590e0592d35" kind="function"><name>jacobi_NR_solve</name></member>
+      <member refid="group__smoothers_1ga7e0bf68f9d9c6aa1a012251c1d1c37ce" kind="function"><name>nl_jacobi_NR_solve</name></member>
+      <member refid="group__smoothers_1ga41f85890187fa666de3f87e2185be339" kind="function"><name>gauss_seidel_NR_prepare</name></member>
+      <member refid="group__smoothers_1ga674ff17afc25a1113f2372d5e3ea86e2" kind="function"><name>gauss_seidel_NR_solve</name></member>
+      <member refid="group__smoothers_1ga5cc96e8ce8530d932e57bbfecd580c3a" kind="function"><name>nl_gauss_seidel_NR_solve</name></member>
+      <member refid="group__smoothers_1gae5003bd849b924a913c5f5d43b27a47b" kind="function"><name>asm_NR_init</name></member>
+      <member refid="group__smoothers_1gac419b711a2a61195e438f2a6d77af9f1" kind="function"><name>asm_NR_free</name></member>
+      <member refid="group__smoothers_1ga163be4c6ebf0e5b708c4b5e45659402c" kind="function"><name>asm_NR_prepare</name></member>
+      <member refid="group__smoothers_1ga4553cd7d6d1ea46f847f553a4a37a63d" kind="function"><name>asm_NR_solve</name></member>
+      <member refid="group__smoothers_1gac5b22060593964c3fdd61ea4d0803aef" kind="function"><name>basm_NR_init</name></member>
+      <member refid="group__smoothers_1ga714cc9711ca4f2393e30b99e558061ee" kind="function"><name>basm_NR_free</name></member>
+      <member refid="group__smoothers_1ga702ce565c2cd9b37d1fdd512387dddae" kind="function"><name>basm_NR_prepare</name></member>
+      <member refid="group__smoothers_1ga800d5e6633b77c0106c0abe6b88aec51" kind="function"><name>basm_NR_solve</name></member>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -627,9 +63,8 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="smoothers_8h" kindref="compound">smoothers.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>PROTEUS_LAPACK_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="group__smoothers_1ga9350ca7fb815ea154342632a660899cc" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__smoothers_1ga9350ca7fb815ea154342632a660899cc" kindref="member">jacobi_NR_prepare</ref>(SuperMatrix<sp/>*A,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="jf_8h_1a903054ae14c61b1d440291818185c51c" kindref="member">w</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>M)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>PROTEUS_LAPACK_H</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="group__smoothers_1ga9350ca7fb815ea154342632a660899cc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__smoothers_1ga9350ca7fb815ea154342632a660899cc" kindref="member">jacobi_NR_prepare</ref>(SuperMatrix<sp/>*A,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="jf_8h_1a903054ae14c61b1d440291818185c51c" kindref="member">w</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tol,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>M)</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__smoothers_1ga41f85890187fa666de3f87e2185be339" kindref="member">gauss_seidel_NR_prepare</ref>(A,<sp/><ref refid="jf_8h_1a903054ae14c61b1d440291818185c51c" kindref="member">w</ref>,<sp/>tol,<sp/>M);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">}</highlight></codeline>
@@ -651,14 +86,14 @@
 <codeline lineno="29"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*nzval;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*colind;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*rowptr;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>NRformat<sp/>*AStore<sp/>=<sp/>(NRformat*)<sp/>A-&gt;Store;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N<sp/>=<sp/>A-&gt;nrow;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>nzval<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*)AStore-&gt;nzval;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>colind<sp/>=<sp/>AStore-&gt;colind;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>rowptr<sp/>=<sp/>AStore-&gt;rowptr;</highlight></codeline>
@@ -696,14 +131,14 @@
 <codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*nzval;</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*colind;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*rowptr;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/>NRformat<sp/>*AStore<sp/>=<sp/>(NRformat*)<sp/>A-&gt;Store;</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N<sp/>=<sp/>A-&gt;nrow;</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/>nzval<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*)AStore-&gt;nzval;</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/>colind<sp/>=<sp/>AStore-&gt;colind;</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/>rowptr<sp/>=<sp/>AStore-&gt;rowptr;</highlight></codeline>
@@ -738,14 +173,14 @@
 <codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Purpose:<sp/><sp/>gauss_seidel<sp/>method<sp/>with<sp/>the<sp/>additional<sp/>assumption<sp/>that<sp/>A<sp/>is<sp/>of<sp/>Stype<sp/>NRformat</highlight></codeline>
 <codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*nzval;</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*colind;</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*rowptr;</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/>NRformat<sp/>*AStore<sp/>=<sp/>(NRformat*)<sp/>A-&gt;Store;</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N<sp/>=<sp/>A-&gt;nrow;</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/>nzval<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*)AStore-&gt;nzval;</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/>colind<sp/>=<sp/>AStore-&gt;colind;</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/>rowptr<sp/>=<sp/>AStore-&gt;rowptr;</highlight></codeline>
@@ -767,14 +202,14 @@
 <codeline lineno="145"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*nzval;</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*colind;</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*rowptr;</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>NRformat<sp/>*AStore<sp/>=<sp/>(NRformat*)<sp/>A-&gt;Store;</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N<sp/>=<sp/>A-&gt;nrow;</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>nzval<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*)AStore-&gt;nzval;</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>colind<sp/>=<sp/>AStore-&gt;colind;</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>rowptr<sp/>=<sp/>AStore-&gt;rowptr;</highlight></codeline>
@@ -958,7 +393,7 @@
 <codeline lineno="336"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Purpose:<sp/><sp/>asm<sp/>method<sp/>with<sp/>the<sp/>additional<sp/>assumption<sp/>that<sp/>A<sp/>is<sp/>of<sp/>Stype<sp/>NRformat<sp/></highlight></codeline>
 <codeline lineno="337"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"><sp/></highlight></codeline>
 <codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;<sp/></highlight></codeline>
-<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;<sp/></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;<sp/></highlight></codeline>
 <codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*nzval;<sp/></highlight></codeline>
 <codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*colind;<sp/></highlight></codeline>
 <codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*rowptr;<sp/></highlight></codeline>
@@ -968,7 +403,7 @@
 <codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>PROTEUS_LAPACK_INTEGER<sp/>La_N,INFO=0,NRHS=1;<sp/></highlight></codeline>
 <codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>TRANS=</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="348"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;<sp/></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;<sp/></highlight></codeline>
 <codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>nzval<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*)AStore-&gt;nzval;<sp/></highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>colind<sp/>=<sp/>AStore-&gt;colind;<sp/></highlight></codeline>
 <codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>rowptr<sp/>=<sp/>AStore-&gt;rowptr;<sp/></highlight></codeline>
@@ -1042,7 +477,7 @@
 <codeline lineno="420"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i<sp/>&lt;<sp/>N;<sp/>i++)</highlight></codeline>
 <codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>local_nonzero_entries<sp/>=<sp/>ANR-&gt;rowptr[(i+1)*rowBlocks]-ANR-&gt;rowptr[i*rowBlocks];</highlight></codeline>
-<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(local_nonzero_entries<sp/>&gt;<sp/>max_local_dim)</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(local_nonzero_entries<sp/>&gt;<sp/>max_local_dim)</highlight></codeline>
 <codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>max_local_dim<sp/>=<sp/>local_nonzero_entries;</highlight></codeline>
 <codeline lineno="425"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="426"><highlight class="normal"><sp/><sp/>unique_local_dofs<sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*)<sp/>malloc(max_local_dim*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">));</highlight></codeline>
@@ -1081,7 +516,7 @@
 <codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*count<sp/>number<sp/>of<sp/>unique<sp/>dofs<sp/>in<sp/>the<sp/>local<sp/>system*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jj,kk,j,found_j;</highlight></codeline>
 <codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>local_nonzero_entries<sp/>=<sp/>ANR-&gt;rowptr[(i+1)*rowBlocks]-ANR-&gt;rowptr[i*rowBlocks];</highlight></codeline>
-<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
 <codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unique_local_dofs[jj]<sp/>=<sp/>-12345;</highlight></codeline>
 <codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>n_unique_local_dofs<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
@@ -1129,7 +564,7 @@
 <codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j,<sp/>jj,<sp/>k,<sp/>kk,<sp/>found_j;</highlight></codeline>
 <codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*again<sp/>determine<sp/>unique<sp/>column<sp/>indeces*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>local_nonzero_entries<sp/>=<sp/>ANR-&gt;rowptr[(i+1)*rowBlocks]-ANR-&gt;rowptr[i*rowBlocks];</highlight></codeline>
-<codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
 <codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unique_local_dofs[jj]<sp/>=<sp/>-12345;</highlight></codeline>
 <codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>n_unique_local_dofs<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
@@ -1305,7 +740,7 @@
 <codeline lineno="683"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Purpose:<sp/><sp/>asm<sp/>method<sp/>with<sp/>the<sp/>additional<sp/>assumption<sp/>that<sp/>A<sp/>is<sp/>of<sp/>Stype<sp/>NRformat<sp/></highlight></codeline>
 <codeline lineno="684"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"><sp/></highlight></codeline>
 <codeline lineno="685"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;<sp/></highlight></codeline>
-<codeline lineno="686"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;<sp/></highlight></codeline>
+<codeline lineno="686"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref>;<sp/></highlight></codeline>
 <codeline lineno="687"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*nzval;<sp/></highlight></codeline>
 <codeline lineno="688"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*colind;<sp/></highlight></codeline>
 <codeline lineno="689"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*rowptr;<sp/></highlight></codeline>
@@ -1325,14 +760,14 @@
 <codeline lineno="703"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i<sp/>&lt;<sp/>N;<sp/>i++)</highlight></codeline>
 <codeline lineno="704"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="705"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>local_nonzero_entries<sp/>=<sp/>AStore-&gt;rowptr[(i+1)*rowBlocks]-AStore-&gt;rowptr[i*rowBlocks];</highlight></codeline>
-<codeline lineno="706"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(local_nonzero_entries<sp/>&gt;<sp/>max_local_dim)</highlight></codeline>
+<codeline lineno="706"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(local_nonzero_entries<sp/>&gt;<sp/>max_local_dim)</highlight></codeline>
 <codeline lineno="707"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>max_local_dim<sp/>=<sp/>local_nonzero_entries;</highlight></codeline>
 <codeline lineno="708"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="709"><highlight class="normal"><sp/><sp/><sp/><sp/>unique_local_dofs<sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*)<sp/>malloc(max_local_dim*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="710"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i<sp/>&lt;<sp/>max_local_dim;<sp/>i++)</highlight></codeline>
 <codeline lineno="711"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>unique_local_dofs[i]=-1;</highlight></codeline>
 <codeline lineno="712"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_richards_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;<sp/></highlight></codeline>
+<codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="m__comp__co2_8h_1a93d413a62c9fd1342f67727ef7f8c6a1" kindref="member">nnz</ref><sp/>=<sp/>AStore-&gt;nnz;<sp/></highlight></codeline>
 <codeline lineno="714"><highlight class="normal"><sp/><sp/><sp/><sp/>nzval<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*)AStore-&gt;nzval;<sp/></highlight></codeline>
 <codeline lineno="715"><highlight class="normal"><sp/><sp/><sp/><sp/>colind<sp/>=<sp/>AStore-&gt;colind;<sp/></highlight></codeline>
 <codeline lineno="716"><highlight class="normal"><sp/><sp/><sp/><sp/>rowptr<sp/>=<sp/>AStore-&gt;rowptr;<sp/></highlight></codeline>
@@ -1343,7 +778,7 @@
 <codeline lineno="721"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j,<sp/>k,kk,<sp/>jj,<sp/>ii,<sp/>found_j=-1;<sp/></highlight></codeline>
 <codeline lineno="722"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*again<sp/>determine<sp/>unique<sp/>column<sp/>indeces<sp/>maybe<sp/>go<sp/>ahead<sp/>and<sp/>store<sp/>these*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="723"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>local_nonzero_entries<sp/>=<sp/>AStore-&gt;rowptr[(cnode+1)*rowBlocks]-AStore-&gt;rowptr[cnode*rowBlocks];</highlight></codeline>
-<codeline lineno="724"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
+<codeline lineno="724"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
 <codeline lineno="725"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unique_local_dofs[jj]<sp/>=<sp/>-12345;</highlight></codeline>
 <codeline lineno="726"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n_unique_local_dofs<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="727"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(jj=0;<sp/>jj<sp/>&lt;<sp/>local_nonzero_entries;<sp/>jj++)</highlight></codeline>
@@ -1409,6 +844,6 @@
 <codeline lineno="787"><highlight class="normal">}<sp/></highlight></codeline>
 <codeline lineno="788"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/smoothers.c"/>
+    <location file="/work/cekees/proteus/proteus/smoothers.c"/>
   </compounddef>
 </doxygen>

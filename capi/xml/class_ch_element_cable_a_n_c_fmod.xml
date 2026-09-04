@@ -1,30 +1,32 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_ch_element_cable_a_n_c_fmod" kind="class" language="C++" prot="public">
     <compoundname>ChElementCableANCFmod</compoundname>
     <basecompoundref prot="public" virt="non-virtual">ChElementCableANCF</basecompoundref>
-    <includes refid="_prot_ch_moorings_8h" local="no">/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h</includes>
-      <sectiondef kind="private-attrib">
+    <includes refid="_prot_ch_moorings_8h" local="no">/work/cekees/proteus/proteus/mbd/ProtChMoorings.h</includes>
+    <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_ch_element_cable_a_n_c_fmod_1a88139555becda9a44096c01a63c48d00" prot="private" static="no" mutable="no">
         <type>ChVectorN&lt; double, 12 &gt;</type>
         <definition>ChVectorN&lt;double, 12&gt; ChElementCableANCFmod::m_GenForceVec0</definition>
         <argsstring></argsstring>
         <name>m_GenForceVec0</name>
+        <qualifiedname>ChElementCableANCFmod::m_GenForceVec0</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="39" column="13" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="39" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="37" column="13" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="37" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+    </sectiondef>
+    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_ch_element_cable_a_n_c_fmod_1a4fafd9cf4baf5d04e3cda2fdcdc56676" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void ChElementCableANCFmod::SetupInitial</definition>
         <argsstring>(ChSystem *system) override</argsstring>
         <name>SetupInitial</name>
+        <qualifiedname>ChElementCableANCFmod::SetupInitial</qualifiedname>
         <param>
           <type>ChSystem *</type>
           <declname>system</declname>
@@ -35,36 +37,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="40" column="16" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="40" bodyend="58"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="38" column="16" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="38" bodyend="83"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="2">
+        <label>ChElementCableANCF</label>
+      </node>
       <node id="1">
         <label>ChElementCableANCFmod</label>
         <link refid="class_ch_element_cable_a_n_c_fmod"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="2">
-        <label>ChElementCableANCF</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="2">
+        <label>ChElementCableANCF</label>
+      </node>
       <node id="1">
         <label>ChElementCableANCFmod</label>
         <link refid="class_ch_element_cable_a_n_c_fmod"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="2">
-        <label>ChElementCableANCF</label>
-      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="37" column="1" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="37" bodyend="59"/>
+    <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="35" column="1" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="35" bodyend="84"/>
     <listofallmembers>
       <member refid="class_ch_element_cable_a_n_c_fmod_1a88139555becda9a44096c01a63c48d00" prot="private" virt="non-virtual"><scope>ChElementCableANCFmod</scope><name>m_GenForceVec0</name></member>
       <member refid="class_ch_element_cable_a_n_c_fmod_1a4fafd9cf4baf5d04e3cda2fdcdc56676" prot="private" virt="virtual"><scope>ChElementCableANCFmod</scope><name>SetupInitial</name></member>

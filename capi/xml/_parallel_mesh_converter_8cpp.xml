@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_parallel_mesh_converter_8cpp" kind="file" language="C++">
     <compoundname>ParallelMeshConverter.cpp</compoundname>
     <includes local="no">algorithm</includes>
@@ -11,38 +11,35 @@
     <includes refid="_dump_mesh_8h" local="yes">DumpMesh.h</includes>
     <includes local="no">cstring</includes>
     <incdepgraph>
-      <node id="11">
-        <label>list</label>
-      </node>
-      <node id="13">
-        <label>iomanip</label>
-      </node>
-      <node id="20">
-        <label>queue</label>
-      </node>
-      <node id="16">
-        <label>cmath</label>
-      </node>
-      <node id="15">
-        <label>cassert</label>
-      </node>
-      <node id="10">
-        <label>map</label>
-      </node>
-      <node id="14">
-        <label>fstream</label>
-      </node>
-      <node id="21">
-        <label>PyEmbeddedFunctions.h</label>
-        <link refid="_py_embedded_functions_8h"/>
-        <childnode refid="22" relation="include">
+      <node id="24">
+        <label>DumpMesh.h</label>
+        <link refid="_dump_mesh_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>PCU.h</label>
-      </node>
-      <node id="24">
-        <label>cstdio</label>
+      <node id="6">
+        <label>MeshAdaptPUMI.h</label>
+        <link refid="_mesh_adapt_p_u_m_i_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>ParallelMeshConverter.cpp</label>
@@ -59,16 +56,16 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="22">
-        <label>Python.h</label>
-      </node>
-      <node id="9">
-        <label>vector</label>
+        <label>PyEmbeddedFunctions.h</label>
+        <link refid="_py_embedded_functions_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
       <node id="7">
         <label>mesh.h</label>
@@ -93,60 +90,74 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>sstream</label>
-      </node>
-      <node id="19">
-        <label>apfNumbering.h</label>
-      </node>
-      <node id="17">
-        <label>apf.h</label>
-      </node>
-      <node id="6">
-        <label>MeshAdaptPUMI.h</label>
-        <link refid="_mesh_adapt_p_u_m_i_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
       </node>
-      <node id="12">
-        <label>iostream</label>
+      <node id="4">
+        <label>PCU.h</label>
       </node>
-      <node id="18">
-        <label>apfMesh2.h</label>
+      <node id="23">
+        <label>PCU_C.h</label>
       </node>
-      <node id="3">
-        <label>mpi.h</label>
-      </node>
-      <node id="8">
-        <label>set</label>
+      <node id="17">
+        <label>Python.h</label>
       </node>
       <node id="2">
         <label>algorithm</label>
       </node>
+      <node id="18">
+        <label>apf.h</label>
+      </node>
+      <node id="19">
+        <label>apfMesh2.h</label>
+      </node>
+      <node id="20">
+        <label>apfNumbering.h</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="16">
+        <label>cmath</label>
+      </node>
       <node id="25">
+        <label>cstdio</label>
+      </node>
+      <node id="26">
         <label>cstring</label>
       </node>
-      <node id="23">
-        <label>DumpMesh.h</label>
-        <link refid="_dump_mesh_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
+      <node id="14">
+        <label>fstream</label>
+      </node>
+      <node id="13">
+        <label>iomanip</label>
+      </node>
+      <node id="12">
+        <label>iostream</label>
+      </node>
+      <node id="11">
+        <label>list</label>
+      </node>
+      <node id="10">
+        <label>map</label>
+      </node>
+      <node id="3">
+        <label>mpi.h</label>
+      </node>
+      <node id="21">
+        <label>queue</label>
+      </node>
+      <node id="8">
+        <label>set</label>
+      </node>
+      <node id="5">
+        <label>sstream</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
       </node>
     </incdepgraph>
-      <sectiondef kind="var">
+    <sectiondef kind="var">
       <memberdef kind="variable" id="_parallel_mesh_converter_8cpp_1aeda877142ca1dcbf191305594d24269d" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int DEFAULT_ELEMENT_MATERIAL</definition>
@@ -159,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="11" column="11" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="11" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="11" column="11" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_parallel_mesh_converter_8cpp_1ac5eb1896979304d2cb81a648238fc653" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -173,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="12" column="11" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="12" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="12" column="11" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_parallel_mesh_converter_8cpp_1ad35607ea8a680ffaf21a6a635c89cfe5" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -187,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="13" column="11" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="13" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="13" column="11" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_parallel_mesh_converter_8cpp_1a8d3678ad75d9c618bf644fe028adef39" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -201,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="14" column="11" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="14" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="14" column="11" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_parallel_mesh_converter_8cpp_1a69c2eeb926c4caa012dd05cfc225af24" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -215,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="15" column="11" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="15" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="15" column="11" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_parallel_mesh_converter_8cpp_1aec3cd3b92573b27832f6c9d2d97f93cf" prot="public" static="no" mutable="no">
         <type>const int</type>
@@ -229,14 +240,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="16" column="11" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="16" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="16" column="11" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="16" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="_parallel_mesh_converter_8cpp_1a2c5be8bd233e44a6e724e343c4bb7463" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_parallel_mesh_converter_8cpp_1ac264dc04f0f37d4898ffd66efea1436e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>static int countTotal</definition>
-        <argsstring>(apf::Mesh *m, int dim)</argsstring>
+        <argsstring>(apf::Mesh *m, int dim, PCU_t PCUObj)</argsstring>
         <name>countTotal</name>
         <param>
           <type>apf::Mesh *</type>
@@ -246,15 +257,19 @@
           <type>int</type>
           <declname>dim</declname>
         </param>
+        <param>
+          <type>PCU_t</type>
+          <declname>PCUObj</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="18" column="12" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="18" bodyend="23"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" line="18" column="12" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp" bodystart="18" bodyend="23"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -270,17 +285,17 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_dump_mesh_8h" kindref="compound">DumpMesh.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="_parallel_mesh_converter_8cpp_1aeda877142ca1dcbf191305594d24269d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_parallel_mesh_converter_8cpp_1aeda877142ca1dcbf191305594d24269d" kindref="member">DEFAULT_ELEMENT_MATERIAL</ref>=0;</highlight></codeline>
-<codeline lineno="12" refid="_parallel_mesh_converter_8cpp_1ac5eb1896979304d2cb81a648238fc653" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_parallel_mesh_converter_8cpp_1ac5eb1896979304d2cb81a648238fc653" kindref="member">DEFAULT_NODE_MATERIAL</ref>=-1;</highlight></codeline>
-<codeline lineno="13" refid="_parallel_mesh_converter_8cpp_1ad35607ea8a680ffaf21a6a635c89cfe5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_parallel_mesh_converter_8cpp_1ad35607ea8a680ffaf21a6a635c89cfe5" kindref="member">INTERIOR_NODE_MATERIAL</ref>=0;</highlight></codeline>
-<codeline lineno="14" refid="_parallel_mesh_converter_8cpp_1a8d3678ad75d9c618bf644fe028adef39" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_parallel_mesh_converter_8cpp_1a8d3678ad75d9c618bf644fe028adef39" kindref="member">EXTERIOR_NODE_MATERIAL</ref>=1;</highlight></codeline>
-<codeline lineno="15" refid="_parallel_mesh_converter_8cpp_1a69c2eeb926c4caa012dd05cfc225af24" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_parallel_mesh_converter_8cpp_1a69c2eeb926c4caa012dd05cfc225af24" kindref="member">INTERIOR_ELEMENT_BOUNDARY_MATERIAL</ref>=0;</highlight></codeline>
-<codeline lineno="16" refid="_parallel_mesh_converter_8cpp_1aec3cd3b92573b27832f6c9d2d97f93cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_parallel_mesh_converter_8cpp_1aec3cd3b92573b27832f6c9d2d97f93cf" kindref="member">EXTERIOR_ELEMENT_BOUNDARY_MATERIAL</ref>=1;</highlight></codeline>
+<codeline lineno="11" refid="_parallel_mesh_converter_8cpp_1aeda877142ca1dcbf191305594d24269d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_mesh_converter_8cpp_1a750523a6333b98c899b96a92b649ae80" kindref="member">DEFAULT_ELEMENT_MATERIAL</ref>=0;</highlight></codeline>
+<codeline lineno="12" refid="_parallel_mesh_converter_8cpp_1ac5eb1896979304d2cb81a648238fc653" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="mesh_8cpp_1ac5eb1896979304d2cb81a648238fc653" kindref="member">DEFAULT_NODE_MATERIAL</ref>=-1;</highlight></codeline>
+<codeline lineno="13" refid="_parallel_mesh_converter_8cpp_1ad35607ea8a680ffaf21a6a635c89cfe5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="mesh_8cpp_1ad35607ea8a680ffaf21a6a635c89cfe5" kindref="member">INTERIOR_NODE_MATERIAL</ref>=0;</highlight></codeline>
+<codeline lineno="14" refid="_parallel_mesh_converter_8cpp_1a8d3678ad75d9c618bf644fe028adef39" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="mesh_8cpp_1a8d3678ad75d9c618bf644fe028adef39" kindref="member">EXTERIOR_NODE_MATERIAL</ref>=1;</highlight></codeline>
+<codeline lineno="15" refid="_parallel_mesh_converter_8cpp_1a69c2eeb926c4caa012dd05cfc225af24" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="mesh_8cpp_1a69c2eeb926c4caa012dd05cfc225af24" kindref="member">INTERIOR_ELEMENT_BOUNDARY_MATERIAL</ref>=0;</highlight></codeline>
+<codeline lineno="16" refid="_parallel_mesh_converter_8cpp_1aec3cd3b92573b27832f6c9d2d97f93cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="mesh_8cpp_1aec3cd3b92573b27832f6c9d2d97f93cf" kindref="member">EXTERIOR_ELEMENT_BOUNDARY_MATERIAL</ref>=1;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>countTotal(apf::Mesh*<sp/>m,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>countTotal(apf::Mesh*<sp/>m,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim,<sp/>PCU_t<sp/>PCUObj)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>total<sp/>=<sp/>apf::countOwned(m,<sp/>dim);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/>PCU_Add_Ints(&amp;total,<sp/>1);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>PCU_Add_Ints(PCUObj,<sp/>&amp;total,<sp/>1);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>total;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
@@ -288,26 +303,26 @@
 <codeline lineno="26"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/>mesh.<ref refid="struct_mesh_1abb9c745014c9e5efdc6f9545592b8d9e" kindref="member">subdomainp</ref><sp/>=<sp/>&amp;subdomain_mesh;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="group__mesh_1ga509a95e0124b5fdd0a7cd09574cb5e30" kindref="member">initializeMesh</ref>(subdomain_mesh);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!PCU_Comm_Self())</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!PCU_Comm_Self(PCUObj))</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Constructing<sp/>parallel<sp/>proteus<sp/>mesh\n&quot;</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dim<sp/>=<sp/>m-&gt;getDimension();</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobElem<sp/>=<sp/>countTotal(m,<sp/>dim);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobElem<sp/>=<sp/>countTotal(m,<sp/>dim,<sp/>PCUObj);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/>mesh.<ref refid="struct_mesh_1a67e33052617d0e53ebe053d71412dee8" kindref="member">nElements_global</ref><sp/>=<sp/>numGlobElem;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numLocElem<sp/>=<sp/>m-&gt;count(dim);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/>mesh.<ref refid="struct_mesh_1abb9c745014c9e5efdc6f9545592b8d9e" kindref="member">subdomainp</ref>-&gt;<ref refid="struct_mesh_1a67e33052617d0e53ebe053d71412dee8" kindref="member">nElements_global</ref><sp/>=<sp/>numLocElem;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobNodes<sp/>=<sp/>countTotal(m,<sp/>0);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobNodes<sp/>=<sp/>countTotal(m,<sp/>0,<sp/>PCUObj);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/>mesh.<ref refid="struct_mesh_1a7038fb145b0b7b77e5fd0cd162ae2fed" kindref="member">nNodes_global</ref><sp/>=<sp/>numGlobNodes;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numLocNodes<sp/>=<sp/>m-&gt;count(0);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/>mesh.<ref refid="struct_mesh_1abb9c745014c9e5efdc6f9545592b8d9e" kindref="member">subdomainp</ref>-&gt;<ref refid="struct_mesh_1a7038fb145b0b7b77e5fd0cd162ae2fed" kindref="member">nNodes_global</ref><sp/>=<sp/>numLocNodes;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobFaces<sp/>=<sp/>countTotal(m,<sp/>2);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobFaces<sp/>=<sp/>countTotal(m,<sp/>2,<sp/>PCUObj);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numLocFaces<sp/>=<sp/>m-&gt;count(2);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobEdges<sp/>=<sp/>countTotal(m,<sp/>1);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numGlobEdges<sp/>=<sp/>countTotal(m,<sp/>1,<sp/>PCUObj);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/>mesh.<ref refid="struct_mesh_1a1ab38b6ade39987726268e990e3e24e7" kindref="member">nEdges_global</ref><sp/>=<sp/>numGlobEdges;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numLocEdges<sp/>=<sp/>m-&gt;count(1);</highlight></codeline>
@@ -332,8 +347,8 @@
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>MESH_INFO</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>PCU_Comm_Peers();<sp/>++i)<sp/>{</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>==<sp/>PCU_Comm_Self())<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>PCU_Comm_Peers(PCUObj);<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>==<sp/>PCU_Comm_Self(PCUObj))<sp/>{</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;*******Local<sp/>Proteus<sp/>Mesh<sp/>Stats*********\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Rank:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>comm_rank<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>Number<sp/>of<sp/>elements<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>mesh.<ref refid="struct_mesh_1abb9c745014c9e5efdc6f9545592b8d9e" kindref="member">subdomainp</ref>-&gt;<ref refid="struct_mesh_1a67e33052617d0e53ebe053d71412dee8" kindref="member">nElements_global</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Rank:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>comm_rank<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>Number<sp/>of<sp/>nodes<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>mesh.<ref refid="struct_mesh_1abb9c745014c9e5efdc6f9545592b8d9e" kindref="member">subdomainp</ref>-&gt;<ref refid="struct_mesh_1a7038fb145b0b7b77e5fd0cd162ae2fed" kindref="member">nNodes_global</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
@@ -341,7 +356,7 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Rank:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>comm_rank<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>Number<sp/>of<sp/>edges<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>mesh.<ref refid="struct_mesh_1abb9c745014c9e5efdc6f9545592b8d9e" kindref="member">subdomainp</ref>-&gt;<ref refid="struct_mesh_1a1ab38b6ade39987726268e990e3e24e7" kindref="member">nEdges_global</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;*****************************************\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>PCU_Barrier();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>PCU_Barrier(PCUObj);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(comm_rank==0)<sp/>{</highlight></codeline>
@@ -387,7 +402,7 @@
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nLocalOwned<sp/>=<sp/>apf::countOwned(m,<sp/>dim);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>localOffset<sp/>=<sp/>nLocalOwned;</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PCU_Exscan_Ints(&amp;localOffset,<sp/>1);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PCU_Exscan_Ints(PCUObj,<sp/>&amp;localOffset,<sp/>1);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>allOffsets;</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(dim==3){</highlight></codeline>
@@ -406,7 +421,7 @@
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>one<sp/>of<sp/>the<sp/>many<sp/>reasons<sp/>N^2<sp/>algorithms<sp/>are<sp/>bad<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MPI_Allgather(&amp;localOffset,<sp/>1,<sp/>MPI_INT,</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allOffsets,<sp/>1,<sp/>MPI_INT,<sp/>MPI_COMM_WORLD);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>allOffsets[PCU_Comm_Peers()]<sp/>=<sp/>countTotal(m,<sp/>dim);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>allOffsets[PCU_Comm_Peers(PCUObj)]<sp/>=<sp/>countTotal(m,<sp/>dim,<sp/>PCUObj);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::stringstream<sp/>ss;</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;proteus_global_&quot;</highlight><highlight class="normal">;</highlight></codeline>
@@ -423,7 +438,7 @@
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nLocalOwned<sp/>=<sp/>apf::countOwned(m,<sp/>dim);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>localOffset<sp/>=<sp/>nLocalOwned;</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PCU_Exscan_Ints(&amp;localOffset,<sp/>1);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PCU_Exscan_Ints(PCUObj,<sp/>&amp;localOffset,<sp/>1);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>allOffsets;</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(dim==2){</highlight></codeline>
@@ -439,7 +454,7 @@
 <codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>one<sp/>of<sp/>the<sp/>many<sp/>reasons<sp/>N^2<sp/>algorithms<sp/>are<sp/>bad<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MPI_Allgather(&amp;localOffset,<sp/>1,<sp/>MPI_INT,</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allOffsets,<sp/>1,<sp/>MPI_INT,<sp/>MPI_COMM_WORLD);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>allOffsets[PCU_Comm_Peers()]<sp/>=<sp/>countTotal(m,<sp/>dim);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>allOffsets[PCU_Comm_Peers(PCUObj)]<sp/>=<sp/>countTotal(m,<sp/>dim,<sp/>PCUObj);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::stringstream<sp/>ss;</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;proteus_global_&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ss<sp/>&lt;&lt;<sp/>dim;</highlight></codeline>
@@ -504,15 +519,15 @@
 <codeline lineno="242" refid="class_mesh_adapt_p_u_m_i_drvr_1a2f375f8c93ed5b48495fa0d689171c95" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mesh_adapt_p_u_m_i_drvr_1a2f375f8c93ed5b48495fa0d689171c95" kindref="member">MeshAdaptPUMIDrvr::dumpMesh</ref>(<ref refid="struct_mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh)</highlight></codeline>
 <codeline lineno="243"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"><sp/><sp/>std::stringstream<sp/>ss;</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/>ss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;dan_debug_&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>PCU_Comm_Self()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/>ss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;dan_debug_&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>PCU_Comm_Self(PCUObj)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" kindref="member">s</ref><sp/>=<sp/>ss.str();</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"><sp/><sp/>FILE*<sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref><sp/>=<sp/>fopen(<ref refid="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" kindref="member">s</ref>.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;w&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="248"><highlight class="normal"><sp/><sp/><ref refid="_dump_mesh_8cpp_1a8760eb83717b084421a80e0eb9ed2852" kindref="member">dump_proteus_mesh</ref>(&amp;mesh,<sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref>);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><ref refid="_dump_mesh_8cpp_1a330af2f1169e64941f3cb88c0072db63" kindref="member">dump_proteus_mesh</ref>(&amp;mesh,<sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref>,<sp/>PCUObj);</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"><sp/><sp/>fclose(<ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref>);</highlight></codeline>
 <codeline lineno="250"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="251"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp"/>
+    <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/ParallelMeshConverter.cpp"/>
   </compounddef>
 </doxygen>

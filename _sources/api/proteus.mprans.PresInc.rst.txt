@@ -3,5 +3,5 @@ proteus.mprans.PresInc module
 
 .. automodule:: proteus.mprans.PresInc
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

@@ -1,5 +1,7 @@
 <map id="MeshAdaptPUMIDrvr" name="MeshAdaptPUMIDrvr">
-<area shape="rect" id="node1" title="Class that handles the interface between SCOREC tools and Proteus." alt="" coords="5,215,152,241"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="39,96,119,123"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="15,5,142,47"/>
+<area shape="rect" id="Node000001" title="Class that handles the interface between SCOREC tools and Proteus." alt="" coords="5,245,162,272"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="40,99,127,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,142,86,244,81,244,81,144"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,5,153,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,63,86,99,81,98,83,68"/>
 </map>

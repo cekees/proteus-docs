@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_mixed_model_factory_8h" kind="file" language="C++">
     <compoundname>MixedModelFactory.h</compoundname>
     <includes local="no">iostream</includes>
@@ -17,10 +17,6 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
-        <label>RANS2P2D.cpp</label>
-        <link refid="_r_a_n_s2_p2_d_8cpp"/>
-      </node>
       <node id="1">
         <label>MixedModelFactory.h</label>
         <link refid="_mixed_model_factory_8h"/>
@@ -39,6 +35,10 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>RANS2P2D.cpp</label>
+        <link refid="_r_a_n_s2_p2_d_8cpp"/>
+      </node>
       <node id="4">
         <label>RANS2P2D.h</label>
         <link refid="_r_a_n_s2_p2_d_8h"/>
@@ -47,37 +47,37 @@
       </node>
     </invincdepgraph>
     <innernamespace refid="namespaceproteus">proteus</innernamespace>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_mixed_model_factory_8h_1ae3bf9e98fd013899f9cab64bce97b242" prot="public" static="no">
         <name>NO_INSTANCE</name>
-        <initializer>  std::cout&lt;&lt;&quot;Constructing model object from template class:&quot;&lt;&lt;std::endl \
-  &lt;&lt;&quot;return static_cast&lt;Model_Base*&gt;(new ModelTemplate&lt;CompKernelTemplate&lt;&quot; \
-  &lt;&lt;nSpaceIn&lt;&lt;&quot;,&quot;                                                       \
-  &lt;&lt;nDOF_mesh_trial_elementIn&lt;&lt;&quot;,&quot;                                      \
-  &lt;&lt;nDOF_trial_elementIn&lt;&lt;&quot;,&quot;                                           \
-  &lt;&lt;nDOF_test_elementIn&lt;&lt;&quot;&gt;,CompKernelTemplate_v&lt;&quot;                      \
-  &lt;&lt;nSpaceIn&lt;&lt;&quot;,&quot;                                                       \
-  &lt;&lt;nDOF_mesh_trial_elementIn&lt;&lt;&quot;,&quot;                                      \
-  &lt;&lt;nDOF_v_trial_elementIn&lt;&lt;&quot;,&quot;                                         \
-  &lt;&lt;nDOF_v_test_elementIn&lt;&lt;&quot;&gt;,&quot;                                         \
-  &lt;&lt;nSpaceIn&lt;&lt;&quot;,&quot;                                                       \
-  &lt;&lt;nQuadraturePoints_elementIn&lt;&lt;&quot;,&quot;                                    \
-  &lt;&lt;nDOF_mesh_trial_elementIn&lt;&lt;&quot;,&quot;                                      \
-  &lt;&lt;nDOF_trial_elementIn&lt;&lt;&quot;,&quot;                                           \
-  &lt;&lt;nDOF_test_elementIn&lt;&lt;&quot;,&quot;                                            \
-  &lt;&lt;nDOF_v_trial_elementIn&lt;&lt;&quot;,&quot;                                           \
-  &lt;&lt;nDOF_v_test_elementIn&lt;&lt;&quot;,&quot;                                            \
-  &lt;&lt;nQuadraturePoints_elementBoundaryIn&lt;&lt;&quot;&gt;());&quot;                        \
-  &lt;&lt;std::endl&lt;&lt;std::flush</initializer>
+        <initializer>std::cout&lt;&lt;&quot;Constructing model object from template class:&quot;&lt;&lt;std::endl \
+&lt;&lt;&quot;return static_cast&lt;Model_Base*&gt;(new ModelTemplate&lt;CompKernelTemplate&lt;&quot; \
+&lt;&lt;nSpaceIn&lt;&lt;&quot;,&quot;                                                       \
+&lt;&lt;nDOF_mesh_trial_elementIn&lt;&lt;&quot;,&quot;                                      \
+&lt;&lt;nDOF_trial_elementIn&lt;&lt;&quot;,&quot;                                           \
+&lt;&lt;nDOF_test_elementIn&lt;&lt;&quot;&gt;,CompKernelTemplate_v&lt;&quot;                      \
+&lt;&lt;nSpaceIn&lt;&lt;&quot;,&quot;                                                       \
+&lt;&lt;nDOF_mesh_trial_elementIn&lt;&lt;&quot;,&quot;                                      \
+&lt;&lt;nDOF_v_trial_elementIn&lt;&lt;&quot;,&quot;                                         \
+&lt;&lt;nDOF_v_test_elementIn&lt;&lt;&quot;&gt;,&quot;                                         \
+&lt;&lt;nSpaceIn&lt;&lt;&quot;,&quot;                                                       \
+&lt;&lt;nQuadraturePoints_elementIn&lt;&lt;&quot;,&quot;                                    \
+&lt;&lt;nDOF_mesh_trial_elementIn&lt;&lt;&quot;,&quot;                                      \
+&lt;&lt;nDOF_trial_elementIn&lt;&lt;&quot;,&quot;                                           \
+&lt;&lt;nDOF_test_elementIn&lt;&lt;&quot;,&quot;                                            \
+&lt;&lt;nDOF_v_trial_elementIn&lt;&lt;&quot;,&quot;                                           \
+&lt;&lt;nDOF_v_test_elementIn&lt;&lt;&quot;,&quot;                                            \
+&lt;&lt;nQuadraturePoints_elementBoundaryIn&lt;&lt;&quot;&gt;());&quot;                        \
+&lt;&lt;std::endl&lt;&lt;std::flush</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MixedModelFactory.h" line="4" column="18" bodyfile="/Users/cekees/proteus/proteus/MixedModelFactory.h" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/MixedModelFactory.h" line="4" column="18" bodyfile="/work/cekees/proteus/proteus/MixedModelFactory.h" bodystart="4" bodyend="22"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -130,7 +130,7 @@
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>nDOF_v_trial_element,</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>nDOF_v_test_element&gt;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>class<sp/>CompKernelTemplate&gt;</highlight></codeline>
-<codeline lineno="48" refid="namespaceproteus_1a0e6a3981097de3d4170c461bcd2df57f" refkind="member"><highlight class="normal"><sp/><sp/>Model_Base*<sp/><ref refid="namespaceproteus_1a0e6a3981097de3d4170c461bcd2df57f" kindref="member">chooseAndAllocateDiscretization</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpaceIn,</highlight></codeline>
+<codeline lineno="48" refid="namespaceproteus_1a5210b6c9d59572de0d48d032af97a170" refkind="member"><highlight class="normal"><sp/><sp/>Model_Base*<sp/><ref refid="namespaceproteus_1a5210b6c9d59572de0d48d032af97a170" kindref="member">chooseAndAllocateDiscretization</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpaceIn,</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nQuadraturePoints_elementIn,</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nDOF_mesh_trial_elementIn,</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nDOF_trial_elementIn,</highlight></codeline>
@@ -391,7 +391,7 @@
 <codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>nDOF_v_trial_element,</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>nDOF_v_test_element&gt;</highlight></codeline>
 <codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>class<sp/>CompKernelTemplate_v&gt;</highlight></codeline>
-<codeline lineno="309" refid="namespaceproteus_1aa081c1fed534df492023f0a486d093c6" refkind="member"><highlight class="normal"><sp/><sp/>Model_Base*<sp/><ref refid="namespaceproteus_1aa081c1fed534df492023f0a486d093c6" kindref="member">chooseAndAllocateDiscretization2D</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpaceIn,</highlight></codeline>
+<codeline lineno="309" refid="namespaceproteus_1ad2421188c6452f78d03ced44ddb3c6cc" refkind="member"><highlight class="normal"><sp/><sp/>Model_Base*<sp/><ref refid="namespaceproteus_1ad2421188c6452f78d03ced44ddb3c6cc" kindref="member">chooseAndAllocateDiscretization2D</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpaceIn,</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nQuadraturePoints_elementIn,</highlight></codeline>
 <codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nDOF_mesh_trial_elementIn,</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nDOF_trial_elementIn,</highlight></codeline>
@@ -607,6 +607,6 @@
 <codeline lineno="522"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="523"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/MixedModelFactory.h"/>
+    <location file="/work/cekees/proteus/proteus/MixedModelFactory.h"/>
   </compounddef>
 </doxygen>

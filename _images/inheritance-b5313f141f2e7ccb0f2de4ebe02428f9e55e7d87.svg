@@ -1,0 +1,98 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="266pt" height="185pt" viewBox="0.00 0.00 266.00 185.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 180.75)">
+<ns0:title>inheritancecaff6f4bb2</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>BuckleyLeverett</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.ObjectiveFunctions.html#proteus.ObjectiveFunctions.BuckleyLeverett" ns1:title="BuckleyLeverett" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="113.88,-59.75 18.38,-59.75 18.38,-39 113.88,-39 113.88,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="66.12" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BuckleyLeverett</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ObjectiveFunction_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.Optimizers.html#proteus.Optimizers.ObjectiveFunction_base" ns1:title="ObjectiveFunction_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="132.25,-98.75 0,-98.75 0,-78 132.25,-78 132.25,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="66.12" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ObjectiveFunction_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>OsherFunc</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.ObjectiveFunctions.html#proteus.ObjectiveFunctions.OsherFunc" ns1:title="OsherFunc" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="246.5,-176.75 179.5,-176.75 179.5,-156 246.5,-156 246.5,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="213" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">OsherFunc</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ObjectiveFunction_base-&gt;OsherFunc</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M84.75,-99.15C104.72,-111.19 138.37,-131.02 168.25,-146.38 172.53,-148.58 177.11,-150.8 181.62,-152.93" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="181.32,-154.72 186.6,-155.24 182.8,-151.54 181.32,-154.72" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>OsherFuncCoef</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.ObjectiveFunctions.html#proteus.ObjectiveFunctions.OsherFuncCoef" ns1:title="OsherFuncCoef" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="257.75,-137.75 168.25,-137.75 168.25,-117 257.75,-117 257.75,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="213" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">OsherFuncCoef</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ObjectiveFunction_base-&gt;OsherFuncCoef</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M107.48,-99.24C125.46,-104.08 146.74,-109.81 165.39,-114.83" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="165.6,-116.7 170.88,-116.31 166.51,-113.32 165.6,-116.7" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>SimpelFunc</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.ObjectiveFunctions.html#proteus.ObjectiveFunctions.SimpelFunc" ns1:title="SimpelFunc" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="249.12,-98.75 176.88,-98.75 176.88,-78 249.12,-78 249.12,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="213" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SimpelFunc</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>ObjectiveFunction_base-&gt;SimpelFunc</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M132.36,-88.38C145.16,-88.38 158.26,-88.38 170.05,-88.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="170.69,-90.13 175.69,-88.38 170.69,-86.63 170.69,-90.13" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>SimpelFunc2</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.ObjectiveFunctions.html#proteus.ObjectiveFunctions.SimpelFunc2" ns1:title="SimpelFunc2" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="252.12,-59.75 173.88,-59.75 173.88,-39 252.12,-39 252.12,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="213" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SimpelFunc2</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>ObjectiveFunction_base-&gt;SimpelFunc2</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M107.48,-77.51C126.22,-72.47 148.54,-66.46 167.74,-61.29" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="168.75,-62.83 173.12,-59.84 167.84,-59.45 168.75,-62.83" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>SimpelFunc3</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.ObjectiveFunctions.html#proteus.ObjectiveFunctions.SimpelFunc3" ns1:title="SimpelFunc3" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="252.12,-20.75 173.88,-20.75 173.88,0 252.12,0 252.12,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="213" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SimpelFunc3</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>ObjectiveFunction_base-&gt;SimpelFunc3</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M112.93,-77.61C119.66,-75.1 126.32,-72.05 132.25,-68.38 152.02,-56.11 149.32,-43.9 168.25,-30.38 171.46,-28.08 174.98,-25.95 178.57,-24.01" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="179.94,-25.28 183.59,-21.44 178.34,-22.16 179.94,-25.28" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

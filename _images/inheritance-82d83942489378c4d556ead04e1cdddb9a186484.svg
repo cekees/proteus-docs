@@ -1,0 +1,209 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="482pt" height="419pt" viewBox="0.00 0.00 482.00 419.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 414.75)">
+<ns0:title>inheritancecb50c7d34c</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DMPlexDomain</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.DMPlexDomain" ns1:title="2D/3D domains desribed by closed surfaces made up of general polygonal facets." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="224.12,-410.75 132.38,-410.75 132.38,-390 224.12,-390 224.12,-410.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-397.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DMPlexDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>D_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.D_base" ns1:title="The base class for domains" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="54,-215.75 0,-215.75 0,-195 54,-195 54,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="27" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">D_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>D_base-&gt;DMPlexDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.39,-215.93C30.12,-246.43 39.46,-335.35 90,-380.38 99.87,-389.17 112.82,-394.33 125.71,-397.3" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="126.02,-399.15 131.27,-398.43 126.72,-395.72 126.02,-399.15" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>PiecewiseLinearComplexDomain</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.PiecewiseLinearComplexDomain" ns1:title="3D domains desribed by closed surfaces made up of general polygonal facets." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="266.5,-371.75 90,-371.75 90,-351 266.5,-351 266.5,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PiecewiseLinearComplexDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>D_base-&gt;PiecewiseLinearComplexDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M29.62,-216.17C34.11,-242.07 49.18,-308.08 90,-341.38 93,-343.82 96.25,-345.99 99.66,-347.89" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="99.23,-349.64 104.48,-350.34 100.81,-346.52 99.23,-349.64" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>GMSH_3D_Domain</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.GMSH_3D_Domain" ns1:title="A domain described by a gmsh .geo file" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="232.38,-332.75 124.12,-332.75 124.12,-312 232.38,-312 232.38,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GMSH_3D_Domain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>D_base-&gt;GMSH_3D_Domain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M31.69,-216.07C39.24,-236.31 58.47,-280.16 90,-302.38 98.21,-308.16 107.83,-312.29 117.62,-315.25" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="117.72,-317.09 123.01,-316.74 118.65,-313.72 117.72,-317.09" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>PlanarStraightLineGraphDomain</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.PlanarStraightLineGraphDomain" ns1:title="2D domains described by planar straight line graphs." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="264.62,-293.75 91.88,-293.75 91.88,-273 264.62,-273 264.62,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PlanarStraightLineGraphDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>D_base-&gt;PlanarStraightLineGraphDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M36.42,-216.17C47.32,-229.38 67.62,-251.47 90,-263.38 95.25,-266.17 100.88,-268.57 106.65,-270.64" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="106.46,-272.42 111.75,-272.36 107.57,-269.1 106.46,-272.42" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>Mesh2DMDomain</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.Mesh2DMDomain" ns1:title="2D domains from ADH mesh files" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="229.75,-254.75 126.75,-254.75 126.75,-234 229.75,-234 229.75,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Mesh2DMDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>D_base-&gt;Mesh2DMDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M54.43,-213.93C65.38,-217.36 78.25,-221.23 90,-224.38 100.04,-227.06 110.79,-229.71 121.19,-232.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="121.26,-233.97 126.53,-233.4 122.06,-230.56 121.26,-233.97" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>Mesh3DMDomain</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.Mesh3DMDomain" ns1:title="3D domains from ADH mesh files" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="229.75,-215.75 126.75,-215.75 126.75,-195 229.75,-195 229.75,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Mesh3DMDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>D_base-&gt;Mesh3DMDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M54.34,-205.38C72.54,-205.38 97.47,-205.38 120.12,-205.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="120.68,-207.13 125.68,-205.38 120.68,-203.63 120.68,-207.13" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>MeshHexDomain</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.MeshHexDomain" ns1:title="3D domains from Hex mesh files" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="228.25,-176.75 128.25,-176.75 128.25,-156 228.25,-156 228.25,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MeshHexDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>D_base-&gt;MeshHexDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M54.43,-196.82C65.38,-193.39 78.25,-189.52 90,-186.38 100.29,-183.62 111.33,-180.91 121.97,-178.41" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="122.97,-179.98 127.44,-177.14 122.18,-176.57 122.97,-179.98" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>MeshTetgenDomain</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.MeshTetgenDomain" ns1:title="3D domains from tetgen mesh files" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="234.62,-137.75 121.88,-137.75 121.88,-117 234.62,-117 234.62,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MeshTetgenDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>D_base-&gt;MeshTetgenDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M36.42,-194.58C47.32,-181.37 67.62,-159.28 90,-147.38 97.92,-143.17 106.69,-139.84 115.54,-137.21" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="116.6,-138.73 120.95,-135.7 115.66,-135.36 116.6,-138.73" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>PUMIDomain</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.PUMIDomain" ns1:title="3d domains from PUMI mesh files" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="218.12,-98.75 138.38,-98.75 138.38,-78 218.12,-78 218.12,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PUMIDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>D_base-&gt;PUMIDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M31.69,-194.68C39.24,-174.44 58.47,-130.59 90,-108.38 102.23,-99.76 117.59,-94.8 132.01,-91.96" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="132.76,-93.6 137.38,-91 132.15,-90.15 132.76,-93.6" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>RectangularDomain</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.RectangularDomain" ns1:title="Rectangular domains in 1,2, or 3D specified by the lower left hand corner and dimensions." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="234.62,-59.75 121.88,-59.75 121.88,-39 234.62,-39 234.62,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">RectangularDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>D_base-&gt;RectangularDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M29.62,-194.58C34.11,-168.68 49.18,-102.67 90,-69.38 97.41,-63.33 106.3,-59.04 115.52,-56" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="116.61,-57.51 120.9,-54.4 115.61,-54.15 116.61,-57.51" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>TriangulatedSurfaceDomain</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.TriangulatedSurfaceDomain" ns1:title="3D domains described by closed surfaces made up of triangular facets." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="253.75,-20.75 102.75,-20.75 102.75,0 253.75,0 253.75,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="178.25" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TriangulatedSurfaceDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>D_base-&gt;TriangulatedSurfaceDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.39,-194.82C30.12,-164.32 39.46,-75.4 90,-30.38 92.61,-28.05 95.44,-25.98 98.42,-24.13" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="99.77,-25.38 103.28,-21.42 98.06,-22.33 99.77,-25.38" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>ExtrudedTriangulation</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.ExtrudedTriangulation" ns1:title="ExtrudedTriangulation" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="449.38,-371.75 326.88,-371.75 326.88,-351 449.38,-351 449.38,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="388.12" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ExtrudedTriangulation</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>PiecewiseLinearComplexDomain-&gt;ExtrudedTriangulation</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M266.81,-361.38C284.69,-361.38 303.24,-361.38 320.27,-361.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="320.71,-363.13 325.71,-361.38 320.71,-359.63 320.71,-363.13" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>InterpolatedBathymetryDomain</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.Domain.html#proteus.Domain.InterpolatedBathymetryDomain" ns1:title="2D domains with an attached bathymetry data set." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="473.75,-293.75 302.5,-293.75 302.5,-273 473.75,-273 473.75,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="388.12" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InterpolatedBathymetryDomain</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>PlanarStraightLineGraphDomain-&gt;InterpolatedBathymetryDomain</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M265,-283.38C275.19,-283.38 285.62,-283.38 295.88,-283.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="296.48,-285.13 301.48,-283.38 296.48,-281.63 296.48,-285.13" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

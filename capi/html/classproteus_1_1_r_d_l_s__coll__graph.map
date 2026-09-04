@@ -1,6 +1,9 @@
 <map id="proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;" name="proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="732,41,1003,127"/>
-<area shape="rect" id="node2" href="$classproteus_1_1_r_d_l_s__base.html" title=" " alt="" coords="438,21,582,48"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,21,161,48"/>
-<area shape="rect" id="node4" href="$classequivalent__polynomials_1_1_generalized_functions__mix.html" title=" " alt="" coords="355,73,665,143"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="758,66,1054,162"/>
+<area shape="rect" id="Node000002" href="$classproteus_1_1_r_d_l_s__base.html" title=" " alt="" coords="464,39,614,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="629,65,734,82,760,89,755,89,734,87,629,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,39,183,66"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,50,465,50,462,55,199,55"/>
+<area shape="rect" id="Node000004" href="$classequivalent__polynomials_1_1_generalized_functions__mix.html" title=" " alt="" coords="397,91,681,204"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="696,133,734,129,760,129,755,130,734,135,697,138"/>
 </map>

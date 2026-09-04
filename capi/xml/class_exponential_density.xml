@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_exponential_density" kind="class" language="C++" prot="public">
     <compoundname>ExponentialDensity</compoundname>
     <basecompoundref refid="class_linear_density" prot="public" virt="non-virtual">LinearDensity</basecompoundref>
-    <includes refid="density_relations_8h" local="no">/Users/cekees/proteus/proteus/densityRelations.h</includes>
-      <sectiondef kind="public-func">
+    <includes refid="density_relations_8h" local="no">/work/cekees/proteus/proteus/densityRelations.h</includes>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_exponential_density_1aaa5dd647d9754905fa904134a4127bde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>ExponentialDensity::ExponentialDensity</definition>
         <argsstring>(const double *rwork)</argsstring>
         <name>ExponentialDensity</name>
+        <qualifiedname>ExponentialDensity::ExponentialDensity</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>rwork</declname>
@@ -20,13 +21,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="87" column="10" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="87" bodyend="89"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="87" column="10" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="87" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="class_exponential_density_1a48e13ef87e12d1edc36c5166ffeadcf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void ExponentialDensity::calc</definition>
         <argsstring>(const double &amp;psi)</argsstring>
         <name>calc</name>
+        <qualifiedname>ExponentialDensity::calc</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>psi</declname>
@@ -37,9 +39,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="90" column="15" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="90" bodyend="94"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="90" column="15" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="90" bodyend="94"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -96,11 +98,9 @@
 This is a trivial function but it demonstrates the density relation interface. <formula id="94">\[ \rho &amp;= \rho_0 e^{\beta_f \psi} \]</formula> </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>LinearDensity</label>
-        <link refid="class_linear_density"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
+      <node id="3">
+        <label>DensityRelation</label>
+        <link refid="class_density_relation"/>
       </node>
       <node id="1">
         <label>ExponentialDensity</label>
@@ -108,17 +108,17 @@ This is a trivial function but it demonstrates the density relation interface. <
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="3">
-        <label>DensityRelation</label>
-        <link refid="class_density_relation"/>
+      <node id="2">
+        <label>LinearDensity</label>
+        <link refid="class_linear_density"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>LinearDensity</label>
-        <link refid="class_linear_density"/>
-        <childnode refid="3" relation="public-inheritance">
-        </childnode>
+      <node id="3">
+        <label>DensityRelation</label>
+        <link refid="class_density_relation"/>
       </node>
       <node id="1">
         <label>ExponentialDensity</label>
@@ -126,12 +126,14 @@ This is a trivial function but it demonstrates the density relation interface. <
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="3">
-        <label>DensityRelation</label>
-        <link refid="class_density_relation"/>
+      <node id="2">
+        <label>LinearDensity</label>
+        <link refid="class_linear_density"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="84" column="1" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="85" bodyend="95"/>
+    <location file="/work/cekees/proteus/proteus/densityRelations.h" line="84" column="1" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="85" bodyend="95"/>
     <listofallmembers>
       <member refid="class_linear_density_1a18132e0252d744a4c75783d438245856" prot="public" virt="non-virtual"><scope>ExponentialDensity</scope><name>beta</name></member>
       <member refid="class_exponential_density_1a48e13ef87e12d1edc36c5166ffeadcf1" prot="public" virt="non-virtual"><scope>ExponentialDensity</scope><name>calc</name></member>

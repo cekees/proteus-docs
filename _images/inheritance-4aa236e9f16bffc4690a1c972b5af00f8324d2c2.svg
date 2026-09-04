@@ -1,0 +1,128 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="204pt" height="263pt" viewBox="0.00 0.00 204.00 263.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 258.75)">
+<ns0:title>inheritance44a015191f</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>BCContainer</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.BCContainer" ns1:title="Creates a class from a dictionary (keys become class variable names)" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="76.75,-98.75 0,-98.75 0,-78 76.75,-78 76.75,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="38.38" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BCContainer</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>Circle</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.Circle" ns1:title="Class to create a circular shape." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="181.5,-254.75 127.5,-254.75 127.5,-234 181.5,-234 181.5,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="154.5" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Circle</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>Shape</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.Shape" ns1:title="Base/super class of all shapes." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="65.38,-137.75 11.38,-137.75 11.38,-117 65.38,-117 65.38,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="38.38" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Shape</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Shape-&gt;Circle</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M45.15,-138C56.11,-157.35 81.64,-198.71 112.75,-224.38 115.62,-226.74 118.82,-228.92 122.13,-230.89" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="121.51,-232.55 126.73,-233.46 123.22,-229.49 121.51,-232.55" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>Cuboid</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.Cuboid" ns1:title="Class to create a 3D cuboid" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="181.5,-215.75 127.5,-215.75 127.5,-195 181.5,-195 181.5,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="154.5" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Cuboid</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>Shape-&gt;Cuboid</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M51.25,-138.07C65.29,-150.39 89.67,-170.82 112.75,-185.38 116.24,-187.58 120.01,-189.72 123.8,-191.73" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="123.42,-193.49 128.66,-194.22 125.01,-190.38 123.42,-193.49" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>CustomShape</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.CustomShape" ns1:title="Class to create a custom 2D or 3D shape" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="196.25,-176.75 112.75,-176.75 112.75,-156 196.25,-156 196.25,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="154.5" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CustomShape</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>Shape-&gt;CustomShape</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M65.84,-136.42C80.74,-141.51 99.58,-147.95 115.98,-153.55" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="115.89,-155.37 121.18,-155.33 117.02,-152.06 115.89,-155.37" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>Cylinder</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.Cylinder" ns1:title="Class to create a cylinder." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="182.75,-137.75 126.25,-137.75 126.25,-117 182.75,-117 182.75,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="154.5" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Cylinder</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>Shape-&gt;Cylinder</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M65.84,-127.38C81.91,-127.38 102.58,-127.38 119.81,-127.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="120.23,-129.13 125.23,-127.38 120.23,-125.63 120.23,-129.13" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>Rectangle</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.Rectangle" ns1:title="Class to create a rectangle" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="186.88,-98.75 122.12,-98.75 122.12,-78 186.88,-78 186.88,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="154.5" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Rectangle</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>Shape-&gt;Rectangle</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M65.84,-118.33C80.74,-113.24 99.58,-106.8 115.98,-101.2" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="117.02,-102.69 121.18,-99.42 115.89,-99.38 117.02,-102.69" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>ShapeSTL</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.ShapeSTL" ns1:title="Class to extract geometrical information from STL file" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="186.12,-59.75 122.88,-59.75 122.88,-39 186.12,-39 186.12,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="154.5" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ShapeSTL</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>Shape-&gt;ShapeSTL</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M62.23,-116.65C67.2,-113.91 72.3,-110.77 76.75,-107.38 95.24,-93.26 94.01,-83.16 112.75,-69.38 115.83,-67.11 119.21,-64.98 122.66,-63.02" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="123.88,-64.36 127.45,-60.45 122.22,-61.27 123.88,-64.36" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>Sphere</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.SpatialTools.html#proteus.SpatialTools.Sphere" ns1:title="Class to create a 3D cuboid" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="181.5,-20.75 127.5,-20.75 127.5,0 181.5,0 181.5,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="154.5" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Sphere</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>Shape-&gt;Sphere</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M65.06,-116.5C69.31,-113.94 73.41,-110.9 76.75,-107.38 102.73,-79.95 86.29,-57.34 112.75,-30.38 115.43,-27.64 118.56,-25.23 121.87,-23.11" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="123.09,-24.42 126.54,-20.4 121.33,-21.4 123.09,-24.42" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

@@ -3,5 +3,5 @@ proteus.mprans.BodyDynamics module
 
 .. automodule:: proteus.mprans.BodyDynamics
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

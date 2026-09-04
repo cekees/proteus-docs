@@ -3,5 +3,5 @@ proteus.mprans.BoundaryConditions module
 
 .. automodule:: proteus.mprans.BoundaryConditions
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

@@ -1,4 +1,5 @@
 <map id="proteus::cppMCorr3P_base" name="proteus::cppMCorr3P_base">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,187,69"/>
-<area shape="rect" id="node2" href="$classproteus_1_1cpp_m_corr3_p.html" title=" " alt="" coords="235,5,545,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,200,76"/>
+<area shape="rect" id="Node000002" href="$classproteus_1_1cpp_m_corr3_p.html" title=" " alt="" coords="248,5,597,118"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,59,250,61,244,62,216,64"/>
 </map>

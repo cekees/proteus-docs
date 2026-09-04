@@ -1,6 +1,9 @@
 <map id="chrono::ChBodyAddedMass" name="chrono::ChBodyAddedMass">
-<area shape="rect" id="node1" title=" " alt="" coords="5,171,191,197"/>
-<area shape="rect" id="node2" title=" " alt="" coords="42,81,111,108"/>
-<area shape="rect" id="node3" href="$classchrono_1_1_ch_variables_body_added_mass.html" title=" " alt="" coords="136,81,375,108"/>
-<area shape="rect" id="node4" title=" " alt="" coords="165,5,346,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,204,211"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="48,82,119,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,123,104,183,99,182,87,127"/>
+<area shape="rect" id="Node000003" href="$classchrono_1_1_ch_variables_body_added_mass.html" title=" " alt="" coords="143,82,402,110"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,119,128,185,126,180,234,117"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="175,5,370,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="274,46,275,83,270,81,271,51"/>
 </map>

@@ -1,43 +1,46 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_my_loader_triangular" kind="class" language="C++" prot="public">
     <compoundname>MyLoaderTriangular</compoundname>
     <basecompoundref prot="public" virt="non-virtual">ChLoaderUdistributed</basecompoundref>
-    <includes refid="_prot_ch_moorings_8h" local="no">/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h</includes>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="class_my_loader_triangular_1a2dcb92fa7792d5cedd1e23c1e2c840f2" prot="public" static="no" mutable="no">
-        <type>ChVector</type>
-        <definition>ChVector MyLoaderTriangular::Fa</definition>
+    <includes refid="_prot_ch_moorings_8h" local="no">/work/cekees/proteus/proteus/mbd/ProtChMoorings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_my_loader_triangular_1aeb6f2c48f67752767d7377f6767421ec" prot="public" static="no" mutable="no">
+        <type>ChVector3d</type>
+        <definition>ChVector3d MyLoaderTriangular::Fa</definition>
         <argsstring></argsstring>
         <name>Fa</name>
+        <qualifiedname>MyLoaderTriangular::Fa</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="90" column="4" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="90" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="177" column="14" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="177" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="class_my_loader_triangular_1adb5c3eb8ef2622ff9a853e19170dcba5" prot="public" static="no" mutable="no">
-        <type>ChVector</type>
-        <definition>ChVector MyLoaderTriangular::Fb</definition>
+      <memberdef kind="variable" id="class_my_loader_triangular_1af814af204e1a14eb7464afd75552f641" prot="public" static="no" mutable="no">
+        <type>ChVector3d</type>
+        <definition>ChVector3d MyLoaderTriangular::Fb</definition>
         <argsstring></argsstring>
         <name>Fb</name>
+        <qualifiedname>MyLoaderTriangular::Fb</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="91" column="4" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="91" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="178" column="14" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="178" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_my_loader_triangular_1a8b37686aae0d4b00687ab5a08a0503a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>MyLoaderTriangular::MyLoaderTriangular</definition>
         <argsstring>(std::shared_ptr&lt; ChLoadableU &gt; mloadable)</argsstring>
         <name>MyLoaderTriangular</name>
+        <qualifiedname>MyLoaderTriangular::MyLoaderTriangular</qualifiedname>
         <param>
           <type>std::shared_ptr&lt; ChLoadableU &gt;</type>
           <declname>mloadable</declname>
@@ -48,13 +51,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="92" column="2" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="92" bodyend="96"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="179" column="3" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="179" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="class_my_loader_triangular_1abc15ab42ca4cd1d1a8a6add746264fed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MyLoaderTriangular::ComputeF</definition>
         <argsstring>(const double U, ChVectorDynamic&lt;&gt; &amp;F, ChVectorDynamic&lt;&gt; *state_x, ChVectorDynamic&lt;&gt; *state_w)</argsstring>
         <name>ComputeF</name>
+        <qualifiedname>MyLoaderTriangular::ComputeF</qualifiedname>
         <param>
           <type>const double</type>
           <declname>U</declname>
@@ -77,19 +81,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="101" column="16" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="101" bodyend="111"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="188" column="16" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="188" bodyend="198"/>
       </memberdef>
-      <memberdef kind="function" id="class_my_loader_triangular_1a7eb19e0ba8a03ca53a46b53cc5db98bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_my_loader_triangular_1a4b239d5d9695d28749385dbda4ef661c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MyLoaderTriangular::SetF</definition>
-        <argsstring>(ChVector&lt;&gt; Fa_in, ChVector&lt;&gt; Fb_in)</argsstring>
+        <argsstring>(ChVector3d Fa_in, ChVector3d Fb_in)</argsstring>
         <name>SetF</name>
+        <qualifiedname>MyLoaderTriangular::SetF</qualifiedname>
         <param>
-          <type>ChVector&lt;&gt;</type>
+          <type>ChVector3d</type>
           <declname>Fa_in</declname>
         </param>
         <param>
-          <type>ChVector&lt;&gt;</type>
+          <type>ChVector3d</type>
           <declname>Fb_in</declname>
         </param>
         <briefdescription>
@@ -98,22 +103,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="112" column="8" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="112" bodyend="115"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="199" column="8" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="199" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="class_my_loader_triangular_1a867ec062ea2b48b9a3ffa984c30f0559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>int</type>
         <definition>virtual int MyLoaderTriangular::GetIntegrationPointsU</definition>
         <argsstring>()</argsstring>
         <name>GetIntegrationPointsU</name>
+        <qualifiedname>MyLoaderTriangular::GetIntegrationPointsU</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="117" column="15" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="117" bodyend="117"/>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="204" column="15" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="204" bodyend="204"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -140,14 +146,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="87" column="1" bodyfile="/Users/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="87" bodyend="118"/>
+    <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="174" column="1" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="174" bodyend="205"/>
     <listofallmembers>
       <member refid="class_my_loader_triangular_1abc15ab42ca4cd1d1a8a6add746264fed" prot="public" virt="virtual"><scope>MyLoaderTriangular</scope><name>ComputeF</name></member>
-      <member refid="class_my_loader_triangular_1a2dcb92fa7792d5cedd1e23c1e2c840f2" prot="public" virt="non-virtual"><scope>MyLoaderTriangular</scope><name>Fa</name></member>
-      <member refid="class_my_loader_triangular_1adb5c3eb8ef2622ff9a853e19170dcba5" prot="public" virt="non-virtual"><scope>MyLoaderTriangular</scope><name>Fb</name></member>
+      <member refid="class_my_loader_triangular_1aeb6f2c48f67752767d7377f6767421ec" prot="public" virt="non-virtual"><scope>MyLoaderTriangular</scope><name>Fa</name></member>
+      <member refid="class_my_loader_triangular_1af814af204e1a14eb7464afd75552f641" prot="public" virt="non-virtual"><scope>MyLoaderTriangular</scope><name>Fb</name></member>
       <member refid="class_my_loader_triangular_1a867ec062ea2b48b9a3ffa984c30f0559" prot="public" virt="virtual"><scope>MyLoaderTriangular</scope><name>GetIntegrationPointsU</name></member>
       <member refid="class_my_loader_triangular_1a8b37686aae0d4b00687ab5a08a0503a0" prot="public" virt="non-virtual"><scope>MyLoaderTriangular</scope><name>MyLoaderTriangular</name></member>
-      <member refid="class_my_loader_triangular_1a7eb19e0ba8a03ca53a46b53cc5db98bd" prot="public" virt="non-virtual"><scope>MyLoaderTriangular</scope><name>SetF</name></member>
+      <member refid="class_my_loader_triangular_1a4b239d5d9695d28749385dbda4ef661c" prot="public" virt="non-virtual"><scope>MyLoaderTriangular</scope><name>SetF</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

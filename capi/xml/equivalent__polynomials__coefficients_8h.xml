@@ -1,40 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="equivalent__polynomials__coefficients_8h" kind="file" language="C++">
     <compoundname>equivalent_polynomials_coefficients.h</compoundname>
     <includedby refid="equivalent__polynomials_8h" local="yes">equivalent_polynomials.h</includedby>
     <invincdepgraph>
-      <node id="10">
-        <label>RANS2P2D.cpp</label>
-        <link refid="_r_a_n_s2_p2_d_8cpp"/>
+      <node id="4">
+        <label>ADR.cpp</label>
+        <link refid="_a_d_r_8cpp"/>
       </node>
       <node id="3">
         <label>ADR.h</label>
         <link refid="_a_d_r_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-      </node>
-      <node id="12">
-        <label>RANS3PF.cpp</label>
-        <link refid="_r_a_n_s3_p_f_8cpp"/>
-      </node>
-      <node id="11">
-        <label>RANS3PF.h</label>
-        <link refid="_r_a_n_s3_p_f_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>RDLS.cpp</label>
-        <link refid="_r_d_l_s_8cpp"/>
-      </node>
-      <node id="14">
-        <label>RANS3PF2D.cpp</label>
-        <link refid="_r_a_n_s3_p_f2_d_8cpp"/>
-      </node>
-      <node id="8">
-        <label>RANS2P.cpp</label>
-        <link refid="_r_a_n_s2_p_8cpp"/>
       </node>
       <node id="2">
         <label>equivalent_polynomials.h</label>
@@ -53,6 +31,8 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>equivalent_polynomials_coefficients.h</label>
@@ -60,11 +40,19 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="13">
-        <label>RANS3PF2D.h</label>
-        <link refid="_r_a_n_s3_p_f2_d_8h"/>
-        <childnode refid="14" relation="include">
+      <node id="6">
+        <label>MCorr.cpp</label>
+        <link refid="_m_corr_8cpp"/>
+      </node>
+      <node id="5">
+        <label>MCorr.h</label>
+        <link refid="_m_corr_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
+      </node>
+      <node id="8">
+        <label>RANS2P.cpp</label>
+        <link refid="_r_a_n_s2_p_8cpp"/>
       </node>
       <node id="7">
         <label>RANS2P.h</label>
@@ -72,19 +60,9 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="15">
-        <label>RDLS.h</label>
-        <link refid="_r_d_l_s_8h"/>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>ADR.cpp</label>
-        <link refid="_a_d_r_8cpp"/>
-      </node>
-      <node id="6">
-        <label>MCorr.cpp</label>
-        <link refid="_m_corr_8cpp"/>
+      <node id="10">
+        <label>RANS2P2D.cpp</label>
+        <link refid="_r_a_n_s2_p2_d_8cpp"/>
       </node>
       <node id="9">
         <label>RANS2P2D.h</label>
@@ -92,10 +70,44 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MCorr.h</label>
-        <link refid="_m_corr_8h"/>
-        <childnode refid="6" relation="include">
+      <node id="12">
+        <label>RANS3PF.cpp</label>
+        <link refid="_r_a_n_s3_p_f_8cpp"/>
+      </node>
+      <node id="11">
+        <label>RANS3PF.h</label>
+        <link refid="_r_a_n_s3_p_f_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>RANS3PF2D.cpp</label>
+        <link refid="_r_a_n_s3_p_f2_d_8cpp"/>
+      </node>
+      <node id="13">
+        <label>RANS3PF2D.h</label>
+        <link refid="_r_a_n_s3_p_f2_d_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>RDLS.cpp</label>
+        <link refid="_r_d_l_s_8cpp"/>
+      </node>
+      <node id="15">
+        <label>RDLS.h</label>
+        <link refid="_r_d_l_s_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>VOF.cpp</label>
+        <link refid="_v_o_f_8cpp"/>
+      </node>
+      <node id="17">
+        <label>VOF.h</label>
+        <link refid="_v_o_f_8h"/>
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -117,7 +129,7 @@
 <codeline lineno="10" refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH);</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="13" refid="namespaceequivalent__polynomials_1aa8ff437014fbf1272d12fb8172681151" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1aa8ff437014fbf1272d12fb8172681151" kindref="member">_set_Ainv&lt;1,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="13" refid="namespaceequivalent__polynomials_1aa8ff437014fbf1272d12fb8172681151" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;1,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>4.000000000000001;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-6.000000000000002;</highlight></codeline>
@@ -126,7 +138,7 @@
 <codeline lineno="19"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="22" refid="namespaceequivalent__polynomials_1ae42b61ab0680a554fecb81b28bd98946" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ae42b61ab0680a554fecb81b28bd98946" kindref="member">_calculate_b&lt;1,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="22" refid="namespaceequivalent__polynomials_1ae42b61ab0680a554fecb81b28bd98946" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;1,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>1<sp/>-<sp/>x_0;</highlight></codeline>
@@ -138,7 +150,7 @@
 <codeline lineno="31"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="34" refid="namespaceequivalent__polynomials_1a429de1f2c83f34c5c1f5adde9d8587ab" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a429de1f2c83f34c5c1f5adde9d8587ab" kindref="member">_set_Ainv&lt;1,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="34" refid="namespaceequivalent__polynomials_1a429de1f2c83f34c5c1f5adde9d8587ab" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;1,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>9.000000000000028;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-36.00000000000013;</highlight></codeline>
@@ -152,7 +164,7 @@
 <codeline lineno="45"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="48" refid="namespaceequivalent__polynomials_1a5da6fd9f0e72bc8a3020e2fb33da4849" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a5da6fd9f0e72bc8a3020e2fb33da4849" kindref="member">_calculate_b&lt;1,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="48" refid="namespaceequivalent__polynomials_1a5da6fd9f0e72bc8a3020e2fb33da4849" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;1,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>1<sp/>-<sp/>x_0;</highlight></codeline>
@@ -167,7 +179,7 @@
 <codeline lineno="60"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="63" refid="namespaceequivalent__polynomials_1a2efe6d1d4103932e14766d42176f58db" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a2efe6d1d4103932e14766d42176f58db" kindref="member">_set_Ainv&lt;1,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="63" refid="namespaceequivalent__polynomials_1a2efe6d1d4103932e14766d42176f58db" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;1,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>16.000000000000554;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-120.00000000000608;</highlight></codeline>
@@ -188,7 +200,7 @@
 <codeline lineno="81"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="84" refid="namespaceequivalent__polynomials_1a150191a31f363d8141553c6e9070d539" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a150191a31f363d8141553c6e9070d539" kindref="member">_calculate_b&lt;1,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="84" refid="namespaceequivalent__polynomials_1a150191a31f363d8141553c6e9070d539" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;1,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>1<sp/>-<sp/>x_0;</highlight></codeline>
@@ -206,7 +218,7 @@
 <codeline lineno="99"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="102" refid="namespaceequivalent__polynomials_1ab4f501448367c2a455e472dee0baa216" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ab4f501448367c2a455e472dee0baa216" kindref="member">_set_Ainv&lt;1,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="102" refid="namespaceequivalent__polynomials_1ab4f501448367c2a455e472dee0baa216" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;1,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>25.000000000071026;</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-300.00000000135424;</highlight></codeline>
@@ -236,7 +248,7 @@
 <codeline lineno="129"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="132" refid="namespaceequivalent__polynomials_1a28f149546627f87234a1582d1fa49158" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a28f149546627f87234a1582d1fa49158" kindref="member">_calculate_b&lt;1,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="132" refid="namespaceequivalent__polynomials_1a28f149546627f87234a1582d1fa49158" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;1,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>1<sp/>-<sp/>x_0;</highlight></codeline>
@@ -257,7 +269,7 @@
 <codeline lineno="150"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="153" refid="namespaceequivalent__polynomials_1a496eb79382216295ec2b9c783a58fa08" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a496eb79382216295ec2b9c783a58fa08" kindref="member">_set_Ainv&lt;2,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="153" refid="namespaceequivalent__polynomials_1a496eb79382216295ec2b9c783a58fa08" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;2,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>18.0;</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-24.0;</highlight></codeline>
@@ -271,7 +283,7 @@
 <codeline lineno="164"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="167" refid="namespaceequivalent__polynomials_1a2fe91bb722caf125d1785ab1d13b2cd6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a2fe91bb722caf125d1785ab1d13b2cd6" kindref="member">_calculate_b&lt;2,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="167" refid="namespaceequivalent__polynomials_1a2fe91bb722caf125d1785ab1d13b2cd6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;2,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/2.0*x_0*y_0<sp/>+<sp/>1.0/2.0;</highlight></codeline>
@@ -289,7 +301,7 @@
 <codeline lineno="182"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
 <codeline lineno="184"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="185" refid="namespaceequivalent__polynomials_1a4ae4f9377cfb47ea05e936531709e05a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a4ae4f9377cfb47ea05e936531709e05a" kindref="member">_set_Ainv&lt;2,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="185" refid="namespaceequivalent__polynomials_1a4ae4f9377cfb47ea05e936531709e05a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;2,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>72.0000000000015;</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-240.00000000000495;</highlight></codeline>
@@ -330,7 +342,7 @@
 <codeline lineno="223"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="226" refid="namespaceequivalent__polynomials_1a13049a415eab0022059e492427414dce" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a13049a415eab0022059e492427414dce" kindref="member">_calculate_b&lt;2,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="226" refid="namespaceequivalent__polynomials_1a13049a415eab0022059e492427414dce" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;2,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/2.0*x_0*y_0<sp/>+<sp/>1.0/2.0;</highlight></codeline>
@@ -360,7 +372,7 @@
 <codeline lineno="253"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
 <codeline lineno="255"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="256" refid="namespaceequivalent__polynomials_1a11f1d536ef91c33f11bf91d9311e58d1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a11f1d536ef91c33f11bf91d9311e58d1" kindref="member">_set_Ainv&lt;2,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="256" refid="namespaceequivalent__polynomials_1a11f1d536ef91c33f11bf91d9311e58d1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;2,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>200.00000000015794;</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-1200.0000000010295;</highlight></codeline>
@@ -465,7 +477,7 @@
 <codeline lineno="358"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="359"><highlight class="normal"></highlight></codeline>
 <codeline lineno="360"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="361" refid="namespaceequivalent__polynomials_1a140a49d045efde6fe8140ef80644da47" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a140a49d045efde6fe8140ef80644da47" kindref="member">_calculate_b&lt;2,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="361" refid="namespaceequivalent__polynomials_1a140a49d045efde6fe8140ef80644da47" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;2,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="362"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]);</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/2.0*x_0*y_0<sp/>+<sp/>1.0/2.0;</highlight></codeline>
@@ -511,7 +523,7 @@
 <codeline lineno="404"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="405"><highlight class="normal"></highlight></codeline>
 <codeline lineno="406"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="407" refid="namespaceequivalent__polynomials_1af5d80969be50167157772cc98c6ccb26" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1af5d80969be50167157772cc98c6ccb26" kindref="member">_set_Ainv&lt;2,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="407" refid="namespaceequivalent__polynomials_1af5d80969be50167157772cc98c6ccb26" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;2,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="408"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>450.00000000660384;</highlight></codeline>
 <codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-4200.000000069522;</highlight></codeline>
@@ -741,7 +753,7 @@
 <codeline lineno="634"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="635"><highlight class="normal"></highlight></codeline>
 <codeline lineno="636"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="637" refid="namespaceequivalent__polynomials_1ace4f7c191f57ea8aa8b73abe34ebdb07" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ace4f7c191f57ea8aa8b73abe34ebdb07" kindref="member">_calculate_b&lt;2,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="637" refid="namespaceequivalent__polynomials_1ace4f7c191f57ea8aa8b73abe34ebdb07" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;2,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="638"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="639"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]);</highlight></codeline>
 <codeline lineno="640"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/2.0*x_0*y_0<sp/>+<sp/>1.0/2.0;</highlight></codeline>
@@ -807,7 +819,7 @@
 <codeline lineno="700"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="701"><highlight class="normal"></highlight></codeline>
 <codeline lineno="702"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="703" refid="namespaceequivalent__polynomials_1a44e418c98be2a474fb689763f31a45ec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a44e418c98be2a474fb689763f31a45ec" kindref="member">_set_Ainv&lt;3,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="703" refid="namespaceequivalent__polynomials_1a44e418c98be2a474fb689763f31a45ec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;3,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="704"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="705"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>95.99999999999994;</highlight></codeline>
 <codeline lineno="706"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-119.99999999999989;</highlight></codeline>
@@ -828,7 +840,7 @@
 <codeline lineno="721"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="722"><highlight class="normal"></highlight></codeline>
 <codeline lineno="723"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="724" refid="namespaceequivalent__polynomials_1a379046a2b8900ae3000e722550a26010" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a379046a2b8900ae3000e722550a26010" kindref="member">_calculate_b&lt;3,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="724" refid="namespaceequivalent__polynomials_1a379046a2b8900ae3000e722550a26010" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;3,1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="725"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="726"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]),<sp/>z_0(X_0[2]);</highlight></codeline>
 <codeline lineno="727"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/6.0*x_0*y_0*z_0<sp/>+<sp/>1.0/6.0;</highlight></codeline>
@@ -854,7 +866,7 @@
 <codeline lineno="747"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="748"><highlight class="normal"></highlight></codeline>
 <codeline lineno="749"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="750" refid="namespaceequivalent__polynomials_1a1ddc2fd3219a4724aab0aa9088ca09cf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a1ddc2fd3219a4724aab0aa9088ca09cf" kindref="member">_set_Ainv&lt;3,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="750" refid="namespaceequivalent__polynomials_1a1ddc2fd3219a4724aab0aa9088ca09cf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;3,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="751"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="752"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>599.9999999999937;</highlight></codeline>
 <codeline lineno="753"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-1799.9999999999884;</highlight></codeline>
@@ -959,7 +971,7 @@
 <codeline lineno="852"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="853"><highlight class="normal"></highlight></codeline>
 <codeline lineno="854"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="855" refid="namespaceequivalent__polynomials_1a3018ca1825923abe12b18cba258028ee" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a3018ca1825923abe12b18cba258028ee" kindref="member">_calculate_b&lt;3,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="855" refid="namespaceequivalent__polynomials_1a3018ca1825923abe12b18cba258028ee" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;3,2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="856"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="857"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]),<sp/>z_0(X_0[2]);</highlight></codeline>
 <codeline lineno="858"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/6.0*x_0*y_0*z_0<sp/>+<sp/>1.0/6.0;</highlight></codeline>
@@ -1015,7 +1027,7 @@
 <codeline lineno="908"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="909"><highlight class="normal"></highlight></codeline>
 <codeline lineno="910"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="911" refid="namespaceequivalent__polynomials_1a40319e49989e2008c2f0b123e1cccee2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a40319e49989e2008c2f0b123e1cccee2" kindref="member">_set_Ainv&lt;3,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="911" refid="namespaceequivalent__polynomials_1a40319e49989e2008c2f0b123e1cccee2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;3,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="912"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="913"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>2400.000000000681;</highlight></codeline>
 <codeline lineno="914"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-12600.00000000447;</highlight></codeline>
@@ -1420,7 +1432,7 @@
 <codeline lineno="1313"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="1314"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1315"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="1316" refid="namespaceequivalent__polynomials_1a9b62e03da5076da6a2e0ca0817abe327" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a9b62e03da5076da6a2e0ca0817abe327" kindref="member">_calculate_b&lt;3,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="1316" refid="namespaceequivalent__polynomials_1a9b62e03da5076da6a2e0ca0817abe327" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;3,3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="1317"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="1318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]),<sp/>z_0(X_0[2]);</highlight></codeline>
 <codeline lineno="1319"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/6.0*x_0*y_0*z_0<sp/>+<sp/>1.0/6.0;</highlight></codeline>
@@ -1526,7 +1538,7 @@
 <codeline lineno="1419"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="1420"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1421"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="1422" refid="namespaceequivalent__polynomials_1a0cedd6c08e6f2b3d0337af29b5533f73" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a0cedd6c08e6f2b3d0337af29b5533f73" kindref="member">_set_Ainv&lt;3,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
+<codeline lineno="1422" refid="namespaceequivalent__polynomials_1a0cedd6c08e6f2b3d0337af29b5533f73" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a996dea2c52ca8f8cb03bfcc63bc70821" kindref="member">_set_Ainv&lt;3,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Ainv)</highlight></codeline>
 <codeline lineno="1423"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="1424"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[0]<sp/>=<sp/>7350.000000102523;</highlight></codeline>
 <codeline lineno="1425"><highlight class="normal"><sp/><sp/><sp/><sp/>Ainv[1]<sp/>=<sp/>-58800.000001145265;</highlight></codeline>
@@ -2756,7 +2768,7 @@
 <codeline lineno="2649"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="2650"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2651"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="2652" refid="namespaceequivalent__polynomials_1a80e8508548a4f2f5ef83b6f3aed7504f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a80e8508548a4f2f5ef83b6f3aed7504f" kindref="member">_calculate_b&lt;3,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
+<codeline lineno="2652" refid="namespaceequivalent__polynomials_1a80e8508548a4f2f5ef83b6f3aed7504f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;3,4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X_0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_dH)</highlight></codeline>
 <codeline lineno="2653"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="2654"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_0(X_0[0]),<sp/>y_0(X_0[1]),<sp/>z_0(X_0[2]);</highlight></codeline>
 <codeline lineno="2655"><highlight class="normal"><sp/><sp/><sp/><sp/>b_H[0]<sp/>=<sp/>-1.0/6.0*x_0*y_0*z_0<sp/>+<sp/>1.0/6.0;</highlight></codeline>
@@ -2939,6 +2951,6 @@
 <codeline lineno="2832"><highlight class="normal">}</highlight><highlight class="comment">//equivalent_polynomials</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2833"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/equivalent_polynomials_coefficients.h"/>
+    <location file="/work/cekees/proteus/proteus/equivalent_polynomials_coefficients.h"/>
   </compounddef>
 </doxygen>

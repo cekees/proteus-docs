@@ -1,11 +1,47 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_kappa2_d_8cpp" kind="file" language="C++">
     <compoundname>Kappa2D.cpp</compoundname>
     <includes local="yes">pybind11/pybind11.h</includes>
     <includes local="yes">pybind11/stl_bind.h</includes>
     <includes refid="_kappa2_d_8h" local="yes">Kappa2D.h</includes>
     <incdepgraph>
+      <node id="7">
+        <label>CompKernel.h</label>
+        <link refid="_comp_kernel_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ModelFactory.h</label>
+        <link refid="_model_factory_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ArgumentsDict.h</label>
+        <link refid="_arguments_dict_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Kappa2D.cpp</label>
+        <link refid="_kappa2_d_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
       <node id="4">
         <label>Kappa2D.h</label>
         <link refid="_kappa2_d_8h"/>
@@ -24,60 +60,6 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>cmath</label>
-      </node>
-      <node id="1">
-        <label>Kappa2D.cpp</label>
-        <link refid="_kappa2_d_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>xtensor/xio.hpp</label>
-      </node>
-      <node id="13">
-        <label>stdexcept</label>
-      </node>
-      <node id="14">
-        <label>string</label>
-      </node>
-      <node id="7">
-        <label>CompKernel.h</label>
-        <link refid="_comp_kernel_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>map</label>
-      </node>
-      <node id="10">
-        <label>xtensor-python/pyarray.hpp</label>
-      </node>
-      <node id="11">
-        <label>ArgumentsDict.h</label>
-        <link refid="_arguments_dict_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>pybind11/pybind11.h</label>
-      </node>
-      <node id="6">
-        <label>iostream</label>
-      </node>
       <node id="9">
         <label>SedClosure.h</label>
         <link refid="_sed_closure_8h"/>
@@ -88,17 +70,36 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="12">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>pybind11/pybind11.h</label>
+      </node>
       <node id="3">
         <label>pybind11/stl_bind.h</label>
       </node>
-      <node id="8">
-        <label>ModelFactory.h</label>
-        <link refid="_model_factory_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
+      <node id="13">
+        <label>stdexcept</label>
+      </node>
+      <node id="14">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
+      <node id="15">
+        <label>xtensor/io/xio.hpp</label>
       </node>
     </incdepgraph>
-      <sectiondef kind="define">
+    <innerclass refid="class_kappa2_d__base" prot="public">Kappa2D_base</innerclass>
+    <sectiondef kind="define">
       <memberdef kind="define" id="_kappa2_d_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
         <name>FORCE_IMPORT_ARRAY</name>
         <briefdescription>
@@ -107,10 +108,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa2D.cpp" line="4" column="9" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa2D.cpp" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa2D.cpp" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa2D.cpp" bodystart="4" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_kappa2_d_8cpp_1a14372ed206945a23e820e74ed595c880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>PYBIND11_MODULE</definition>
@@ -128,9 +129,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa2D.cpp" line="21" column="1" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa2D.cpp" bodystart="21" bodyend="29"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa2D.cpp" line="21" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa2D.cpp" bodystart="21" bodyend="29"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -154,18 +155,18 @@
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">py<sp/>=<sp/>pybind11;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classproteus_1_1_kappa2_d__base" kindref="compound">proteus::Kappa2D_base</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1_kappa2_d__base" kindref="compound">proteus::Kappa2D_base</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="_kappa2_d_8cpp_1a14372ed206945a23e820e74ed595c880" refkind="member"><highlight class="normal"><ref refid="_kappa2_d_8cpp_1a14372ed206945a23e820e74ed595c880" kindref="member">PYBIND11_MODULE</ref>(cKappa2D,<sp/>m)</highlight></codeline>
+<codeline lineno="21" refid="_kappa2_d_8cpp_1a14372ed206945a23e820e74ed595c880" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cKappa2D,<sp/>m)</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>xt::import_numpy();</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>py::class_&lt;Kappa2D_base&gt;(m,<sp/></highlight><highlight class="stringliteral">&quot;cKappa2D_base&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(<ref refid="_fourier_8cpp_1a2858154e2009b0e6e616f313177762bc" kindref="member">py::init</ref>(&amp;<ref refid="namespaceproteus_1ab5650e428082f8f66fe08cccc1c7a988" kindref="member">proteus::newKappa2D</ref>))</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal">,<sp/>&amp;Kappa2D_base::calculateResidual)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal">,<sp/>&amp;Kappa2D_base::calculateJacobian);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(py::init(&amp;<ref refid="namespaceproteus_1a035211d28dbc9223df2d2a7cf22a23c2" kindref="member">proteus::newKappa2D</ref>))</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_kappa2_d__base_1aa2b1d61f12e7d0788ebab068470a1e6e" kindref="member">Kappa2D_base::calculateResidual</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_kappa2_d__base_1a5d921798e07b3c8fdf9e98f6f936f8fe" kindref="member">Kappa2D_base::calculateJacobian</ref>);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/Kappa2D.cpp"/>
+    <location file="/work/cekees/proteus/proteus/mprans/Kappa2D.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="structm__comp__co2_1_1_jet2" kind="struct" language="C++" prot="public">
+    <compoundname>m_comp_co2::Jet2</compoundname>
+    <includes refid="jet2_8h" local="no">/work/cekees/proteus/proteus/m_comp_co2/jet2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structm__comp__co2_1_1_jet2_1af5dc4d5d555c51b83769b049c4ef3f59" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::Jet2::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>m_comp_co2::Jet2::v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="22" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structm__comp__co2_1_1_jet2_1a052fe9566cba696c941091899175a436" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::Jet2::dp</definition>
+        <argsstring></argsstring>
+        <name>dp</name>
+        <qualifiedname>m_comp_co2::Jet2::dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="22" column="14" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structm__comp__co2_1_1_jet2_1a5645c2da5fef088ca24bfd60e6148a84" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::Jet2::dz</definition>
+        <argsstring></argsstring>
+        <name>dz</name>
+        <qualifiedname>m_comp_co2::Jet2::dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="22" column="17" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structm__comp__co2_1_1_jet2_1a421b04a3f818c0a3691f314f25829046" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::Jet2::dpp</definition>
+        <argsstring></argsstring>
+        <name>dpp</name>
+        <qualifiedname>m_comp_co2::Jet2::dpp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="22" column="20" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structm__comp__co2_1_1_jet2_1a7991a0cf27e29abbb8b093c0f08f7d38" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::Jet2::dpz</definition>
+        <argsstring></argsstring>
+        <name>dpz</name>
+        <qualifiedname>m_comp_co2::Jet2::dpz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="22" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structm__comp__co2_1_1_jet2_1a7c853fec682a3a205033621189169939" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::Jet2::dzz</definition>
+        <argsstring></argsstring>
+        <name>dzz</name>
+        <qualifiedname>m_comp_co2::Jet2::dzz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="22" column="28" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structm__comp__co2_1_1_jet2_1a560370a252a99140ff0fde2616e1a005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>m_comp_co2::Jet2::Jet2</definition>
+        <argsstring>(double v_=0, double dp_=0, double dz_=0, double dpp_=0, double dpz_=0, double dzz_=0)</argsstring>
+        <name>Jet2</name>
+        <qualifiedname>m_comp_co2::Jet2::Jet2</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>v_</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dp_</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dz_</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dpp_</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dpz_</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dzz_</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="23" column="5" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="23" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structm__comp__co2_1_1_jet2_1ae7a45780f6450fb9986474c3b3f785f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structm__comp__co2_1_1_jet2_1a560370a252a99140ff0fde2616e1a005" kindref="member">Jet2</ref></type>
+        <definition>static Jet2 m_comp_co2::Jet2::cst</definition>
+        <argsstring>(double c)</argsstring>
+        <name>cst</name>
+        <qualifiedname>m_comp_co2::Jet2::cst</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="26" column="17" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structm__comp__co2_1_1_jet2_1a92bc86322847d37e1cbc7c961e321fc5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structm__comp__co2_1_1_jet2_1a560370a252a99140ff0fde2616e1a005" kindref="member">Jet2</ref></type>
+        <definition>static Jet2 m_comp_co2::Jet2::var_p</definition>
+        <argsstring>(double p)</argsstring>
+        <name>var_p</name>
+        <qualifiedname>m_comp_co2::Jet2::var_p</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="27" column="17" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structm__comp__co2_1_1_jet2_1a50919dd4054b991e86240b4931f6430c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structm__comp__co2_1_1_jet2_1a560370a252a99140ff0fde2616e1a005" kindref="member">Jet2</ref></type>
+        <definition>static Jet2 m_comp_co2::Jet2::var_z</definition>
+        <argsstring>(double z)</argsstring>
+        <name>var_z</name>
+        <qualifiedname>m_comp_co2::Jet2::var_z</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="28" column="17" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" line="21" column="1" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/jet2.h" bodystart="21" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structm__comp__co2_1_1_jet2_1ae7a45780f6450fb9986474c3b3f785f7" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>cst</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a052fe9566cba696c941091899175a436" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>dp</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a421b04a3f818c0a3691f314f25829046" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>dpp</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a7991a0cf27e29abbb8b093c0f08f7d38" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>dpz</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a5645c2da5fef088ca24bfd60e6148a84" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>dz</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a7c853fec682a3a205033621189169939" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>dzz</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a560370a252a99140ff0fde2616e1a005" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>Jet2</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1af5dc4d5d555c51b83769b049c4ef3f59" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>v</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a92bc86322847d37e1cbc7c961e321fc5" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>var_p</name></member>
+      <member refid="structm__comp__co2_1_1_jet2_1a50919dd4054b991e86240b4931f6430c" prot="public" virt="non-virtual"><scope>m_comp_co2::Jet2</scope><name>var_z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

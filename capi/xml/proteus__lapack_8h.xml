@@ -1,14 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="proteus__lapack_8h" kind="file" language="C++">
     <compoundname>proteus_lapack.h</compoundname>
     <includedby refid="_r_a_n_s2_p_8h" local="yes">RANS2P.h</includedby>
     <includedby refid="_r_a_n_s2_p2_d_8h" local="yes">RANS2P2D.h</includedby>
     <invincdepgraph>
-      <node id="5">
-        <label>RANS2P2D.cpp</label>
-        <link refid="_r_a_n_s2_p2_d_8cpp"/>
-      </node>
       <node id="3">
         <label>RANS2P.cpp</label>
         <link refid="_r_a_n_s2_p_8cpp"/>
@@ -19,6 +15,16 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>RANS2P2D.cpp</label>
+        <link refid="_r_a_n_s2_p2_d_8cpp"/>
+      </node>
+      <node id="4">
+        <label>RANS2P2D.h</label>
+        <link refid="_r_a_n_s2_p2_d_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>proteus_lapack.h</label>
         <link refid="proteus__lapack_8h"/>
@@ -27,14 +33,8 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>RANS2P2D.h</label>
-        <link refid="_r_a_n_s2_p2_d_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
     </invincdepgraph>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="proteus__lapack_8h_1a1632a08853bf62fb9c229b8738f6470d" prot="public" static="no">
         <name>__CLPK_integer</name>
         <initializer>int</initializer>
@@ -44,11 +44,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/proteus_lapack.h" line="20" column="9" bodyfile="/Users/cekees/proteus/proteus/proteus_lapack.h" bodystart="20" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/proteus_lapack.h" line="20" column="9" bodyfile="/work/cekees/proteus/proteus/proteus_lapack.h" bodystart="20" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="proteus__lapack_8h_1a1551da1b1192068cc91efe42fa54ea95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="proteus__lapack_8h_1a1551da1b1192068cc91efe42fa54ea95" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int dgetrf_</definition>
         <argsstring>(int *m, int *n, double *a, int *lda, int *ipiv, int *info)</argsstring>
@@ -83,9 +83,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/proteus_lapack.h" line="9" column="12" declfile="/Users/cekees/proteus/proteus/proteus_lapack.h" declline="9" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/proteus_lapack.h" line="9" column="12" declfile="/work/cekees/proteus/proteus/proteus_lapack.h" declline="9" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="proteus__lapack_8h_1aec4e9097ae14f785b8e716f2f3be6c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="proteus__lapack_8h_1aec4e9097ae14f785b8e716f2f3be6c12" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int dgetrs_</definition>
         <argsstring>(char *trans, int *n, int *nrhs, double *a, int *lda, int *ipiv, double *b, int *ldb, int *info)</argsstring>
@@ -132,9 +132,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/proteus_lapack.h" line="10" column="12" declfile="/Users/cekees/proteus/proteus/proteus_lapack.h" declline="10" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/proteus_lapack.h" line="10" column="12" declfile="/work/cekees/proteus/proteus/proteus_lapack.h" declline="10" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="proteus__lapack_8h_1af3c6249a0ca58bd145263b0c95c5292d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="proteus__lapack_8h_1af3c6249a0ca58bd145263b0c95c5292d" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int dgetc2_</definition>
         <argsstring>(int *n, double *a, int *lda, int *ipiv, int *jpiv, int *info)</argsstring>
@@ -169,9 +169,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/proteus_lapack.h" line="11" column="12" declfile="/Users/cekees/proteus/proteus/proteus_lapack.h" declline="11" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/proteus_lapack.h" line="11" column="12" declfile="/work/cekees/proteus/proteus/proteus_lapack.h" declline="11" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="proteus__lapack_8h_1a2e02301fad4a237d9184ce2470ed454a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="proteus__lapack_8h_1a2e02301fad4a237d9184ce2470ed454a" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int dgesc2_</definition>
         <argsstring>(int *n, double *a, int *lda, double *rhs, int *ipiv, int *jpiv, double *scale)</argsstring>
@@ -210,9 +210,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/proteus_lapack.h" line="12" column="12" declfile="/Users/cekees/proteus/proteus/proteus_lapack.h" declline="12" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/proteus_lapack.h" line="12" column="12" declfile="/work/cekees/proteus/proteus/proteus_lapack.h" declline="12" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="proteus__lapack_8h_1acf4971bebb7923471eb609ac7f66c9be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="proteus__lapack_8h_1acf4971bebb7923471eb609ac7f66c9be" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int dgeev_</definition>
         <argsstring>(char *jobvl, char *jobvr, int *n, double *a, int *lda, double *wr, double *wi, double *vl, int *ldvl, double *vr, int *ldvr, double *work, int *lwork, int *info)</argsstring>
@@ -279,9 +279,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/proteus_lapack.h" line="13" column="12" declfile="/Users/cekees/proteus/proteus/proteus_lapack.h" declline="13" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/proteus_lapack.h" line="13" column="12" declfile="/work/cekees/proteus/proteus/proteus_lapack.h" declline="13" declcolumn="12"/>
       </memberdef>
-      <memberdef kind="function" id="proteus__lapack_8h_1a8afd1d360c220c6d9d82db685dec7650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="proteus__lapack_8h_1a8afd1d360c220c6d9d82db685dec7650" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int dgetri_</definition>
         <argsstring>(int *N, double *A, int *LDA, int *IPIV, double *WORK, int *LWORK, int *INFO)</argsstring>
@@ -320,9 +320,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/proteus_lapack.h" line="14" column="12" declfile="/Users/cekees/proteus/proteus/proteus_lapack.h" declline="14" declcolumn="12"/>
+        <location file="/work/cekees/proteus/proteus/proteus_lapack.h" line="14" column="12" declfile="/work/cekees/proteus/proteus/proteus_lapack.h" declline="14" declcolumn="12"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -350,6 +350,6 @@
 <codeline lineno="20" refid="proteus__lapack_8h_1a1632a08853bf62fb9c229b8738f6470d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__CLPK_integer<sp/>int</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/proteus_lapack.h"/>
+    <location file="/work/cekees/proteus/proteus/proteus_lapack.h"/>
   </compounddef>
 </doxygen>

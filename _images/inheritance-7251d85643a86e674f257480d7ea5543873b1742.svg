@@ -1,0 +1,158 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="581pt" height="263pt" viewBox="0.00 0.00 581.00 263.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 258.75)">
+<ns0:title>inheritancea2a0a950e2</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>ISO_fixed_MinAdaptiveModelStep</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.ISO_fixed_MinAdaptiveModelStep" ns1:title="Look at the minimum model step and make that the system step as" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="285.5,-254.75 106,-254.75 106,-234 285.5,-234 285.5,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195.75" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ISO_fixed_MinAdaptiveModelStep</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>SO_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.SO_base" ns1:title="Base class for operating splitting methods for systems." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="58,-137.75 0,-137.75 0,-117 58,-117 58,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="29" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SO_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>SO_base-&gt;ISO_fixed_MinAdaptiveModelStep</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M48.05,-138.17C51.64,-140.87 55.17,-143.98 58,-147.38 82.16,-176.42 64.27,-201.07 94,-224.38 97.04,-226.76 100.29,-228.88 103.68,-230.77" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="103.21,-232.49 108.46,-233.21 104.8,-229.37 103.21,-232.49" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>Sequential_MinAdaptiveModelStep</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.Sequential_MinAdaptiveModelStep" ns1:title="Look at the minimum model step and make that the system step as" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="288.88,-215.75 102.62,-215.75 102.62,-195 288.88,-195 288.88,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195.75" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Sequential_MinAdaptiveModelStep</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>SO_base-&gt;Sequential_MinAdaptiveModelStep</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M46.1,-138.08C50.1,-140.95 54.31,-144.16 58,-147.38 75.55,-162.65 73.63,-174.14 94,-185.38 98.93,-188.1 104.18,-190.45 109.59,-192.48" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="109.5,-194.31 114.8,-194.32 110.67,-191.01 109.5,-194.31" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>Sequential_MinFLCBDFModelStep</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.Sequential_MinFLCBDFModelStep" ns1:title="Look at the minimum model step and make that the system step as" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="286.25,-176.75 105.25,-176.75 105.25,-156 286.25,-156 286.25,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195.75" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Sequential_MinFLCBDFModelStep</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>SO_base-&gt;Sequential_MinFLCBDFModelStep</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M58.2,-136.36C69.3,-139.73 82.19,-143.46 94,-146.38 105.35,-149.18 117.5,-151.86 129.29,-154.3" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="129.42,-156.11 134.67,-155.4 130.12,-152.68 129.42,-156.11" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>Sequential_MinAdaptiveModelStep_SS</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.Sequential_MinAdaptiveModelStep_SS" ns1:title="Look at the minimum model step and make that the system step as" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="297.5,-137.75 94,-137.75 94,-117 297.5,-117 297.5,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195.75" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Sequential_MinAdaptiveModelStep_SS</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>SO_base-&gt;Sequential_MinAdaptiveModelStep_SS</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M58.32,-127.38C66.86,-127.38 76.78,-127.38 87.31,-127.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="87.81,-129.13 92.81,-127.38 87.81,-125.63 87.81,-129.13" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>Sequential_MinModelStep</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.Sequential_MinModelStep" ns1:title="Look at the minimum model step and make that the system step as" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="267.12,-98.75 124.38,-98.75 124.38,-78 267.12,-78 267.12,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195.75" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Sequential_MinModelStep</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>SO_base-&gt;Sequential_MinModelStep</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M58.2,-118.39C69.3,-115.02 82.19,-111.29 94,-108.38 105.35,-105.57 117.5,-102.89 129.29,-100.45" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="130.12,-102.07 134.67,-99.35 129.42,-98.64 130.12,-102.07" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>Sequential_NonUniformFixedStep</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.Sequential_NonUniformFixedStep" ns1:title="Just step to system output time levels, allowing models to" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="285.5,-59.75 106,-59.75 106,-39 285.5,-39 285.5,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195.75" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Sequential_NonUniformFixedStep</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>SO_base-&gt;Sequential_NonUniformFixedStep</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M38.32,-116.94C49.5,-103.68 70.69,-81.1 94,-69.38 99.5,-66.61 105.34,-64.23 111.34,-62.17" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="112.44,-63.66 116.66,-60.46 111.37,-60.33 112.44,-63.66" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>Sequential_tnList</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.Sequential_tnList" ns1:title="Sequential_tnList" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="245.75,-20.75 145.75,-20.75 145.75,0 245.75,0 245.75,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195.75" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Sequential_tnList</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>SO_base-&gt;Sequential_tnList</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M33.85,-116.59C41.72,-96.2 61.68,-52.1 94,-30.38 107.26,-21.46 123.58,-16.34 139.2,-13.44" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="139.98,-15.08 144.62,-12.53 139.4,-11.63 139.98,-15.08" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>SequentialNotInOrder_MinAdaptiveModelStep</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.SequentialNotInOrder_MinAdaptiveModelStep" ns1:title="loop through the models in some specified order" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="573,-215.75 333.5,-215.75 333.5,-195 573,-195 573,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="453.25" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SequentialNotInOrder_MinAdaptiveModelStep</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>Sequential_MinAdaptiveModelStep-&gt;SequentialNotInOrder_MinAdaptiveModelStep</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M289.35,-205.38C301.63,-205.38 314.37,-205.38 327.08,-205.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="327.55,-207.13 332.55,-205.38 327.55,-203.63 327.55,-207.13" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>SequentialNotInOrder_MinFLCBDFModelStep</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.SequentialNotInOrder_MinFLCBDFModelStep" ns1:title="loop through the models in some specified order" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="570.38,-176.75 336.12,-176.75 336.12,-156 570.38,-156 570.38,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="453.25" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SequentialNotInOrder_MinFLCBDFModelStep</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>Sequential_MinFLCBDFModelStep-&gt;SequentialNotInOrder_MinFLCBDFModelStep</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M286.47,-166.38C300.44,-166.38 315.07,-166.38 329.61,-166.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="330.08,-168.13 335.08,-166.38 330.08,-164.63 330.08,-168.13" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>System</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.SplitOperator.html#proteus.SplitOperator.System" ns1:title="System" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="56,-176.75 2,-176.75 2,-156 56,-156 56,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="29" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">System</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

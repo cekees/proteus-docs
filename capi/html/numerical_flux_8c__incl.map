@@ -1,10 +1,17 @@
 <map id="numericalFlux.c" name="numericalFlux.c">
-<area shape="rect" id="node1" title=" " alt="" coords="199,5,313,32"/>
-<area shape="rect" id="node2" href="$numerical_flux_8h.html" title="C implementations of numericalFlux calculations." alt="" coords="199,80,313,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,69,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="93,155,155,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="179,155,242,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="267,155,339,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="363,155,429,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="453,155,523,181"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="208,5,333,33"/>
+<area shape="rect" id="Node000002" href="$numerical_flux_8h.html" title="C implementations of numericalFlux calculations." alt="" coords="208,81,334,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,31,273,67,268,64,269,36"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,157,75,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,112,91,156,89,151,229,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="99,157,165,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="248,109,171,152,169,147,243,110"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="189,157,256,184"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="264,108,241,146,238,142,260,111"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="280,157,357,184"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="280,107,304,144,299,143,278,112"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="381,157,451,184"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="297,107,379,149,374,149,296,112"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="475,157,549,184"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="314,107,463,153,458,154,313,112"/>
 </map>

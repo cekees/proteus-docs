@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_dissipation2_d" kind="class" language="C++" prot="public">
     <compoundname>proteus::Dissipation2D</compoundname>
     <basecompoundref refid="classproteus_1_1_dissipation2_d__base" prot="public" virt="non-virtual">proteus::Dissipation2D_base</basecompoundref>
-    <includes refid="_dissipation2_d_8h" local="no">/Users/cekees/proteus/proteus/mprans/Dissipation2D.h</includes>
+    <includes refid="_dissipation2_d_8h" local="no">/work/cekees/proteus/proteus/mprans/Dissipation2D.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,66 +39,71 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1_dissipation2_d_1a7ca626878d93459c16a7581c99ee3de9" prot="public" static="no" mutable="no">
         <type><ref refid="classproteus_1_1cpp_hsu_sed_stress" kindref="compound">cppHsuSedStress</ref>&lt; 2 &gt;</type>
         <definition>cppHsuSedStress&lt;2&gt; proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::closure</definition>
         <argsstring></argsstring>
         <name>closure</name>
+        <qualifiedname>proteus::Dissipation2D::closure</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="51" column="25" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="51" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="51" column="25" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_dissipation2_d_1a5052290ee9355a1ddd0b55d2704739db" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
         <argsstring></argsstring>
         <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::Dissipation2D::nDOF_test_X_trial_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="52" column="17" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="52" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="52" column="17" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_dissipation2_d_1a2a1d146e6fd909ac8464ce5cd406a795" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::Dissipation2D::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="53" column="22" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="53" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="53" column="22" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="53" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a6bf190c9805ca4c155d826c7054a10f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Dissipation2D</definition>
         <argsstring>()</argsstring>
         <name>Dissipation2D</name>
+        <qualifiedname>proteus::Dissipation2D::Dissipation2D</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="54" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="54" bodyend="75"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="54" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="54" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a45431abb61204cfc65c95d60c76bdc39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::setSedClosure</definition>
         <argsstring>(double aDarcy, double betaForch, double grain, double packFraction, double packMargin, double maxFraction, double frFraction, double sigmaC, double C3e, double C4e, double eR, double fContact, double mContact, double nContact, double angFriction, double vos_limiter, double mu_fr_limiter)</argsstring>
         <name>setSedClosure</name>
+        <qualifiedname>proteus::Dissipation2D::setSedClosure</qualifiedname>
         <reimplements refid="classproteus_1_1_dissipation2_d__base_1aa88411b95f27a133ab7fa28d998f7329">setSedClosure</reimplements>
         <param>
           <type>double</type>
@@ -174,13 +179,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="77" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="77" bodyend="112"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="77" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="77" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a171a89aef2ae800a8f6562534f7bf878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::computeK_OmegaCoefficients</definition>
         <argsstring>(const double &amp;div_eps, const double &amp;k, const double &amp;omega, const double grad_k[nSpace], const double grad_omega[nSpace], const double grad_vx[nSpace], const double grad_vy[nSpace], double &amp;inverse_sigma_k, double &amp;inverse_sigma_omega, double &amp;beta_star, double &amp;beta, double &amp;gamma)</argsstring>
         <name>computeK_OmegaCoefficients</name>
+        <qualifiedname>proteus::Dissipation2D::computeK_OmegaCoefficients</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>div_eps</declname>
@@ -239,13 +245,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="115" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="115" bodyend="189"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="115" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="115" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a03ec5a02823e2a5a10678b20b462c375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(double v[nSpace], const double eps_mu, const double phi, const double nu_0, const double nu_1, const double sigma_e, const double c_mu, const double c_1, const double c_2, const double c_e, const double grad_vx[nSpace], const double grad_vy[nSpace], const double &amp;dissipation, const double &amp;dissipation_old, const double &amp;k, const double &amp;porosity, int sedFlag, double q_vos, double q_vos_gradc[nSpace], double rho_f, double rho_s, double vs[nSpace], double g[nSpace], int dissipation_model_flag, const double grad_k[nSpace], const double grad_dissipation_old[nSpace], double &amp;m, double &amp;dm, double f[nSpace], double df[nSpace], double &amp;a, double &amp;da_de, double &amp;r, double &amp;dr_de)</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::Dissipation2D::evaluateCoefficients</qualifiedname>
         <param>
           <type>double</type>
           <declname>v</declname>
@@ -398,13 +405,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="193" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="193" bodyend="354"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="193" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="193" bodyend="354"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a27fe93e947e9e576a3e29abc449ae46a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;elementDiameter, const double &amp;dmt, const double dH[nSpace], double &amp;cfl, double &amp;tau)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::Dissipation2D::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>elementDiameter</declname>
@@ -432,13 +440,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="357" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="357" bodyend="372"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="357" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="357" bodyend="372"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a8356aabe707beb6cf8a3ca57c9bd1fd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;Ct_sge, const double G[nSpace *nSpace], const double &amp;A0, const double Ai[nSpace], double &amp;tau_v, double &amp;cfl)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::Dissipation2D::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>Ct_sge</declname>
@@ -471,13 +480,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="376" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="376" bodyend="389"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="376" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="376" bodyend="389"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a9eb27cf04f9d8affaa1c9447bf9b118e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateNumericalDiffusion</definition>
         <argsstring>(const double &amp;shockCapturingDiffusion, const double &amp;elementDiameter, const double &amp;strong_residual, const double grad_u[nSpace], double &amp;numDiff)</argsstring>
         <name>calculateNumericalDiffusion</name>
+        <qualifiedname>proteus::Dissipation2D::calculateNumericalDiffusion</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>shockCapturingDiffusion</declname>
@@ -505,13 +515,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="394" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="394" bodyend="411"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="394" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="394" bodyend="411"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a03361033f5d8878b2aca338f64ddfd77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFlux</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isAdvectiveFluxBoundary_u, const double n[nSpace], const double &amp;bc_u, const double &amp;bc_flux_u, const double &amp;u, const double velocity[nSpace], double &amp;flux)</argsstring>
         <name>exteriorNumericalAdvectiveFlux</name>
+        <qualifiedname>proteus::Dissipation2D::exteriorNumericalAdvectiveFlux</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -553,13 +564,14 @@
         <inbodydescription>
 <para>std::cout&lt;&lt;&quot;warning: Dissipation open boundary with no external trace, setting to zero for inflow flow = &quot;&lt;&lt;flow &lt;&lt;&quot; n= [&quot;&lt;&lt;n[0]&lt;&lt;&quot;,&quot;&lt;&lt;n[1]&lt;&lt;&quot;,&quot;&lt;&lt;n[2]&lt;&lt;&quot;]&quot;&lt;&lt;std::endl;</para>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="414" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="414" bodyend="464"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="414" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="414" bodyend="464"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1ac65305fc12b22b8fec038b3a29cbdd4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedHeaviside</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedHeaviside</name>
+        <qualifiedname>proteus::Dissipation2D::smoothedHeaviside</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -574,13 +586,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="465" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="465" bodyend="477"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="465" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="465" bodyend="477"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1ac08ea27cf54d1d74163aa69689a33e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFluxDerivative</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isAdvectiveFluxBoundary, const double n[nSpace], const double velocity[nSpace], double &amp;dflux)</argsstring>
         <name>exteriorNumericalAdvectiveFluxDerivative</name>
+        <qualifiedname>proteus::Dissipation2D::exteriorNumericalAdvectiveFluxDerivative</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -609,13 +622,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="480" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="480" bodyend="513"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="480" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="480" bodyend="513"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a296402b01cc2c5107632e7f5529c9d33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalDiffusiveFlux</definition>
         <argsstring>(const double &amp;bc_flux, const int &amp;isDOFBoundary, const int &amp;isDiffusiveFluxBoundary, double n[nSpace], double bc_u, double a, double grad_psi[nSpace], double u, double penalty, double &amp;flux)</argsstring>
         <name>exteriorNumericalDiffusiveFlux</name>
+        <qualifiedname>proteus::Dissipation2D::exteriorNumericalDiffusiveFlux</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>bc_flux</declname>
@@ -664,13 +678,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="515" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="515" bodyend="547"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="515" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="515" bodyend="547"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1afa1fd19610fe8cd18c4821c909a45cfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalDiffusiveFluxDerivative</definition>
         <argsstring>(const int &amp;isDOFBoundary, const int &amp;isDiffusiveFluxBoundary, double n[nSpace], double a, double da, double grad_psi[nSpace], const double grad_v[nSpace], double v, double penalty, double &amp;fluxJacobian)</argsstring>
         <name>exteriorNumericalDiffusiveFluxDerivative</name>
+        <qualifiedname>proteus::Dissipation2D::exteriorNumericalDiffusiveFluxDerivative</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary</declname>
@@ -720,13 +735,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="549" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="549" bodyend="571"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="549" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="549" bodyend="571"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1a4f91c24af3f81025df83e7052a5871cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::Dissipation2D::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1_dissipation2_d__base_1a36f19367408e85aa041092fa1a9d5378">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -738,13 +754,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="573" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="573" bodyend="1163"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="573" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="573" bodyend="1163"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_dissipation2_d_1aace4b098e023ced5d8d4702af99987da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::Dissipation2D::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1_dissipation2_d__base_1a7912d12c68880e0134f288b15ffd6e8c">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -756,34 +773,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="1165" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="1165" bodyend="1745"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="1165" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="1165" bodyend="1745"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>proteus::Dissipation2D_base</label>
-        <link refid="classproteus_1_1_dissipation2_d__base"/>
-      </node>
       <node id="1">
         <label>proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_dissipation2_d"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="2">
         <label>proteus::Dissipation2D_base</label>
         <link refid="classproteus_1_1_dissipation2_d__base"/>
       </node>
-      <node id="3">
-        <label>proteus::cppHsuSedStress&lt; 2 &gt;</label>
-        <link refid="classproteus_1_1cpp_hsu_sed_stress"/>
-      </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="1">
         <label>proteus::Dissipation2D&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_dissipation2_d"/>
@@ -793,8 +802,16 @@
           <edgelabel>closure</edgelabel>
         </childnode>
       </node>
+      <node id="2">
+        <label>proteus::Dissipation2D_base</label>
+        <link refid="classproteus_1_1_dissipation2_d__base"/>
+      </node>
+      <node id="3">
+        <label>proteus::cppHsuSedStress&lt; 2 &gt;</label>
+        <link refid="classproteus_1_1cpp_hsu_sed_stress"/>
+      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" line="48" column="3" bodyfile="/Users/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="49" bodyend="1746"/>
+    <location file="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" line="48" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/Dissipation2D.h" bodystart="49" bodyend="1746"/>
     <listofallmembers>
       <member refid="classproteus_1_1_dissipation2_d_1aace4b098e023ced5d8d4702af99987da" prot="public" virt="virtual"><scope>proteus::Dissipation2D</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1_dissipation2_d_1a9eb27cf04f9d8affaa1c9447bf9b118e" prot="public" virt="non-virtual"><scope>proteus::Dissipation2D</scope><name>calculateNumericalDiffusion</name></member>

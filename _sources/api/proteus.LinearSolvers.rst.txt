@@ -3,5 +3,5 @@ proteus.LinearSolvers module
 
 .. automodule:: proteus.LinearSolvers
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

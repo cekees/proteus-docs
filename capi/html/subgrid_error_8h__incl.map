@@ -1,6 +1,9 @@
 <map id="subgridError.h" name="subgridError.h">
-<area shape="rect" id="node1" title="C implementations of subgrid error calculations." alt="" coords="72,5,175,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,68,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="93,80,154,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="178,80,247,107"/>
+<area shape="rect" id="Node000001" title="C implementations of subgrid error calculations." alt="" coords="74,5,185,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,73,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,33,69,73,65,69,111,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,81,162,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,32,132,66,127,64,128,36"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="186,81,260,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="147,31,197,71,192,72,145,36"/>
 </map>

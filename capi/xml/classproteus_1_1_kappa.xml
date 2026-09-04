@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_kappa" kind="class" language="C++" prot="public">
     <compoundname>proteus::Kappa</compoundname>
     <basecompoundref refid="classproteus_1_1_kappa__base" prot="public" virt="non-virtual">proteus::Kappa_base</basecompoundref>
-    <includes refid="_kappa_8h" local="no">/Users/cekees/proteus/proteus/mprans/Kappa.h</includes>
+    <includes refid="_kappa_8h" local="no">/work/cekees/proteus/proteus/mprans/Kappa.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,66 +39,71 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1_kappa_1a115c9988f56e8a3fab66a8fbb441c3f9" prot="public" static="no" mutable="no">
         <type><ref refid="classproteus_1_1cpp_hsu_sed_stress" kindref="compound">cppHsuSedStress</ref>&lt; 3 &gt;</type>
         <definition>cppHsuSedStress&lt;3&gt; proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::closure</definition>
         <argsstring></argsstring>
         <name>closure</name>
+        <qualifiedname>proteus::Kappa::closure</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="51" column="25" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="51" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="51" column="25" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_kappa_1aeea2ffbecb45c7fb45c6d67424d94429" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
         <argsstring></argsstring>
         <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::Kappa::nDOF_test_X_trial_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="52" column="15" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="52" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="52" column="15" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_kappa_1a461a3e511698c36aa91e5475beaf5b59" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::Kappa::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="53" column="20" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="53" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="53" column="20" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="53" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_kappa_1ad86090d7997561f99b02fa3bd881b505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Kappa</definition>
         <argsstring>()</argsstring>
         <name>Kappa</name>
+        <qualifiedname>proteus::Kappa::Kappa</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="54" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="54" bodyend="75"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="54" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="54" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1ac18cf7bafc96cb2776e1a1f33e9ff809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::setSedClosure</definition>
         <argsstring>(double aDarcy, double betaForch, double grain, double packFraction, double packMargin, double maxFraction, double frFraction, double sigmaC, double C3e, double C4e, double eR, double fContact, double mContact, double nContact, double angFriction, double vos_limiter, double mu_fr_limiter)</argsstring>
         <name>setSedClosure</name>
+        <qualifiedname>proteus::Kappa::setSedClosure</qualifiedname>
         <reimplements refid="classproteus_1_1_kappa__base_1a4b10953a4ff6d7cb1293d5c2a88f5a89">setSedClosure</reimplements>
         <param>
           <type>double</type>
@@ -174,13 +179,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="77" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="77" bodyend="112"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="77" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="77" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1a41589889c96cb070178423b0cc8e4849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::computeK_OmegaCoefficients</definition>
         <argsstring>(const double &amp;div_eps, const double &amp;k, const double &amp;omega, const double grad_k[nSpace], const double grad_omega[nSpace], const double grad_vx[nSpace], const double grad_vy[nSpace], double &amp;inverse_sigma_k, double &amp;inverse_sigma_omega, double &amp;beta_star, double &amp;beta, double &amp;gamma)</argsstring>
         <name>computeK_OmegaCoefficients</name>
+        <qualifiedname>proteus::Kappa::computeK_OmegaCoefficients</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>div_eps</declname>
@@ -239,13 +245,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="115" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="115" bodyend="191"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="115" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="115" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1abce7d7a04c743cb3d80b40d422734070" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(double v[nSpace], const double eps_mu, const double phi, const double nu_0, const double nu_1, const double sigma_k, const double c_mu, const double grad_vx[nSpace], const double grad_vy[nSpace], const double grad_vz[nSpace], const double &amp;k, double &amp;k_old, double &amp;dissipation, const double &amp;porosity, int sedFlag, double q_vos, double q_vos_gradc[nSpace], double rho_f, double rho_s, double vs[nSpace], double g[nSpace], int dissipation_model_flag, const double grad_k_old[nSpace], const double grad_dissipation[nSpace], double &amp;m, double &amp;dm, double f[nSpace], double df[nSpace], double &amp;a, double &amp;da_dk, double &amp;r, double &amp;dr_dk)</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::Kappa::evaluateCoefficients</qualifiedname>
         <param>
           <type>double</type>
           <declname>v</declname>
@@ -391,13 +398,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="194" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="194" bodyend="353"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="194" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="194" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1a6f444e7147f0654c99f7ca574649f35d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::computeK_OmegaCoefficients</definition>
         <argsstring>(const double &amp;div_eps, const double &amp;k, const double &amp;omega, const double grad_k[nSpace], const double grad_omega[nSpace], const double grad_vx[nSpace], const double grad_vy[nSpace], const double grad_vz[nSpace], double &amp;inverse_sigma_k, double &amp;inverse_sigma_omega, double &amp;beta_star, double &amp;beta, double &amp;gamma)</argsstring>
         <name>computeK_OmegaCoefficients</name>
+        <qualifiedname>proteus::Kappa::computeK_OmegaCoefficients</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>div_eps</declname>
@@ -461,13 +469,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="355" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="355" bodyend="434"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="355" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="355" bodyend="434"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1a04157403448f5e0e3d8f1b387e49c6a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;elementDiameter, const double &amp;dmt, const double dH[nSpace], double &amp;cfl, double &amp;tau)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::Kappa::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>elementDiameter</declname>
@@ -495,13 +504,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="438" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="438" bodyend="453"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="438" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="438" bodyend="453"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1a1dcf8a467cb888d0e11a964df93e2367" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;Ct_sge, const double G[nSpace *nSpace], const double &amp;A0, const double Ai[nSpace], double &amp;tau_v, double &amp;cfl)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::Kappa::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>Ct_sge</declname>
@@ -534,13 +544,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="457" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="457" bodyend="470"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="457" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="457" bodyend="470"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1a4e19aa2c8a3400910a78af777b92316e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateNumericalDiffusion</definition>
         <argsstring>(const double &amp;shockCapturingDiffusion, const double &amp;elementDiameter, const double &amp;strong_residual, const double grad_u[nSpace], double &amp;numDiff)</argsstring>
         <name>calculateNumericalDiffusion</name>
+        <qualifiedname>proteus::Kappa::calculateNumericalDiffusion</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>shockCapturingDiffusion</declname>
@@ -568,13 +579,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="475" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="475" bodyend="492"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="475" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="475" bodyend="492"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1acc9432599aacc19b1fac5b175ce471cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFlux</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isAdvectiveFluxBoundary_u, const double n[nSpace], const double &amp;bc_u, const double &amp;bc_flux_u, const double &amp;u, const double velocity[nSpace], double &amp;flux)</argsstring>
         <name>exteriorNumericalAdvectiveFlux</name>
+        <qualifiedname>proteus::Kappa::exteriorNumericalAdvectiveFlux</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -615,13 +627,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="495" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="495" bodyend="545"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="495" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="495" bodyend="545"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1a4e9fb713de4c0272d2d745ce4e1c45d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::smoothedHeaviside</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>smoothedHeaviside</name>
+        <qualifiedname>proteus::Kappa::smoothedHeaviside</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -636,13 +649,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="546" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="546" bodyend="558"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="546" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="546" bodyend="558"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1acdd0173ff0770be9084d033f8ae5ece4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFluxDerivative</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isAdvectiveFluxBoundary, const double n[nSpace], const double velocity[nSpace], double &amp;dflux)</argsstring>
         <name>exteriorNumericalAdvectiveFluxDerivative</name>
+        <qualifiedname>proteus::Kappa::exteriorNumericalAdvectiveFluxDerivative</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -671,13 +685,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="561" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="561" bodyend="594"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="561" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="561" bodyend="594"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1a7b2ffaca7704f7d507581e482d0ffa21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalDiffusiveFlux</definition>
         <argsstring>(const double &amp;bc_flux, const int &amp;isDOFBoundary, const int &amp;isDiffusiveFluxBoundary, double n[nSpace], double bc_u, double a, double grad_psi[nSpace], double u, double penalty, double &amp;flux)</argsstring>
         <name>exteriorNumericalDiffusiveFlux</name>
+        <qualifiedname>proteus::Kappa::exteriorNumericalDiffusiveFlux</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>bc_flux</declname>
@@ -726,13 +741,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="596" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="596" bodyend="628"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="596" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="596" bodyend="628"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1ac162c9940afa182cc7393d58e3585c1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalDiffusiveFluxDerivative</definition>
         <argsstring>(const int &amp;isDOFBoundary, const int &amp;isDiffusiveFluxBoundary, double n[nSpace], double a, double da, double grad_psi[nSpace], const double grad_v[nSpace], double v, double penalty, double &amp;fluxJacobian)</argsstring>
         <name>exteriorNumericalDiffusiveFluxDerivative</name>
+        <qualifiedname>proteus::Kappa::exteriorNumericalDiffusiveFluxDerivative</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary</declname>
@@ -782,13 +798,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="630" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="630" bodyend="652"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="630" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="630" bodyend="652"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1ace75e8a440df088ac18cb88851845ab3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::Kappa::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1_kappa__base_1a5709ceafc9c563022e6440185b562e4d">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -800,13 +817,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="654" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="654" bodyend="1232"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="654" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="654" bodyend="1232"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa_1adbc82b0f0c4c022be0e2127428e3ec43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::Kappa::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1_kappa__base_1ab8ca1f31a4d2ca4ae0dae6d0496ab729">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -818,30 +836,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="1234" column="10" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="1234" bodyend="1799"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="1234" column="10" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="1234" bodyend="1799"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>proteus::Kappa_base</label>
-        <link refid="classproteus_1_1_kappa__base"/>
-      </node>
       <node id="1">
         <label>proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_kappa"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="2">
         <label>proteus::Kappa_base</label>
         <link refid="classproteus_1_1_kappa__base"/>
       </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="1">
         <label>proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_kappa"/>
@@ -851,12 +865,16 @@
           <edgelabel>closure</edgelabel>
         </childnode>
       </node>
+      <node id="2">
+        <label>proteus::Kappa_base</label>
+        <link refid="classproteus_1_1_kappa__base"/>
+      </node>
       <node id="3">
         <label>proteus::cppHsuSedStress&lt; 3 &gt;</label>
         <link refid="classproteus_1_1cpp_hsu_sed_stress"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="48" column="3" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="49" bodyend="1800"/>
+    <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="48" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="49" bodyend="1800"/>
     <listofallmembers>
       <member refid="classproteus_1_1_kappa_1adbc82b0f0c4c022be0e2127428e3ec43" prot="public" virt="virtual"><scope>proteus::Kappa</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1_kappa_1a4e19aa2c8a3400910a78af777b92316e" prot="public" virt="non-virtual"><scope>proteus::Kappa</scope><name>calculateNumericalDiffusion</name></member>

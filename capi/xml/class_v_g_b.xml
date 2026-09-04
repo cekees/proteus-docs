@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_v_g_b" kind="class" language="C++" prot="public">
     <compoundname>VGB</compoundname>
     <basecompoundref refid="class_v_g_m" prot="public" virt="non-virtual">VGM</basecompoundref>
-    <includes refid="psk_relations_8h" local="no">/Users/cekees/proteus/proteus/pskRelations.h</includes>
-      <sectiondef kind="public-func">
+    <includes refid="psk_relations_8h" local="no">/work/cekees/proteus/proteus/pskRelations.h</includes>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_v_g_b_1a24e25c0482286d4a984a4cfda9b02357" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>VGB::VGB</definition>
         <argsstring>(const double *rwork, const int *iwork=0)</argsstring>
         <name>VGB</name>
+        <qualifiedname>VGB::VGB</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>rwork</declname>
@@ -25,13 +26,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="481" column="3" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="481" bodyend="483"/>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="482" column="3" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="482" bodyend="484"/>
       </memberdef>
       <memberdef kind="function" id="class_v_g_b_1a2103005f539fdb00af4c08f3e879b75f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void VGB::calc</definition>
         <argsstring>(const double &amp;Sw)</argsstring>
         <name>calc</name>
+        <qualifiedname>VGB::calc</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>Sw</declname>
@@ -42,14 +44,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="485" column="15" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="485" bodyend="511"/>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="486" column="15" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="486" bodyend="512"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="4">
+        <label>PskRelation</label>
+        <link refid="class_psk_relation"/>
+      </node>
       <node id="1">
         <label>VGB</label>
         <link refid="class_v_g_b"/>
@@ -67,13 +73,13 @@
         <link refid="class_v_g_morig"/>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="4">
-        <label>PskRelation</label>
-        <link refid="class_psk_relation"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="4">
+        <label>PskRelation</label>
+        <link refid="class_psk_relation"/>
+      </node>
       <node id="1">
         <label>VGB</label>
         <link refid="class_v_g_b"/>
@@ -92,12 +98,8 @@
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
-        <label>PskRelation</label>
-        <link refid="class_psk_relation"/>
-      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="478" column="1" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="479" bodyend="512"/>
+    <location file="/work/cekees/proteus/proteus/pskRelations.h" line="479" column="1" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="480" bodyend="513"/>
     <listofallmembers>
       <member refid="class_v_g_morig_1a7446515ec1857fd13b99d0359928c7d0" prot="public" virt="non-virtual"><scope>VGB</scope><name>alpha</name></member>
       <member refid="class_v_g_b_1a2103005f539fdb00af4c08f3e879b75f" prot="public" virt="non-virtual"><scope>VGB</scope><name>calc</name></member>

@@ -1,0 +1,29 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="304pt" height="29pt" viewBox="0.00 0.00 304.00 29.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24.75)">
+<ns0:title>inheritance76683d8f82</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>ADR.Coefficients</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.ADR.html#proteus.ADR.Coefficients" ns1:title="Coefficients of linear ADR equations" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="296,-20.75 198.25,-20.75 198.25,0 296,0 296,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="247.12" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ADR.Coefficients</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>TransportCoefficients.TC_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.TransportCoefficients.html#proteus.TransportCoefficients.TC_base" ns1:title="This is the base class for coefficients of the vector transport" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="162.25,-20.75 0,-20.75 0,0 162.25,0 162.25,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="81.12" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TransportCoefficients.TC_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>TransportCoefficients.TC_base-&gt;ADR.Coefficients</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M162.68,-10.38C172.56,-10.38 182.46,-10.38 191.81,-10.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="192.44,-12.13 197.44,-10.38 192.44,-8.63 192.44,-12.13" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

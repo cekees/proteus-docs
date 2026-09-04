@@ -1,13 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classequivalent__polynomials_1_1_simplex" kind="class" language="C++" prot="public">
     <compoundname>equivalent_polynomials::Simplex</compoundname>
-    <includes refid="equivalent__polynomials_8h" local="no">/Users/cekees/proteus/proteus/equivalent_polynomials.h</includes>
+    <includes refid="equivalent__polynomials_8h" local="no">/work/cekees/proteus/proteus/equivalent_polynomials.h</includes>
     <templateparamlist>
       <param>
         <type>int</type>
         <declname>nSpace</declname>
         <defname>nSpace</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nP_ifem</declname>
+        <defname>nP_ifem</defname>
       </param>
       <param>
         <type>int</type>
@@ -24,725 +29,1201 @@
         <declname>nEBQ</declname>
         <defname>nEBQ</defname>
       </param>
-    </templateparamlist>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a685b4172b5deca47aa64b27fa4c1bfdf" prot="public" static="no" mutable="no">
+      <param>
         <type>bool</type>
-        <definition>bool equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::inside_out</definition>
+        <declname>useIfemBasis</declname>
+        <defname>useIfemBasis</defname>
+        <defval>false</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ad7b804085a975f80a53b8d5c25a90d4d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::inside_out</definition>
         <argsstring></argsstring>
         <name>inside_out</name>
+        <qualifiedname>equivalent_polynomials::Simplex::inside_out</qualifiedname>
+        <initializer>= false</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="164" column="10" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="164" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="250" column="10" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="250" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a228039eb09f7426dc8c951dcd285f97c" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aab71372b86f3c97c05dbba8be210414c" prot="public" static="no" mutable="no">
         <type>bool</type>
-        <definition>bool equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::quad_cut</definition>
+        <definition>bool equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::quad_cut</definition>
         <argsstring></argsstring>
         <name>quad_cut</name>
+        <qualifiedname>equivalent_polynomials::Simplex::quad_cut</qualifiedname>
+        <initializer>= false</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="164" column="21" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="164" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="250" column="22" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="250" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a0bf5680ceac97c625b4da70568284d53" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1af6663806b126157d2a30d2f33fcd4ab8" prot="public" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::phi_dof_corrected[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::phi_dof_corrected[nDOF_phi]</definition>
+        <argsstring>[nDOF_phi]</argsstring>
         <name>phi_dof_corrected</name>
+        <qualifiedname>equivalent_polynomials::Simplex::phi_dof_corrected</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="166" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="166" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="258" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="258" bodyend="258"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a82ed1c617cbb2853cfa8c0d556fa0c16" prot="public" static="yes" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aa4daa0cdeea5b0d3b3a5a50af086bbcc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::cut_barycenter[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>cut_barycenter</name>
+        <qualifiedname>equivalent_polynomials::Simplex::cut_barycenter</qualifiedname>
+        <initializer>= {0., 0., 0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="259" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="259" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a3416c4341e60ec372f8b414e519bfd2c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::edge</definition>
+        <argsstring></argsstring>
+        <name>edge</name>
+        <qualifiedname>equivalent_polynomials::Simplex::edge</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="260" column="9" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a14d3a890b9260bc609a7c3e06245a4a5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::corner</definition>
+        <argsstring></argsstring>
+        <name>corner</name>
+        <qualifiedname>equivalent_polynomials::Simplex::corner</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="260" column="15" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a4cc367a1aa8efae2aece23c22332decd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::split</definition>
+        <argsstring></argsstring>
+        <name>split</name>
+        <qualifiedname>equivalent_polynomials::Simplex::split</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="261" column="10" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1adcb0f82a7021156a3599675bb8f7ddc3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::flip_the_cell</definition>
+        <argsstring></argsstring>
+        <name>flip_the_cell</name>
+        <qualifiedname>equivalent_polynomials::Simplex::flip_the_cell</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="262" column="10" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a008d4666104968ced3619b9965af43b3" prot="public" static="yes" mutable="no">
         <type>const unsigned int</type>
-        <definition>const unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::nN</definition>
+        <definition>const unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::nN</definition>
         <argsstring></argsstring>
         <name>nN</name>
-        <initializer>=nSpace+1</initializer>
+        <qualifiedname>equivalent_polynomials::Simplex::nN</qualifiedname>
+        <initializer>= nSpace + 1</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="165" column="31" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="165" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="251" column="31" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="251" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a25b856c3adabd6e0f92fe8e3224a0611" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a4d73277c0062492d9cddf16831dc9f1d" prot="public" static="yes" mutable="no">
+        <type>const unsigned int</type>
+        <definition>const unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::nDOF_phi</definition>
+        <argsstring></argsstring>
+        <name>nDOF_phi</name>
+        <qualifiedname>equivalent_polynomials::Simplex::nDOF_phi</qualifiedname>
+        <initializer>= (useIfemBasis &amp;&amp; nP_ifem &gt; <ref refid="classequivalent__polynomials_1_1_simplex_1a008d4666104968ced3619b9965af43b3" kindref="member">nN</ref>) ? nP_ifem : <ref refid="classequivalent__polynomials_1_1_simplex_1a008d4666104968ced3619b9965af43b3" kindref="member">nN</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="257" column="31" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a48294f341a3c5c5b54652c292fb4373a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::P2_ifem_case</definition>
+        <argsstring></argsstring>
+        <name>P2_ifem_case</name>
+        <qualifiedname>equivalent_polynomials::Simplex::P2_ifem_case</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="265" column="9" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ace755d7fad200cd58bc7fea26cfaae58" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_H_q</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_H_q</definition>
         <argsstring></argsstring>
         <name>_H_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_H_q</qualifiedname>
+        <initializer>= 0.</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="168" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="168" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="270" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="270" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a682a16ba2e03dda33bf1479d50009647" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1af2b9db6a1de0b9192372b09716974d7b" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_ImH_q</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_ImH_q</definition>
         <argsstring></argsstring>
         <name>_ImH_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_ImH_q</qualifiedname>
+        <initializer>= 0.</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="168" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="168" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="270" column="18" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="270" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a0d35f84c9b4564e95bd2392b0e01b7fd" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ad33904170114bd15fc54be12ef951ee7" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_D_q</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_D_q</definition>
         <argsstring></argsstring>
         <name>_D_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_D_q</qualifiedname>
+        <initializer>= 0.</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="168" column="24" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="168" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="270" column="26" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="270" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1af46cef0908a7580e4477c546ea13d64b" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ad49b539c713d5ac2c5a033ddbdeb36de" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_va_q[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_va_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="168" column="29" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="168" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="270" column="32" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="270" bodyend="270"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ac4b4a6fce7a2158747751b8690d53327" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a26ff098e60964a23d50c8dfa5936161a" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_vb_q[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_vb_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="168" column="35" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="168" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="270" column="39" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="270" bodyend="270"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ad79fd82df7a627736893f7a87d968d47" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a4841e2b432620801bb9cf20ce98a3b9b" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_va_x[nN]</definition>
-        <argsstring>[nN]</argsstring>
-        <name>_va_x</name>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_x_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_va_x_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_x_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="169" column="7" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="169" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="271" column="9" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="271" bodyend="271"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a77da2c4f303055c72a1e1ef83de669fa" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a968ecb1f7a139f925c079c99ef0b9f09" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_va_y[nN]</definition>
-        <argsstring>[nN]</argsstring>
-        <name>_va_y</name>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_y_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_va_y_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_y_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="169" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="169" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="271" column="18" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="271" bodyend="271"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a13996d055cb52b5a02e8be0e2486d5cc" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a97818b4354f3db4d26b5892d692d7d21" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_va_z[nN]</definition>
-        <argsstring>[nN]</argsstring>
-        <name>_va_z</name>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_z_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_va_z_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_z_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="169" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="169" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="271" column="27" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="271" bodyend="271"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1af7bcc8434710402eb00687b44e050cc9" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a6624de1902abb583901e31612ba202fc" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_vb_x[nN]</definition>
-        <argsstring>[nN]</argsstring>
-        <name>_vb_x</name>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_x_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_vb_x_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_x_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="169" column="22" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="169" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="272" column="9" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="272" bodyend="272"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1acf79b479c6d0e1a38e35ae7d719839fd" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a028835334df87b88e064ba66ed8f9454" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_vb_y[nN]</definition>
-        <argsstring>[nN]</argsstring>
-        <name>_vb_y</name>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_y_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_vb_y_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_y_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="169" column="27" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="169" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="272" column="18" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="272" bodyend="272"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1afd99c5108f2d60360cbcf2e59bb5bc1f" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a747c3cdb71ef12d26915ecf8408882cf" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_vb_z[nN]</definition>
-        <argsstring>[nN]</argsstring>
-        <name>_vb_z</name>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_z_q[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_vb_z_q</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_z_q</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="169" column="32" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="169" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="272" column="27" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="272" bodyend="272"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a54b67b9701e5871516a9bce92fe23378" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aef7b21ed572221c9d3768b5e9b40f809" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
-        <definition>unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::root_node</definition>
+        <definition>unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::root_node</definition>
         <argsstring></argsstring>
         <name>root_node</name>
+        <qualifiedname>equivalent_polynomials::Simplex::root_node</qualifiedname>
+        <initializer>= 0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="170" column="18" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="170" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="278" column="18" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="278" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab1f28ff2aa01c9def5a5fa3d1844b714" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aeda2e308d511eaac4b0560565e88b5ae" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
-        <definition>unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::permutation[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::permutation[nDOF_phi]</definition>
+        <argsstring>[nDOF_phi]</argsstring>
         <name>permutation</name>
+        <qualifiedname>equivalent_polynomials::Simplex::permutation</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="170" column="28" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="170" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="278" column="29" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="278" bodyend="278"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab4dbb8962b2489511d71946b4e49c957" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1af928ec5bed194f31c3af2aa8ae077fb3" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::phi[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::phi[nDOF_phi]</definition>
+        <argsstring>[nDOF_phi]</argsstring>
         <name>phi</name>
+        <qualifiedname>equivalent_polynomials::Simplex::phi</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="171" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="171" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="284" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="284" bodyend="284"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a6c5a4879afed072456a249193427fcf7" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aafc87f79bd23295d9c573d09afa4af0e" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::nodes[nN *3]</definition>
-        <argsstring>[nN *3]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::nodes[nDOF_phi *3]</definition>
+        <argsstring>[nDOF_phi *3]</argsstring>
         <name>nodes</name>
+        <qualifiedname>equivalent_polynomials::Simplex::nodes</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="171" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="171" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="284" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="284" bodyend="284"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab51888c2ca5fbfda49d95e8dd2f595d0" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a5d0bae9e52c3bce5cbaa17f192beed0a" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_a1[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_a1[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_a1</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_a1</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="172" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="172" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="285" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="285" bodyend="285"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a7dca2b417558725939719e3845ae04f3" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a15d399ae08909815bcc95fd40d9ed2a3" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_a2[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_a2[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_a2</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_a2</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="172" column="15" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="172" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="285" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="285" bodyend="285"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a2b2df8d6019a960022018e91ba756fff" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aeef58edaf0b994d68c82ad4f94528ac4" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_a3[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_a3[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_a3</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_a3</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="172" column="18" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="172" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="285" column="22" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="285" bodyend="285"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a82eb061badfbeee6a53a92786d2ced2c" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a0f1aed428cd805a43efdbdae6cf14992" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_b1[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_b1[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_b1</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_b1</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="173" column="7" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="173" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="285" column="27" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="285" bodyend="285"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a045647abe8d8b37fa763c93f24bcbddb" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a650bf6ec637fb3803daab3a944ca356a" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_b2[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_b2[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_b2</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_b2</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="173" column="10" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="173" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="285" column="32" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="285" bodyend="285"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1adb0451a1c4fb0efa19d2b95ad0520737" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1afe8432580851dba532992e3b33e7f5c8" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_b3[nN]</definition>
-        <argsstring>[nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_b3[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
         <name>_b3</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_b3</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="173" column="13" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="173" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="285" column="37" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="285" bodyend="285"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a208d173f678812e6966056a437164320" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a6c2c8fb27ddac2c2a553e97e4dcf6698" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::Jac[nSpace *nSpace]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_a4[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_a4</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_a4</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="286" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a28024154c6b313705ff552f13352caf6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_a5[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_a5</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_a5</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="286" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a90077081086c11185025052199628f00" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_a6[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_a6</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_a6</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="286" column="22" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab6f2ad6eea3b4090f72cd52166f7a88e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_b4[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_b4</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_b4</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="286" column="27" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a1427da951e5fecc46ea711b0aeecaab3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_b5[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_b5</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_b5</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="286" column="32" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a695ce16424a26f760e19374db084e945" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_b6[nP_ifem]</definition>
+        <argsstring>[nP_ifem]</argsstring>
+        <name>_b6</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_b6</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="286" column="37" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a66dc2bd870003fc9783a8055841263ec" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::Jac[nSpace *nSpace]</definition>
         <argsstring>[nSpace *nSpace]</argsstring>
         <name>Jac</name>
+        <qualifiedname>equivalent_polynomials::Simplex::Jac</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="174" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="174" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="287" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="287" bodyend="287"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a63fb686a8ac7d93297ad64490c5ac992" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a997953dc41540bc7d6f5cf3c82682b50" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::inv_Jac[nSpace *nSpace]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::inv_Jac[nSpace *nSpace]</definition>
         <argsstring>[nSpace *nSpace]</argsstring>
         <name>inv_Jac</name>
+        <qualifiedname>equivalent_polynomials::Simplex::inv_Jac</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="174" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="174" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="287" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="287" bodyend="287"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a602544e2367738ef1b34dedac5f5f43a" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a7364e3bdd8732f319dc084059eb5475e" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::det_Jac</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::det_Jac</definition>
         <argsstring></argsstring>
         <name>det_Jac</name>
+        <qualifiedname>equivalent_polynomials::Simplex::det_Jac</qualifiedname>
+        <initializer>= 0.</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="174" column="24" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="174" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="287" column="26" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="287" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a24f2ec715872889a83e2658e2d8c2551" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a606e24f547991b39cf9415aeb5eaeff5" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::level_set_normal[nSpace]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::level_set_normal[nSpace]</definition>
         <argsstring>[nSpace]</argsstring>
         <name>level_set_normal</name>
+        <qualifiedname>equivalent_polynomials::Simplex::level_set_normal</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a32e87fe29d25acdb2f664270debd569c" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a53fe35b817796a74f21435b06501211c" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::X_0[nSpace]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::X_0[nSpace]</definition>
         <argsstring>[nSpace]</argsstring>
         <name>X_0</name>
+        <qualifiedname>equivalent_polynomials::Simplex::X_0</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="29" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="29" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a90d640d93983700db96019e9828136e2" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a867cd9aece9ce24c77e1c3abd62cdb48" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::phys_nodes_cut[(nN-1) *3]</definition>
-        <argsstring>[(nN-1) *3]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::phys_nodes_cut[(nN - 1) *3]</definition>
+        <argsstring>[(nN - 1) *3]</argsstring>
         <name>phys_nodes_cut</name>
+        <qualifiedname>equivalent_polynomials::Simplex::phys_nodes_cut</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="33" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="33" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a1db217b32beb3e0cb2aa67a9f59465d3" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a88864e638a80a7f7bcd42b8635538f53" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::THETA_01</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::THETA_01</definition>
         <argsstring></argsstring>
         <name>THETA_01</name>
+        <qualifiedname>equivalent_polynomials::Simplex::THETA_01</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="48" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="48" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a549085a22e7ad1be633158c46c981fb9" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a7e1e44e544b8f3e2617f978131b39a59" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::THETA_02</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::THETA_02</definition>
         <argsstring></argsstring>
         <name>THETA_02</name>
+        <qualifiedname>equivalent_polynomials::Simplex::THETA_02</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="57" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="57" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a2d6fe731213f233c5e5788f72bbe56bd" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ac632b771ce582935b5323002052c6641" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::THETA_31</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::THETA_31</definition>
         <argsstring></argsstring>
         <name>THETA_31</name>
+        <qualifiedname>equivalent_polynomials::Simplex::THETA_31</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="66" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="66" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1af7daea3b8025b58b76fef8060d3ef845" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a907df61a6baa7302f812577bb9c057e2" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::THETA_32</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::THETA_32</definition>
         <argsstring></argsstring>
         <name>THETA_32</name>
+        <qualifiedname>equivalent_polynomials::Simplex::THETA_32</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="75" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="75" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a5d424544178b3b77e004e95ca2798a28" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aa7a58950803001b1977f878ab3b03049" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::phys_nodes_cut_quad_01[3]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::phys_nodes_cut_quad_01[3]</definition>
         <argsstring>[3]</argsstring>
         <name>phys_nodes_cut_quad_01</name>
+        <qualifiedname>equivalent_polynomials::Simplex::phys_nodes_cut_quad_01</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="84" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="84" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a4ae3bb36e5f50715dc7ceb119d438ce4" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a2e49c6e29b663a6d535b650ee2f98f39" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::phys_nodes_cut_quad_02[3]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::phys_nodes_cut_quad_02[3]</definition>
         <argsstring>[3]</argsstring>
         <name>phys_nodes_cut_quad_02</name>
+        <qualifiedname>equivalent_polynomials::Simplex::phys_nodes_cut_quad_02</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="106" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="107" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1afbd54d6caa1a0b431f69487927ec7912" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a7fb20c7e6aa75f8453556a3e19db9351" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::phys_nodes_cut_quad_31[3]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::phys_nodes_cut_quad_31[3]</definition>
         <argsstring>[3]</argsstring>
         <name>phys_nodes_cut_quad_31</name>
+        <qualifiedname>equivalent_polynomials::Simplex::phys_nodes_cut_quad_31</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="128" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="130" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1abb5d36e2d4f7b9f7c73c7726e002942c" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ad725d43cdc511b8fe82604adfabec50b" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::phys_nodes_cut_quad_32[3]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::phys_nodes_cut_quad_32[3]</definition>
         <argsstring>[3]</argsstring>
         <name>phys_nodes_cut_quad_32</name>
+        <qualifiedname>equivalent_polynomials::Simplex::phys_nodes_cut_quad_32</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="175" column="150" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="175" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="288" column="153" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aca1491298549b0386c409233bf3f8313" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ac127ce364ba0d93656a0cb0e078952a3" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::Ainv[nDOF *nDOF]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::Ainv[nDOF *nDOF]</definition>
         <argsstring>[nDOF *nDOF]</argsstring>
         <name>Ainv</name>
+        <qualifiedname>equivalent_polynomials::Simplex::Ainv</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="177" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="177" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="290" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="290" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ac5299cf083594ab07f2dede571f596a8" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab37c40583c441f3e70d1b206baddbab7" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::C_H[nDOF]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::C_H[nDOF]</definition>
         <argsstring>[nDOF]</argsstring>
         <name>C_H</name>
+        <qualifiedname>equivalent_polynomials::Simplex::C_H</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="178" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="178" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="291" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="291" bodyend="291"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a07ffc4cd96245349169b707238885779" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab910720919d5639cdfe9df026b8529bf" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::C_ImH[nDOF]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::C_ImH[nDOF]</definition>
         <argsstring>[nDOF]</argsstring>
         <name>C_ImH</name>
+        <qualifiedname>equivalent_polynomials::Simplex::C_ImH</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="178" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="178" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="291" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="291" bodyend="291"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ae3f9a772d815352fbe5fb22ca1877428" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a0e8613e44b75f4cca3b48d53a418adb1" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::C_D[nDOF]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::C_D[nDOF]</definition>
         <argsstring>[nDOF]</argsstring>
         <name>C_D</name>
+        <qualifiedname>equivalent_polynomials::Simplex::C_D</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="178" column="22" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="178" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="291" column="24" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="291" bodyend="291"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a34b8687c7c047e3dfa7fd34878dcaa1c" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a2b708483942587ac9ee53289affa39c8" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_H[nQ]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_H[nQ]</definition>
         <argsstring>[nQ]</argsstring>
         <name>_H</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_H</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="184" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="184" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="297" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="297" bodyend="297"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a96cb7b1ee3eaf48445ba01ccee6a72cd" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a98d50a553a64530ac54bbd4edf3469df" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_ImH[nQ]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_ImH[nQ]</definition>
         <argsstring>[nQ]</argsstring>
         <name>_ImH</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_ImH</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="184" column="15" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="184" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="297" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="297" bodyend="297"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab37b85757d9c568aed82e9fe8b356926" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aa9c6da8365250d81dbc6b955bca47ea7" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_D[nQ]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_D[nQ]</definition>
         <argsstring>[nQ]</argsstring>
         <name>_D</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_D</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="184" column="20" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="184" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="297" column="22" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="297" bodyend="297"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a1896598a8fe8bfc0b9351d75fc391165" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a1189197382afea4b3489fadb46847933" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_va[nQ *nN]</definition>
-        <argsstring>[nQ *nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
         <name>_va</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="184" column="23" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="184" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="297" column="26" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="297" bodyend="297"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a3018cdc1cf940fd80ad939dd83a10c79" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1af1d2714ce21ee737df30b8d51646c7e9" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_vb[nQ *nN]</definition>
-        <argsstring>[nQ *nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
         <name>_vb</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="184" column="27" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="184" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="297" column="31" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="297" bodyend="297"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a88f3695f0ca82863fa6c405866a2ad07" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a690f506a8b80bc6bc635ed8c05285eec" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_H_ebq[nEBQ]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_H_ebq[nEBQ]</definition>
         <argsstring>[nEBQ]</argsstring>
         <name>_H_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_H_ebq</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="185" column="12" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="185" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="298" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="298" bodyend="298"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a80583357ea503e9e2466b19fefd74f05" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1acd437da0dc6228c6a35d778f112cdf55" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_ImH_ebq[nEBQ]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_ImH_ebq[nEBQ]</definition>
         <argsstring>[nEBQ]</argsstring>
         <name>_ImH_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_ImH_ebq</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="185" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="185" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="298" column="20" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="298" bodyend="298"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a9bcefdb80afc5f08f7f15f33f6de72ba" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a37d6cd0b4bfc114bc1661562ab1a222e" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_D_ebq[nEBQ]</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_D_ebq[nEBQ]</definition>
         <argsstring>[nEBQ]</argsstring>
         <name>_D_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_D_ebq</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="185" column="28" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="185" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="298" column="30" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="298" bodyend="298"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a24fa279b05e820ac2798f9318a783ed5" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a8a5565e2cba7d933a99eb0aa244c48e0" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_va_ebq[nEBQ *nN]</definition>
-        <argsstring>[nEBQ *nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
         <name>_va_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_ebq</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="185" column="35" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="185" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="298" column="38" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="298" bodyend="298"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a2a630d7bfd4c7a884fc313c8213526c0" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a5262240d78e2da37841cb9be14da12fd" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_vb_ebq[nEBQ *nN]</definition>
-        <argsstring>[nEBQ *nN]</argsstring>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
         <name>_vb_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_ebq</qualifiedname>
+        <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="185" column="43" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="185" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="298" column="47" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="298" bodyend="298"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-static-attrib">
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1aed2bf1f458aad3c2b133bdb1422396c4" prot="private" static="yes" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a963a078e223f8c83558a5ec485a5801a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_x[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
+        <name>_va_x</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_x</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="299" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ac8491c3e6605cc9dc5e2082f479af521" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_y[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
+        <name>_va_y</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_y</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="299" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a4e3d95d5720e96fa1cc7ff23b5a16498" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_z[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
+        <name>_va_z</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_z</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="299" column="26" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a66b7664602ce8442afc0fe4d5bc0585b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_x[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
+        <name>_vb_x</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_x</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="299" column="33" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ae14da7ed99bdbdc14c509649b72f5bc4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_y[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
+        <name>_vb_y</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_y</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="299" column="40" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a83294e1a6f20f9f009087ac894b15832" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_z[nQ *nP_ifem]</definition>
+        <argsstring>[nQ *nP_ifem]</argsstring>
+        <name>_vb_z</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_z</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="299" column="47" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1acff73fecbfe8e38ee78a8baac252087f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_x_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
+        <name>_va_x_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_x_ebq</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="300" column="12" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a21b016028074550af095fd80363b2a63" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_y_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
+        <name>_va_y_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_y_ebq</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="300" column="23" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a62372a44bc3188a4e2d836acee19a119" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_va_z_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
+        <name>_va_z_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_va_z_ebq</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="300" column="34" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a013e56237dca5c6a65ab3f4a989f0746" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_x_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
+        <name>_vb_x_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_x_ebq</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="300" column="45" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab7f7e740b0f5a3b91711deafb25d0d18" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_y_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
+        <name>_vb_y_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_y_ebq</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="300" column="56" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1ab8aa036d51586d9e2574fc16810bcb05" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_vb_z_ebq[nEBQ *nP_ifem]</definition>
+        <argsstring>[nEBQ *nP_ifem]</argsstring>
+        <name>_vb_z_ebq</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_vb_z_ebq</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="300" column="67" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_simplex_1a8dd27c99304101587bcd85d7fa2fc643" prot="private" static="yes" mutable="no">
         <type>const unsigned int</type>
-        <definition>const unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::nDOF</definition>
+        <definition>const unsigned int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::nDOF</definition>
         <argsstring></argsstring>
         <name>nDOF</name>
-        <initializer>=((nSpace-1)/2)*(nSpace-2)*(nP+1)*(nP+2)*(nP+3)/6 + (nSpace-1)*(3-nSpace)*(nP+1)*(nP+2)/2 + (2-nSpace)*((3-nSpace)/2)*(nP+1)</initializer>
+        <qualifiedname>equivalent_polynomials::Simplex::nDOF</qualifiedname>
+        <initializer>= ((nSpace - 1) / 2) * (nSpace - 2) * (nP + 1) * (nP + 2) * (nP + 3) / 6 + (nSpace - 1) * (3 - nSpace) * (nP + 1) * (nP + 2) / 2 + (2 - nSpace) * ((3 - nSpace) / 2) * (nP + 1)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="176" column="31" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="176" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="289" column="31" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="289" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ab5c7561a05b00026ff31f69d4648a817" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ab00ec8858036bdb7acc43a53886bab21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::Simplex</definition>
+        <definition>equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::Simplex</definition>
         <argsstring>(bool useExact=true)</argsstring>
         <name>Simplex</name>
+        <qualifiedname>equivalent_polynomials::Simplex::Simplex</qualifiedname>
         <param>
           <type>bool</type>
           <declname>useExact</declname>
@@ -754,13 +1235,60 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="75" column="5" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="75" bodyend="89"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="100" column="5" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="100" bodyend="114"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a2a1bd742868899b11493457d62f2cfcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1adaed39bc27b7333f9dd405e498c0da2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
-        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::calculate</definition>
+        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::calculate</definition>
+        <argsstring>(const double *phi_dof, const double *phi_nodes, const double *xi_r, double ma, double mb, double jf, bool isBoundary, bool scale)</argsstring>
+        <name>calculate</name>
+        <qualifiedname>equivalent_polynomials::Simplex::calculate</qualifiedname>
+        <param>
+          <type>const double *</type>
+          <declname>phi_dof</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>phi_nodes</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>xi_r</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ma</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mb</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isBoundary</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="116" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1052" bodyend="1281"/>
+      </memberdef>
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a878b971aee23e09b4423f3919a6099cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::calculate</definition>
         <argsstring>(const double *phi_dof, const double *phi_nodes, const double *xi_r, double ma, double mb, bool isBoundary, bool scale)</argsstring>
         <name>calculate</name>
+        <qualifiedname>equivalent_polynomials::Simplex::calculate</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>phi_dof</declname>
@@ -795,13 +1323,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="91" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="586" bodyend="763"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="118" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="118" bodyend="121"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ab1ea03188fbb61cd46eac316c16c91d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a209d77e3380210f01f7cd17c656702ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
-        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::calculate</definition>
+        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::calculate</definition>
         <argsstring>(const double *phi_dof, const double *phi_nodes, const double *xi_r, bool isBoundary)</argsstring>
         <name>calculate</name>
+        <qualifiedname>equivalent_polynomials::Simplex::calculate</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>phi_dof</declname>
@@ -824,13 +1353,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="93" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="93" bodyend="96"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="123" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="123" bodyend="126"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a1eb95dcf6a03acee74644eeae2aaeb9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a5712e2a579444e0c5f865d1b94a7ffa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::set_quad</definition>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::set_quad</definition>
         <argsstring>(unsigned int q)</argsstring>
         <name>set_quad</name>
+        <qualifiedname>equivalent_polynomials::Simplex::set_quad</qualifiedname>
         <param>
           <type>unsigned int</type>
           <declname>q</declname>
@@ -841,13 +1371,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="98" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="98" bodyend="120"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="128" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="128" bodyend="177"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a848db9311c89f7504e23a0fb5190df2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1aa92e4ae45e154a2e2f1817af3481c8b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::set_boundary_quad</definition>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::set_boundary_quad</definition>
         <argsstring>(unsigned int ebq)</argsstring>
         <name>set_boundary_quad</name>
+        <qualifiedname>equivalent_polynomials::Simplex::set_boundary_quad</qualifiedname>
         <param>
           <type>unsigned int</type>
           <declname>ebq</declname>
@@ -858,52 +1389,56 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="122" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="122" bodyend="144"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="179" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="179" bodyend="224"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ae7d99d99678bbce0118ba0873996bea8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a14de8d7b73de2441e3b40c8f4daee522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double *</type>
-        <definition>double* equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::get_H</definition>
+        <definition>double * equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::get_H</definition>
         <argsstring>()</argsstring>
         <name>get_H</name>
+        <qualifiedname>equivalent_polynomials::Simplex::get_H</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="146" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="146" bodyend="146"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="226" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="226" bodyend="226"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a513fcc9d548fa46c1416f48e196859e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1abbb4d43cb51f379f31a1ecb72e1e271c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double *</type>
-        <definition>double* equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::get_ImH</definition>
+        <definition>double * equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::get_ImH</definition>
         <argsstring>()</argsstring>
         <name>get_ImH</name>
+        <qualifiedname>equivalent_polynomials::Simplex::get_ImH</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="147" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="147" bodyend="147"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="227" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="227" bodyend="227"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ac5a79d2389fa46e851dde95a47f6210e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ae66acfb9a7eab8aa7eec463f22c64188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double *</type>
-        <definition>double* equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::get_D</definition>
+        <definition>double * equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::get_D</definition>
         <argsstring>()</argsstring>
         <name>get_D</name>
+        <qualifiedname>equivalent_polynomials::Simplex::get_D</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="148" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="148" bodyend="148"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="228" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="228" bodyend="228"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a184a4115848bc5a1aae4ab1249a15298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1adcb0bea6128524f1b81b31e0b693e57f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::H</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::H</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>H</name>
+        <qualifiedname>equivalent_polynomials::Simplex::H</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -918,13 +1453,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="149" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="149" bodyend="149"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="229" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="229" bodyend="229"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ad75999e4840dcf6dd48fd9b547d16fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a692da248039cefcbefd5f9dca9d0f89b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::ImH</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::ImH</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>ImH</name>
+        <qualifiedname>equivalent_polynomials::Simplex::ImH</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -939,13 +1475,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="150" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="150" bodyend="150"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="230" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="230" bodyend="230"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ab82d7858ddac506c7f7d2d79388fa262" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a8f580cbc4dd617d991ee876e4b24634b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::D</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::D</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>D</name>
+        <qualifiedname>equivalent_polynomials::Simplex::D</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -960,13 +1497,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="151" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="151" bodyend="151"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="231" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="231" bodyend="231"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ad3cc0b9dc3fe1c58514b7b2557dd7445" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a056eb2d5a308cf8941cd071fb6b88a68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VA</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA</definition>
         <argsstring>(int i)</argsstring>
         <name>VA</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VA</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -977,13 +1515,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="152" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="152" bodyend="152"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="232" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="232" bodyend="232"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a0394a2b1928b5199c48cd58f68651236" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ad5ffd1f2e951ded3bc79bf2b41ca38a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VA_x</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA_x</definition>
         <argsstring>(int i)</argsstring>
         <name>VA_x</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VA_x</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -994,13 +1533,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="153" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="153" bodyend="153"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="233" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="233" bodyend="233"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a4e3fab885537e74700f11d746efe1041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a4c2ed74a42dad4832e19c487199e5338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VA_y</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA_y</definition>
         <argsstring>(int i)</argsstring>
         <name>VA_y</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VA_y</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -1011,13 +1551,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="154" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="154" bodyend="154"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="234" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="234" bodyend="234"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a15c0d964f80a0e1740ec7625441cee56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a363c6229a0b2eb09b6cfcc7309943977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VA_z</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA_z</definition>
         <argsstring>(int i)</argsstring>
         <name>VA_z</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VA_z</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -1028,13 +1569,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="155" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="155" bodyend="155"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="235" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="235" bodyend="235"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a2e8b6a6442c54f7b0e7673ffeb8ac0f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a0774b9526c453d9ef80379796cf09b45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VB</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB</definition>
         <argsstring>(int i)</argsstring>
         <name>VB</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VB</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -1045,13 +1587,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="156" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="156" bodyend="156"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="236" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="236" bodyend="236"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a6b7155a3624b3bfef1cfeb9f9559d5f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a641190b8b3deb5d13baab836e4cd44fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VB_x</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB_x</definition>
         <argsstring>(int i)</argsstring>
         <name>VB_x</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VB_x</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -1062,13 +1605,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="157" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="157" bodyend="157"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="237" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="237" bodyend="237"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a94469538c20561c26fd0b5bd30314f1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a993691c1df7a0351b2cfd010e6cc4b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VB_y</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB_y</definition>
         <argsstring>(int i)</argsstring>
         <name>VB_y</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VB_y</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -1079,13 +1623,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="158" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="158" bodyend="158"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="238" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="238" bodyend="238"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ad32095ea64e43e0961805454aa506906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1aaa0fdbfad8471444d6ae1187739ac0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::VB_z</definition>
+        <definition>double equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB_z</definition>
         <argsstring>(int i)</argsstring>
         <name>VB_z</name>
+        <qualifiedname>equivalent_polynomials::Simplex::VB_z</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -1096,28 +1641,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="159" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="159" bodyend="159"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="239" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="239" bodyend="239"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a78d6d94fca62496dbac57b249ca96e56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1afa4ddcb145930e48518cf77c8856a711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double *</type>
-        <definition>double* equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::get_normal</definition>
+        <definition>double * equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::get_normal</definition>
         <argsstring>()</argsstring>
         <name>get_normal</name>
+        <qualifiedname>equivalent_polynomials::Simplex::get_normal</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="160" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="160" bodyend="163"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="240" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="240" bodyend="243"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a24e87e8394741aac8e40950cc64ed249" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a77c57acc358cd45c2cb83f9fb572d81e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
-        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_calculate_permutation</definition>
+        <definition>int equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_calculate_permutation</definition>
         <argsstring>(const double *phi_dof, const double *phi_nodes)</argsstring>
         <name>_calculate_permutation</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_calculate_permutation</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>phi_dof</declname>
@@ -1132,52 +1679,56 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="179" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="267" bodyend="449"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="292" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="383" bodyend="613"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ae5c5d2e66af663f49761a29705ee2e87" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a9dde1968624557b9e4241bbef276a334" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_calculate_cuts</definition>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_calculate_cuts</definition>
         <argsstring>()</argsstring>
         <name>_calculate_cuts</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_calculate_cuts</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="180" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="452" bodyend="477"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="293" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="616" bodyend="674"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ab3bef5501119f98210251d12f13481ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a6f1d70e6e4585b63d00052d304e4071d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_calculate_cuts_quad</definition>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_calculate_cuts_quad</definition>
         <argsstring>()</argsstring>
         <name>_calculate_cuts_quad</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_calculate_cuts_quad</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="181" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="480" bodyend="501"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="294" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="677" bodyend="698"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a975fb71fdcc9a8a7c25c50227864265c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ad63f62f269f0e9955aa02f659cc4b5df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_calculate_C</definition>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_calculate_C</definition>
         <argsstring>()</argsstring>
         <name>_calculate_C</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_calculate_C</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="182" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="199" bodyend="264"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="295" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="307" bodyend="380"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1aea5673b12f53f52cf33e02df583851dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1aa205ce2559333af160133be909493a17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_correct_phi</definition>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_correct_phi</definition>
         <argsstring>(const double *phi_dof, const double *phi_nodes)</argsstring>
         <name>_correct_phi</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_correct_phi</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>phi_dof</declname>
@@ -1192,13 +1743,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="183" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="504" bodyend="537"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="296" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="701" bodyend="737"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ad0e9ec77a1fc5fc988c1cfe99acd7978" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1ad7fadfef97589e6393091cd37394225f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_calculate_basis_coefficients</definition>
-        <argsstring>(const double ma, const double mb)</argsstring>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_calculate_basis_coefficients</definition>
+        <argsstring>(const double ma, const double mb, const double jf)</argsstring>
         <name>_calculate_basis_coefficients</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_calculate_basis_coefficients</qualifiedname>
         <param>
           <type>const double</type>
           <declname>ma</declname>
@@ -1207,19 +1759,24 @@
           <type>const double</type>
           <declname>mb</declname>
         </param>
+        <param>
+          <type>const double</type>
+          <declname>jf</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="186" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="540" bodyend="583"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="301" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="740" bodyend="914"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a1278070f3f878c3cf0fcbfb2f8fd32ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a78109b84de2fb9a23baba5764c9a0d03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP, nQ, nEBQ &gt;::_calculate_basis</definition>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_calculate_basis</definition>
         <argsstring>(const double *xi, double *va, double *vb)</argsstring>
         <name>_calculate_basis</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_calculate_basis</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>xi</declname>
@@ -1238,96 +1795,157 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="187" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="187" bodyend="195"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="302" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="917" bodyend="952"/>
       </memberdef>
-      </sectiondef>
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_simplex_1a1f23bf6a4a8648036c752120ee03827d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::_calculate_basis_gradients</definition>
+        <argsstring>(const double *xi, double *va_x, double *va_y, double *vb_x, double *vb_y)</argsstring>
+        <name>_calculate_basis_gradients</name>
+        <qualifiedname>equivalent_polynomials::Simplex::_calculate_basis_gradients</qualifiedname>
+        <param>
+          <type>const double *</type>
+          <declname>xi</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>va_x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>va_y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>vb_x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>vb_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="303" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="955" bodyend="1049"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="72" column="3" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="73" bodyend="196"/>
+    <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="97" column="3" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="98" bodyend="304"/>
     <listofallmembers>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab51888c2ca5fbfda49d95e8dd2f595d0" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a1</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a7dca2b417558725939719e3845ae04f3" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a2</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a2b2df8d6019a960022018e91ba756fff" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a3</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a82eb061badfbeee6a53a92786d2ced2c" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b1</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a045647abe8d8b37fa763c93f24bcbddb" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b2</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1adb0451a1c4fb0efa19d2b95ad0520737" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b3</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a1278070f3f878c3cf0fcbfb2f8fd32ef" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_basis</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ad0e9ec77a1fc5fc988c1cfe99acd7978" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_basis_coefficients</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a975fb71fdcc9a8a7c25c50227864265c" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_C</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ae5c5d2e66af663f49761a29705ee2e87" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_cuts</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab3bef5501119f98210251d12f13481ce" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_cuts_quad</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a24e87e8394741aac8e40950cc64ed249" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_permutation</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1aea5673b12f53f52cf33e02df583851dd" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_correct_phi</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab37b85757d9c568aed82e9fe8b356926" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_D</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a9bcefdb80afc5f08f7f15f33f6de72ba" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_D_ebq</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a0d35f84c9b4564e95bd2392b0e01b7fd" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_D_q</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a34b8687c7c047e3dfa7fd34878dcaa1c" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_H</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a88f3695f0ca82863fa6c405866a2ad07" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_H_ebq</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a25b856c3adabd6e0f92fe8e3224a0611" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_H_q</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a96cb7b1ee3eaf48445ba01ccee6a72cd" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_ImH</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a80583357ea503e9e2466b19fefd74f05" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_ImH_ebq</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a682a16ba2e03dda33bf1479d50009647" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_ImH_q</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a1896598a8fe8bfc0b9351d75fc391165" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a24fa279b05e820ac2798f9318a783ed5" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_ebq</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1af46cef0908a7580e4477c546ea13d64b" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_q</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ad79fd82df7a627736893f7a87d968d47" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_x</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a77da2c4f303055c72a1e1ef83de669fa" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_y</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a13996d055cb52b5a02e8be0e2486d5cc" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_z</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a3018cdc1cf940fd80ad939dd83a10c79" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a2a630d7bfd4c7a884fc313c8213526c0" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_ebq</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ac4b4a6fce7a2158747751b8690d53327" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_q</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1af7bcc8434710402eb00687b44e050cc9" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_x</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1acf79b479c6d0e1a38e35ae7d719839fd" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_y</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1afd99c5108f2d60360cbcf2e59bb5bc1f" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_z</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1aca1491298549b0386c409233bf3f8313" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>Ainv</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ae3f9a772d815352fbe5fb22ca1877428" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>C_D</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ac5299cf083594ab07f2dede571f596a8" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>C_H</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a07ffc4cd96245349169b707238885779" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>C_ImH</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a2a1bd742868899b11493457d62f2cfcf" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>calculate</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab1ea03188fbb61cd46eac316c16c91d3" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>calculate</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab82d7858ddac506c7f7d2d79388fa262" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>D</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a602544e2367738ef1b34dedac5f5f43a" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>det_Jac</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ac5a79d2389fa46e851dde95a47f6210e" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_D</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ae7d99d99678bbce0118ba0873996bea8" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_H</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a513fcc9d548fa46c1416f48e196859e0" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_ImH</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a78d6d94fca62496dbac57b249ca96e56" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_normal</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a184a4115848bc5a1aae4ab1249a15298" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>H</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ad75999e4840dcf6dd48fd9b547d16fc2" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>ImH</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a685b4172b5deca47aa64b27fa4c1bfdf" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>inside_out</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a63fb686a8ac7d93297ad64490c5ac992" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>inv_Jac</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a208d173f678812e6966056a437164320" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>Jac</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a24f2ec715872889a83e2658e2d8c2551" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>level_set_normal</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1aed2bf1f458aad3c2b133bdb1422396c4" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>nDOF</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a82ed1c617cbb2853cfa8c0d556fa0c16" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>nN</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a6c5a4879afed072456a249193427fcf7" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>nodes</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab1f28ff2aa01c9def5a5fa3d1844b714" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>permutation</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab4dbb8962b2489511d71946b4e49c957" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phi</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a0bf5680ceac97c625b4da70568284d53" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phi_dof_corrected</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a90d640d93983700db96019e9828136e2" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a5d424544178b3b77e004e95ca2798a28" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_01</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a4ae3bb36e5f50715dc7ceb119d438ce4" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_02</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1afbd54d6caa1a0b431f69487927ec7912" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_31</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1abb5d36e2d4f7b9f7c73c7726e002942c" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_32</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a228039eb09f7426dc8c951dcd285f97c" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>quad_cut</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a54b67b9701e5871516a9bce92fe23378" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>root_node</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a848db9311c89f7504e23a0fb5190df2c" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>set_boundary_quad</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a1eb95dcf6a03acee74644eeae2aaeb9a" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>set_quad</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ab5c7561a05b00026ff31f69d4648a817" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>Simplex</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a1db217b32beb3e0cb2aa67a9f59465d3" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_01</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a549085a22e7ad1be633158c46c981fb9" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_02</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a2d6fe731213f233c5e5788f72bbe56bd" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_31</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1af7daea3b8025b58b76fef8060d3ef845" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_32</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ad3cc0b9dc3fe1c58514b7b2557dd7445" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a0394a2b1928b5199c48cd58f68651236" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA_x</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a4e3fab885537e74700f11d746efe1041" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA_y</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a15c0d964f80a0e1740ec7625441cee56" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA_z</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a2e8b6a6442c54f7b0e7673ffeb8ac0f5" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a6b7155a3624b3bfef1cfeb9f9559d5f3" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB_x</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a94469538c20561c26fd0b5bd30314f1f" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB_y</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1ad32095ea64e43e0961805454aa506906" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB_z</name></member>
-      <member refid="classequivalent__polynomials_1_1_simplex_1a32e87fe29d25acdb2f664270debd569c" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>X_0</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a5d0bae9e52c3bce5cbaa17f192beed0a" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a1</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a15d399ae08909815bcc95fd40d9ed2a3" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a2</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aeef58edaf0b994d68c82ad4f94528ac4" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a3</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a6c2c8fb27ddac2c2a553e97e4dcf6698" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a4</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a28024154c6b313705ff552f13352caf6" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a5</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a90077081086c11185025052199628f00" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_a6</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a0f1aed428cd805a43efdbdae6cf14992" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b1</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a650bf6ec637fb3803daab3a944ca356a" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b2</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1afe8432580851dba532992e3b33e7f5c8" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b3</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ab6f2ad6eea3b4090f72cd52166f7a88e" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b4</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a1427da951e5fecc46ea711b0aeecaab3" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b5</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a695ce16424a26f760e19374db084e945" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_b6</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a78109b84de2fb9a23baba5764c9a0d03" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_basis</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ad7fadfef97589e6393091cd37394225f" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_basis_coefficients</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a1f23bf6a4a8648036c752120ee03827d" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_basis_gradients</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ad63f62f269f0e9955aa02f659cc4b5df" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_C</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a9dde1968624557b9e4241bbef276a334" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_cuts</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a6f1d70e6e4585b63d00052d304e4071d" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_cuts_quad</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a77c57acc358cd45c2cb83f9fb572d81e" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_calculate_permutation</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aa205ce2559333af160133be909493a17" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_correct_phi</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aa9c6da8365250d81dbc6b955bca47ea7" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_D</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a37d6cd0b4bfc114bc1661562ab1a222e" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_D_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ad33904170114bd15fc54be12ef951ee7" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_D_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a2b708483942587ac9ee53289affa39c8" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_H</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a690f506a8b80bc6bc635ed8c05285eec" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_H_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ace755d7fad200cd58bc7fea26cfaae58" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_H_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a98d50a553a64530ac54bbd4edf3469df" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_ImH</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1acd437da0dc6228c6a35d778f112cdf55" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_ImH_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1af2b9db6a1de0b9192372b09716974d7b" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_ImH_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a1189197382afea4b3489fadb46847933" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a8a5565e2cba7d933a99eb0aa244c48e0" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ad49b539c713d5ac2c5a033ddbdeb36de" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a963a078e223f8c83558a5ec485a5801a" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_x</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1acff73fecbfe8e38ee78a8baac252087f" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_x_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a4841e2b432620801bb9cf20ce98a3b9b" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_x_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ac8491c3e6605cc9dc5e2082f479af521" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_y</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a21b016028074550af095fd80363b2a63" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_y_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a968ecb1f7a139f925c079c99ef0b9f09" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_y_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a4e3d95d5720e96fa1cc7ff23b5a16498" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_z</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a62372a44bc3188a4e2d836acee19a119" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_z_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a97818b4354f3db4d26b5892d692d7d21" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_va_z_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1af1d2714ce21ee737df30b8d51646c7e9" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a5262240d78e2da37841cb9be14da12fd" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a26ff098e60964a23d50c8dfa5936161a" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a66b7664602ce8442afc0fe4d5bc0585b" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_x</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a013e56237dca5c6a65ab3f4a989f0746" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_x_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a6624de1902abb583901e31612ba202fc" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_x_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ae14da7ed99bdbdc14c509649b72f5bc4" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_y</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ab7f7e740b0f5a3b91711deafb25d0d18" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_y_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a028835334df87b88e064ba66ed8f9454" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_y_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a83294e1a6f20f9f009087ac894b15832" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_z</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ab8aa036d51586d9e2574fc16810bcb05" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_z_ebq</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a747c3cdb71ef12d26915ecf8408882cf" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>_vb_z_q</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ac127ce364ba0d93656a0cb0e078952a3" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>Ainv</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a0e8613e44b75f4cca3b48d53a418adb1" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>C_D</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ab37c40583c441f3e70d1b206baddbab7" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>C_H</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ab910720919d5639cdfe9df026b8529bf" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>C_ImH</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1adaed39bc27b7333f9dd405e498c0da2a" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>calculate</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a878b971aee23e09b4423f3919a6099cb" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>calculate</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a209d77e3380210f01f7cd17c656702ba" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>calculate</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a14d3a890b9260bc609a7c3e06245a4a5" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>corner</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aa4daa0cdeea5b0d3b3a5a50af086bbcc" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>cut_barycenter</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a8f580cbc4dd617d991ee876e4b24634b" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>D</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a7364e3bdd8732f319dc084059eb5475e" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>det_Jac</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a3416c4341e60ec372f8b414e519bfd2c" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>edge</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1adcb0f82a7021156a3599675bb8f7ddc3" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>flip_the_cell</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ae66acfb9a7eab8aa7eec463f22c64188" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_D</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a14de8d7b73de2441e3b40c8f4daee522" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_H</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1abbb4d43cb51f379f31a1ecb72e1e271c" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_ImH</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1afa4ddcb145930e48518cf77c8856a711" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>get_normal</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1adcb0bea6128524f1b81b31e0b693e57f" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>H</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a692da248039cefcbefd5f9dca9d0f89b" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>ImH</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ad7b804085a975f80a53b8d5c25a90d4d" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>inside_out</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a997953dc41540bc7d6f5cf3c82682b50" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>inv_Jac</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a66dc2bd870003fc9783a8055841263ec" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>Jac</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a606e24f547991b39cf9415aeb5eaeff5" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>level_set_normal</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a8dd27c99304101587bcd85d7fa2fc643" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>nDOF</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a4d73277c0062492d9cddf16831dc9f1d" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>nDOF_phi</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a008d4666104968ced3619b9965af43b3" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>nN</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aafc87f79bd23295d9c573d09afa4af0e" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>nodes</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a48294f341a3c5c5b54652c292fb4373a" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>P2_ifem_case</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aeda2e308d511eaac4b0560565e88b5ae" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>permutation</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1af928ec5bed194f31c3af2aa8ae077fb3" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phi</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1af6663806b126157d2a30d2f33fcd4ab8" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phi_dof_corrected</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a867cd9aece9ce24c77e1c3abd62cdb48" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aa7a58950803001b1977f878ab3b03049" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_01</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a2e49c6e29b663a6d535b650ee2f98f39" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_02</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a7fb20c7e6aa75f8453556a3e19db9351" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_31</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ad725d43cdc511b8fe82604adfabec50b" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>phys_nodes_cut_quad_32</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aab71372b86f3c97c05dbba8be210414c" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>quad_cut</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aef7b21ed572221c9d3768b5e9b40f809" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>root_node</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aa92e4ae45e154a2e2f1817af3481c8b6" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>set_boundary_quad</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a5712e2a579444e0c5f865d1b94a7ffa2" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>set_quad</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ab00ec8858036bdb7acc43a53886bab21" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>Simplex</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a4cc367a1aa8efae2aece23c22332decd" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>split</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a88864e638a80a7f7bcd42b8635538f53" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_01</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a7e1e44e544b8f3e2617f978131b39a59" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_02</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ac632b771ce582935b5323002052c6641" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_31</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a907df61a6baa7302f812577bb9c057e2" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>THETA_32</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a056eb2d5a308cf8941cd071fb6b88a68" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1ad5ffd1f2e951ded3bc79bf2b41ca38a2" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA_x</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a4c2ed74a42dad4832e19c487199e5338" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA_y</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a363c6229a0b2eb09b6cfcc7309943977" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VA_z</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a0774b9526c453d9ef80379796cf09b45" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a641190b8b3deb5d13baab836e4cd44fd" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB_x</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a993691c1df7a0351b2cfd010e6cc4b93" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB_y</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1aaa0fdbfad8471444d6ae1187739ac0e2" prot="public" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>VB_z</name></member>
+      <member refid="classequivalent__polynomials_1_1_simplex_1a53fe35b817796a74f21435b06501211c" prot="private" virt="non-virtual"><scope>equivalent_polynomials::Simplex</scope><name>X_0</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

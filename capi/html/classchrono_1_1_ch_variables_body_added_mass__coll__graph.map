@@ -1,4 +1,5 @@
 <map id="chrono::ChVariablesBodyAddedMass" name="chrono::ChVariablesBodyAddedMass">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,244,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="34,5,215,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,264,109"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,5,232,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,47,137,82,132,79,133,51"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="proteus::MoveMesh_base" name="proteus::MoveMesh_base">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,177,69"/>
-<area shape="rect" id="node2" href="$classproteus_1_1_move_mesh.html" title=" " alt="" coords="225,5,536,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,193,76"/>
+<area shape="rect" id="Node000002" href="$classproteus_1_1_move_mesh.html" title=" " alt="" coords="241,5,590,118"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,59,243,61,238,62,208,64"/>
 </map>

@@ -1,22 +1,23 @@
+
+
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>proteus.mprans.beamFEM module &mdash; Proteus 1.8.1 documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
-    <link rel="shortcut icon" href="../_static/tritonBorder.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
+  <title>proteus.mprans.beamFEM module &mdash; Proteus 1.9.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
+    <link rel="shortcut icon" href="../_static/tritonBorder.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=c4cb232b"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" /> 
@@ -27,15 +28,16 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../index.html">
-            <img src="../_static/corps_logo_cross2.svg" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/corps_logo_cross2.svg" class="logo" alt="Logo"/>
           </a>
-              <div class="version">
-                1.8.1
-              </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -143,7 +145,6 @@
 </ul>
 
         </div>
-        
       </div>
     </nav>
 
@@ -156,8 +157,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>proteus.mprans.beamFEM module</li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">proteus.mprans.beamFEM module</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com/erdc/proteus/blob/masterdocs/source/api/proteus.mprans.beamFEM.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
@@ -168,89 +169,89 @@
            <div itemprop="articleBody">
              
   <section id="module-proteus.mprans.beamFEM">
-<span id="proteus-mprans-beamfem-module"></span><h1>proteus.mprans.beamFEM module<a class="headerlink" href="#module-proteus.mprans.beamFEM" title="Permalink to this headline"></a></h1>
+<span id="proteus-mprans-beamfem-module"></span><h1>proteus.mprans.beamFEM module<a class="headerlink" href="#module-proteus.mprans.beamFEM" title="Link to this heading"></a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">proteus.mprans.beamFEM.</span></span><span class="sig-name descname"><span class="pre">FEMTools</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">L</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nElements</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quadOrder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">EI</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">GJ</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nlTol</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-06</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">useSparse</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">beamLocation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(0.5,</span> <span class="pre">0.5)</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools" title="Permalink to this definition"></a></dt>
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">proteus.mprans.beamFEM.</span></span><span class="sig-name descname"><span class="pre">FEMTools</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">L</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nElements</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quadOrder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">EI</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">GJ</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nlTol</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-06</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">useSparse</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">beamLocation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(0.5,</span> <span class="pre">0.5)</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools" title="Link to this definition"></a></dt>
 <dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.structuredMesh">
-<span class="sig-name descname"><span class="pre">structuredMesh</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.structuredMesh" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">structuredMesh</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.structuredMesh" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.initializePhi">
-<span class="sig-name descname"><span class="pre">initializePhi</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.initializePhi" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">initializePhi</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.initializePhi" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.GaussQuad">
-<span class="sig-name descname"><span class="pre">GaussQuad</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.GaussQuad" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">GaussQuad</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.GaussQuad" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.initializeCoords">
-<span class="sig-name descname"><span class="pre">initializeCoords</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.initializeCoords" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">initializeCoords</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.initializeCoords" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.basisFunctions">
-<span class="sig-name descname"><span class="pre">basisFunctions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.basisFunctions" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">basisFunctions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.basisFunctions" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.updateCoords">
-<span class="sig-name descname"><span class="pre">updateCoords</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateCoords" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">updateCoords</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateCoords" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.updateLoads">
-<span class="sig-name descname"><span class="pre">updateLoads</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q3</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateLoads" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">updateLoads</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q3</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateLoads" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.updateQs">
-<span class="sig-name descname"><span class="pre">updateQs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">endLoad</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateQs" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">updateQs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">endLoad</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateQs" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.calculateGradient_Hessian">
-<span class="sig-name descname"><span class="pre">calculateGradient_Hessian</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.calculateGradient_Hessian" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">calculateGradient_Hessian</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.calculateGradient_Hessian" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.calculateResidual">
-<span class="sig-name descname"><span class="pre">calculateResidual</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.calculateResidual" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">calculateResidual</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.calculateResidual" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.updateSolution">
-<span class="sig-name descname"><span class="pre">updateSolution</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateSolution" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">updateSolution</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.updateSolution" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.checkConvergence">
-<span class="sig-name descname"><span class="pre">checkConvergence</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.checkConvergence" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">checkConvergence</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.checkConvergence" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.setBCs">
-<span class="sig-name descname"><span class="pre">setBCs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.setBCs" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">setBCs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.setBCs" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.reduceOrder">
-<span class="sig-name descname"><span class="pre">reduceOrder</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.reduceOrder" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">reduceOrder</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.reduceOrder" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.getCoords_Qs_at_Quad">
-<span class="sig-name descname"><span class="pre">getCoords_Qs_at_Quad</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.getCoords_Qs_at_Quad" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">getCoords_Qs_at_Quad</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.getCoords_Qs_at_Quad" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.beamFEM.FEMTools.getCoords_at_Quad">
-<span class="sig-name descname"><span class="pre">getCoords_at_Quad</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.getCoords_at_Quad" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">getCoords_at_Quad</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/beamFEM.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.beamFEM.FEMTools.getCoords_at_Quad" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 </dd></dl>

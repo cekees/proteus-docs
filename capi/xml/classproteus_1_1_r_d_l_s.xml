@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_r_d_l_s" kind="class" language="C++" prot="public">
     <compoundname>proteus::RDLS</compoundname>
     <basecompoundref refid="classproteus_1_1_r_d_l_s__base" prot="public" virt="non-virtual">proteus::RDLS_base</basecompoundref>
-    <includes refid="_r_d_l_s_8h" local="no">/Users/cekees/proteus/proteus/mprans/RDLS.h</includes>
+    <includes refid="_r_d_l_s_8h" local="no">/work/cekees/proteus/proteus/mprans/RDLS.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,79 +39,85 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1_r_d_l_s_1aa001e06d2a0eed4e5827929ed2125f03" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
         <argsstring></argsstring>
         <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::RDLS::nDOF_test_X_trial_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="50" column="17" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="50" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="57" column="17" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_r_d_l_s_1a51e3c9d41c270a1970d8aac107b69e0f" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::RDLS::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="51" column="22" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="51" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="58" column="22" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_r_d_l_s_1ae8ad0db52b248e5f55595e6a125cac40" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceproteus_1ac61dbf98c43ac13d15c02ba156dc2ef3" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
+        <type><ref refid="namespaceproteus_1a0c308272715853e7a4fe11c6efdd25f4" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
         <definition>GeneralizedFunctions&lt;nSpace,2,nQuadraturePoints_element,nQuadraturePoints_elementBoundary&gt; proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf</definition>
         <argsstring></argsstring>
         <name>gf</name>
+        <qualifiedname>proteus::RDLS::gf</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="52" column="28" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="52" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="59" column="28" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_r_d_l_s_1a53fdf6cfe80d5743baaaafc408c2e83f" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceproteus_1ac61dbf98c43ac13d15c02ba156dc2ef3" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
+        <type><ref refid="namespaceproteus_1a0c308272715853e7a4fe11c6efdd25f4" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
         <definition>GeneralizedFunctions&lt;nSpace,2,nQuadraturePoints_element,nQuadraturePoints_elementBoundary&gt; proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gfu</definition>
         <argsstring></argsstring>
         <name>gfu</name>
+        <qualifiedname>proteus::RDLS::gfu</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="52" column="30" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="52" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="59" column="30" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="59" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1ac8f1656100c871b93649147460e37f44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::RDLS</definition>
         <argsstring>()</argsstring>
         <name>RDLS</name>
+        <qualifiedname>proteus::RDLS::RDLS</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="53" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="53" bodyend="56"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="60" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="60" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a1c1c17af4bbe4a7d38e4fda266e95c66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(const double &amp;eps, const double &amp;u_levelSet, const double &amp;u, const double grad_u[nSpace], double &amp;m, double &amp;dm, double &amp;H, double dH[nSpace], double &amp;r)</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::RDLS::evaluateCoefficients</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>eps</declname>
@@ -156,13 +162,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="59" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="59" bodyend="92"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="66" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="66" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1ac62fe83b4abbae9c1326eef1945baebb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;elementDiameter, const double &amp;dmt, const double dH[nSpace], double &amp;cfl, double &amp;tau)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::RDLS::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>elementDiameter</declname>
@@ -190,13 +197,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="95" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="95" bodyend="113"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="102" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="102" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a3f29589857c6998ba684e3e5936a04f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double G[nSpace *nSpace], const double Ai[nSpace], double &amp;tau_v, double &amp;q_cfl)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::RDLS::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double</type>
           <declname>G</declname>
@@ -221,13 +229,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="116" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="116" bodyend="127"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="123" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="123" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a9d49d5cfc43abfd2d345e4b2a8f493dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::RDLS::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1_r_d_l_s__base_1aa7e0eb2db93d5728d109aa802e307b3f">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -243,13 +252,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="130" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="130" bodyend="604"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="137" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="137" bodyend="611"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1afeb39c244077a7e21efa9fa6fc0b6725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::RDLS::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1_r_d_l_s__base_1a57b64b8f711adcfafc84f83db827611f">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -265,13 +275,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="609" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="609" bodyend="1100"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="616" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="616" bodyend="1107"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a3bd5cc6924fa7231d887917dddd49119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual_ellipticRedist</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>calculateResidual_ellipticRedist</name>
+        <qualifiedname>proteus::RDLS::calculateResidual_ellipticRedist</qualifiedname>
         <reimplements refid="classproteus_1_1_r_d_l_s__base_1aa6eb4309c8eff96bb2bcdaa19cecd7b4">calculateResidual_ellipticRedist</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -287,13 +298,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="1102" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1102" bodyend="1414"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="1109" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1109" bodyend="1421"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a9288a61732a5aab7f3723ad49ce21618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian_ellipticRedist</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>calculateJacobian_ellipticRedist</name>
+        <qualifiedname>proteus::RDLS::calculateJacobian_ellipticRedist</qualifiedname>
         <reimplements refid="classproteus_1_1_r_d_l_s__base_1a1feb3404a559a8c2f3b9d481182d0012">calculateJacobian_ellipticRedist</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -309,13 +321,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="1416" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1416" bodyend="1622"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="1423" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1423" bodyend="1629"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a3ea8a5f08a2029ca252e8ae74a13160d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::normalReconstruction</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>normalReconstruction</name>
+        <qualifiedname>proteus::RDLS::normalReconstruction</qualifiedname>
         <reimplements refid="classproteus_1_1_r_d_l_s__base_1a1c60fa12019be18b662e5e0b88d42121">normalReconstruction</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -327,14 +340,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="1624" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1624" bodyend="1746"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="1631" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1631" bodyend="1753"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a2cf36afc6b590b0e8f7020bd243a03e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classproteus_1_1_r_d_l_s_1a1e0007f157ab6c51d3570a9984dad882" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::tuple&lt; double, double, double &gt;</type>
-        <definition>std::tuple&lt;double, double, double&gt; proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateMetricsAtEOS</definition>
+        <definition>std::tuple&lt; double, double, double &gt; proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateMetricsAtEOS</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateMetricsAtEOS</name>
-        <reimplements refid="classproteus_1_1_r_d_l_s__base_1ada88ecc8b8ca9536f09c9c1396d5f09f">calculateMetricsAtEOS</reimplements>
+        <qualifiedname>proteus::RDLS::calculateMetricsAtEOS</qualifiedname>
+        <reimplements refid="classproteus_1_1_r_d_l_s__base_1a88031c10a5df6d17161afe206ac472e8">calculateMetricsAtEOS</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
           <declname>args</declname>
@@ -345,39 +359,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="1748" column="18" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1748" bodyend="1846"/>
+        <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="1755" column="18" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="1755" bodyend="1853"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>proteus::RDLS_base</label>
-        <link refid="classproteus_1_1_r_d_l_s__base"/>
-      </node>
       <node id="1">
         <label>proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_r_d_l_s"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="4">
-        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</label>
-        <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
-      </node>
       <node id="2">
         <label>proteus::RDLS_base</label>
         <link refid="classproteus_1_1_r_d_l_s__base"/>
-        <childnode refid="3" relation="usage">
-          <edgelabel>weighted_lumped_mass_matrix</edgelabel>
-        </childnode>
       </node>
-      <node id="3">
-        <label>std::valarray&lt; double &gt;</label>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, true &gt;&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
       </node>
       <node id="1">
         <label>proteus::RDLS&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
@@ -389,12 +393,22 @@
           <edgelabel>gfu</edgelabel>
         </childnode>
       </node>
+      <node id="2">
+        <label>proteus::RDLS_base</label>
+        <link refid="classproteus_1_1_r_d_l_s__base"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>weighted_lumped_mass_matrix</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::valarray&lt; double &gt;</label>
+      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/RDLS.h" line="47" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/RDLS.h" bodystart="48" bodyend="1848"/>
+    <location file="/work/cekees/proteus/proteus/mprans/RDLS.h" line="54" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/RDLS.h" bodystart="55" bodyend="1855"/>
     <listofallmembers>
       <member refid="classproteus_1_1_r_d_l_s_1afeb39c244077a7e21efa9fa6fc0b6725" prot="public" virt="virtual"><scope>proteus::RDLS</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1_r_d_l_s_1a9288a61732a5aab7f3723ad49ce21618" prot="public" virt="virtual"><scope>proteus::RDLS</scope><name>calculateJacobian_ellipticRedist</name></member>
-      <member refid="classproteus_1_1_r_d_l_s_1a2cf36afc6b590b0e8f7020bd243a03e1" prot="public" virt="virtual"><scope>proteus::RDLS</scope><name>calculateMetricsAtEOS</name></member>
+      <member refid="classproteus_1_1_r_d_l_s_1a1e0007f157ab6c51d3570a9984dad882" prot="public" virt="virtual"><scope>proteus::RDLS</scope><name>calculateMetricsAtEOS</name></member>
       <member refid="classproteus_1_1_r_d_l_s_1a9d49d5cfc43abfd2d345e4b2a8f493dd" prot="public" virt="virtual"><scope>proteus::RDLS</scope><name>calculateResidual</name></member>
       <member refid="classproteus_1_1_r_d_l_s_1a3bd5cc6924fa7231d887917dddd49119" prot="public" virt="virtual"><scope>proteus::RDLS</scope><name>calculateResidual_ellipticRedist</name></member>
       <member refid="classproteus_1_1_r_d_l_s_1ac62fe83b4abbae9c1326eef1945baebb" prot="public" virt="non-virtual"><scope>proteus::RDLS</scope><name>calculateSubgridError_tau</name></member>

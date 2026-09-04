@@ -1,0 +1,14 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="62pt" height="29pt" viewBox="0.00 0.00 62.00 29.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24.75)">
+<ns0:title>inheritancee3fb17daa9</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>Comm</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.Comm.html#proteus.Comm.Comm" ns1:title="Proteus wrapper around PETSc/MPI communicators" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="54,-20.75 0,-20.75 0,0 54,0 54,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="27" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Comm</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

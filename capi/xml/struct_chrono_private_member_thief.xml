@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="struct_chrono_private_member_thief" kind="struct" language="C++" prot="public">
+    <compoundname>ChronoPrivateMemberThief</compoundname>
+    <includes refid="_prot_ch_moorings_8h" local="no">/work/cekees/proteus/proteus/mbd/ProtChMoorings.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Tag</type>
+      </param>
+      <param>
+        <type>typename Tag::type</type>
+        <declname>Member</declname>
+        <defname>Member</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_chrono_private_member_thief_1a779553ea2415a8cf987826ddff08b5b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tag::type</type>
+        <definition>Tag::type chronoPrivateMemberThief</definition>
+        <argsstring>(Tag)</argsstring>
+        <name>chronoPrivateMemberThief</name>
+        <qualifiedname>ChronoPrivateMemberThief::chronoPrivateMemberThief</qualifiedname>
+        <param>
+          <type>Tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="109" column="29" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" line="108" column="1" bodyfile="/work/cekees/proteus/proteus/mbd/ProtChMoorings.h" bodystart="108" bodyend="110"/>
+    <listofallmembers>
+      <member refid="struct_chrono_private_member_thief_1a779553ea2415a8cf987826ddff08b5b3" prot="public" virt="non-virtual"><scope>ChronoPrivateMemberThief</scope><name>chronoPrivateMemberThief</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

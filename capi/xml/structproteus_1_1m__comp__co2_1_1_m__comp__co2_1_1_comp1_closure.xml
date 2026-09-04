@@ -1,0 +1,631 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure" kind="struct" language="C++" prot="public">
+    <compoundname>proteus::m_comp_co2::M_comp_co2::Comp1Closure</compoundname>
+    <includes refid="m__comp__co2_8h" local="no">/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ac14911bf71763ee3e015d413441ec21b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::S_g</definition>
+        <argsstring></argsstring>
+        <name>S_g</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::S_g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="210" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a3f8fc61f2f9840809b4dae4fd0aa91cf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dS_g_dp</definition>
+        <argsstring></argsstring>
+        <name>dS_g_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dS_g_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="210" column="16" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a3571ce1bff5c678beb7938ebbcadb77d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dS_g_dz</definition>
+        <argsstring></argsstring>
+        <name>dS_g_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dS_g_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="210" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ad4f5f95574aaa30fcc9b248481f6cea8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::N</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="211" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1c85aa1957268d9b058ffd9e230b9aea" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::m</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="211" column="14" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a92c2ab657e84eb3a26831da71171d7c4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dm_dp</definition>
+        <argsstring></argsstring>
+        <name>dm_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dm_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="211" column="16" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a490ef40954a718f5e5484f745a898d77" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dm_dz</definition>
+        <argsstring></argsstring>
+        <name>dm_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dm_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="211" column="22" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1f05e5f3077227deef525454260bac51" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::krw</definition>
+        <argsstring></argsstring>
+        <name>krw</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::krw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="212" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a10311d6018de7e1543e309230b58cf79" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dkrw_dp</definition>
+        <argsstring></argsstring>
+        <name>dkrw_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dkrw_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="212" column="16" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a9491a4269e7716dc1fae52b50ae2e114" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dkrw_dz</definition>
+        <argsstring></argsstring>
+        <name>dkrw_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dkrw_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="212" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ae5bc06950acf9d97ab13cc20dcebc61f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::krn</definition>
+        <argsstring></argsstring>
+        <name>krn</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::krn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="213" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a2e8051db2c040d62672fc624a9509011" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dkrn_dp</definition>
+        <argsstring></argsstring>
+        <name>dkrn_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dkrn_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="213" column="16" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ab7e988c7ba9a106d6e98515e21c7feba" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dkrn_dz</definition>
+        <argsstring></argsstring>
+        <name>dkrn_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dkrn_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="213" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a33fa61db9c17bf811939a49165d23e6c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::pc</definition>
+        <argsstring></argsstring>
+        <name>pc</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::pc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="214" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a853f3930400b2c7e607b9a15e1604b8b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dpc_dp</definition>
+        <argsstring></argsstring>
+        <name>dpc_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dpc_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="214" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1aad9f1bd94156f2a01fedb9bbf42ec891" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dpc_dz</definition>
+        <argsstring></argsstring>
+        <name>dpc_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dpc_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="214" column="22" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1adcc9f0cf6dbf0748dcd90ae7bc775498" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::pcp</definition>
+        <argsstring></argsstring>
+        <name>pcp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::pcp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="214" column="29" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1502a240c84f71ed162a915edbcf622d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::rho_g</definition>
+        <argsstring></argsstring>
+        <name>rho_g</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::rho_g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="215" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a9427e1bec77880c4955059b7f3cdd0be" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::rho_a</definition>
+        <argsstring></argsstring>
+        <name>rho_a</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::rho_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="215" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a6ca621a33baca7e77e8e14a66a4df63e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::Y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="215" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8569d7d50d86866895dcef6790d33172" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::X</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="215" column="26" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a2135cced515df0a4eebb94b1b3e13219" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::drho_g_dp</definition>
+        <argsstring></argsstring>
+        <name>drho_g_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::drho_g_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="216" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8f725bbb0458c5ebaf18b05f264d0563" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::drho_g_dz</definition>
+        <argsstring></argsstring>
+        <name>drho_g_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::drho_g_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="216" column="22" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a88683d274e629e349dfc9a837bab07eb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::drho_a_dp</definition>
+        <argsstring></argsstring>
+        <name>drho_a_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::drho_a_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="216" column="32" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1aefa576f606001c64e71a1af6220704" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::drho_a_dz</definition>
+        <argsstring></argsstring>
+        <name>drho_a_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::drho_a_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="216" column="42" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a7ff536babfcf89d71fa3289c14882a14" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dY_dp</definition>
+        <argsstring></argsstring>
+        <name>dY_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dY_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="217" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ae77b1b51f6b25116980272b56a6e8b24" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dY_dz</definition>
+        <argsstring></argsstring>
+        <name>dY_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dY_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="217" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a3406e18afc379c24727a36cc3394eb37" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dX_dp</definition>
+        <argsstring></argsstring>
+        <name>dX_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dX_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="217" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a873f01cc88eea74dd37dd9c4688a0de0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dX_dz</definition>
+        <argsstring></argsstring>
+        <name>dX_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dX_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="217" column="30" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1af2bf8e3336cf3b92f2e58ad58f15710e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::rgm</definition>
+        <argsstring></argsstring>
+        <name>rgm</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::rgm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="218" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a210624381eb7831e156b5a97ca64f4fc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::drgm_dp</definition>
+        <argsstring></argsstring>
+        <name>drgm_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::drgm_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="218" column="16" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1afdc133b4ea4bb1d53a4f0dc2569a4c93" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::drgm_dz</definition>
+        <argsstring></argsstring>
+        <name>drgm_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::drgm_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="218" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a388a539125ab0a3d8a78eb4272d8fc73" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::ram</definition>
+        <argsstring></argsstring>
+        <name>ram</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::ram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="219" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8b3d35630961d5be73a31331bc3dbece" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dram_dp</definition>
+        <argsstring></argsstring>
+        <name>dram_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dram_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="219" column="16" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8489d9d5837fe6b9fc91986444484a70" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dram_dz</definition>
+        <argsstring></argsstring>
+        <name>dram_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dram_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="219" column="24" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ab754464b58357c56df13d1c5c23adcc1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::lam_g</definition>
+        <argsstring></argsstring>
+        <name>lam_g</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::lam_g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="220" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ad9e63dd6d4d8bdd37fd9fc355ba7f02d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dlam_g_dp</definition>
+        <argsstring></argsstring>
+        <name>dlam_g_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dlam_g_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="220" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a57f76083e2782e0282db2df5930805aa" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dlam_g_dz</definition>
+        <argsstring></argsstring>
+        <name>dlam_g_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dlam_g_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="220" column="28" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1aca4e61dd336d3a30344b937f8ea71542" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::lam_a</definition>
+        <argsstring></argsstring>
+        <name>lam_a</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::lam_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="221" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a487d83e0eb573bbf221cbf6137d4f2e4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dlam_a_dp</definition>
+        <argsstring></argsstring>
+        <name>dlam_a_dp</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dlam_a_dp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="221" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ad65c7e0fd1df42a152f3796cb89c3812" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double proteus::m_comp_co2::M_comp_co2&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Comp1Closure::dlam_a_dz</definition>
+        <argsstring></argsstring>
+        <name>dlam_a_dz</name>
+        <qualifiedname>proteus::m_comp_co2::M_comp_co2::Comp1Closure::dlam_a_dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="221" column="28" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" line="209" column="3" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/m_comp_co2.h" bodystart="209" bodyend="222"/>
+    <listofallmembers>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a2e8051db2c040d62672fc624a9509011" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dkrn_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ab7e988c7ba9a106d6e98515e21c7feba" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dkrn_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a10311d6018de7e1543e309230b58cf79" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dkrw_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a9491a4269e7716dc1fae52b50ae2e114" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dkrw_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a487d83e0eb573bbf221cbf6137d4f2e4" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dlam_a_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ad65c7e0fd1df42a152f3796cb89c3812" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dlam_a_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ad9e63dd6d4d8bdd37fd9fc355ba7f02d" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dlam_g_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a57f76083e2782e0282db2df5930805aa" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dlam_g_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a92c2ab657e84eb3a26831da71171d7c4" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dm_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a490ef40954a718f5e5484f745a898d77" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dm_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a853f3930400b2c7e607b9a15e1604b8b" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dpc_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1aad9f1bd94156f2a01fedb9bbf42ec891" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dpc_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8b3d35630961d5be73a31331bc3dbece" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dram_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8489d9d5837fe6b9fc91986444484a70" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dram_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a210624381eb7831e156b5a97ca64f4fc" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>drgm_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1afdc133b4ea4bb1d53a4f0dc2569a4c93" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>drgm_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a88683d274e629e349dfc9a837bab07eb" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>drho_a_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1aefa576f606001c64e71a1af6220704" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>drho_a_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a2135cced515df0a4eebb94b1b3e13219" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>drho_g_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8f725bbb0458c5ebaf18b05f264d0563" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>drho_g_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a3f8fc61f2f9840809b4dae4fd0aa91cf" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dS_g_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a3571ce1bff5c678beb7938ebbcadb77d" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dS_g_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a3406e18afc379c24727a36cc3394eb37" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dX_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a873f01cc88eea74dd37dd9c4688a0de0" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dX_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a7ff536babfcf89d71fa3289c14882a14" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dY_dp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ae77b1b51f6b25116980272b56a6e8b24" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>dY_dz</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ae5bc06950acf9d97ab13cc20dcebc61f" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>krn</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1f05e5f3077227deef525454260bac51" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>krw</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1aca4e61dd336d3a30344b937f8ea71542" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>lam_a</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ab754464b58357c56df13d1c5c23adcc1" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>lam_g</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1c85aa1957268d9b058ffd9e230b9aea" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>m</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ad4f5f95574aaa30fcc9b248481f6cea8" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>N</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a33fa61db9c17bf811939a49165d23e6c" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>pc</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1adcc9f0cf6dbf0748dcd90ae7bc775498" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>pcp</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a388a539125ab0a3d8a78eb4272d8fc73" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>ram</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1af2bf8e3336cf3b92f2e58ad58f15710e" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>rgm</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a9427e1bec77880c4955059b7f3cdd0be" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>rho_a</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a1502a240c84f71ed162a915edbcf622d" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>rho_g</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1ac14911bf71763ee3e015d413441ec21b" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>S_g</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a8569d7d50d86866895dcef6790d33172" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>X</name></member>
+      <member refid="structproteus_1_1m__comp__co2_1_1_m__comp__co2_1_1_comp1_closure_1a6ca621a33baca7e77e8e14a66a4df63e" prot="public" virt="non-virtual"><scope>proteus::m_comp_co2::M_comp_co2::Comp1Closure</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="class_e_index_3_011_01_4" kind="class" language="C++" prot="public">
+    <compoundname>EIndex&lt; 1 &gt;</compoundname>
+    <includes refid="_comp_kernel_8h" local="no">/work/cekees/proteus/proteus/CompKernel.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_e_index_3_011_01_4_1a3e0fa25cbb8da6a186a63dd9d5710884" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int EIndex&lt; 1 &gt;::X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>EIndex&lt; 1 &gt;::X</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="81" column="13" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_index_3_011_01_4_1adf966d2de9a71b9631e790e58ce563d9" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int EIndex&lt; 1 &gt;::XX</definition>
+        <argsstring></argsstring>
+        <name>XX</name>
+        <qualifiedname>EIndex&lt; 1 &gt;::XX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="82" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_index_3_011_01_4_1ada13c5dbda0691831a90cf81060a01c0" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int EIndex&lt; 1 &gt;::sXX</definition>
+        <argsstring></argsstring>
+        <name>sXX</name>
+        <qualifiedname>EIndex&lt; 1 &gt;::sXX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="83" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_index_3_011_01_4_1a651cb6c35969b8bd8782d15c247f1c8b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int EIndex&lt; 1 &gt;::nSymTen</definition>
+        <argsstring></argsstring>
+        <name>nSymTen</name>
+        <qualifiedname>EIndex&lt; 1 &gt;::nSymTen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="84" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_index_3_011_01_4_1ab8bfd0c427b639838dba6ce55bd40df5" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int EIndex&lt; 1 &gt;::XHX</definition>
+        <argsstring></argsstring>
+        <name>XHX</name>
+        <qualifiedname>EIndex&lt; 1 &gt;::XHX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="85" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_e_index_3_011_01_4_1a88aa64b63e055d13c2853d5146a680aa" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int EIndex&lt; 1 &gt;::HXHX</definition>
+        <argsstring></argsstring>
+        <name>HXHX</name>
+        <qualifiedname>EIndex&lt; 1 &gt;::HXHX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="86" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_e_index_3_011_01_4_1aa0a61378177c5bdee22a0c7e5df3d8a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EIndex&lt; 1 &gt;::EIndex</definition>
+        <argsstring>()</argsstring>
+        <name>EIndex</name>
+        <qualifiedname>EIndex&lt; 1 &gt;::EIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="87" column="3" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="87" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/CompKernel.h" line="78" column="1" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="79" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_e_index_3_011_01_4_1aa0a61378177c5bdee22a0c7e5df3d8a3" prot="public" virt="non-virtual"><scope>EIndex&lt; 1 &gt;</scope><name>EIndex</name></member>
+      <member refid="class_e_index_3_011_01_4_1a88aa64b63e055d13c2853d5146a680aa" prot="public" virt="non-virtual"><scope>EIndex&lt; 1 &gt;</scope><name>HXHX</name></member>
+      <member refid="class_e_index_3_011_01_4_1a651cb6c35969b8bd8782d15c247f1c8b" prot="public" virt="non-virtual"><scope>EIndex&lt; 1 &gt;</scope><name>nSymTen</name></member>
+      <member refid="class_e_index_3_011_01_4_1ada13c5dbda0691831a90cf81060a01c0" prot="public" virt="non-virtual"><scope>EIndex&lt; 1 &gt;</scope><name>sXX</name></member>
+      <member refid="class_e_index_3_011_01_4_1a3e0fa25cbb8da6a186a63dd9d5710884" prot="public" virt="non-virtual"><scope>EIndex&lt; 1 &gt;</scope><name>X</name></member>
+      <member refid="class_e_index_3_011_01_4_1ab8bfd0c427b639838dba6ce55bd40df5" prot="public" virt="non-virtual"><scope>EIndex&lt; 1 &gt;</scope><name>XHX</name></member>
+      <member refid="class_e_index_3_011_01_4_1adf966d2de9a71b9631e790e58ce563d9" prot="public" virt="non-virtual"><scope>EIndex&lt; 1 &gt;</scope><name>XX</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

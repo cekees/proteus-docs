@@ -3,5 +3,5 @@ proteus.mprans.SW2DCV module
 
 .. automodule:: proteus.mprans.SW2DCV
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

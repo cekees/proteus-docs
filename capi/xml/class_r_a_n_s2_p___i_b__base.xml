@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="class_r_a_n_s2_p___i_b__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>RANS2P_IB_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1_r_a_n_s2_p___i_b" prot="public" virt="non-virtual">proteus::RANS2P_IB&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_r_a_n_s2_p___i_b_8h" local="no">/work/cekees/proteus/proteus/mprans/RANS2P_IB.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_r_a_n_s2_p___i_b__base_1aad18e4abaf6bfb91d03a428a7e4afa60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::RANS2P_IB_base::~RANS2P_IB_base</definition>
+        <argsstring>()</argsstring>
+        <name>~RANS2P_IB_base</name>
+        <qualifiedname>RANS2P_IB_base::~RANS2P_IB_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" line="18" column="13" bodyfile="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_a_n_s2_p___i_b__base_1a490eb04fab6824f2d7036f5a3fd501f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::RANS2P_IB_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>RANS2P_IB_base::calculateResidual</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" line="19" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_a_n_s2_p___i_b__base_1a49fd7d99972c9b9f4dc1163c583888e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::RANS2P_IB_base::calculateBeams</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateBeams</name>
+        <qualifiedname>RANS2P_IB_base::calculateBeams</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" line="20" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_a_n_s2_p___i_b__base_1a012445e65095079ed32dda3d94123d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::RANS2P_IB_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>RANS2P_IB_base::calculateJacobian</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" line="21" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_a_n_s2_p___i_b__base_1a41e04c344d2e0db2d8af02c13184851f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::RANS2P_IB_base::calculateForce</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateForce</name>
+        <qualifiedname>RANS2P_IB_base::calculateForce</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" line="22" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_a_n_s2_p___i_b__base_1a77dba851ad15a9920f48faf83a45260e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::RANS2P_IB_base::calculateVelocityAverage</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateVelocityAverage</name>
+        <qualifiedname>RANS2P_IB_base::calculateVelocityAverage</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" line="23" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>RANS2P_IB_base</label>
+        <link refid="class_r_a_n_s2_p___i_b__base"/>
+      </node>
+      <node id="2">
+        <label>proteus::RANS2P_IB&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1_r_a_n_s2_p___i_b"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" line="15" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/RANS2P_IB.h" bodystart="16" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_r_a_n_s2_p___i_b__base_1a49fd7d99972c9b9f4dc1163c583888e1" prot="public" virt="pure-virtual"><scope>RANS2P_IB_base</scope><name>calculateBeams</name></member>
+      <member refid="class_r_a_n_s2_p___i_b__base_1a41e04c344d2e0db2d8af02c13184851f" prot="public" virt="pure-virtual"><scope>RANS2P_IB_base</scope><name>calculateForce</name></member>
+      <member refid="class_r_a_n_s2_p___i_b__base_1a012445e65095079ed32dda3d94123d89" prot="public" virt="pure-virtual"><scope>RANS2P_IB_base</scope><name>calculateJacobian</name></member>
+      <member refid="class_r_a_n_s2_p___i_b__base_1a490eb04fab6824f2d7036f5a3fd501f3" prot="public" virt="pure-virtual"><scope>RANS2P_IB_base</scope><name>calculateResidual</name></member>
+      <member refid="class_r_a_n_s2_p___i_b__base_1a77dba851ad15a9920f48faf83a45260e" prot="public" virt="pure-virtual"><scope>RANS2P_IB_base</scope><name>calculateVelocityAverage</name></member>
+      <member refid="class_r_a_n_s2_p___i_b__base_1aad18e4abaf6bfb91d03a428a7e4afa60" prot="public" virt="virtual"><scope>RANS2P_IB_base</scope><name>~RANS2P_IB_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

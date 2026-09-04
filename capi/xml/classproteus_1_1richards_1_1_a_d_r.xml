@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classproteus_1_1richards_1_1_a_d_r" kind="class" language="C++" prot="public">
+    <compoundname>proteus::richards::ADR</compoundname>
+    <basecompoundref refid="classproteus_1_1richards_1_1_a_d_r__base" prot="public" virt="non-virtual">proteus::richards::ADR_base</basecompoundref>
+    <includes refid="richards_2_a_d_r_8h" local="no">/work/cekees/proteus/proteus/richards/ADR.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class CompKernelType</type>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nSpace</declname>
+        <defname>nSpace</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nQuadraturePoints_element</declname>
+        <defname>nQuadraturePoints_element</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nDOF_mesh_trial_element</declname>
+        <defname>nDOF_mesh_trial_element</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nDOF_trial_element</declname>
+        <defname>nDOF_trial_element</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nDOF_test_element</declname>
+        <defname>nDOF_test_element</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nQuadraturePoints_elementBoundary</declname>
+        <defname>nQuadraturePoints_elementBoundary</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classproteus_1_1richards_1_1_a_d_r_1a245ea7b43052cc17d2e81a22e6c609cd" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
+        <argsstring></argsstring>
+        <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::richards::ADR::nDOF_test_X_trial_element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="41" column="15" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1richards_1_1_a_d_r_1aa6b3a3729b129eb37f086de5eaf7f70a" prot="public" static="no" mutable="no">
+        <type>CompKernelType</type>
+        <definition>CompKernelType proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
+        <argsstring></argsstring>
+        <name>ck</name>
+        <qualifiedname>proteus::richards::ADR::ck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="42" column="20" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classproteus_1_1richards_1_1_a_d_r_1ad80f9fd1bf860005707b1d549689db7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ADR</definition>
+        <argsstring>()</argsstring>
+        <name>ADR</name>
+        <qualifiedname>proteus::richards::ADR::ADR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="43" column="5" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1richards_1_1_a_d_r_1a8b98dbaf8826b3c5486ec9383995829c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
+        <argsstring>(const int rowptr[nSpace], const int colind[nnz], const double rho, const double beta, const double gravity[nSpace], const double alpha, const double n_vg, const double thetaR, const double thetaSR, const double KWs[nnz], const double &amp;u, double &amp;m, double &amp;dm, double f[nSpace], double df[nSpace], double a[nnz], double da[nnz], double as[nnz], double &amp;kr, double &amp;dkr)</argsstring>
+        <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::richards::ADR::evaluateCoefficients</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>rowptr</declname>
+          <array>[nSpace]</array>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>colind</declname>
+          <array>[nnz]</array>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>gravity</declname>
+          <array>[nSpace]</array>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>KWs</declname>
+          <array>[nnz]</array>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dm</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f</declname>
+          <array>[nSpace]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>df</declname>
+          <array>[nSpace]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+          <array>[nnz]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>da</declname>
+          <array>[nnz]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>as</declname>
+          <array>[nnz]</array>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>kr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dkr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="50" column="11" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="50" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1richards_1_1_a_d_r_1a3805b2caf341dab35bc28446d2018d04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>proteus::richards::ADR::calculateResidual</qualifiedname>
+        <reimplements refid="classproteus_1_1richards_1_1_a_d_r__base_1a016d32a25bf9f476aa7194f20556a9a4">calculateResidual</reimplements>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="116" column="10" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="116" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1richards_1_1_a_d_r_1a57f9eab1bf4a6ca2a0719a03d4388a60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>proteus::richards::ADR::calculateJacobian</qualifiedname>
+        <reimplements refid="classproteus_1_1richards_1_1_a_d_r__base_1a09a56c233c33da9a9f5ab4bdb3f7ff45">calculateJacobian</reimplements>
+        <param>
+          <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="390" column="10" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="390" bodyend="603"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1richards_1_1_a_d_r"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>proteus::richards::ADR_base</label>
+        <link refid="classproteus_1_1richards_1_1_a_d_r__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>proteus::richards::ADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1richards_1_1_a_d_r"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>proteus::richards::ADR_base</label>
+        <link refid="classproteus_1_1richards_1_1_a_d_r__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="38" column="3" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="39" bodyend="605"/>
+    <listofallmembers>
+      <member refid="classproteus_1_1richards_1_1_a_d_r_1ad80f9fd1bf860005707b1d549689db7e" prot="public" virt="non-virtual"><scope>proteus::richards::ADR</scope><name>ADR</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r_1a57f9eab1bf4a6ca2a0719a03d4388a60" prot="public" virt="virtual"><scope>proteus::richards::ADR</scope><name>calculateJacobian</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r_1a3805b2caf341dab35bc28446d2018d04" prot="public" virt="virtual"><scope>proteus::richards::ADR</scope><name>calculateResidual</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r_1aa6b3a3729b129eb37f086de5eaf7f70a" prot="public" virt="non-virtual"><scope>proteus::richards::ADR</scope><name>ck</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r_1a8b98dbaf8826b3c5486ec9383995829c" prot="public" virt="non-virtual"><scope>proteus::richards::ADR</scope><name>evaluateCoefficients</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r_1a245ea7b43052cc17d2e81a22e6c609cd" prot="public" virt="non-virtual"><scope>proteus::richards::ADR</scope><name>nDOF_test_X_trial_element</name></member>
+      <member refid="classproteus_1_1richards_1_1_a_d_r__base_1ad97a154c3c46944450a49111e551457a" prot="public" virt="virtual"><scope>proteus::richards::ADR</scope><name>~ADR_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

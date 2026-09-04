@@ -3,8 +3,8 @@ proteus.TwoPhaseFlow package
 
 .. automodule:: proteus.TwoPhaseFlow
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Subpackages
 -----------

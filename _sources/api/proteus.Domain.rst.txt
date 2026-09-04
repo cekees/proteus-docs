@@ -3,5 +3,5 @@ proteus.Domain module
 
 .. automodule:: proteus.Domain
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

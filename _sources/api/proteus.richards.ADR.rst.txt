@@ -1,0 +1,7 @@
+proteus.richards.ADR module
+===========================
+
+.. automodule:: proteus.richards.ADR
+   :members:
+   :show-inheritance:
+   :undoc-members:

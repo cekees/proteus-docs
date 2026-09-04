@@ -1,28 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="namespaceapf" kind="namespace" language="C++">
     <compoundname>apf</compoundname>
-      <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceapf_1a13c4b4f5e52d755d7f8c80c1c082b48d" prot="public" static="no">
-        <type>int</type>
-        <definition>typedef int apf::Gid</definition>
-        <argsstring></argsstring>
-        <name>Gid</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="641" column="13" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="641" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="namespaceapf_1aefae5dcd32388caa61a0c548cd3e68c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void apf::constructVerts</definition>
         <argsstring>(Mesh2 *m, int nverts, int *local2globalMap, GlobalToVert &amp;result)</argsstring>
         <name>constructVerts</name>
+        <qualifiedname>apf::constructVerts</qualifiedname>
         <param>
           <type>Mesh2 *</type>
           <declname>m</declname>
@@ -45,19 +31,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="643" column="13" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="643" bodyend="651"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="643" column="15" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="643" bodyend="651"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceapf_1a43bae43c74ef0fd0cef7870635c07b25" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceapf_1aff07fd6194ae1ff34eba97607ce7028f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void apf::constructBoundaryElements</definition>
-        <argsstring>(Mesh2 *m, const Gid *conn_b, int nelem_b, int etype_b, GlobalToVert &amp;globalToVert)</argsstring>
+        <argsstring>(Mesh2 *m, const apf::Gid *conn_b, int nelem_b, int etype_b, GlobalToVert &amp;globalToVert)</argsstring>
         <name>constructBoundaryElements</name>
+        <qualifiedname>apf::constructBoundaryElements</qualifiedname>
         <param>
           <type>Mesh2 *</type>
           <declname>m</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceapf_1a13c4b4f5e52d755d7f8c80c1c082b48d" kindref="member">Gid</ref> *</type>
+          <type>const apf::Gid *</type>
           <declname>conn_b</declname>
         </param>
         <param>
@@ -78,19 +65,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="654" column="13" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="654" bodyend="673"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="654" column="15" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="654" bodyend="673"/>
       </memberdef>
       <memberdef kind="function" id="namespaceapf_1a83ca32a27862f243f078f4f5fbbce70d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void apf::constructElements</definition>
         <argsstring>(Mesh2 *m, const Gid *conn, int nelem, int etype, GlobalToVert &amp;globalToVert)</argsstring>
         <name>constructElements</name>
+        <qualifiedname>apf::constructElements</qualifiedname>
         <param>
           <type>Mesh2 *</type>
           <declname>m</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceapf_1a13c4b4f5e52d755d7f8c80c1c082b48d" kindref="member">Gid</ref> *</type>
+          <type>const Gid *</type>
           <declname>conn</declname>
         </param>
         <param>
@@ -111,30 +99,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="674" column="13" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="674" bodyend="687"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="674" column="15" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="674" bodyend="687"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceapf_1aa738f00827c897daae4effe551d67f7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceapf_1a13c4b4f5e52d755d7f8c80c1c082b48d" kindref="member">Gid</ref></type>
-        <definition>static Gid apf::getMax</definition>
-        <argsstring>(const GlobalToVert &amp;globalToVert)</argsstring>
+      <memberdef kind="function" id="namespaceapf_1a858575261237debec607e8c30cb2fa0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>apf::Gid</type>
+        <definition>static apf::Gid apf::getMax</definition>
+        <argsstring>(const GlobalToVert &amp;globalToVert, PCU_t PCUObj)</argsstring>
         <name>getMax</name>
+        <qualifiedname>apf::getMax</qualifiedname>
         <param>
           <type>const GlobalToVert &amp;</type>
           <declname>globalToVert</declname>
         </param>
+        <param>
+          <type>PCU_t</type>
+          <declname>PCUObj</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="689" column="12" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="689" bodyend="695"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="689" column="19" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="689" bodyend="695"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceapf_1a715738178cb6a012af0d5fbdd0e27cee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceapf_1a861a9158ac576bb060a18e06c2b0f3a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void apf::constructResidence</definition>
-        <argsstring>(Mesh2 *m, GlobalToVert &amp;globalToVert)</argsstring>
+        <argsstring>(Mesh2 *m, GlobalToVert &amp;globalToVert, PCU_t PCUObj)</argsstring>
         <name>constructResidence</name>
+        <qualifiedname>apf::constructResidence</qualifiedname>
         <param>
           <type>Mesh2 *</type>
           <declname>m</declname>
@@ -143,19 +137,24 @@
           <type>GlobalToVert &amp;</type>
           <declname>globalToVert</declname>
         </param>
+        <param>
+          <type>PCU_t</type>
+          <declname>PCUObj</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="702" column="13" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="702" bodyend="766"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="702" column="15" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="702" bodyend="766"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceapf_1a5c08ee6e22c472b53ef5b40ece5a0b36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceapf_1a9fbf59aba452b5cbddc18ec7195c5dd8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>static void apf::constructRemotes</definition>
-        <argsstring>(Mesh2 *m, GlobalToVert &amp;globalToVert)</argsstring>
+        <argsstring>(Mesh2 *m, GlobalToVert &amp;globalToVert, PCU_t PCUObj)</argsstring>
         <name>constructRemotes</name>
+        <qualifiedname>apf::constructRemotes</qualifiedname>
         <param>
           <type>Mesh2 *</type>
           <declname>m</declname>
@@ -164,29 +163,34 @@
           <type>GlobalToVert &amp;</type>
           <declname>globalToVert</declname>
         </param>
+        <param>
+          <type>PCU_t</type>
+          <declname>PCUObj</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="771" column="13" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="771" bodyend="796"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="771" column="15" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="771" bodyend="796"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceapf_1ad2cd56661f04d58f443c5b9e2b797175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceapf_1a5e9cef95ed64790b7e6c6c33e4bbdd90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void apf::construct</definition>
-        <argsstring>(Mesh2 *m, const int *conn, const int *conn_b, int nelem, int nelem_b, int nverts, int etype, int etype_b, int *local2globalMap, GlobalToVert &amp;globalToVert)</argsstring>
+        <argsstring>(Mesh2 *m, const Gid *conn, const Gid *conn_b, int nelem, int nelem_b, int nverts, int etype, int etype_b, int *local2globalMap, GlobalToVert &amp;globalToVert, PCU_t PCUObj)</argsstring>
         <name>construct</name>
+        <qualifiedname>apf::construct</qualifiedname>
         <param>
           <type>Mesh2 *</type>
           <declname>m</declname>
         </param>
         <param>
-          <type>const int *</type>
+          <type>const Gid *</type>
           <declname>conn</declname>
         </param>
         <param>
-          <type>const int *</type>
+          <type>const Gid *</type>
           <declname>conn_b</declname>
         </param>
         <param>
@@ -217,19 +221,23 @@
           <type>GlobalToVert &amp;</type>
           <declname>globalToVert</declname>
         </param>
+        <param>
+          <type>PCU_t</type>
+          <declname>PCUObj</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="798" column="6" bodyfile="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="798" bodyend="809"/>
+        <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="798" column="8" bodyfile="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" bodystart="798" bodyend="809"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="639" column="1"/>
+    <location file="/work/cekees/proteus/proteus/MeshAdaptPUMI/MeshConverter.cpp" line="641" column="1"/>
   </compounddef>
 </doxygen>

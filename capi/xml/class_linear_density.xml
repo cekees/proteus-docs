@@ -1,57 +1,61 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_linear_density" kind="class" language="C++" prot="public">
     <compoundname>LinearDensity</compoundname>
     <basecompoundref refid="class_density_relation" prot="public" virt="non-virtual">DensityRelation</basecompoundref>
     <derivedcompoundref refid="class_exponential_density" prot="public" virt="non-virtual">ExponentialDensity</derivedcompoundref>
-    <includes refid="density_relations_8h" local="no">/Users/cekees/proteus/proteus/densityRelations.h</includes>
-      <sectiondef kind="public-attrib">
+    <includes refid="density_relations_8h" local="no">/work/cekees/proteus/proteus/densityRelations.h</includes>
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_linear_density_1ad666832b4c410166badbf798e1ae373c" prot="public" static="no" mutable="no">
         <type>double</type>
         <definition>double LinearDensity::rho_0</definition>
         <argsstring></argsstring>
         <name>rho_0</name>
+        <qualifiedname>LinearDensity::rho_0</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="58" column="10" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="58" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="58" column="10" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_linear_density_1ab47a88818b51d29ae26a202654db699b" prot="public" static="no" mutable="no">
         <type>double</type>
         <definition>double LinearDensity::psi_0</definition>
         <argsstring></argsstring>
         <name>psi_0</name>
+        <qualifiedname>LinearDensity::psi_0</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="58" column="15" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="58" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="58" column="15" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_linear_density_1a18132e0252d744a4c75783d438245856" prot="public" static="no" mutable="no">
         <type>double</type>
         <definition>double LinearDensity::beta</definition>
         <argsstring></argsstring>
         <name>beta</name>
+        <qualifiedname>LinearDensity::beta</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="58" column="20" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="58" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="58" column="20" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="58" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_linear_density_1a119ac6bd3272575a67a4541f8622d0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>LinearDensity::LinearDensity</definition>
         <argsstring>(const double *rwork)</argsstring>
         <name>LinearDensity</name>
+        <qualifiedname>LinearDensity::LinearDensity</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>rwork</declname>
@@ -62,13 +66,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="59" column="10" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="59" bodyend="63"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="59" column="10" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="59" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="class_linear_density_1a3b2b0275fbb136c34dcf53d26eee8bc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void LinearDensity::calc</definition>
         <argsstring>(const double &amp;psi)</argsstring>
         <name>calc</name>
+        <qualifiedname>LinearDensity::calc</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>psi</declname>
@@ -79,9 +84,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="65" column="15" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="65" bodyend="69"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="65" column="15" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="65" bodyend="69"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -138,11 +143,9 @@
 This is a trivial function but it demonstrates the density relation interface. <formula id="93">\[ \rho &amp;= \rho_0 [1+\beta(\psi - \psi_0) ] \]</formula> </para>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1">
-        <label>LinearDensity</label>
-        <link refid="class_linear_density"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
+      <node id="2">
+        <label>DensityRelation</label>
+        <link refid="class_density_relation"/>
       </node>
       <node id="3">
         <label>ExponentialDensity</label>
@@ -150,24 +153,26 @@ This is a trivial function but it demonstrates the density relation interface. <
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="2">
-        <label>DensityRelation</label>
-        <link refid="class_density_relation"/>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="1">
         <label>LinearDensity</label>
         <link refid="class_linear_density"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="2">
         <label>DensityRelation</label>
         <link refid="class_density_relation"/>
       </node>
+      <node id="1">
+        <label>LinearDensity</label>
+        <link refid="class_linear_density"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="55" column="1" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="56" bodyend="70"/>
+    <location file="/work/cekees/proteus/proteus/densityRelations.h" line="55" column="1" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="56" bodyend="70"/>
     <listofallmembers>
       <member refid="class_linear_density_1a18132e0252d744a4c75783d438245856" prot="public" virt="non-virtual"><scope>LinearDensity</scope><name>beta</name></member>
       <member refid="class_linear_density_1a3b2b0275fbb136c34dcf53d26eee8bc2" prot="public" virt="non-virtual"><scope>LinearDensity</scope><name>calc</name></member>

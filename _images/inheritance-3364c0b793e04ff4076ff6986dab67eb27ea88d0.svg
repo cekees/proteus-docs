@@ -1,0 +1,215 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="432pt" height="360pt" viewBox="0.00 0.00 432.00 360.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 355.75)">
+<ns0:title>inheritanceb0b43b8140</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>InvOperatorShell</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.InvOperatorShell" ns1:title="A base class for inverse operator shells" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="243.88,-98.75 146.12,-98.75 146.12,-78 243.88,-78 243.88,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InvOperatorShell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>LSCInv_shell</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.LSCInv_shell" ns1:title="Shell class for the LSC Inverse Preconditioner" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="396,-176.75 318.5,-176.75 318.5,-156 396,-156 396,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="357.25" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LSCInv_shell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>InvOperatorShell-&gt;LSCInv_shell</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M210.77,-99.06C228.88,-111.76 260.85,-132.92 290.75,-146.38 297.53,-149.42 304.9,-152.18 312.17,-154.6" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="312.23,-156.45 317.52,-156.32 313.3,-153.12 312.23,-156.45" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>MatrixInvShell</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.MatrixInvShell" ns1:title="A PETSc shell class for a inverse operator." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="400.5,-137.75 314,-137.75 314,-117 400.5,-117 400.5,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="357.25" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MatrixInvShell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>InvOperatorShell-&gt;MatrixInvShell</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M240.64,-99.24C261.37,-104.29 286.08,-110.3 307.32,-115.47" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="307.5,-117.31 312.77,-116.79 308.33,-113.91 307.5,-117.31" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>SpInv_shell</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.SpInv_shell" ns1:title="Shell class for the SIMPLE preconditioner which applies the" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="393,-98.75 321.5,-98.75 321.5,-78 393,-78 393,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="357.25" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SpInv_shell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>InvOperatorShell-&gt;SpInv_shell</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M244.08,-88.38C266.65,-88.38 293.29,-88.38 314.94,-88.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="315.44,-90.13 320.44,-88.38 315.44,-86.63 315.44,-90.13" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>TwoPhase_PCDInv_shell</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.TwoPhase_PCDInv_shell" ns1:title="Shell class for the two-phase PCD preconditioner. &#160;The" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="423.75,-59.75 290.75,-59.75 290.75,-39 423.75,-39 423.75,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="357.25" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwoPhase_PCDInv_shell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>InvOperatorShell-&gt;TwoPhase_PCDInv_shell</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M240.64,-77.51C260.78,-72.61 284.68,-66.79 305.5,-61.73" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="306.39,-63.31 310.84,-60.43 305.57,-59.91 306.39,-63.31" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>OperatorShell</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.OperatorShell" ns1:title="A base class for operator shells" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="91,-79.75 8.25,-79.75 8.25,-59 91,-59 91,-79.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="49.62" y="-66.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">OperatorShell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>OperatorShell-&gt;InvOperatorShell</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M91.33,-74.77C106.31,-76.75 123.53,-79.04 139.53,-81.16" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="139.89,-82.97 145.08,-81.89 140.35,-79.5 139.89,-82.97" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>ProductOperatorShell</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.ProductOperatorShell" ns1:title="A base class for shell operators that apply multiplcation." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="254.75,-40.75 135.25,-40.75 135.25,-20 254.75,-20 254.75,-40.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195" y="-27.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ProductOperatorShell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>OperatorShell-&gt;ProductOperatorShell</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M90.56,-58.51C108.43,-53.65 129.59,-47.89 148.11,-42.86" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="149.18,-44.38 153.55,-41.38 148.26,-41 149.18,-44.38" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>Mat</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:title="Matrix object.">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="222,-254.75 168,-254.75 168,-234 222,-234 222,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Mat</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>ParMat_petsc4py</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.ParMat_petsc4py" ns1:title="Parallel matrix based on petsc4py's wrappers for PETSc." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="406.88,-254.75 307.62,-254.75 307.62,-234 406.88,-234 406.88,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="357.25" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ParMat_petsc4py</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>Mat-&gt;ParMat_petsc4py</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M222.46,-244.38C243.78,-244.38 274.47,-244.38 301.08,-244.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="301.64,-246.13 306.64,-244.38 301.64,-242.63 301.64,-246.13" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>Object</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:title="Base class wrapping a PETSc object.">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="76.62,-234.75 22.62,-234.75 22.62,-214 76.62,-214 76.62,-234.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="49.62" y="-221.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Object</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>Object-&gt;Mat</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M76.92,-228.04C100.77,-231.37 136,-236.28 161.59,-239.85" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="161.93,-241.67 167.12,-240.63 162.41,-238.2 161.93,-241.67" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>Vec</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:title="A vector object.">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="222,-215.75 168,-215.75 168,-195 222,-195 222,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="195" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Vec</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>Object-&gt;Vec</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M76.92,-220.89C100.77,-217.73 136,-213.06 161.59,-209.67" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="162.39,-211.33 167.12,-208.94 161.93,-207.86 162.39,-211.33" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>MatrixShell</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.MatrixShell" ns1:title="A shell class for a matrix." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="393,-20.75 321.5,-20.75 321.5,0 393,0 393,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="357.25" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MatrixShell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>ProductOperatorShell-&gt;MatrixShell</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M255.22,-22.98C275.08,-20.51 296.79,-17.8 314.98,-15.53" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="315.51,-17.22 320.25,-14.87 315.07,-13.75 315.51,-17.22" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>ParInfo_petsc4py</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.ParInfo_petsc4py" ns1:title="ARB - this class is experimental. &#160;My idea is to store the" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="99.25,-273.75 0,-273.75 0,-253 99.25,-253 99.25,-273.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="49.62" y="-260.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ParInfo_petsc4py</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>ParVec_petsc4py</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.ParVec_petsc4py" ns1:title="Parallel vector using petsc4py's wrappers for PETSc" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="406.12,-215.75 308.38,-215.75 308.38,-195 406.12,-195 406.12,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="357.25" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ParVec_petsc4py</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>Vec-&gt;ParVec_petsc4py</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M222.46,-205.38C243.94,-205.38 274.95,-205.38 301.7,-205.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="302.29,-207.13 307.29,-205.38 302.29,-203.63 302.29,-207.13" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>SparseMatShell</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.SparseMatShell" ns1:title="Build a parallel matrix shell from CSR data structures." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="95.5,-312.75 3.75,-312.75 3.75,-292 95.5,-292 95.5,-312.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="49.62" y="-299.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SparseMatShell</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node16" class="node">
+<ns0:title>WeightedNorm</ns0:title>
+<ns0:g id="a_node16"><ns0:a ns1:href="../api/proteus.LinearAlgebraTools.html#proteus.LinearAlgebraTools.WeightedNorm" ns1:title="Compute the weighted norm for time step control (not currently parallel)" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="94,-351.75 5.25,-351.75 5.25,-331 94,-331 94,-351.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="49.62" y="-338.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">WeightedNorm</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

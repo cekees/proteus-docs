@@ -1,10 +1,13 @@
+
+:orphan:
+
 proteus package
 ===============
 
 .. automodule:: proteus
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Subpackages
 -----------
@@ -17,6 +20,7 @@ Subpackages
    proteus.TwoPhaseFlow
    proteus.elastoplastic
    proteus.fenton
+   proteus.m_comp_co2
    proteus.mbd
    proteus.mprans
    proteus.richards
@@ -93,7 +97,6 @@ Submodules
    proteus.defaults
    proteus.deim_utils
    proteus.equivalent_polynomials
-   proteus.flcbdfWrappers
    proteus.iproteus
    proteus.subsurfaceTransportFunctions
    proteus.superluWrappers

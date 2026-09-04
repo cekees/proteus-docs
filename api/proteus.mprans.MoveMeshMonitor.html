@@ -1,22 +1,23 @@
+
+
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>proteus.mprans.MoveMeshMonitor module &mdash; Proteus 1.8.1 documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
-    <link rel="shortcut icon" href="../_static/tritonBorder.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
+  <title>proteus.mprans.MoveMeshMonitor module &mdash; Proteus 1.9.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
+    <link rel="shortcut icon" href="../_static/tritonBorder.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=c4cb232b"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" /> 
@@ -27,15 +28,16 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../index.html">
-            <img src="../_static/corps_logo_cross2.svg" class="logo" alt="Logo"/>
+
+          
+          
+          <a href="../index.html">
+            
+              <img src="../_static/corps_logo_cross2.svg" class="logo" alt="Logo"/>
           </a>
-              <div class="version">
-                1.8.1
-              </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -143,7 +145,6 @@
 </ul>
 
         </div>
-        
       </div>
     </nav>
 
@@ -156,8 +157,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>proteus.mprans.MoveMeshMonitor module</li>
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">proteus.mprans.MoveMeshMonitor module</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com/erdc/proteus/blob/masterdocs/source/api/proteus.mprans.MoveMeshMonitor.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
@@ -168,14 +169,14 @@
            <div itemprop="articleBody">
              
   <section id="module-proteus.mprans.MoveMeshMonitor">
-<span id="proteus-mprans-movemeshmonitor-module"></span><h1>proteus.mprans.MoveMeshMonitor module<a class="headerlink" href="#module-proteus.mprans.MoveMeshMonitor" title="Permalink to this headline"></a></h1>
+<span id="proteus-mprans-movemeshmonitor-module"></span><h1>proteus.mprans.MoveMeshMonitor module<a class="headerlink" href="#module-proteus.mprans.MoveMeshMonitor" title="Link to this heading"></a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">proteus.mprans.MoveMeshMonitor.</span></span><span class="sig-name descname"><span class="pre">Coefficients</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">he_min</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">he_max</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ME_MODEL</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">LS_MODEL</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">useLS</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixedNodeMaterialTypes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixedElementMaterialTypes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">noNodeVelocityNodeMaterialTypes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nSmoothOut</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nSmoothIn</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epsFact_density</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epsTimeStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ntimes_solved</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">grading</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">grading_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resetNodeVelocityArray</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_with_nd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">do_firstStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullSpace</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'ConstantNullSpace'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initialize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients" title="Permalink to this definition"></a></dt>
-<dd><p>Bases: <a class="reference internal" href="proteus.TransportCoefficients.html#proteus.TransportCoefficients.PoissonEquationCoefficients" title="proteus.TransportCoefficients.PoissonEquationCoefficients"><code class="xref py py-class docutils literal notranslate"><span class="pre">proteus.TransportCoefficients.PoissonEquationCoefficients</span></code></a></p>
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">proteus.mprans.MoveMeshMonitor.</span></span><span class="sig-name descname"><span class="pre">Coefficients</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">he_min</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">he_max</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ME_MODEL</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">LS_MODEL</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">useLS</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixedNodeMaterialTypes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixedElementMaterialTypes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">noNodeVelocityNodeMaterialTypes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nSmoothOut</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nSmoothIn</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epsFact_density</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epsTimeStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ntimes_solved</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">grading</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">grading_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resetNodeVelocityArray</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_with_nd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">do_firstStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullSpace</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'ConstantNullSpace'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initialize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="proteus.TransportCoefficients.html#proteus.TransportCoefficients.PoissonEquationCoefficients" title="proteus.TransportCoefficients.PoissonEquationCoefficients"><code class="xref py py-class docutils literal notranslate"><span class="pre">PoissonEquationCoefficients</span></code></a></p>
 <p>Coefficients for deforming the mesh according to an area function</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>func</strong> (<em>function</em>) – function of x defining element area</p></li>
 <li><p><strong>he_min</strong> (<em>double</em>) – minimum characteristic element size</p></li>
@@ -200,12 +201,9 @@ fixedNodeMaterialTypes[3]=1   (!) must be integers</p></li>
 <li><p><strong>nSmoothIn</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#int" title="(in Python v2.7)"><em>int</em></a>) – number of smoothing steps after finishing pseudo time stepping</p></li>
 <li><p><strong>epsFact_density</strong> (<em>double</em>) – epsFact*he_min where refinement is the same</p></li>
 <li><p><strong>epsTimeStep</strong> (<em>double</em>) – pseudo time step size (0 &lt; epsTimeStep &lt;= 1)</p></li>
-<li><p><strong>grading</strong> (<em>double</em>) – <p>grading of mesh with distance function. 1.-&gt; no grading, 1.1-&gt;10% increase
-(!) if using grading, func must be a distance function</p>
-<blockquote>
-<div><p>otherwise func is an area function</p>
-</div></blockquote>
-</p></li>
+<li><p><strong>grading</strong> (<em>double</em>) – grading of mesh with distance function. 1.-&gt; no grading, 1.1-&gt;10% increase
+(!) if using grading, func must be a distance function
+otherwise func is an area function</p></li>
 <li><p><strong>grading_type</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#int" title="(in Python v2.7)"><em>int</em></a>) – type of grading:
 0 -&gt; no grading
 1 -&gt; hyperbolic
@@ -223,46 +221,46 @@ and archiving) and a structure defining the sparsity pattern
 of diffusion tensors may also be provided.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.initialize">
-<span class="sig-name descname"><span class="pre">initialize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.initialize" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">initialize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.initialize" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.initializeMesh">
-<span class="sig-name descname"><span class="pre">initializeMesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mesh</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.initializeMesh" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">initializeMesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mesh</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.initializeMesh" title="Link to this definition"></a></dt>
 <dd><p>Give the TC object access to the mesh for any mesh-dependent information.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.attachModels">
-<span class="sig-name descname"><span class="pre">attachModels</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modelList</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.attachModels" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">attachModels</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modelList</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.attachModels" title="Link to this definition"></a></dt>
 <dd><p>Give the TC object access to other models in a loosely coupled split operator formulation (e.g. a transport equation for concentration might get velocity from a flow equation)</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.preStep">
-<span class="sig-name descname"><span class="pre">preStep</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">firstStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.preStep" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">preStep</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">firstStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.preStep" title="Link to this definition"></a></dt>
 <dd><p>Give the TC object an opportunity to modify itself before the time step.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.postStep">
-<span class="sig-name descname"><span class="pre">postStep</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">firstStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.postStep" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">postStep</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">firstStep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.postStep" title="Link to this definition"></a></dt>
 <dd><p>Give the TC object an opportunity to modify itself after the time step.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.uOfX">
-<span class="sig-name descname"><span class="pre">uOfX</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eN</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.uOfX" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">uOfX</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eN</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.uOfX" title="Link to this definition"></a></dt>
 <dd><p>reaction term</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.dist_search">
-<span class="sig-name descname"><span class="pre">dist_search</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eN</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.dist_search" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">dist_search</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eN</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-1</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.dist_search" title="Link to this definition"></a></dt>
 <dd><p>search element containing containing coords x starting with a guessed
 nearest node</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>array_like</em>) – coordinates</p></li>
 <li><p><strong>node</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#int" title="(in Python v2.7)"><em>int</em></a>) – first guess of the nearest node</p></li>
@@ -273,45 +271,45 @@ nearest node</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtX">
-<span class="sig-name descname"><span class="pre">evaluateFunAtX</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ls_phi</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtX" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">evaluateFunAtX</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ls_phi</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtX" title="Link to this definition"></a></dt>
 <dd><p>reaction term</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtNodes">
-<span class="sig-name descname"><span class="pre">evaluateFunAtNodes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtNodes" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">evaluateFunAtNodes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtNodes" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtQuadraturePoints">
-<span class="sig-name descname"><span class="pre">evaluateFunAtQuadraturePoints</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtQuadraturePoints" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">evaluateFunAtQuadraturePoints</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.evaluateFunAtQuadraturePoints" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.getGradientValue">
-<span class="sig-name descname"><span class="pre">getGradientValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eN</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xi</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.getGradientValue" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">getGradientValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eN</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xi</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.getGradientValue" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.getAreaValue">
-<span class="sig-name descname"><span class="pre">getAreaValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eN</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xi</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.getAreaValue" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">getAreaValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eN</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xi</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.getAreaValue" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.Coefficients.getLevelSetValue">
-<span class="sig-name descname"><span class="pre">getLevelSetValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eN</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xi</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.getLevelSetValue" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">getLevelSetValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eN</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xi</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.Coefficients.getLevelSetValue" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.calculate_areas">
-<span class="sig-prename descclassname"><span class="pre">proteus.mprans.MoveMeshMonitor.</span></span><span class="sig-name descname"><span class="pre">calculate_areas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">detJ</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.calculate_areas" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">proteus.mprans.MoveMeshMonitor.</span></span><span class="sig-name descname"><span class="pre">calculate_areas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">detJ</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.calculate_areas" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="proteus.mprans.MoveMeshMonitor.calculate_area">
-<span class="sig-prename descclassname"><span class="pre">proteus.mprans.MoveMeshMonitor.</span></span><span class="sig-name descname"><span class="pre">calculate_area</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">detJ</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.calculate_area" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">proteus.mprans.MoveMeshMonitor.</span></span><span class="sig-name descname"><span class="pre">calculate_area</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">detJ</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/erdc/proteus/tree/master/proteus/mprans/MoveMeshMonitor.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#proteus.mprans.MoveMeshMonitor.calculate_area" title="Link to this definition"></a></dt>
 <dd></dd></dl>
 
 </section>

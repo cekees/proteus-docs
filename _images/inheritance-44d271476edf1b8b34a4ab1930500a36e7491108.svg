@@ -1,0 +1,74 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="454pt" height="107pt" viewBox="0.00 0.00 454.00 107.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 102.75)">
+<ns0:title>inheritance51f61a8c20</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>TC_base</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.TransportCoefficients.html#proteus.TransportCoefficients.TC_base" ns1:title="This is the base class for coefficients of the vector transport" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="56.5,-59.75 0,-59.75 0,-39 56.5,-39 56.5,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="28.25" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TC_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>TwophaseDarcyFlow_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.TwophaseDarcyCoefficients.html#proteus.TwophaseDarcyCoefficients.TwophaseDarcyFlow_base" ns1:title="TwophaseDarcyFlow_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="236.75,-59.75 92.5,-59.75 92.5,-39 236.75,-39 236.75,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="164.62" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwophaseDarcyFlow_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>TC_base-&gt;TwophaseDarcyFlow_base</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M56.77,-49.38C65.41,-49.38 75.43,-49.38 85.79,-49.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="86.52,-51.13 91.52,-49.38 86.52,-47.63 86.52,-51.13" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>TwophaseDarcy_fc</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.TwophaseDarcyCoefficients.html#proteus.TwophaseDarcyCoefficients.TwophaseDarcy_fc" ns1:title="TwophaseDarcy_fc" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="412.88,-98.75 306.12,-98.75 306.12,-78 412.88,-78 412.88,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="359.5" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwophaseDarcy_fc</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>TwophaseDarcyFlow_base-&gt;TwophaseDarcy_fc</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M219.35,-60.24C244.32,-65.29 274.08,-71.31 299.66,-76.48" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="299.74,-78.28 304.99,-77.55 300.43,-74.85 299.74,-78.28" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>TwophaseDarcy_split_pressure</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.TwophaseDarcyCoefficients.html#proteus.TwophaseDarcyCoefficients.TwophaseDarcy_split_pressure" ns1:title="TwophaseDarcy_split_pressure" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="442.5,-59.75 276.5,-59.75 276.5,-39 442.5,-39 442.5,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="359.5" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwophaseDarcy_split_pressure</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>TwophaseDarcyFlow_base-&gt;TwophaseDarcy_split_pressure</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M237.17,-49.38C247.75,-49.38 258.75,-49.38 269.62,-49.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="270.25,-51.13 275.25,-49.38 270.25,-47.63 270.25,-51.13" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>TwophaseDarcy_split_saturation</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.TwophaseDarcyCoefficients.html#proteus.TwophaseDarcyCoefficients.TwophaseDarcy_split_saturation" ns1:title="TwophaseDarcy_split_saturation" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="446.25,-20.75 272.75,-20.75 272.75,0 446.25,0 446.25,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="359.5" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwophaseDarcy_split_saturation</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>TwophaseDarcyFlow_base-&gt;TwophaseDarcy_split_saturation</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M219.35,-38.51C243.91,-33.55 273.1,-27.64 298.39,-22.53" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="299.43,-24.1 303.99,-21.4 298.74,-20.67 299.43,-24.1" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

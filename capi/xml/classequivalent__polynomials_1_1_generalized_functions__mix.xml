@@ -1,13 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classequivalent__polynomials_1_1_generalized_functions__mix" kind="class" language="C++" prot="public">
     <compoundname>equivalent_polynomials::GeneralizedFunctions_mix</compoundname>
-    <includes refid="equivalent__polynomials_8h" local="no">/Users/cekees/proteus/proteus/equivalent_polynomials.h</includes>
+    <includes refid="equivalent__polynomials_8h" local="no">/work/cekees/proteus/proteus/equivalent_polynomials.h</includes>
     <templateparamlist>
       <param>
         <type>int</type>
         <declname>nSpace</declname>
         <defname>nSpace</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>nP_ifem</declname>
+        <defname>nP_ifem</defname>
       </param>
       <param>
         <type>int</type>
@@ -24,54 +29,64 @@
         <declname>nEBQ</declname>
         <defname>nEBQ</defname>
       </param>
+      <param>
+        <type>bool</type>
+        <declname>useIfemBasis</declname>
+        <defname>useIfemBasis</defname>
+        <defval>false</defval>
+      </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a286bc1cc3e8d489e1f1df483761a4994" prot="public" static="no" mutable="no">
-        <type><ref refid="classequivalent__polynomials_1_1_regularized" kindref="compound">Regularized</ref>&lt; nSpace, nP, nQ, nEBQ &gt;</type>
-        <definition>Regularized&lt;nSpace, nP, nQ, nEBQ&gt; equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::regularized</definition>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a73f4097300a6a82d9fd5585d39573b2e" prot="public" static="no" mutable="no">
+        <type><ref refid="classequivalent__polynomials_1_1_regularized" kindref="compound">Regularized</ref>&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;</type>
+        <definition>Regularized&lt;nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis&gt; equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::regularized</definition>
         <argsstring></argsstring>
         <name>regularized</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::regularized</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="769" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="769" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1287" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1287" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a322d205038d86d5e4798114501516904" prot="public" static="no" mutable="no">
-        <type><ref refid="classequivalent__polynomials_1_1_simplex" kindref="compound">Simplex</ref>&lt; nSpace, nP, nQ, nEBQ &gt;</type>
-        <definition>Simplex&lt;nSpace, nP, nQ, nEBQ&gt; equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::exact</definition>
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a5248768c8985a6ed52c4e5c381fa454b" prot="public" static="no" mutable="no">
+        <type><ref refid="classequivalent__polynomials_1_1_simplex" kindref="compound">Simplex</ref>&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;</type>
+        <definition>Simplex&lt;nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis&gt; equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::exact</definition>
         <argsstring></argsstring>
         <name>exact</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::exact</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="770" column="13" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="770" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1288" column="13" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1288" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classequivalent__polynomials_1_1_generalized_functions__mix_1ab1b63dffa814d760196fe8da2d2411bc" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a338205194195dfd7cc25ab6dc7bdacf9" prot="public" static="no" mutable="no">
         <type>bool</type>
-        <definition>bool equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::useExact</definition>
+        <definition>bool equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::useExact</definition>
         <argsstring></argsstring>
         <name>useExact</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::useExact</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="771" column="10" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="771" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1289" column="10" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1289" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a33bf4a6d0886ce027a710e397bb1178c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a35c1453aecc2b448e4012c300932bce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::GeneralizedFunctions_mix</definition>
+        <definition>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::GeneralizedFunctions_mix</definition>
         <argsstring>(bool useExact=true)</argsstring>
         <name>GeneralizedFunctions_mix</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::GeneralizedFunctions_mix</qualifiedname>
         <param>
           <type>bool</type>
           <declname>useExact</declname>
@@ -83,13 +98,60 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="772" column="5" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="772" bodyend="774"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1290" column="5" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1290" bodyend="1292"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a1a165da993a86b281d0b36807e0d59a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1ad6a1792cc6cfbfd12f9a120e5fd9a2f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
-        <definition>int equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::calculate</definition>
+        <definition>int equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::calculate</definition>
+        <argsstring>(const double *phi_dof, const double *phi_nodes, const double *xi_r, double ma, double mb, double jf, bool isBoundary, bool scale)</argsstring>
+        <name>calculate</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::calculate</qualifiedname>
+        <param>
+          <type>const double *</type>
+          <declname>phi_dof</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>phi_nodes</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>xi_r</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ma</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mb</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isBoundary</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1294" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1294" bodyend="1305"/>
+      </memberdef>
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1ae97f7d02ce6357230db8b88fef8f4891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::calculate</definition>
         <argsstring>(const double *phi_dof, const double *phi_nodes, const double *xi_r, double ma, double mb, bool isBoundary, bool scale)</argsstring>
         <name>calculate</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::calculate</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>phi_dof</declname>
@@ -124,13 +186,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="776" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="776" bodyend="789"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1307" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1307" bodyend="1310"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a42669460d62ac0a4f3b441c5b485ff1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a3450ab4e9ab7a0548eb8e28561b1947c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
-        <definition>int equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::calculate</definition>
+        <definition>int equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::calculate</definition>
         <argsstring>(const double *phi_dof, const double *phi_nodes, const double *xi_r, bool isBoundary)</argsstring>
         <name>calculate</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::calculate</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>phi_dof</declname>
@@ -153,26 +216,28 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="791" column="16" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="791" bodyend="794"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1312" column="16" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1312" bodyend="1315"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1adff65488dace9513b2cbfc309f1a2136" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1afa84143866350f0395706c3a0c16b4da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double *</type>
-        <definition>double* equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::get_normal</definition>
+        <definition>double * equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::get_normal</definition>
         <argsstring>()</argsstring>
         <name>get_normal</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::get_normal</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="796" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="796" bodyend="802"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1317" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1317" bodyend="1323"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a1260053fb298a302c508cb2752fc8909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a46f80b8371004e91ef662edbe0000e7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::set_quad</definition>
+        <definition>void equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::set_quad</definition>
         <argsstring>(unsigned int q)</argsstring>
         <name>set_quad</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::set_quad</qualifiedname>
         <param>
           <type>unsigned int</type>
           <declname>q</declname>
@@ -183,13 +248,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="804" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="804" bodyend="808"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1325" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1325" bodyend="1329"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a3d11a3bccc179fd65efd65f17508174e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1af85a776443900f9d01cc8dbda10d1dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::set_boundary_quad</definition>
+        <definition>void equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::set_boundary_quad</definition>
         <argsstring>(unsigned int ebq)</argsstring>
         <name>set_boundary_quad</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::set_boundary_quad</qualifiedname>
         <param>
           <type>unsigned int</type>
           <declname>ebq</declname>
@@ -200,13 +266,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="810" column="17" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="810" bodyend="814"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1331" column="17" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1331" bodyend="1335"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a688bfa1125e44e7b94429acac9ef6e51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a4e232fa415fd98bc70fed104e22b407f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::H</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::H</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>H</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::H</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -221,13 +288,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="816" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="816" bodyend="822"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1337" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1337" bodyend="1343"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a32a41f362074568f4350b0ed50fcd49e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a7b312b802d60fc2caff49648723119f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::ImH</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::ImH</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>ImH</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::ImH</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -242,13 +310,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="824" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="824" bodyend="830"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1345" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1345" bodyend="1351"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a9483da12c381a19bc48631bd28e49073" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a8af141dd8bf8ef7ee50d57d6b6f599db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::D</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::D</definition>
         <argsstring>(double eps, double phi)</argsstring>
         <name>D</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::D</qualifiedname>
         <param>
           <type>double</type>
           <declname>eps</declname>
@@ -263,13 +332,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="832" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="832" bodyend="838"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1353" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1353" bodyend="1359"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a89c46f0cdfac92ee7420786f878e7bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a4d874ecc8f070a40d2aa0a51d4ecfbfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VA</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA</definition>
         <argsstring>(int i)</argsstring>
         <name>VA</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VA</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -280,13 +350,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="839" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="839" bodyend="845"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1360" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1360" bodyend="1366"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1afae7a249b23e63248293a3eb76abfe69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a34b2e5ba1f24b8f4ac7f8cb4b6bcf067" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VA_x</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA_x</definition>
         <argsstring>(int i)</argsstring>
         <name>VA_x</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VA_x</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -297,13 +368,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="846" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="846" bodyend="852"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1367" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1367" bodyend="1373"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a9b5dc1084c5ca1a101cba6e3929b723a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a2b127552ec0acee956cb2c036069b1b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VA_y</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA_y</definition>
         <argsstring>(int i)</argsstring>
         <name>VA_y</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VA_y</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -314,13 +386,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="853" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="853" bodyend="859"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1374" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1374" bodyend="1380"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a9286ad4d8d19081bc5cef36b2574f28b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1ac3605626abfa50437cf722537623ce51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VA_z</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VA_z</definition>
         <argsstring>(int i)</argsstring>
         <name>VA_z</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VA_z</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -331,13 +404,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="860" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="860" bodyend="866"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1381" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1381" bodyend="1387"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a003328d69f0c94736db2ab4ac6d91e2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1ab175254b84d1048af412982cf827ab92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VB</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB</definition>
         <argsstring>(int i)</argsstring>
         <name>VB</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VB</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -348,13 +422,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="867" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="867" bodyend="873"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1388" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1388" bodyend="1394"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a29cebcc7dc8fc4828753bc86ec46fd26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1ae3bd0a95849046fe296f03fcda1539af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VB_x</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB_x</definition>
         <argsstring>(int i)</argsstring>
         <name>VB_x</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VB_x</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -365,13 +440,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="874" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="874" bodyend="880"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1395" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1395" bodyend="1401"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a60c48258c37788a6d5c6982818daf6cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a8c9aed3f8d815a14b99bf57cb81cd519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VB_y</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB_y</definition>
         <argsstring>(int i)</argsstring>
         <name>VB_y</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VB_y</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -382,13 +458,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="881" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="881" bodyend="887"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1402" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1402" bodyend="1408"/>
       </memberdef>
-      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a3bb226ee434ed82a8214d0cc5b4cb2d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classequivalent__polynomials_1_1_generalized_functions__mix_1a0691da2556485f5858d3355903e3a01b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP, nQ, nEBQ &gt;::VB_z</definition>
+        <definition>double equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;::VB_z</definition>
         <argsstring>(int i)</argsstring>
         <name>VB_z</name>
+        <qualifiedname>equivalent_polynomials::GeneralizedFunctions_mix::VB_z</qualifiedname>
         <param>
           <type>int</type>
           <declname>i</declname>
@@ -399,35 +476,56 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="888" column="19" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="888" bodyend="894"/>
+        <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1409" column="19" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1409" bodyend="1415"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/equivalent_polynomials.h" line="766" column="3" bodyfile="/Users/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="767" bodyend="895"/>
+    <collaborationgraph>
+      <node id="1">
+        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, useIfemBasis &gt;</label>
+        <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>regularized</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>exact</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>equivalent_polynomials::Regularized&lt; nSpace, nP_ifem, nP, nQ, nEBQ, false &gt;</label>
+        <link refid="classequivalent__polynomials_1_1_regularized"/>
+      </node>
+      <node id="3">
+        <label>equivalent_polynomials::Simplex&lt; nSpace, nP_ifem, nP, nQ, nEBQ, false &gt;</label>
+        <link refid="classequivalent__polynomials_1_1_simplex"/>
+      </node>
+    </collaborationgraph>
+    <location file="/work/cekees/proteus/proteus/equivalent_polynomials.h" line="1284" column="3" bodyfile="/work/cekees/proteus/proteus/equivalent_polynomials.h" bodystart="1285" bodyend="1416"/>
     <listofallmembers>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a1a165da993a86b281d0b36807e0d59a8" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>calculate</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a42669460d62ac0a4f3b441c5b485ff1f" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>calculate</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a9483da12c381a19bc48631bd28e49073" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>D</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a322d205038d86d5e4798114501516904" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>exact</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a33bf4a6d0886ce027a710e397bb1178c" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>GeneralizedFunctions_mix</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1adff65488dace9513b2cbfc309f1a2136" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>get_normal</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a688bfa1125e44e7b94429acac9ef6e51" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>H</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a32a41f362074568f4350b0ed50fcd49e" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>ImH</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a286bc1cc3e8d489e1f1df483761a4994" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>regularized</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a3d11a3bccc179fd65efd65f17508174e" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>set_boundary_quad</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a1260053fb298a302c508cb2752fc8909" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>set_quad</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1ab1b63dffa814d760196fe8da2d2411bc" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>useExact</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a89c46f0cdfac92ee7420786f878e7bf3" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1afae7a249b23e63248293a3eb76abfe69" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA_x</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a9b5dc1084c5ca1a101cba6e3929b723a" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA_y</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a9286ad4d8d19081bc5cef36b2574f28b" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA_z</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a003328d69f0c94736db2ab4ac6d91e2e" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a29cebcc7dc8fc4828753bc86ec46fd26" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB_x</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a60c48258c37788a6d5c6982818daf6cd" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB_y</name></member>
-      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a3bb226ee434ed82a8214d0cc5b4cb2d5" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB_z</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1ad6a1792cc6cfbfd12f9a120e5fd9a2f1" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>calculate</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1ae97f7d02ce6357230db8b88fef8f4891" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>calculate</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a3450ab4e9ab7a0548eb8e28561b1947c" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>calculate</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a8af141dd8bf8ef7ee50d57d6b6f599db" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>D</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a5248768c8985a6ed52c4e5c381fa454b" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>exact</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a35c1453aecc2b448e4012c300932bce7" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>GeneralizedFunctions_mix</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1afa84143866350f0395706c3a0c16b4da" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>get_normal</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a4e232fa415fd98bc70fed104e22b407f" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>H</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a7b312b802d60fc2caff49648723119f3" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>ImH</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a73f4097300a6a82d9fd5585d39573b2e" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>regularized</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1af85a776443900f9d01cc8dbda10d1dc3" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>set_boundary_quad</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a46f80b8371004e91ef662edbe0000e7b" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>set_quad</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a338205194195dfd7cc25ab6dc7bdacf9" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>useExact</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a4d874ecc8f070a40d2aa0a51d4ecfbfb" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a34b2e5ba1f24b8f4ac7f8cb4b6bcf067" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA_x</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a2b127552ec0acee956cb2c036069b1b4" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA_y</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1ac3605626abfa50437cf722537623ce51" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VA_z</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1ab175254b84d1048af412982cf827ab92" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1ae3bd0a95849046fe296f03fcda1539af" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB_x</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a8c9aed3f8d815a14b99bf57cb81cd519" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB_y</name></member>
+      <member refid="classequivalent__polynomials_1_1_generalized_functions__mix_1a0691da2556485f5858d3355903e3a01b" prot="public" virt="non-virtual"><scope>equivalent_polynomials::GeneralizedFunctions_mix</scope><name>VB_z</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

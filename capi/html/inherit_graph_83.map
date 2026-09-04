@@ -1,4 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,83,32"/>
-<area shape="rect" id="node2" href="$struct_smoother.html" title=" " alt="" coords="131,5,209,32"/>
+<area shape="rect" id="Node000000" href="$classproteus_1_1_s_w2_d_c_v__base.html" title=" " alt="" coords="5,13,179,40"/>
+<area shape="rect" id="Node000001" href="$classproteus_1_1_s_w2_d_c_v.html" title=" " alt="" coords="227,5,523,101"/>
+<area shape="poly" id="edge76_Node000000_Node000001" title=" " alt="" coords="194,33,229,39,224,40,194,39"/>
+<area shape="rect" id="Node000002" href="$class_s_w2_d_c_v__base.html" title=" " alt="" coords="34,65,150,92"/>
+<area shape="poly" id="edge77_Node000002_Node000001" title=" " alt="" coords="166,69,229,66,224,67,166,75"/>
 </map>

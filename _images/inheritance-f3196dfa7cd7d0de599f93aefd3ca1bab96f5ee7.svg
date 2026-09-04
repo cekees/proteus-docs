@@ -1,0 +1,224 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="496pt" height="341pt" viewBox="0.00 0.00 496.00 341.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 336.75)">
+<ns0:title>inheritance544eebe99b</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>Eikonal_SC</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.Eikonal_SC" ns1:title="Eikonal_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="258.5,-332.75 189.25,-332.75 189.25,-312 258.5,-312 258.5,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Eikonal_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ShockCapturing_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ShockCapturing_base" ns1:title="ShockCapturing_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="121,-176.75 0,-176.75 0,-156 121,-156 121,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="60.5" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ShockCapturing_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ShockCapturing_base-&gt;Eikonal_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M65.99,-177.03C77.31,-202.64 109.56,-268.03 157,-302.38 164.63,-307.9 173.81,-311.92 182.85,-314.83" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="183.06,-316.72 188.35,-316.47 184.05,-313.37 183.06,-316.72" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>HamiltonJacobiJaffre_SC</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.HamiltonJacobiJaffre_SC" ns1:title="HamiltonJacobiJaffre_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="290.75,-293.75 157,-293.75 157,-273 290.75,-273 290.75,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">HamiltonJacobiJaffre_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ShockCapturing_base-&gt;HamiltonJacobiJaffre_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M69.14,-177.13C83.87,-197.07 118.18,-239.89 157,-263.38 161.24,-265.94 165.84,-268.2 170.57,-270.19" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="170.61,-272.08 175.9,-272.28 171.88,-268.82 170.61,-272.08" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>HamiltonJacobi_SC</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.HamiltonJacobi_SC" ns1:title="HamiltonJacobi_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="278,-254.75 169.75,-254.75 169.75,-234 278,-234 278,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">HamiltonJacobi_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>ShockCapturing_base-&gt;HamiltonJacobi_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M76.4,-177.06C94.66,-189.76 126.89,-210.92 157,-224.38 162.93,-227.03 169.31,-229.45 175.69,-231.63" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="175.51,-233.42 180.81,-233.32 176.61,-230.09 175.51,-233.42" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>JaffreGradU_SC</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.JaffreGradU_SC" ns1:title="JaffreGradU_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="269,-215.75 178.75,-215.75 178.75,-195 269,-195 269,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">JaffreGradU_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>ShockCapturing_base-&gt;JaffreGradU_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M106.45,-177.24C126.91,-182.18 151.21,-188.05 172.3,-193.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="172.44,-194.99 177.71,-194.46 173.26,-191.58 172.44,-194.99" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>ResGradQuad_SC</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ResGradQuad_SC" ns1:title="ResGradQuad_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="274.25,-176.75 173.5,-176.75 173.5,-156 274.25,-156 274.25,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ResGradQuad_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>ShockCapturing_base-&gt;ResGradQuad_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M121.13,-166.38C136.06,-166.38 152.02,-166.38 166.77,-166.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="167.25,-168.13 172.25,-166.38 167.25,-164.63 167.25,-168.13" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>ResGrad_SC</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ResGrad_SC" ns1:title="ResGrad_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="261.5,-137.75 186.25,-137.75 186.25,-117 261.5,-117 261.5,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ResGrad_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>ShockCapturing_base-&gt;ResGrad_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M106.45,-155.51C129.3,-149.99 156.93,-143.31 179.55,-137.85" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="180.6,-139.39 185.05,-136.52 179.78,-135.99 180.6,-139.39" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>ResGradFFDarcy_SC</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ResGradFFDarcy_SC" ns1:title="ResGradFFDarcy_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="281.75,-98.75 166,-98.75 166,-78 281.75,-78 281.75,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ResGradFFDarcy_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>ShockCapturing_base-&gt;ResGradFFDarcy_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M76.4,-155.69C94.66,-142.99 126.89,-121.83 157,-108.38 162.93,-105.72 169.31,-103.3 175.69,-101.12" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="176.61,-102.66 180.81,-99.43 175.51,-99.33 176.61,-102.66" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>ResGradJuanes_SC</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ResGradJuanes_SC" ns1:title="ResGradJuanes_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="277.62,-59.75 170.12,-59.75 170.12,-39 277.62,-39 277.62,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ResGradJuanes_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>ShockCapturing_base-&gt;ResGradJuanes_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M69.14,-155.62C83.87,-135.68 118.18,-92.86 157,-69.38 161.24,-66.81 165.84,-64.55 170.57,-62.56" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="171.88,-63.93 175.9,-60.47 170.61,-60.67 171.88,-63.93" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>ScalarAdvection_SC</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ScalarAdvection_SC" ns1:title="ScalarAdvection_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="280.25,-20.75 167.5,-20.75 167.5,0 280.25,0 280.25,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="223.88" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ScalarAdvection_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge14" class="edge">
+<ns0:title>ShockCapturing_base-&gt;ScalarAdvection_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M65.99,-155.72C77.31,-130.11 109.56,-64.72 157,-30.38 160.45,-27.88 164.21,-25.69 168.13,-23.77" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="169.44,-25.1 173.29,-21.46 168.01,-21.91 169.44,-25.1" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>NavierStokes_SC</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.NavierStokes_SC" ns1:title="NavierStokes_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="456.75,-254.75 358.25,-254.75 358.25,-234 456.75,-234 456.75,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="407.5" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokes_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>ResGradQuad_SC-&gt;NavierStokes_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M271.56,-177.22C278.25,-179.71 284.85,-182.73 290.75,-186.38 310.54,-198.61 306.67,-212.63 326.75,-224.38 334.46,-228.88 343.16,-232.38 351.92,-235.1" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="351.96,-236.93 357.24,-236.64 352.93,-233.57 351.96,-236.93" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>NavierStokes_SC_opt</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.NavierStokes_SC_opt" ns1:title="NavierStokes_SC_opt" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="467.25,-215.75 347.75,-215.75 347.75,-195 467.25,-195 467.25,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="407.5" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokes_SC_opt</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>ResGradQuad_SC-&gt;NavierStokes_SC_opt</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M274.5,-177.03C297.74,-182.02 325.54,-187.99 349.62,-193.16" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="349.99,-195.03 355.24,-194.37 350.72,-191.61 349.99,-195.03" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>ResGradQuadDelayLag_SC</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ResGradQuadDelayLag_SC" ns1:title="ResGradQuadDelayLag_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="480.75,-176.75 334.25,-176.75 334.25,-156 480.75,-156 480.75,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="407.5" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ResGradQuadDelayLag_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>ResGradQuad_SC-&gt;ResGradQuadDelayLag_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M274.5,-166.38C290.92,-166.38 309.62,-166.38 327.68,-166.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="328.01,-168.13 333.01,-166.38 328.01,-164.63 328.01,-168.13" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>ResGradDelayLag_SC</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ResGradDelayLag_SC" ns1:title="ResGradDelayLag_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="468,-137.75 347,-137.75 347,-117 468,-117 468,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="407.5" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ResGradDelayLag_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>ResGrad_SC-&gt;ResGradDelayLag_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M261.63,-127.38C284.18,-127.38 313.72,-127.38 340.25,-127.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="340.8,-129.13 345.8,-127.38 340.8,-125.63 340.8,-129.13" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>ResGradFFDarcyDelayLag_SC</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.ShockCapturing.html#proteus.ShockCapturing.ResGradFFDarcyDelayLag_SC" ns1:title="ResGradFFDarcyDelayLag_SC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="488.25,-98.75 326.75,-98.75 326.75,-78 488.25,-78 488.25,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="407.5" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ResGradFFDarcyDelayLag_SC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>ResGradFFDarcy_SC-&gt;ResGradFFDarcyDelayLag_SC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M281.84,-88.38C294,-88.38 307.11,-88.38 320.09,-88.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="320.69,-90.13 325.69,-88.38 320.69,-86.63 320.69,-90.13" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

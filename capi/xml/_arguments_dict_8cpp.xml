@@ -1,23 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_arguments_dict_8cpp" kind="file" language="C++">
     <compoundname>ArgumentsDict.cpp</compoundname>
     <includes local="yes">pybind11/pybind11.h</includes>
     <includes local="yes">pybind11/stl_bind.h</includes>
     <includes refid="_arguments_dict_8h" local="yes">ArgumentsDict.h</includes>
     <incdepgraph>
-      <node id="9">
-        <label>xtensor/xio.hpp</label>
-      </node>
-      <node id="6">
-        <label>stdexcept</label>
-      </node>
-      <node id="7">
-        <label>string</label>
-      </node>
-      <node id="5">
-        <label>map</label>
-      </node>
       <node id="1">
         <label>ArgumentsDict.cpp</label>
         <link refid="_arguments_dict_8cpp"/>
@@ -27,9 +15,6 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>xtensor-python/pyarray.hpp</label>
       </node>
       <node id="4">
         <label>ArgumentsDict.h</label>
@@ -45,17 +30,32 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>map</label>
+      </node>
       <node id="2">
         <label>pybind11/pybind11.h</label>
       </node>
       <node id="3">
         <label>pybind11/stl_bind.h</label>
       </node>
+      <node id="6">
+        <label>stdexcept</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
+      <node id="9">
+        <label>xtensor/io/xio.hpp</label>
+      </node>
     </incdepgraph>
     <innernamespace refid="namespacext">xt</innernamespace>
     <innernamespace refid="namespaceproteus">proteus</innernamespace>
     <innernamespace refid="namespaceproteus_1_1detail">proteus::detail</innernamespace>
-      <sectiondef kind="define">
+    <sectiondef kind="define">
       <memberdef kind="define" id="_arguments_dict_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
         <name>FORCE_IMPORT_ARRAY</name>
         <briefdescription>
@@ -64,10 +64,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="4" column="9" bodyfile="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" bodystart="4" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_arguments_dict_8cpp_1a741cc2b7bb49b11d715a5207d3cbc27f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>PYBIND11_MODULE</definition>
@@ -85,9 +85,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="154" column="1" bodyfile="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" bodystart="154" bodyend="181"/>
+        <location file="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="154" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" bodystart="154" bodyend="181"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -125,10 +125,10 @@
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceproteus" kindref="compound">proteus</ref></highlight></codeline>
 <codeline lineno="32"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="33" refid="namespaceproteus_1_1detail" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail</highlight></codeline>
+<codeline lineno="33" refid="namespaceproteus_1_1detail" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceproteus_1_1detail" kindref="compound">detail</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>OS,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>M&gt;</highlight></codeline>
-<codeline lineno="36" refid="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OS&amp;<sp/><ref refid="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" kindref="member">print_map</ref>(OS&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>M&amp;<sp/>m)</highlight></codeline>
+<codeline lineno="36" refid="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OS&amp;<sp/><ref refid="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" kindref="member">print_map</ref>(OS&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>M&amp;<sp/>m)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/>name<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceproteus_1af05ccedae3a5249ffcee18ba28860db4" kindref="member">f</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
@@ -149,9 +149,9 @@
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>M&gt;</highlight></codeline>
 <codeline lineno="55" refid="namespaceproteus_1a013ffd89544923edb6b027f740508bf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceproteus_1a013ffd89544923edb6b027f740508bf6" kindref="member">bind_throwing_map</ref>(py::class_&lt;M&gt;&amp;<sp/>cl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name)</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>map_type<sp/>=<sp/>M;</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>key_type<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>map_type::key_type;</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>mapped_type<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>map_type::mapped_type;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">map_type<sp/>=<sp/>M;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">key_type<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>map_type::key_type;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">mapped_type<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>map_type::mapped_type;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cl.def(py::init&lt;&gt;());</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
@@ -166,7 +166,7 @@
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[name](map_type&amp;<sp/>m)</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::ostringstream<sp/>oss;</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" kindref="member">detail::print_map</ref>(oss,<sp/>name,<sp/>m).str();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" kindref="member">detail::print_map</ref>(oss,<sp/>name,<sp/>m).str();</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Return<sp/>the<sp/>canonical<sp/>representation<sp/>of<sp/>this<sp/>map.&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
@@ -233,31 +233,31 @@
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::ostringstream<sp/>oss;</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/>name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;{\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;m_darray:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" kindref="member">detail::print_map</ref>(oss,<sp/>DARRAY_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1a9e189d14f9aa1dfc18a0323162c20795" kindref="member">m_darray</ref>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" kindref="member">detail::print_map</ref>(oss,<sp/>DARRAY_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1a9e189d14f9aa1dfc18a0323162c20795" kindref="member">m_darray</ref>);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;m_iarray:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" kindref="member">detail::print_map</ref>(oss,<sp/>IARRAY_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1ae7f72775d4177531444ff3651d2554d7" kindref="member">m_iarray</ref>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" kindref="member">detail::print_map</ref>(oss,<sp/>IARRAY_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1ae7f72775d4177531444ff3651d2554d7" kindref="member">m_iarray</ref>);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;m_dscalar:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" kindref="member">detail::print_map</ref>(oss,<sp/>DSCALAR_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1afb7ae6da6289e43f948f2c444c0502db" kindref="member">m_dscalar</ref>);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" kindref="member">detail::print_map</ref>(oss,<sp/>DSCALAR_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1afb7ae6da6289e43f948f2c444c0502db" kindref="member">m_dscalar</ref>);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;m_iscalar:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" kindref="member">detail::print_map</ref>(oss,<sp/>ISCALAR_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1aa009422c7591097d0c20a61ec0786a48" kindref="member">m_iscalar</ref>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" kindref="member">detail::print_map</ref>(oss,<sp/>ISCALAR_DICT_NAME,<sp/>ad.<ref refid="structproteus_1_1arguments__dict_1aa009422c7591097d0c20a61ec0786a48" kindref="member">m_iscalar</ref>);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n}&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oss.str();</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="_arguments_dict_8cpp_1a741cc2b7bb49b11d715a5207d3cbc27f" refkind="member"><highlight class="normal"><ref refid="_arguments_dict_8cpp_1a741cc2b7bb49b11d715a5207d3cbc27f" kindref="member">PYBIND11_MODULE</ref>(cArgumentsDict,<sp/>m)</highlight></codeline>
+<codeline lineno="154" refid="_arguments_dict_8cpp_1a741cc2b7bb49b11d715a5207d3cbc27f" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cArgumentsDict,<sp/>m)</highlight></codeline>
 <codeline lineno="155"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceproteus_1a0276292088a330fb5c5a665d8863405a" kindref="member">proteus::pyarray_dict</ref>;</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceproteus_1a2d7b12db8845f2a6bd4cf99e5a89b46b" kindref="member">proteus::scalar_dict</ref>;</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="structproteus_1_1arguments__dict" kindref="compound">proteus::arguments_dict</ref>;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceproteus_1ac6461c464454afb780e1a5e1e812b283" kindref="member">proteus::pyarray_dict</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceproteus_1a5e10a18bda84820e45f4a2974cbfaed3" kindref="member">proteus::scalar_dict</ref>;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structproteus_1_1arguments__dict" kindref="compound">proteus::arguments_dict</ref>;</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>xt::import_numpy();</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>dpyarray_dict<sp/>=<sp/>pyarray_dict&lt;std::string,<sp/>double&gt;;</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ipyarray_dict<sp/>=<sp/>pyarray_dict&lt;std::string,<sp/>int&gt;;</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>dscalar_dict<sp/>=<sp/>scalar_dict&lt;std::string,<sp/>double&gt;;</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>iscalar_dict<sp/>=<sp/>scalar_dict&lt;std::string,<sp/>int&gt;;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">dpyarray_dict<sp/>=<sp/>pyarray_dict&lt;std::string,<sp/>double&gt;;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">ipyarray_dict<sp/>=<sp/>pyarray_dict&lt;std::string,<sp/>int&gt;;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">dscalar_dict<sp/>=<sp/>scalar_dict&lt;std::string,<sp/>double&gt;;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">iscalar_dict<sp/>=<sp/>scalar_dict&lt;std::string,<sp/>int&gt;;</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>py::class_&lt;dpyarray_dict&gt;<sp/>dad(m,<sp/>DARRAY_DICT_NAME.c_str());</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceproteus_1a013ffd89544923edb6b027f740508bf6" kindref="member">proteus::bind_throwing_map</ref>(dad,<sp/>DARRAY_DICT_NAME.c_str());</highlight></codeline>
@@ -276,6 +276,6 @@
 <codeline lineno="181"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp"/>
+    <location file="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp"/>
   </compounddef>
 </doxygen>

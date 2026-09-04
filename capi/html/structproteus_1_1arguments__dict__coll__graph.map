@@ -1,9 +1,21 @@
 <map id="proteus::arguments_dict" name="proteus::arguments_dict">
-<area shape="rect" id="node1" title=" " alt="" coords="609,47,772,73"/>
-<area shape="rect" id="node2" href="$classproteus_1_1throwing__map.html" title=" " alt="" coords="345,6,500,47"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="149,6,296,47"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,11,44,37"/>
-<area shape="rect" id="node7" title="STL class." alt="" coords="149,71,296,113"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,81,44,108"/>
-<area shape="rect" id="node6" href="$classproteus_1_1throwing__map.html" title=" " alt="" coords="345,71,500,113"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="650,136,829,163"/>
+<area shape="rect" id="Node000002" href="$classproteus_1_1throwing__map.html" title=" " alt="" coords="343,5,527,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="541,68,627,99,709,135,703,135,625,104,541,73"/>
+<area shape="rect" id="Node000003" href="$classproteus_1_1throwing__map.html" title=" " alt="" coords="349,91,521,152"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="536,128,652,141,647,142,536,133"/>
+<area shape="rect" id="Node000004" href="$classproteus_1_1throwing__map.html" title=" " alt="" coords="349,176,521,221"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="536,181,625,167,659,163,654,165,626,172,537,186"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="161,185,294,213"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="310,196,351,198,346,199,310,201"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,164,44,191"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="59,174,137,176,172,183,167,185,136,181,60,179"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="161,254,294,282"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="54,198,69,207,102,221,138,232,190,253,185,254,136,237,101,226,66,212,55,204"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,276,44,303"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="58,281,96,272,135,257,159,241,202,214,207,212,162,245,138,262,98,277,60,286"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="58,309,68,313,102,319,136,313,173,299,203,283,209,282,176,304,137,318,102,324,67,318,57,314"/>
+<area shape="rect" id="Node000008" href="$classproteus_1_1throwing__map.html" title=" " alt="" coords="349,246,521,290"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="535,240,625,209,673,186,713,165,718,163,676,190,627,214,537,246"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="310,266,351,268,346,268,310,271"/>
 </map>

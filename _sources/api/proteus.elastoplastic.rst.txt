@@ -3,8 +3,8 @@ proteus.elastoplastic package
 
 .. automodule:: proteus.elastoplastic
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Submodules
 ----------

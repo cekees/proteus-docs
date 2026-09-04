@@ -1,14 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_wave_tools_8h" kind="file" language="C++">
     <compoundname>WaveTools.h</compoundname>
     <includes local="no">cmath</includes>
     <includes local="no">iostream</includes>
     <includes local="no">valarray</includes>
     <incdepgraph>
-      <node id="4">
-        <label>valarray</label>
-      </node>
       <node id="1">
         <label>WaveTools.h</label>
         <link refid="_wave_tools_8h"/>
@@ -24,6 +21,9 @@
       </node>
       <node id="3">
         <label>iostream</label>
+      </node>
+      <node id="4">
+        <label>valarray</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceproteus">proteus</innernamespace>
@@ -369,7 +369,7 @@
 <codeline lineno="335"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Nw<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t-t0<sp/>&gt;=<sp/>term*Twindow)</highlight></codeline>
 <codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Nw<sp/>=<sp/><ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">((t-t0<sp/>-<sp/>term*Twindow)/(Twindow<sp/>-<sp/>2.<sp/>*<sp/>handover<sp/>*<sp/>Twindow))<sp/>+<sp/>1,<sp/>Nwindows-1);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Nw<sp/>=<sp/>std::min(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">((t-t0<sp/>-<sp/>term*Twindow)/(Twindow<sp/>-<sp/>2.<sp/>*<sp/>handover<sp/>*<sp/>Twindow))<sp/>+<sp/>1,<sp/>Nwindows-1);</highlight></codeline>
 <codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t-t0<sp/>&lt;<sp/>windows_handover[Nw-1]<sp/>-<sp/>t0)</highlight></codeline>
 <codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nw<sp/>=Nw<sp/>-<sp/>1;</highlight></codeline>
@@ -591,6 +591,6 @@
 <codeline lineno="557"><highlight class="normal"></highlight></codeline>
 <codeline lineno="558"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/WaveTools.h"/>
+    <location file="/work/cekees/proteus/proteus/WaveTools.h"/>
   </compounddef>
 </doxygen>

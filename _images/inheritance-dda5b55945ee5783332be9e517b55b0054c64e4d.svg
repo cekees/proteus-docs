@@ -1,0 +1,284 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="260pt" height="692pt" viewBox="0.00 0.00 260.00 692.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 687.75)">
+<ns0:title>inheritance46841c7b14</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>CompositeTetrahedron</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.CompositeTetrahedron" ns1:title="CompositeTetrahedron" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="234.25,-683.75 108,-683.75 108,-663 234.25,-663 234.25,-683.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-670.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CompositeTetrahedron</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>Q_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.Q_base" ns1:title="The base class for quadrature methods." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="54,-351.75 0,-351.75 0,-331 54,-331 54,-351.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="27" y="-338.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Q_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Q_base-&gt;CompositeTetrahedron</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.62,-352.01C31.73,-401.47 47.15,-608.39 90,-653.38 93.48,-657.02 97.51,-660.05 101.88,-662.55" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="101.66,-664.4 106.91,-665.11 103.24,-661.28 101.66,-664.4" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>CompositeTrapezoidalEdge</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.CompositeTrapezoidalEdge" ns1:title="Composite trapezoidal rule on the unit interval." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="245.12,-644.75 97.12,-644.75 97.12,-624 245.12,-624 245.12,-644.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-631.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CompositeTrapezoidalEdge</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>Q_base-&gt;CompositeTrapezoidalEdge</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.96,-352.19C33.27,-398.04 52.18,-575.74 90,-614.38 92.14,-616.56 94.49,-618.53 96.98,-620.29" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="96.5,-622.05 101.67,-623.22 98.36,-619.08 96.5,-622.05" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>CompositeTrapezoidalTriangle</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.CompositeTrapezoidalTriangle" ns1:title="Composite trapezoidal rule on the reference triangle" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="252.25,-605.75 90,-605.75 90,-585 252.25,-585 252.25,-605.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-592.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CompositeTrapezoidalTriangle</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>Q_base-&gt;CompositeTrapezoidalTriangle</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M29.38,-352.03C34.95,-393.43 57.08,-542.92 90,-575.38 92.24,-577.59 94.69,-579.57 97.29,-581.34" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="97,-583.2 102.18,-584.29 98.81,-580.21 97,-583.2" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>CompositeTriangle</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.CompositeTriangle" ns1:title="Composite quadrature rule on the unit triangle." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="224.5,-566.75 117.75,-566.75 117.75,-546 224.5,-546 224.5,-566.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-553.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CompositeTriangle</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>Q_base-&gt;CompositeTriangle</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28,-352.11C28.61,-384.93 35.09,-484.83 90,-536.38 96.08,-542.08 103.54,-546.23 111.43,-549.23" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="111.51,-551.11 116.81,-551.06 112.64,-547.8 111.51,-551.11" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>CubeGaussQuadrature</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.CubeGaussQuadrature" ns1:title="A class for all quadrature on unit simplices." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="233.88,-527.75 108.38,-527.75 108.38,-507 233.88,-507 233.88,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CubeGaussQuadrature</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>Q_base-&gt;CubeGaussQuadrature</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.95,-351.97C32.08,-380.18 44.59,-457.66 90,-497.38 93.72,-500.63 97.89,-503.37 102.32,-505.67" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="102.1,-507.5 107.37,-508.04 103.59,-504.33 102.1,-507.5" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>FaceBarycenterEdge</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.FaceBarycenterEdge" ns1:title="FaceBarycenterEdge" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="228.62,-488.75 113.62,-488.75 113.62,-468 228.62,-468 228.62,-488.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-475.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FaceBarycenterEdge</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>Q_base-&gt;FaceBarycenterEdge</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M30.49,-352C36.49,-375.12 53.97,-430.18 90,-458.38 95.27,-462.5 101.29,-465.79 107.6,-468.4" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="107.46,-470.22 112.76,-470.36 108.7,-466.95 107.46,-470.22" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>FaceBarycenterTetrahedron</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.FaceBarycenterTetrahedron" ns1:title="FaceBarycenterTetrahedron" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="245.5,-449.75 96.75,-449.75 96.75,-429 245.5,-429 245.5,-449.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-436.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FaceBarycenterTetrahedron</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>Q_base-&gt;FaceBarycenterTetrahedron</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M33.45,-352.05C42.7,-369.03 63.09,-402.05 90,-419.38 94.07,-421.99 98.46,-424.27 103.01,-426.25" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="102.86,-428.07 108.15,-428.32 104.17,-424.83 102.86,-428.07" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>FaceBarycenterTriangle</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.FaceBarycenterTriangle" ns1:title="FaceBarycenterTriangle" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="235.75,-410.75 106.5,-410.75 106.5,-390 235.75,-390 235.75,-410.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-397.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FaceBarycenterTriangle</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>Q_base-&gt;FaceBarycenterTriangle</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M42.06,-352.05C54.18,-360.79 72.45,-372.89 90,-380.38 96.59,-383.19 103.67,-385.66 110.79,-387.83" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="110.75,-389.64 116.04,-389.36 111.73,-386.28 110.75,-389.64" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>GaussEdge</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.GaussEdge" ns1:title="Gaussian Quadrature on the unit interval." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="206.12,-371.75 136.12,-371.75 136.12,-351 206.12,-351 206.12,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GaussEdge</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>Q_base-&gt;GaussEdge</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M54.4,-345.09C75.48,-348.06 105.37,-352.26 129.49,-355.66" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="129.86,-357.48 135.06,-356.44 130.35,-354.01 129.86,-357.48" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>GaussPoint</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.GaussPoint" ns1:title="A dummy class for integrating the boundary of the unit interval (i.e. a point)." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="206.5,-332.75 135.75,-332.75 135.75,-312 206.5,-312 206.5,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GaussPoint</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>Q_base-&gt;GaussPoint</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M54.4,-337.85C75.33,-335.05 104.95,-331.09 128.98,-327.88" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="129.81,-329.53 134.53,-327.13 129.34,-326.06 129.81,-329.53" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>GaussTetrahedron</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.GaussTetrahedron" ns1:title="Gauss-Legendre quadrature on the unit tetrahedron." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="223,-293.75 119.25,-293.75 119.25,-273 223,-273 223,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GaussTetrahedron</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>Q_base-&gt;GaussTetrahedron</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M42.59,-330.65C54.74,-322.17 72.77,-310.6 90,-303.38 97.27,-300.33 105.11,-297.66 112.95,-295.36" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="113.86,-296.92 118.2,-293.88 112.91,-293.55 113.86,-296.92" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>GaussTriangle</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.GaussTriangle" ns1:title="Gauss quadrature on the unit triangle." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="213.25,-254.75 129,-254.75 129,-234 213.25,-234 213.25,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GaussTriangle</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>Q_base-&gt;GaussTriangle</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M33.64,-330.56C43,-313.72 63.39,-281.38 90,-264.38 99.68,-258.19 111.16,-253.91 122.35,-250.96" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="123.35,-252.52 127.8,-249.63 122.52,-249.12 123.35,-252.52" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>LobattoEdge</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.LobattoEdge" ns1:title="Gauss-Lobatto quadrature on the unit interval." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="209.5,-215.75 132.75,-215.75 132.75,-195 209.5,-195 209.5,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LobattoEdge</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>Q_base-&gt;LobattoEdge</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M30.52,-330.84C36.58,-307.91 54.17,-253.32 90,-225.38 100.4,-217.27 113.66,-212.4 126.39,-209.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="127.3,-211.1 131.85,-208.38 126.6,-207.67 127.3,-211.1" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>LobattoEdgeAlt</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.LobattoEdgeAlt" ns1:title="Gauss-Lobatto quadrature on the [-1:1] interval." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="216.25,-176.75 126,-176.75 126,-156 216.25,-156 216.25,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LobattoEdgeAlt</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge14" class="edge">
+<ns0:title>Q_base-&gt;LobattoEdgeAlt</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.98,-330.85C32.16,-302.82 44.8,-225.82 90,-186.38 98.31,-179.13 108.86,-174.43 119.55,-171.4" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="120.69,-172.92 125.11,-169.99 119.83,-169.52 120.69,-172.92" />
+</ns0:g>
+
+<ns0:g id="node16" class="node">
+<ns0:title>LobattoTetrahedron</ns0:title>
+<ns0:g id="a_node16"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.LobattoTetrahedron" ns1:title="Gauss-Lobatto quadrature on the unit tetrahedron." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="226.38,-137.75 115.88,-137.75 115.88,-117 226.38,-117 226.38,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LobattoTetrahedron</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge15" class="edge">
+<ns0:title>Q_base-&gt;LobattoTetrahedron</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.02,-330.7C28.68,-298.04 35.31,-198.64 90,-147.38 95.56,-142.17 102.26,-138.26 109.39,-135.33" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="110.66,-136.73 114.76,-133.37 109.46,-133.45 110.66,-136.73" />
+</ns0:g>
+
+<ns0:g id="node17" class="node">
+<ns0:title>LobattoTriangle</ns0:title>
+<ns0:g id="a_node17"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.LobattoTriangle" ns1:title="Gauss-Lobatto quadrature on the unit triangle." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="216.62,-98.75 125.62,-98.75 125.62,-78 216.62,-78 216.62,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LobattoTriangle</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge16" class="edge">
+<ns0:title>Q_base-&gt;LobattoTriangle</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M29.39,-330.76C34.98,-289.54 57.19,-140.68 90,-108.38 97.86,-100.64 108.22,-95.75 118.88,-92.69" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="120.03,-94.2 124.45,-91.27 119.17,-90.81 120.03,-94.2" />
+</ns0:g>
+
+<ns0:g id="node18" class="node">
+<ns0:title>SimplexGaussQuadrature</ns0:title>
+<ns0:g id="a_node18"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.SimplexGaussQuadrature" ns1:title="A class which defines quadrature on unit simplices." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="241.38,-59.75 100.88,-59.75 100.88,-39 241.38,-39 241.38,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SimplexGaussQuadrature</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge17" class="edge">
+<ns0:title>Q_base-&gt;SimplexGaussQuadrature</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.97,-330.6C33.3,-284.92 52.29,-107.86 90,-69.38 92.14,-67.19 94.49,-65.22 96.99,-63.46" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="98.36,-64.67 101.67,-60.53 96.5,-61.7 98.36,-64.67" />
+</ns0:g>
+
+<ns0:g id="node19" class="node">
+<ns0:title>SimplexLobattoQuadrature</ns0:title>
+<ns0:g id="a_node19"><ns0:a ns1:href="../api/proteus.Quadrature.html#proteus.Quadrature.SimplexLobattoQuadrature" ns1:title="A class for quadrature on unit simplices." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="244.75,-20.75 97.5,-20.75 97.5,0 244.75,0 244.75,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="171.12" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SimplexLobattoQuadrature</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge18" class="edge">
+<ns0:title>Q_base-&gt;SimplexLobattoQuadrature</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M28.63,-330.77C31.76,-281.47 47.26,-75.21 90,-30.38 92.06,-28.22 94.31,-26.28 96.71,-24.54" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="97.94,-25.83 101.19,-21.65 96.04,-22.89 97.94,-25.83" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

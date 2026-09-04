@@ -1,68 +1,73 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_element_neighbors" kind="class" language="C++" prot="public">
     <compoundname>ElementNeighbors</compoundname>
-    <includes refid="mesh_8h" local="no">/Users/cekees/proteus/proteus/mesh.h</includes>
-      <sectiondef kind="public-attrib">
+    <includes refid="mesh_8h" local="no">/work/cekees/proteus/proteus/mesh.h</includes>
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_element_neighbors_1a12731f54d53f40632a2c5257ac71d08b" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int ElementNeighbors::left</definition>
         <argsstring></argsstring>
         <name>left</name>
+        <qualifiedname>ElementNeighbors::left</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mesh.h" line="496" column="7" bodyfile="/Users/cekees/proteus/proteus/mesh.h" bodystart="496" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mesh.h" line="508" column="7" bodyfile="/work/cekees/proteus/proteus/mesh.h" bodystart="508" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_element_neighbors_1ab6447ca674d902db1ba8a0a4b9f1e55b" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int ElementNeighbors::left_ebN_element</definition>
         <argsstring></argsstring>
         <name>left_ebN_element</name>
+        <qualifiedname>ElementNeighbors::left_ebN_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mesh.h" line="496" column="11" bodyfile="/Users/cekees/proteus/proteus/mesh.h" bodystart="496" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mesh.h" line="508" column="11" bodyfile="/work/cekees/proteus/proteus/mesh.h" bodystart="508" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_element_neighbors_1a6c7499e3dcf33482af539b1baec93168" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int ElementNeighbors::right</definition>
         <argsstring></argsstring>
         <name>right</name>
+        <qualifiedname>ElementNeighbors::right</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mesh.h" line="496" column="27" bodyfile="/Users/cekees/proteus/proteus/mesh.h" bodystart="496" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mesh.h" line="508" column="27" bodyfile="/work/cekees/proteus/proteus/mesh.h" bodystart="508" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_element_neighbors_1a7730233f396093085694757ce6bc0057" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int ElementNeighbors::right_ebN_element</definition>
         <argsstring></argsstring>
         <name>right_ebN_element</name>
+        <qualifiedname>ElementNeighbors::right_ebN_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mesh.h" line="496" column="32" bodyfile="/Users/cekees/proteus/proteus/mesh.h" bodystart="496" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mesh.h" line="508" column="32" bodyfile="/work/cekees/proteus/proteus/mesh.h" bodystart="508" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_element_neighbors_1a32c2d5d2d3ead9c4171d31100daf9e0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>ElementNeighbors::ElementNeighbors</definition>
         <argsstring>(int leftIn, int left_ebN_elementIn)</argsstring>
         <name>ElementNeighbors</name>
+        <qualifiedname>ElementNeighbors::ElementNeighbors</qualifiedname>
         <param>
           <type>int</type>
           <declname>leftIn</declname>
@@ -77,27 +82,28 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mesh.h" line="494" column="10" bodyfile="/Users/cekees/proteus/proteus/mesh.h" bodystart="494" bodyend="494"/>
+        <location file="/work/cekees/proteus/proteus/mesh.h" line="506" column="10" bodyfile="/work/cekees/proteus/proteus/mesh.h" bodystart="506" bodyend="506"/>
       </memberdef>
       <memberdef kind="function" id="class_element_neighbors_1a34e6aeed56a6aa90e6bf5e6f005b5aba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>ElementNeighbors::ElementNeighbors</definition>
         <argsstring>()</argsstring>
         <name>ElementNeighbors</name>
+        <qualifiedname>ElementNeighbors::ElementNeighbors</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mesh.h" line="495" column="10" bodyfile="/Users/cekees/proteus/proteus/mesh.h" bodystart="495" bodyend="495"/>
+        <location file="/work/cekees/proteus/proteus/mesh.h" line="507" column="10" bodyfile="/work/cekees/proteus/proteus/mesh.h" bodystart="507" bodyend="507"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/mesh.h" line="491" column="1" bodyfile="/Users/cekees/proteus/proteus/mesh.h" bodystart="492" bodyend="497"/>
+    <location file="/work/cekees/proteus/proteus/mesh.h" line="503" column="1" bodyfile="/work/cekees/proteus/proteus/mesh.h" bodystart="504" bodyend="509"/>
     <listofallmembers>
       <member refid="class_element_neighbors_1a32c2d5d2d3ead9c4171d31100daf9e0e" prot="public" virt="non-virtual"><scope>ElementNeighbors</scope><name>ElementNeighbors</name></member>
       <member refid="class_element_neighbors_1a34e6aeed56a6aa90e6bf5e6f005b5aba" prot="public" virt="non-virtual"><scope>ElementNeighbors</scope><name>ElementNeighbors</name></member>

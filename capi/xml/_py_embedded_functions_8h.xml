@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_py_embedded_functions_8h" kind="file" language="C++">
     <compoundname>PyEmbeddedFunctions.h</compoundname>
     <includes local="yes">Python.h</includes>
     <includedby refid="_mesh_adapt_p_u_m_i_8h" local="yes">MeshAdaptPUMI.h</includedby>
     <includedby refid="_r_a_n_s2_p_8h" local="yes">RANS2P.h</includedby>
     <includedby refid="_r_a_n_s2_p2_d_8h" local="yes">RANS2P2D.h</includedby>
+    <includedby refid="mesh_8cpp" local="yes">mesh.cpp</includedby>
+    <includedby refid="partitioning_8cpp" local="yes">partitioning.cpp</includedby>
     <incdepgraph>
       <node id="1">
         <label>PyEmbeddedFunctions.h</label>
@@ -18,35 +20,9 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="14">
-        <label>RANS2P2D.cpp</label>
-        <link refid="_r_a_n_s2_p2_d_8cpp"/>
-      </node>
-      <node id="5">
+      <node id="3">
         <label>ErrorResidualMethod.cpp</label>
         <link refid="_error_residual_method_8cpp"/>
-      </node>
-      <node id="1">
-        <label>PyEmbeddedFunctions.h</label>
-        <link refid="_py_embedded_functions_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>RANS2P.cpp</label>
-        <link refid="_r_a_n_s2_p_8cpp"/>
-      </node>
-      <node id="8">
-        <label>ParallelMeshConverter.cpp</label>
-        <link refid="_parallel_mesh_converter_8cpp"/>
-      </node>
-      <node id="4">
-        <label>createAnalyticGeometry.cpp</label>
-        <link refid="create_analytic_geometry_8cpp"/>
       </node>
       <node id="2">
         <label>MeshAdaptPUMI.h</label>
@@ -68,9 +44,55 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="4">
         <label>MeshConverter.cpp</label>
         <link refid="_mesh_converter_8cpp"/>
+      </node>
+      <node id="5">
+        <label>MeshFields.cpp</label>
+        <link refid="_mesh_fields_8cpp"/>
+      </node>
+      <node id="6">
+        <label>ParallelMeshConverter.cpp</label>
+        <link refid="_parallel_mesh_converter_8cpp"/>
+      </node>
+      <node id="7">
+        <label>SizeField.cpp</label>
+        <link refid="_size_field_8cpp"/>
+      </node>
+      <node id="8">
+        <label>VMS.cpp</label>
+        <link refid="_v_m_s_8cpp"/>
+      </node>
+      <node id="9">
+        <label>cMeshAdaptPUMI.cpp</label>
+        <link refid="c_mesh_adapt_p_u_m_i_8cpp"/>
+      </node>
+      <node id="10">
+        <label>createAnalyticGeometry.cpp</label>
+        <link refid="create_analytic_geometry_8cpp"/>
+      </node>
+      <node id="1">
+        <label>PyEmbeddedFunctions.h</label>
+        <link refid="_py_embedded_functions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>mesh.cpp</label>
+        <link refid="mesh_8cpp"/>
+      </node>
+      <node id="12">
+        <label>RANS2P.cpp</label>
+        <link refid="_r_a_n_s2_p_8cpp"/>
       </node>
       <node id="11">
         <label>RANS2P.h</label>
@@ -78,17 +100,9 @@
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MeshFields.cpp</label>
-        <link refid="_mesh_fields_8cpp"/>
-      </node>
-      <node id="10">
-        <label>VMS.cpp</label>
-        <link refid="_v_m_s_8cpp"/>
-      </node>
-      <node id="3">
-        <label>cMeshAdaptPUMI.cpp</label>
-        <link refid="c_mesh_adapt_p_u_m_i_8cpp"/>
+      <node id="14">
+        <label>RANS2P2D.cpp</label>
+        <link refid="_r_a_n_s2_p2_d_8cpp"/>
       </node>
       <node id="13">
         <label>RANS2P2D.h</label>
@@ -96,12 +110,12 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>SizeField.cpp</label>
-        <link refid="_size_field_8cpp"/>
+      <node id="16">
+        <label>partitioning.cpp</label>
+        <link refid="partitioning_8cpp"/>
       </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="_py_embedded_functions_8h_1a136df0e82f08ecab6d108f031b13d59d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>static int logEvent</definition>
@@ -121,9 +135,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/PyEmbeddedFunctions.h" line="7" column="12" bodyfile="/Users/cekees/proteus/proteus/PyEmbeddedFunctions.h" bodystart="7" bodyend="55"/>
+        <location file="/work/cekees/proteus/proteus/PyEmbeddedFunctions.h" line="7" column="12" bodyfile="/work/cekees/proteus/proteus/PyEmbeddedFunctions.h" bodystart="7" bodyend="55"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -187,6 +201,6 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/PyEmbeddedFunctions.h"/>
+    <location file="/work/cekees/proteus/proteus/PyEmbeddedFunctions.h"/>
   </compounddef>
 </doxygen>

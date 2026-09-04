@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="namespacem__comp__co2_1_1flash" kind="namespace" language="C++">
+    <compoundname>m_comp_co2::flash</compoundname>
+    <innerclass refid="structm__comp__co2_1_1flash_1_1_flash_state" prot="public">m_comp_co2::flash::FlashState</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1flash_1a458ccb1e12a75ddf4f7366170148afeb" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::flash::PA_PER_BAR</definition>
+        <argsstring></argsstring>
+        <name>PA_PER_BAR</name>
+        <qualifiedname>m_comp_co2::flash::PA_PER_BAR</qualifiedname>
+        <initializer>= 1.0e5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="20" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1flash_1abd0fffb0688407c1488040f0919f140b" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::flash::EPS_Z</definition>
+        <argsstring></argsstring>
+        <name>EPS_Z</name>
+        <qualifiedname>m_comp_co2::flash::EPS_Z</qualifiedname>
+        <initializer>= 1.0e-5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="25" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1flash_1a2468431428efaf3c87fea47e80d9722b" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::flash::RHO_A_IMM</definition>
+        <argsstring></argsstring>
+        <name>RHO_A_IMM</name>
+        <qualifiedname>m_comp_co2::flash::RHO_A_IMM</qualifiedname>
+        <initializer>= 5.55e4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="35" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1flash_1a4e8a88fcbe5c6f89386abae7e55d0cb5" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::flash::RHO_G_IMM</definition>
+        <argsstring></argsstring>
+        <name>RHO_G_IMM</name>
+        <qualifiedname>m_comp_co2::flash::RHO_G_IMM</qualifiedname>
+        <initializer>= 2.00e4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="36" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacem__comp__co2_1_1flash_1af46fd5e69637e28ae2c70fb5e708bc98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref></type>
+        <definition>Jet2 m_comp_co2::flash::_V_jet</definition>
+        <argsstring>(double T_C, const Jet2 &amp;P_jet, bool liquid)</argsstring>
+        <name>_V_jet</name>
+        <qualifiedname>m_comp_co2::flash::_V_jet</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref> &amp;</type>
+          <declname>P_jet</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>liquid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="48" column="13" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="48" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1flash_1aaf35fe8559572d80cdd0da46b9c03180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref></type>
+        <definition>Jet2 m_comp_co2::flash::_ln_phi_jet</definition>
+        <argsstring>(double T_C, const Jet2 &amp;P_jet, const Jet2 &amp;V, double b_k, double sum_aik)</argsstring>
+        <name>_ln_phi_jet</name>
+        <qualifiedname>m_comp_co2::flash::_ln_phi_jet</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref> &amp;</type>
+          <declname>P_jet</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref> &amp;</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b_k</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sum_aik</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="64" column="13" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="64" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1flash_1a03f2cf292582e6de63388c32ed6125b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void m_comp_co2::flash::_solubility_jet</definition>
+        <argsstring>(double T_C, const Jet2 &amp;P_jet, bool liquid, Jet2 &amp;x_CO2, Jet2 &amp;y_H2O, Jet2 &amp;V)</argsstring>
+        <name>_solubility_jet</name>
+        <qualifiedname>m_comp_co2::flash::_solubility_jet</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref> &amp;</type>
+          <declname>P_jet</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>liquid</declname>
+        </param>
+        <param>
+          <type><ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref> &amp;</type>
+          <declname>x_CO2</declname>
+        </param>
+        <param>
+          <type><ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref> &amp;</type>
+          <declname>y_H2O</declname>
+        </param>
+        <param>
+          <type><ref refid="structm__comp__co2_1_1_jet2" kindref="compound">Jet2</ref> &amp;</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="78" column="13" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="78" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1flash_1a8fcf60cd0cef3658655bc7379f7aba5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structm__comp__co2_1_1flash_1_1_flash_state" kindref="compound">FlashState</ref></type>
+        <definition>FlashState m_comp_co2::flash::flashPZ</definition>
+        <argsstring>(double p_Pa, double z, double T_C, double=0.0, double eps=EPS_Z, bool immiscible=false)</argsstring>
+        <name>flashPZ</name>
+        <qualifiedname>m_comp_co2::flash::flashPZ</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>p_Pa</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eps</declname>
+          <defval><ref refid="namespacem__comp__co2_1_1flash_1abd0fffb0688407c1488040f0919f140b" kindref="member">EPS_Z</ref></defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>immiscible</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="94" column="19" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" bodystart="94" bodyend="148"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_flash.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

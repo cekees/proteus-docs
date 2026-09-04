@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_m_corr" kind="class" language="C++" prot="public">
     <compoundname>proteus::MCorr</compoundname>
     <basecompoundref refid="classproteus_1_1_m_corr__base" prot="public" virt="non-virtual">proteus::MCorr_base</basecompoundref>
-    <includes refid="_m_corr_8h" local="no">/Users/cekees/proteus/proteus/mprans/MCorr.h</includes>
+    <includes refid="_m_corr_8h" local="no">/work/cekees/proteus/proteus/mprans/MCorr.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,66 +39,127 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classproteus_1_1_m_corr_1afb5d4154550b724824cf56771f97a1c5" prot="public" static="no" mutable="no">
+        <type>std::set&lt; int &gt;</type>
+        <definition>std::set&lt;int&gt; proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cutfem_boundaries</definition>
+        <argsstring></argsstring>
+        <name>cutfem_boundaries</name>
+        <qualifiedname>proteus::MCorr::cutfem_boundaries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="61" column="16" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_m_corr_1a4887c0dafe81f04e07b64cd92ea2bef0" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, int &gt;</type>
+        <definition>std::map&lt;int, int&gt; proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cutfem_local_boundaries</definition>
+        <argsstring></argsstring>
+        <name>cutfem_local_boundaries</name>
+        <qualifiedname>proteus::MCorr::cutfem_local_boundaries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="62" column="16" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_m_corr_1af817025065d70571e87e731fbe41b394" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
+        <argsstring></argsstring>
+        <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::MCorr::nDOF_test_X_trial_element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="63" column="17" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_m_corr_1a19d6fbfa421b21e2bad2fd7dedecf2f1" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::MCorr::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="52" column="22" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="52" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="64" column="22" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_m_corr_1a1a167da4647f6ccf58365fa03a68a9a7" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceproteus_1ac61dbf98c43ac13d15c02ba156dc2ef3" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
+        <type><ref refid="namespaceproteus_1a0c308272715853e7a4fe11c6efdd25f4" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
         <definition>GeneralizedFunctions&lt;nSpace,2,nQuadraturePoints_element,nQuadraturePoints_elementBoundary&gt; proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf</definition>
         <argsstring></argsstring>
         <name>gf</name>
+        <qualifiedname>proteus::MCorr::gf</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="53" column="28" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="53" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="65" column="28" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_m_corr_1a5eca814ec383a050ebfce993de3cedc2" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceproteus_1ac61dbf98c43ac13d15c02ba156dc2ef3" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nDOF_trial_element, nQuadraturePoints_elementBoundary &gt;</type>
+        <type><ref refid="namespaceproteus_1a0c308272715853e7a4fe11c6efdd25f4" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nDOF_trial_element, nQuadraturePoints_elementBoundary &gt;</type>
         <definition>GeneralizedFunctions&lt;nSpace,2,nDOF_trial_element,nQuadraturePoints_elementBoundary&gt; proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_nodes</definition>
         <argsstring></argsstring>
         <name>gf_nodes</name>
+        <qualifiedname>proteus::MCorr::gf_nodes</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="54" column="28" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="54" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="66" column="28" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="66" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+      <memberdef kind="variable" id="classproteus_1_1_m_corr_1a17fd88176d1f0a7966ecb085eb7e9598" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceproteus_1a0c308272715853e7a4fe11c6efdd25f4" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 4, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
+        <definition>GeneralizedFunctions&lt;nSpace,4,nQuadraturePoints_element,nQuadraturePoints_elementBoundary&gt; proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_s</definition>
+        <argsstring></argsstring>
+        <name>gf_s</name>
+        <qualifiedname>proteus::MCorr::gf_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="67" column="28" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_m_corr_1a59886621ff33796cc6be7057c0ee4d1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::MCorr</definition>
         <argsstring>()</argsstring>
         <name>MCorr</name>
+        <qualifiedname>proteus::MCorr::MCorr</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="55" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="55" bodyend="56"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="68" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1a5638e7fe08d686ad53db2ea4ccec807b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(const double &amp;epsHeaviside, const double &amp;epsDirac, const double &amp;phi, const double &amp;H, const double &amp;u, const double &amp;porosity, double &amp;r, double &amp;dr)</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::MCorr::evaluateCoefficients</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>epsHeaviside</declname>
@@ -137,13 +198,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="59" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="59" bodyend="70"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="74" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="74" bodyend="85"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1_m_corr_1a6eff98060ad29142057190fb54c45163" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classproteus_1_1_m_corr_1a1fc3ad193e4bd534c0f4908e2619c2e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateElementResidual</definition>
-        <argsstring>(double *mesh_trial_ref, double *mesh_grad_trial_ref, double *mesh_dof, int *mesh_l2g, double *dV_ref, double *u_trial_ref, double *u_grad_trial_ref, double *u_test_ref, double *u_grad_test_ref, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *dS_ref, double *u_trial_trace_ref, double *u_grad_trial_trace_ref, double *u_test_trace_ref, double *u_grad_test_trace_ref, double *normal_ref, double *boundaryJac_ref, int nElements_global, double useMetrics, double epsFactHeaviside, double epsFactDirac, double epsFactDiffusion, int *u_l2g, double *elementDiameter, double *nodeDiametersArray, double *u_dof, double *q_phi, double *q_normal_phi, double *ebqe_phi, double *ebqe_normal_phi, double *q_H, double *q_u, double *q_n, double *ebqe_u, double *ebqe_n, double *q_r, double *q_porosity, int offset_u, int stride_u, double *elementResidual_u, int nExteriorElementBoundaries_global, int *exteriorElementBoundariesArray, int *elementBoundaryElementsArray, int *elementBoundaryLocalElementBoundariesArray, double *element_u, int eN)</argsstring>
+        <argsstring>(double *mesh_trial_ref, double *mesh_grad_trial_ref, double *mesh_dof, int *mesh_l2g, double *dV_ref, double *u_trial_ref, double *u_grad_trial_ref, double *u_test_ref, double *u_grad_test_ref, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *dS_ref, double *u_trial_trace_ref, double *u_grad_trial_trace_ref, double *u_test_trace_ref, double *u_grad_test_trace_ref, double *normal_ref, double *boundaryJac_ref, int nElements_global, double useMetrics, double epsFactHeaviside, double epsFactDirac, double epsFactDiffusion, int *u_l2g, int *r_l2g, double *elementDiameter, double *nodeDiametersArray, double *u_dof, double *q_phi, double *q_normal_phi, double *ebqe_phi, double *ebqe_normal_phi, double *q_H, double *q_u, double *q_n, double *ebqe_u, double *ebqe_n, double *q_r, double *q_porosity, int offset_u, int stride_u, double *elementResidual_u, int nExteriorElementBoundaries_global, int *exteriorElementBoundariesArray, int *elementBoundaryElementsArray, int *elementBoundaryLocalElementBoundariesArray, double *element_u, int eN, bool element_active, double *isActiveR, double *isActiveDOF, const double *phi_solid)</argsstring>
         <name>calculateElementResidual</name>
+        <qualifiedname>proteus::MCorr::calculateElementResidual</qualifiedname>
         <param>
           <type>double *</type>
           <declname>mesh_trial_ref</declname>
@@ -241,6 +303,10 @@
           <declname>u_l2g</declname>
         </param>
         <param>
+          <type>int *</type>
+          <declname>r_l2g</declname>
+        </param>
+        <param>
           <type>double *</type>
           <declname>elementDiameter</declname>
         </param>
@@ -332,19 +398,36 @@
           <type>int</type>
           <declname>eN</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>element_active</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>isActiveR</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>isActiveDOF</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>phi_solid</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="72" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="72" bodyend="238"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="87" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="87" bodyend="266"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1af7182a5dc8605c647ca40b14ec188393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::MCorr::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a75a33c08e49c6513080ab87b375172bc">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -360,13 +443,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="239" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="239" bodyend="465"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="267" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="267" bodyend="649"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1_m_corr_1ab8825c8baf8a41d28d1925d12244a792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classproteus_1_1_m_corr_1a8fb3c9f0c58c920f2c74db91c5469dd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateElementJacobian</definition>
-        <argsstring>(double *mesh_trial_ref, double *mesh_grad_trial_ref, double *mesh_dof, int *mesh_l2g, double *dV_ref, double *u_trial_ref, double *u_grad_trial_ref, double *u_test_ref, double *u_grad_test_ref, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *dS_ref, double *u_trial_trace_ref, double *u_grad_trial_trace_ref, double *u_test_trace_ref, double *u_grad_test_trace_ref, double *normal_ref, double *boundaryJac_ref, int nElements_global, double useMetrics, double epsFactHeaviside, double epsFactDirac, double epsFactDiffusion, int *u_l2g, double *elementDiameter, double *nodeDiametersArray, double *u_dof, double *q_phi, double *q_normal_phi, double *q_H, double *q_porosity, double *elementJacobian_u_u, double *element_u, int eN)</argsstring>
+        <argsstring>(double *mesh_trial_ref, double *mesh_grad_trial_ref, double *mesh_dof, int *mesh_l2g, double *dV_ref, double *u_trial_ref, double *u_grad_trial_ref, double *u_test_ref, double *u_grad_test_ref, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *dS_ref, double *u_trial_trace_ref, double *u_grad_trial_trace_ref, double *u_test_trace_ref, double *u_grad_test_trace_ref, double *normal_ref, double *boundaryJac_ref, int nElements_global, double useMetrics, double epsFactHeaviside, double epsFactDirac, double epsFactDiffusion, int *u_l2g, double *elementDiameter, double *nodeDiametersArray, double *u_dof, double *q_phi, double *q_normal_phi, double *q_H, double *q_porosity, double *elementJacobian_u_u, double *element_u, const double *phi_solid, int eN)</argsstring>
         <name>calculateElementJacobian</name>
+        <qualifiedname>proteus::MCorr::calculateElementJacobian</qualifiedname>
         <param>
           <type>double *</type>
           <declname>mesh_trial_ref</declname>
@@ -500,6 +584,10 @@
           <declname>element_u</declname>
         </param>
         <param>
+          <type>const double *</type>
+          <declname>phi_solid</declname>
+        </param>
+        <param>
           <type>int</type>
           <declname>eN</declname>
         </param>
@@ -509,13 +597,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="467" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="467" bodyend="613"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="651" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="651" bodyend="800"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1a3d2b99a4d5c7c976cd6217aa25939ccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::MCorr::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a76aa51d2977c75863ceff94e2d9d7a6b">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -530,14 +619,16 @@
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
+<para>double gamma_v_dim = rho_0*(nu_0 + norm_v*h_cutfem + alphaBDF*h_cutfem*h_cutfem);</para>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="615" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="615" bodyend="723"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="802" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="802" bodyend="1061"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1ad4dcc4c1e0b25887f6fd8af94c928ca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::elementSolve</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>elementSolve</name>
+        <qualifiedname>proteus::MCorr::elementSolve</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1af95657e14a4865ff41910447b6089c4c">elementSolve</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -549,13 +640,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="724" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="724" bodyend="993"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="1062" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1062" bodyend="1353"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1a3f1a08a22519880693c9a42f26353f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::elementConstantSolve</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>elementConstantSolve</name>
+        <qualifiedname>proteus::MCorr::elementConstantSolve</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a45b214bf06e36a34ad280e034f13da09">elementConstantSolve</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -567,14 +659,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="994" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="994" bodyend="1220"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="1354" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1354" bodyend="1599"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1_m_corr_1a9f2795556f8e00bb5b425d477b8fb008" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classproteus_1_1_m_corr_1ad762ad4e71b320d5d3e579be8b097059" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::tuple&lt; double, double &gt;</type>
-        <definition>std::tuple&lt;double, double&gt; proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::globalConstantRJ</definition>
+        <definition>std::tuple&lt; double, double &gt; proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::globalConstantRJ</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>globalConstantRJ</name>
-        <reimplements refid="classproteus_1_1_m_corr__base_1aa84e9eacd32669c1ecbd262728abe765">globalConstantRJ</reimplements>
+        <qualifiedname>proteus::MCorr::globalConstantRJ</qualifiedname>
+        <reimplements refid="classproteus_1_1_m_corr__base_1a2260f84cef62301147d41b970609f462">globalConstantRJ</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
           <declname>args</declname>
@@ -585,13 +678,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="1222" column="18" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1222" bodyend="1378"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="1601" column="18" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1601" bodyend="1770"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1ab4b17402335a8814a7c8e7fa0b43b0b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>double</type>
         <definition>double proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateMass</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>calculateMass</name>
+        <qualifiedname>proteus::MCorr::calculateMass</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a5b85f47c721c8ba05b34dff682d54a2a">calculateMass</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -607,13 +701,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="1380" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1380" bodyend="1502"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="1772" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1772" bodyend="1901"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1a945652cd5dd04482c7d759be4fef286a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::setMassQuadrature</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>setMassQuadrature</name>
+        <qualifiedname>proteus::MCorr::setMassQuadrature</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a517ded50a027b99db8399de937299ca6">setMassQuadrature</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -629,13 +724,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="1504" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1504" bodyend="1637"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="1903" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1903" bodyend="2036"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1ac222246381c33145681fa90997b79d05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::FCTStep</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>FCTStep</name>
+        <qualifiedname>proteus::MCorr::FCTStep</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a9dca74e35ff11277eb7b2db35c5b6504">FCTStep</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -647,13 +743,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="1639" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1639" bodyend="1715"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="2038" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="2038" bodyend="2114"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1ae245d642ba2df18b37b661f9cddf33f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateElementMassMatrix</definition>
         <argsstring>(double *mesh_trial_ref, double *mesh_grad_trial_ref, double *mesh_dof, int *mesh_l2g, double *dV_ref, double *u_trial_ref, double *u_grad_trial_ref, double *u_test_ref, double *u_grad_test_ref, double *mesh_trial_trace_ref, double *mesh_grad_trial_trace_ref, double *dS_ref, double *u_trial_trace_ref, double *u_grad_trial_trace_ref, double *u_test_trace_ref, double *u_grad_test_trace_ref, double *normal_ref, double *boundaryJac_ref, int nElements_global, double useMetrics, double epsFactHeaviside, double epsFactDirac, double epsFactDiffusion, int *u_l2g, double *elementDiameter, double *nodeDiametersArray, double *u_dof, double *q_phi, double *q_normal_phi, double *q_H, double *q_porosity, double *elementMassMatrix, double *elementLumpedMassMatrix, double *element_u, int eN)</argsstring>
         <name>calculateElementMassMatrix</name>
+        <qualifiedname>proteus::MCorr::calculateElementMassMatrix</qualifiedname>
         <param>
           <type>double *</type>
           <declname>mesh_trial_ref</declname>
@@ -800,13 +897,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="1718" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1718" bodyend="1863"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="2117" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="2117" bodyend="2262"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1a2b31b1a33f3c3da6cc05c3b40ca88517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateMassMatrix</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateMassMatrix</name>
+        <qualifiedname>proteus::MCorr::calculateMassMatrix</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a2fa38ca9e7926158753e94a11e69e351">calculateMassMatrix</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -818,13 +916,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="1865" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1865" bodyend="1964"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="2264" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="2264" bodyend="2363"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_m_corr_1a5b1c1d435ae577c36064d08c6c9d0f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::setMassQuadratureEdgeBasedStabilizationMethods</definition>
         <argsstring>(arguments_dict &amp;args, bool useExact)</argsstring>
         <name>setMassQuadratureEdgeBasedStabilizationMethods</name>
+        <qualifiedname>proteus::MCorr::setMassQuadratureEdgeBasedStabilizationMethods</qualifiedname>
         <reimplements refid="classproteus_1_1_m_corr__base_1a45e659845db0b06a839cf7c8057cf002">setMassQuadratureEdgeBasedStabilizationMethods</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -840,33 +939,58 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="1966" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="1966" bodyend="2112"/>
+        <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="2365" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="2365" bodyend="2511"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>proteus::MCorr_base</label>
-        <link refid="classproteus_1_1_m_corr__base"/>
-      </node>
       <node id="1">
         <label>proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_m_corr"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>proteus::MCorr_base</label>
+        <link refid="classproteus_1_1_m_corr__base"/>
+      </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="5">
-        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</label>
+      <node id="7">
+        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, true &gt;&lt; nSpace, 2, nDOF_trial_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
       </node>
-      <node id="4">
-        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, 2, nDOF_trial_element, nQuadraturePoints_elementBoundary &gt;</label>
+      <node id="6">
+        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, true &gt;&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
+      </node>
+      <node id="8">
+        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, true &gt;&lt; nSpace, 4, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
+      </node>
+      <node id="1">
+        <label>proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1_m_corr"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>cutfem_boundaries</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>cutfem_local_boundaries</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>gf</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>gf_nodes</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>gf_s</edgelabel>
+        </childnode>
       </node>
       <node id="2">
         <label>proteus::MCorr_base</label>
@@ -877,32 +1001,28 @@
           <edgelabel>Rpos</edgelabel>
         </childnode>
       </node>
+      <node id="5">
+        <label>std::map&lt; int, int &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::set&lt; int &gt;</label>
+      </node>
       <node id="3">
         <label>std::valarray&lt; double &gt;</label>
       </node>
-      <node id="1">
-        <label>proteus::MCorr&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
-        <link refid="classproteus_1_1_m_corr"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-        <childnode refid="4" relation="usage">
-          <edgelabel>gf_nodes</edgelabel>
-        </childnode>
-        <childnode refid="5" relation="usage">
-          <edgelabel>gf</edgelabel>
-        </childnode>
-      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/MCorr.h" line="49" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/MCorr.h" bodystart="50" bodyend="2113"/>
+    <location file="/work/cekees/proteus/proteus/mprans/MCorr.h" line="58" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/MCorr.h" bodystart="59" bodyend="2512"/>
     <listofallmembers>
-      <member refid="classproteus_1_1_m_corr_1ab8825c8baf8a41d28d1925d12244a792" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>calculateElementJacobian</name></member>
+      <member refid="classproteus_1_1_m_corr_1a8fb3c9f0c58c920f2c74db91c5469dd1" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>calculateElementJacobian</name></member>
       <member refid="classproteus_1_1_m_corr_1ae245d642ba2df18b37b661f9cddf33f2" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>calculateElementMassMatrix</name></member>
-      <member refid="classproteus_1_1_m_corr_1a6eff98060ad29142057190fb54c45163" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>calculateElementResidual</name></member>
+      <member refid="classproteus_1_1_m_corr_1a1fc3ad193e4bd534c0f4908e2619c2e3" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>calculateElementResidual</name></member>
       <member refid="classproteus_1_1_m_corr_1a3d2b99a4d5c7c976cd6217aa25939ccd" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1_m_corr_1ab4b17402335a8814a7c8e7fa0b43b0b9" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>calculateMass</name></member>
       <member refid="classproteus_1_1_m_corr_1a2b31b1a33f3c3da6cc05c3b40ca88517" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>calculateMassMatrix</name></member>
       <member refid="classproteus_1_1_m_corr_1af7182a5dc8605c647ca40b14ec188393" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>calculateResidual</name></member>
       <member refid="classproteus_1_1_m_corr_1a19d6fbfa421b21e2bad2fd7dedecf2f1" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>ck</name></member>
+      <member refid="classproteus_1_1_m_corr_1afb5d4154550b724824cf56771f97a1c5" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>cutfem_boundaries</name></member>
+      <member refid="classproteus_1_1_m_corr_1a4887c0dafe81f04e07b64cd92ea2bef0" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>cutfem_local_boundaries</name></member>
       <member refid="classproteus_1_1_m_corr_1a3f1a08a22519880693c9a42f26353f41" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>elementConstantSolve</name></member>
       <member refid="classproteus_1_1_m_corr_1ad4dcc4c1e0b25887f6fd8af94c928ca6" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>elementSolve</name></member>
       <member refid="classproteus_1_1_m_corr_1a5638e7fe08d686ad53db2ea4ccec807b" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>evaluateCoefficients</name></member>
@@ -910,8 +1030,10 @@
       <member refid="classproteus_1_1_m_corr__base_1abf06b9bb4831491cb944ad99f0530be7" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>FluxCorrectionMatrix</name></member>
       <member refid="classproteus_1_1_m_corr_1a1a167da4647f6ccf58365fa03a68a9a7" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>gf</name></member>
       <member refid="classproteus_1_1_m_corr_1a5eca814ec383a050ebfce993de3cedc2" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>gf_nodes</name></member>
-      <member refid="classproteus_1_1_m_corr_1a9f2795556f8e00bb5b425d477b8fb008" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>globalConstantRJ</name></member>
+      <member refid="classproteus_1_1_m_corr_1a17fd88176d1f0a7966ecb085eb7e9598" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>gf_s</name></member>
+      <member refid="classproteus_1_1_m_corr_1ad762ad4e71b320d5d3e579be8b097059" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>globalConstantRJ</name></member>
       <member refid="classproteus_1_1_m_corr_1a59886621ff33796cc6be7057c0ee4d1a" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>MCorr</name></member>
+      <member refid="classproteus_1_1_m_corr_1af817025065d70571e87e731fbe41b394" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>nDOF_test_X_trial_element</name></member>
       <member refid="classproteus_1_1_m_corr__base_1a8f86799e797defa8ed64b9c2d209d853" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>Rneg</name></member>
       <member refid="classproteus_1_1_m_corr__base_1a0326304d15fad9a87b3921fe765b03d9" prot="public" virt="non-virtual"><scope>proteus::MCorr</scope><name>Rpos</name></member>
       <member refid="classproteus_1_1_m_corr_1a945652cd5dd04482c7d759be4fef286a" prot="public" virt="virtual"><scope>proteus::MCorr</scope><name>setMassQuadrature</name></member>

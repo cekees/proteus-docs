@@ -1,0 +1,953 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="850pt" height="1667pt" viewBox="0.00 0.00 850.00 1667.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1662.75)">
+<ns0:title>inheritancefebbebd6b5</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>AffineMaps</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.AffineMaps" ns1:title="AffineMaps" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="761.25,-20.75 690.5,-20.75 690.5,0 761.25,0 761.25,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AffineMaps</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ParametricMaps</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ParametricMaps" ns1:title="A class that calculates the element maps using the" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="483.12,-20.75 388.38,-20.75 388.38,0 483.12,0 483.12,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ParametricMaps</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ParametricMaps-&gt;AffineMaps</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M483.36,-10.38C538.92,-10.38 630.87,-10.38 683.85,-10.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="684.35,-12.13 689.35,-10.38 684.35,-8.63 684.35,-12.13" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>BernsteinOnCube</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.BernsteinOnCube" ns1:title="Bernstein polynomials on the unit nd-cube" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="486.12,-449.75 385.38,-449.75 385.38,-429 486.12,-429 486.12,-449.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-436.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BernsteinOnCube</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>LocalFunctionSpace</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.LocalFunctionSpace" ns1:title="Base class for low-dimensional spaces of functions" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="187,-254.75 75,-254.75 75,-234 187,-234 187,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LocalFunctionSpace</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;BernsteinOnCube</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M138.31,-254.92C157.66,-286.19 219.57,-378.69 298,-419.38 322.54,-432.11 352.7,-437.43 378.44,-439.43" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="379.02,-441.23 384.13,-439.82 379.26,-437.73 379.02,-441.23" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>BernsteinOnSimplex</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.BernsteinOnSimplex" ns1:title="Quadratic Bernstein polynomials on the unit nd-simplex." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="493.62,-410.75 377.88,-410.75 377.88,-390 493.62,-390 493.62,-410.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-397.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BernsteinOnSimplex</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;BernsteinOnSimplex</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M141.16,-255.13C164.34,-281.54 228.47,-349.68 298,-380.38 320.77,-390.43 347.54,-395.62 371.33,-398.24" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="371.72,-400.03 376.88,-398.8 372.08,-396.55 371.72,-400.03" />
+</ns0:g>
+
+<ns0:g id="node18" class="node">
+<ns0:title>CrouzeixRaviartWithNodalBasis</ns0:title>
+<ns0:g id="a_node18"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.CrouzeixRaviartWithNodalBasis" ns1:title="Crouzeix-Raviart element implemented as a Lagrange type element. That is, the" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="521.38,-371.75 350.12,-371.75 350.12,-351 521.38,-351 521.38,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CrouzeixRaviartWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge15" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;CrouzeixRaviartWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M146.17,-255.24C173.73,-275.76 237.2,-320.07 298,-341.38 312.39,-346.42 328.07,-350.19 343.5,-353.01" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="343.66,-354.82 348.89,-353.95 344.27,-351.37 343.66,-354.82" />
+</ns0:g>
+
+<ns0:g id="node44" class="node">
+<ns0:title>LagrangeOnCubeWithNodalBasis</ns0:title>
+<ns0:g id="a_node44"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.LagrangeOnCubeWithNodalBasis" ns1:title="Lagrange polynomials on the unit nd-cube with the nodal basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="524,-332.75 347.5,-332.75 347.5,-312 524,-312 524,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LagrangeOnCubeWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge32" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;LagrangeOnCubeWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M157.98,-255.2C190.27,-268.23 247.3,-289.93 298,-302.38 311.76,-305.75 326.45,-308.64 340.91,-311.07" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="341.13,-312.88 346.35,-311.97 341.7,-309.43 341.13,-312.88" />
+</ns0:g>
+
+<ns0:g id="node45" class="node">
+<ns0:title>LinearOnCubeWithNodalBasis</ns0:title>
+<ns0:g id="a_node45"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.LinearOnCubeWithNodalBasis" ns1:title="First order polynomials on the unit nd-cube with the nodal basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="516.5,-293.75 355,-293.75 355,-273 516.5,-273 516.5,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LinearOnCubeWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge33" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;LinearOnCubeWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M187.18,-251.48C232.17,-257.28 296.51,-265.57 348.32,-272.24" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="348.65,-274.05 353.83,-272.95 349.09,-270.58 348.65,-274.05" />
+</ns0:g>
+
+<ns0:g id="node46" class="node">
+<ns0:title>LinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node46"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.LinearOnSimplexWithNodalBasis" ns1:title="First order polynomials on the unit nd-simplex with the nodal basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="524,-254.75 347.5,-254.75 347.5,-234 524,-234 524,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LinearOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge34" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;LinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M187.18,-244.38C230.03,-244.38 290.44,-244.38 340.86,-244.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="341.52,-246.13 346.52,-244.38 341.52,-242.63 341.52,-246.13" />
+</ns0:g>
+
+<ns0:g id="node48" class="node">
+<ns0:title>Monomials</ns0:title>
+<ns0:g id="a_node48"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.Monomials" ns1:title="Monomials" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="470.75,-215.75 400.75,-215.75 400.75,-195 470.75,-195 470.75,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Monomials</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge36" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;Monomials</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M187.18,-237.27C247,-229.56 341.04,-217.45 394.35,-210.58" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="395.15,-212.24 399.89,-209.87 394.71,-208.77 395.15,-212.24" />
+</ns0:g>
+
+<ns0:g id="node54" class="node">
+<ns0:title>P1BubblesWithNodalBasis</ns0:title>
+<ns0:g id="a_node54"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.P1BubblesWithNodalBasis" ns1:title="First order polynomials on the unit nd-simplex with the nodal basis + bubble" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="507.88,-176.75 363.62,-176.75 363.62,-156 507.88,-156 507.88,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">P1BubblesWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge42" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;P1BubblesWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M157.98,-233.55C190.27,-220.52 247.3,-198.82 298,-186.38 316.92,-181.73 337.6,-178.02 357.02,-175.12" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="357.83,-176.77 362.53,-174.31 357.33,-173.3 357.83,-176.77" />
+</ns0:g>
+
+<ns0:g id="node56" class="node">
+<ns0:title>P1P0BubblesWithNodalBasis</ns0:title>
+<ns0:g id="a_node56"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.P1P0BubblesWithNodalBasis" ns1:title="First order polynomials on the unit nd-simplex with the nodal basis + dg bubble" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="513.88,-137.75 357.62,-137.75 357.62,-117 513.88,-117 513.88,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">P1P0BubblesWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge44" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;P1P0BubblesWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M146.17,-233.51C173.73,-212.99 237.2,-168.68 298,-147.38 314.78,-141.49 333.31,-137.34 351.17,-134.41" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="351.78,-136.09 356.45,-133.58 351.24,-132.63 351.78,-136.09" />
+</ns0:g>
+
+<ns0:g id="node61" class="node">
+<ns0:title>QuadraticOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node61"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.QuadraticOnSimplexWithNodalBasis" ns1:title="Quadratic polynomials on the unit nd-simplex with the nodal basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="532.62,-98.75 338.88,-98.75 338.88,-78 532.62,-78 532.62,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">QuadraticOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge50" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;QuadraticOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M141.16,-233.62C164.34,-207.21 228.47,-139.07 298,-108.38 308.84,-103.59 320.59,-99.9 332.49,-97.08" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="333.49,-98.64 337.99,-95.84 332.72,-95.23 333.49,-98.64" />
+</ns0:g>
+
+<ns0:g id="node67" class="node">
+<ns0:title>p0</ns0:title>
+<ns0:g id="a_node67"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.p0" ns1:title="p0" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="462.75,-59.75 408.75,-59.75 408.75,-39 462.75,-39 462.75,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">p0</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge53" class="edge">
+<ns0:title>LocalFunctionSpace-&gt;p0</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M138.31,-233.83C157.66,-202.56 219.57,-110.06 298,-69.38 330.57,-52.48 373.03,-48.63 401.94,-48.27" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="402.51,-50.02 407.5,-48.25 402.49,-46.52 402.51,-50.02" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>C0_AffineBernsteinOnCube</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineBernsteinOnCube" ns1:title="Bernstein CG space." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="509.38,-917.75 362.12,-917.75 362.12,-897 509.38,-897 509.38,-917.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-904.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineBernsteinOnCube</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>ParametricFiniteElementSpace</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ParametricFiniteElementSpace" ns1:title="Base class for spaces of functions defined by a set of finite" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="213.62,-702.75 48.38,-702.75 48.38,-682 213.62,-682 213.62,-702.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-689.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ParametricFiniteElementSpace</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;C0_AffineBernsteinOnCube</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M137.46,-703.15C155.25,-736.98 215.14,-841.53 298,-887.38 315.33,-896.97 335.71,-902.45 355.37,-905.48" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="355.77,-907.31 360.97,-906.27 356.26,-903.84 355.77,-907.31" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>C0_AffineQuadraticOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineQuadraticOnSimplexWithNodalBasis" ns1:title="A quadratic C0 space with the nodal basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="555.88,-878.75 315.62,-878.75 315.62,-858 555.88,-858 555.88,-878.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-865.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineQuadraticOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;C0_AffineQuadraticOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M139.51,-703C160.63,-731.98 223.92,-812.61 298,-848.38 303.67,-851.11 309.62,-853.5 315.72,-855.58" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="315.86,-857.46 321.16,-857.33 316.93,-854.13 315.86,-857.46" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>C0_AffineLagrangeOnCubeWithNodalBasis</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineLagrangeOnCubeWithNodalBasis" ns1:title="The standard linear CG space." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="547.25,-839.75 324.25,-839.75 324.25,-819 547.25,-819 547.25,-839.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-826.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineLagrangeOnCubeWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;C0_AffineLagrangeOnCubeWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M142.95,-702.97C168.03,-726.53 232.5,-783.25 298,-809.38 305.37,-812.32 313.12,-814.83 321.02,-816.98" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="321.08,-818.8 326.36,-818.36 321.96,-815.41 321.08,-818.8" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>C0_AffineLinearOnCubeWithNodalBasis</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineLinearOnCubeWithNodalBasis" ns1:title="The standard linear CG space." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="539.75,-800.75 331.75,-800.75 331.75,-780 539.75,-780 539.75,-800.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-787.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineLinearOnCubeWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;C0_AffineLinearOnCubeWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M150.21,-703.13C180.02,-720.23 241.59,-753.4 298,-770.38 308.18,-773.44 318.93,-776.04 329.75,-778.25" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="330.14,-780.11 335.39,-779.36 330.82,-776.67 330.14,-780.11" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>C0_AffineLinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineLinearOnSimplexWithNodalBasis" ns1:title="The standard linear CG space." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="547.25,-761.75 324.25,-761.75 324.25,-741 547.25,-741 547.25,-761.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-748.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineLinearOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;C0_AffineLinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M173.75,-703.23C207.19,-711.67 255.39,-723.27 298,-731.38 313.5,-734.32 330.07,-737.08 346.12,-739.54" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="346.53,-741.37 351.74,-740.39 347.06,-737.91 346.53,-741.37" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>C0_AffineP1BubbleOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineP1BubbleOnSimplexWithNodalBasis" ns1:title="C0P1 enriched with bubble functions" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="555.12,-722.75 316.38,-722.75 316.38,-702 555.12,-702 555.12,-722.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-709.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineP1BubbleOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;C0_AffineP1BubbleOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M213.93,-697.79C243.4,-699.73 277.35,-701.98 309.65,-704.11" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="310.23,-705.9 315.34,-704.49 310.46,-702.41 310.23,-705.9" />
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>C0_AffineP1P0BubbleOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineP1P0BubbleOnSimplexWithNodalBasis" ns1:title="TODO set output to take advantage of nodal information" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="561.12,-683.75 310.38,-683.75 310.38,-663 561.12,-663 561.12,-683.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-670.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineP1P0BubbleOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;C0_AffineP1P0BubbleOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M213.93,-687.23C241.56,-685.5 273.13,-683.52 303.59,-681.61" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="304.43,-683.31 309.31,-681.25 304.21,-679.81 304.43,-683.31" />
+</ns0:g>
+
+<ns0:g id="node21" class="node">
+<ns0:title>DG_AffineLinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node21"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineLinearOnSimplexWithNodalBasis" ns1:title="A linear DG space with the nodal basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="548.38,-644.75 323.12,-644.75 323.12,-624 548.38,-624 548.38,-644.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-631.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineLinearOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge17" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;DG_AffineLinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M175.14,-681.5C208.53,-673.33 256.01,-662.24 298,-654.38 313.86,-651.41 330.82,-648.62 347.21,-646.12" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="347.79,-647.8 352.47,-645.32 347.27,-644.34 347.79,-647.8" />
+</ns0:g>
+
+<ns0:g id="node23" class="node">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node23"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffinePolynomialsOnSimplexWithMonomialBasis" ns1:title="DG_AffinePolynomialsOnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="573.5,-605.75 298,-605.75 298,-585 573.5,-585 573.5,-605.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-592.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffinePolynomialsOnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge25" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;DG_AffinePolynomialsOnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M150.23,-681.77C180.07,-664.9 241.68,-632.17 298,-615.38 308.38,-612.28 319.35,-609.66 330.38,-607.43" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="331.2,-609.05 335.77,-606.38 330.53,-605.62 331.2,-609.05" />
+</ns0:g>
+
+<ns0:g id="node30" class="node">
+<ns0:title>DG_AffineQuadraticOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node30"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineQuadraticOnSimplexWithNodalBasis" ns1:title="A quadratic DG space with the nodal basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="557,-566.75 314.5,-566.75 314.5,-546 557,-546 557,-566.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-553.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineQuadraticOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge26" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;DG_AffineQuadraticOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M143.35,-681.52C168.73,-657.96 232.96,-602.17 298,-576.38 305.38,-573.45 313.13,-570.95 321.04,-568.81" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="321.97,-570.37 326.38,-567.43 321.1,-566.98 321.97,-570.37" />
+</ns0:g>
+
+<ns0:g id="node31" class="node">
+<ns0:title>DG_Constants</ns0:title>
+<ns0:g id="a_node31"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_Constants" ns1:title="The constant DG space" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="478.25,-527.75 393.25,-527.75 393.25,-507 478.25,-507 478.25,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_Constants</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge27" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;DG_Constants</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M139.52,-681.82C160.7,-653.03 224.09,-572.91 298,-537.38 325.43,-524.19 359.24,-519.16 386.39,-517.44" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="387.13,-519.15 392.02,-517.13 386.93,-515.66 387.13,-519.15" />
+</ns0:g>
+
+<ns0:g id="node50" class="node">
+<ns0:title>NC_AffineLinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:g id="a_node50"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.NC_AffineLinearOnSimplexWithNodalBasis" ns1:title="Space of functions that are P^1 on elements and continuous at" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="548,-488.75 323.5,-488.75 323.5,-468 548,-468 548,-488.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-475.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NC_AffineLinearOnSimplexWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge37" class="edge">
+<ns0:title>ParametricFiniteElementSpace-&gt;NC_AffineLinearOnSimplexWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M137.48,-681.65C155.31,-648 215.33,-543.98 298,-498.38 304.03,-495.05 310.43,-492.21 317.04,-489.81" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="318.28,-491.23 322.45,-487.96 317.15,-487.92 318.28,-491.23" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>C0_AffineBernsteinOnSimplex</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_AffineBernsteinOnSimplex" ns1:title="A quadratic C0 space with Bernstein basis." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="807,-878.75 644.75,-878.75 644.75,-858 807,-858 807,-878.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-865.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_AffineBernsteinOnSimplex</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>C0_AffineQuadraticOnSimplexWithNodalBasis-&gt;C0_AffineBernsteinOnSimplex</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M556.02,-868.38C583.42,-868.38 612.06,-868.38 637.8,-868.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="638.52,-870.13 643.52,-868.38 638.52,-866.63 638.52,-870.13" />
+</ns0:g>
+
+<ns0:g id="node43" class="node">
+<ns0:title>LagrangeCubeOrderN</ns0:title>
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="786,-839.75 665.75,-839.75 665.75,-819 786,-819 786,-839.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-826.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LagrangeCubeOrderN</ns0:text>
+</ns0:g>
+
+<ns0:g id="edge31" class="edge">
+<ns0:title>C0_AffineLagrangeOnCubeWithNodalBasis-&gt;LagrangeCubeOrderN</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M547.73,-829.38C585.34,-829.38 626.11,-829.38 659.06,-829.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="659.78,-831.13 664.78,-829.38 659.78,-827.63 659.78,-831.13" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>C0_BernsteinOnCube</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_BernsteinOnCube" ns1:title="The standard linear CG space." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="785.25,-800.75 666.5,-800.75 666.5,-780 785.25,-780 785.25,-800.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-787.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_BernsteinOnCube</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>C0_AffineLinearOnSimplexWithNodalBasis-&gt;C0_BernsteinOnCube</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M517.01,-762.24C561.99,-768.33 617.37,-775.82 659.65,-781.55" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="660.12,-783.38 665.31,-782.31 660.59,-779.91 660.12,-783.38" />
+</ns0:g>
+
+<ns0:g id="node16" class="node">
+<ns0:title>C0_LagrangeOnCubeWithNodalBasis</ns0:title>
+<ns0:g id="a_node16"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_LagrangeOnCubeWithNodalBasis" ns1:title="The standard linear CG space." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="823.12,-761.75 628.62,-761.75 628.62,-741 823.12,-741 823.12,-761.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-748.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_LagrangeOnCubeWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>C0_AffineLinearOnSimplexWithNodalBasis-&gt;C0_LagrangeOnCubeWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M547.73,-751.38C572.18,-751.38 597.97,-751.38 622.08,-751.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="622.74,-753.13 627.74,-751.38 622.74,-749.63 622.74,-753.13" />
+</ns0:g>
+
+<ns0:g id="node17" class="node">
+<ns0:title>C0_LinearOnCubeWithNodalBasis</ns0:title>
+<ns0:g id="a_node17"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.C0_LinearOnCubeWithNodalBasis" ns1:title="The standard linear CG space." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="815.62,-722.75 636.12,-722.75 636.12,-702 815.62,-702 815.62,-722.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-709.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">C0_LinearOnCubeWithNodalBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge14" class="edge">
+<ns0:title>C0_AffineLinearOnSimplexWithNodalBasis-&gt;C0_LinearOnCubeWithNodalBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M517.01,-740.51C554.78,-735.4 599.89,-729.29 638.42,-724.08" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="639.08,-725.75 643.8,-723.35 638.61,-722.29 639.08,-725.75" />
+</ns0:g>
+
+<ns0:g id="node19" class="node">
+<ns0:title>CubeNodalInterpolationConditions</ns0:title>
+<ns0:g id="a_node19"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.CubeNodalInterpolationConditions" ns1:title="CubeNodalInterpolationConditions" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="817.5,-1229.75 634.25,-1229.75 634.25,-1209 817.5,-1209 817.5,-1229.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-1216.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">CubeNodalInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node20" class="node">
+<ns0:title>NodalInterpolationConditions</ns0:title>
+<ns0:g id="a_node20"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.NodalInterpolationConditions" ns1:title="Obtains the DOF from the function values at the nodes" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="515,-1229.75 356.5,-1229.75 356.5,-1209 515,-1209 515,-1229.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1216.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NodalInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge16" class="edge">
+<ns0:title>NodalInterpolationConditions-&gt;CubeNodalInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M515.48,-1219.38C550.13,-1219.38 591.18,-1219.38 627.71,-1219.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="628.25,-1221.13 633.25,-1219.38 628.25,-1217.63 628.25,-1221.13" />
+</ns0:g>
+
+<ns0:g id="node22" class="node">
+<ns0:title>DG_AffineP0_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node22"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineP0_OnSimplexWithMonomialBasis" ns1:title="DG_AffineP0_OnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="842.25,-683.75 609.5,-683.75 609.5,-663 842.25,-663 842.25,-683.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-670.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineP0_OnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge18" class="edge">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis-&gt;DG_AffineP0_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M551.27,-606.16C558.98,-608.69 566.47,-611.73 573.5,-615.38 594.15,-626.09 589,-642.38 609.5,-653.38 614.5,-656.06 619.78,-658.39 625.22,-660.42" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="625.17,-662.26 630.47,-662.26 626.33,-658.95 625.17,-662.26" />
+</ns0:g>
+
+<ns0:g id="node24" class="node">
+<ns0:title>DG_AffineP1_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node24"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineP1_OnSimplexWithMonomialBasis" ns1:title="DG_AffineP1_OnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="842.25,-644.75 609.5,-644.75 609.5,-624 842.25,-624 842.25,-644.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-631.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineP1_OnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge19" class="edge">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis-&gt;DG_AffineP1_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M517.01,-606.24C554.78,-611.35 599.89,-617.46 638.42,-622.67" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="638.61,-624.46 643.8,-623.4 639.08,-621 638.61,-624.46" />
+</ns0:g>
+
+<ns0:g id="node25" class="node">
+<ns0:title>DG_AffineP2_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node25"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineP2_OnSimplexWithMonomialBasis" ns1:title="DG_AffineP2_OnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="842.25,-605.75 609.5,-605.75 609.5,-585 842.25,-585 842.25,-605.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-592.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineP2_OnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge20" class="edge">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis-&gt;DG_AffineP2_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M573.64,-595.38C583.41,-595.38 593.22,-595.38 602.89,-595.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="603.47,-597.13 608.47,-595.38 603.47,-593.63 603.47,-597.13" />
+</ns0:g>
+
+<ns0:g id="node26" class="node">
+<ns0:title>DG_AffineP3_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node26"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineP3_OnSimplexWithMonomialBasis" ns1:title="DG_AffineP3_OnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="842.25,-566.75 609.5,-566.75 609.5,-546 842.25,-546 842.25,-566.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-553.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineP3_OnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge21" class="edge">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis-&gt;DG_AffineP3_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M517.01,-584.51C554.78,-579.4 599.89,-573.29 638.42,-568.08" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="639.08,-569.75 643.8,-567.35 638.61,-566.29 639.08,-569.75" />
+</ns0:g>
+
+<ns0:g id="node27" class="node">
+<ns0:title>DG_AffineP4_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node27"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineP4_OnSimplexWithMonomialBasis" ns1:title="DG_AffineP4_OnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="842.25,-527.75 609.5,-527.75 609.5,-507 842.25,-507 842.25,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineP4_OnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge22" class="edge">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis-&gt;DG_AffineP4_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M551.27,-584.59C558.98,-582.06 566.47,-579.02 573.5,-575.38 594.15,-564.66 589,-548.37 609.5,-537.38 614.5,-534.69 619.78,-532.36 625.22,-530.33" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="626.33,-531.8 630.47,-528.49 625.17,-528.49 626.33,-531.8" />
+</ns0:g>
+
+<ns0:g id="node28" class="node">
+<ns0:title>DG_AffineP5_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node28"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineP5_OnSimplexWithMonomialBasis" ns1:title="DG_AffineP5_OnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="842.25,-488.75 609.5,-488.75 609.5,-468 842.25,-468 842.25,-488.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-475.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineP5_OnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge23" class="edge">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis-&gt;DG_AffineP5_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M558.08,-584.65C563.51,-582.02 568.69,-578.95 573.5,-575.38 603.82,-552.83 579.48,-521.31 609.5,-498.38 612.57,-496.03 615.83,-493.92 619.22,-492.02" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="620.34,-493.41 623.98,-489.57 618.74,-490.3 620.34,-493.41" />
+</ns0:g>
+
+<ns0:g id="node29" class="node">
+<ns0:title>DG_AffineP6_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:g id="a_node29"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DG_AffineP6_OnSimplexWithMonomialBasis" ns1:title="DG_AffineP6_OnSimplexWithMonomialBasis" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="842.25,-449.75 609.5,-449.75 609.5,-429 842.25,-429 842.25,-449.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="725.88" y="-436.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DG_AffineP6_OnSimplexWithMonomialBasis</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge24" class="edge">
+<ns0:title>DG_AffinePolynomialsOnSimplexWithMonomialBasis-&gt;DG_AffineP6_OnSimplexWithMonomialBasis</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M560.28,-584.57C564.96,-581.93 569.4,-578.88 573.5,-575.38 614.52,-540.29 568.94,-495 609.5,-459.38 612.03,-457.15 614.71,-455.13 617.53,-453.3" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="618.67,-454.66 622.06,-450.59 616.87,-451.65 618.67,-454.66" />
+</ns0:g>
+
+<ns0:g id="node32" class="node">
+<ns0:title>DOFBoundaryConditions</ns0:title>
+<ns0:g id="a_node32"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DOFBoundaryConditions" ns1:title="A class for generating the set of DOF that are replaced by" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="198.62,-1161.75 63.38,-1161.75 63.38,-1141 198.62,-1141 198.62,-1161.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1148.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOFBoundaryConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node33" class="node">
+<ns0:title>DOFBoundaryConditions_alt</ns0:title>
+<ns0:g id="a_node33"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DOFBoundaryConditions_alt" ns1:title="A class for generating the set of DOF that are replaced by" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="207.62,-1297.75 54.38,-1297.75 54.38,-1277 207.62,-1277 207.62,-1297.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1284.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOFBoundaryConditions_alt</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node34" class="node">
+<ns0:title>DOFMap</ns0:title>
+<ns0:g id="a_node34"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DOFMap" ns1:title="Base class for integer mappings between local degrees of freedom" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="160,-1385.75 102,-1385.75 102,-1365 160,-1365 160,-1385.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1372.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node35" class="node">
+<ns0:title>DiscontinuousGalerkinDOFMap</ns0:title>
+<ns0:g id="a_node35"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.DiscontinuousGalerkinDOFMap" ns1:title="A DOF map to use with discontinuous Galerkin spaces, which have" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="519.88,-1502.75 351.62,-1502.75 351.62,-1482 519.88,-1482 519.88,-1502.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1489.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DiscontinuousGalerkinDOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge28" class="edge">
+<ns0:title>DOFMap-&gt;DiscontinuousGalerkinDOFMap</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M160.27,-1372.49C188.75,-1371.1 232.58,-1373.33 262,-1395.38 292.23,-1418.03 267.68,-1449.83 298,-1472.38 311.63,-1482.51 328.19,-1488.57 345,-1492.03" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="345.22,-1493.85 350.46,-1493.05 345.87,-1490.41 345.22,-1493.85" />
+</ns0:g>
+
+<ns0:g id="node36" class="node">
+<ns0:title>ElementBoundaryDOFMap</ns0:title>
+<ns0:g id="a_node36"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ElementBoundaryDOFMap" ns1:title="The mapping that associates a local degree of freedom number" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="508.25,-1463.75 363.25,-1463.75 363.25,-1443 508.25,-1443 508.25,-1463.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1450.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ElementBoundaryDOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge29" class="edge">
+<ns0:title>DOFMap-&gt;ElementBoundaryDOFMap</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M160.26,-1374.56C187.75,-1374.92 229.94,-1378.58 262,-1395.38 282.61,-1406.17 277.35,-1422.66 298,-1433.38 315.77,-1442.6 336.5,-1447.94 356.35,-1450.94" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="356.82,-1452.77 362.01,-1451.73 357.3,-1449.31 356.82,-1452.77" />
+</ns0:g>
+
+<ns0:g id="node51" class="node">
+<ns0:title>NodalDOFMap</ns0:title>
+<ns0:g id="a_node51"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.NodalDOFMap" ns1:title="The mapping that associates a local degree of freedom number" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="479,-1424.75 392.5,-1424.75 392.5,-1404 479,-1404 479,-1424.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1411.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NodalDOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge38" class="edge">
+<ns0:title>DOFMap-&gt;NodalDOFMap</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M160.48,-1379.04C212.14,-1385.7 321.84,-1399.83 385.74,-1408.06" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="386.23,-1409.89 391.41,-1408.79 386.68,-1406.42 386.23,-1409.89" />
+</ns0:g>
+
+<ns0:g id="node52" class="node">
+<ns0:title>P1BubbleDOFMap</ns0:title>
+<ns0:g id="a_node52"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.P1BubbleDOFMap" ns1:title="DOF mapping for Lagrange P1 + bubble finite element functions on" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="487.62,-1385.75 383.88,-1385.75 383.88,-1365 487.62,-1365 487.62,-1385.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1372.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">P1BubbleDOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge40" class="edge">
+<ns0:title>DOFMap-&gt;P1BubbleDOFMap</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M160.48,-1375.38C209.96,-1375.38 312.7,-1375.38 377.43,-1375.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="377.81,-1377.13 382.81,-1375.38 377.81,-1373.63 377.81,-1377.13" />
+</ns0:g>
+
+<ns0:g id="node57" class="node">
+<ns0:title>QuadraticLagrangeCubeDOFMap</ns0:title>
+<ns0:g id="a_node57"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.QuadraticLagrangeCubeDOFMap" ns1:title="DOF mapping for quadratic lagrange finite element functions on" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="523.25,-1346.75 348.25,-1346.75 348.25,-1326 523.25,-1326 523.25,-1346.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1333.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">QuadraticLagrangeCubeDOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge46" class="edge">
+<ns0:title>DOFMap-&gt;QuadraticLagrangeCubeDOFMap</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M160.48,-1371.71C202.11,-1366.34 281.42,-1356.13 344.09,-1348.05" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="345,-1349.7 349.74,-1347.33 344.55,-1346.23 345,-1349.7" />
+</ns0:g>
+
+<ns0:g id="node59" class="node">
+<ns0:title>QuadraticLagrangeDOFMap</ns0:title>
+<ns0:g id="a_node59"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.QuadraticLagrangeDOFMap" ns1:title="DOF mapping for quadratic lagrange finite element functions on" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="510.88,-1307.75 360.62,-1307.75 360.62,-1287 510.88,-1287 510.88,-1307.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1294.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">QuadraticLagrangeDOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge48" class="edge">
+<ns0:title>DOFMap-&gt;QuadraticLagrangeDOFMap</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M157.98,-1364.55C190.27,-1351.52 247.3,-1329.82 298,-1317.38 316,-1312.96 335.6,-1309.38 354.18,-1306.55" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="355.01,-1308.19 359.69,-1305.72 354.49,-1304.73 355.01,-1308.19" />
+</ns0:g>
+
+<ns0:g id="node68" class="node">
+<ns0:title>p0DOFMap</ns0:title>
+<ns0:g id="a_node68"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.p0DOFMap" ns1:title="p0DOFMap" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="470.75,-1268.75 400.75,-1268.75 400.75,-1248 470.75,-1248 470.75,-1268.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1255.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">p0DOFMap</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge54" class="edge">
+<ns0:title>DOFMap-&gt;p0DOFMap</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M155.22,-1364.56C181.77,-1351.86 226.18,-1329.56 262,-1306.38 279.02,-1295.36 279.36,-1286.33 298,-1278.38 328.57,-1265.34 366.1,-1260.55 394.1,-1258.91" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="394.63,-1260.63 399.53,-1258.62 394.45,-1257.14 394.63,-1260.63" />
+</ns0:g>
+
+<ns0:g id="node37" class="node">
+<ns0:title>ElementMaps</ns0:title>
+<ns0:g id="a_node37"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ElementMaps" ns1:title="Base class for a set of real number vector fields that map a reference" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="172.38,-20.75 89.62,-20.75 89.62,0 172.38,0 172.38,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ElementMaps</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge45" class="edge">
+<ns0:title>ElementMaps-&gt;ParametricMaps</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M172.83,-10.38C226.87,-10.38 322.23,-10.38 381.77,-10.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="382.37,-12.13 387.37,-10.38 382.37,-8.63 382.37,-12.13" />
+</ns0:g>
+
+<ns0:g id="node38" class="node">
+<ns0:title>FaceBarycenterInterpolationConditions</ns0:title>
+<ns0:g id="a_node38"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.FaceBarycenterInterpolationConditions" ns1:title="Obtains the DOF from the function values at the barycenter of faces" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="538.25,-1190.75 333.25,-1190.75 333.25,-1170 538.25,-1170 538.25,-1190.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1177.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FaceBarycenterInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node39" class="node">
+<ns0:title>InterpolationConditions</ns0:title>
+<ns0:g id="a_node39"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.InterpolationConditions" ns1:title="Base class for generalized interpolation conditions" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="196,-1092.75 66,-1092.75 66,-1072 196,-1072 196,-1092.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1079.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge39" class="edge">
+<ns0:title>InterpolationConditions-&gt;NodalInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M183.7,-1093.19C209.56,-1100.7 239.96,-1112.95 262,-1132.38 287.36,-1154.73 270.32,-1179.97 298,-1199.38 313.18,-1210.02 331.65,-1216.06 350.05,-1219.3" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="350.32,-1221.12 355.53,-1220.18 350.87,-1217.66 350.32,-1221.12" />
+</ns0:g>
+
+<ns0:g id="edge30" class="edge">
+<ns0:title>InterpolationConditions-&gt;FaceBarycenterInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M168.59,-1093.24C195.37,-1101.95 232.1,-1115.49 262,-1132.38 279.65,-1142.34 279.36,-1152.42 298,-1160.38 307.14,-1164.27 316.9,-1167.43 326.84,-1169.99" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="327.04,-1171.84 332.31,-1171.33 327.87,-1168.44 327.04,-1171.84" />
+</ns0:g>
+
+<ns0:g id="node47" class="node">
+<ns0:title>MonomialInterpolationConditions</ns0:title>
+<ns0:g id="a_node47"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.MonomialInterpolationConditions" ns1:title="MonomialInterpolationConditions" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="525.12,-1151.75 346.38,-1151.75 346.38,-1131 525.12,-1131 525.12,-1151.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1138.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MonomialInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge35" class="edge">
+<ns0:title>InterpolationConditions-&gt;MonomialInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M173.75,-1093.23C207.19,-1101.67 255.39,-1113.27 298,-1121.38 313.5,-1124.32 330.07,-1127.08 346.12,-1129.54" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="346.53,-1131.37 351.74,-1130.39 347.06,-1127.91 346.53,-1131.37" />
+</ns0:g>
+
+<ns0:g id="node53" class="node">
+<ns0:title>P1BubbleInterpolationConditions</ns0:title>
+<ns0:g id="a_node53"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.P1BubbleInterpolationConditions" ns1:title="Interpolation conditions for space P1 enriched with bubbles" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="523.62,-1112.75 347.88,-1112.75 347.88,-1092 523.62,-1092 523.62,-1112.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1099.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">P1BubbleInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge41" class="edge">
+<ns0:title>InterpolationConditions-&gt;P1BubbleInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M196.21,-1086.62C238.32,-1089.4 294.08,-1093.08 341.1,-1096.19" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="341.52,-1097.97 346.62,-1096.55 341.75,-1094.48 341.52,-1097.97" />
+</ns0:g>
+
+<ns0:g id="node55" class="node">
+<ns0:title>P1P0BubbleInterpolationConditions</ns0:title>
+<ns0:g id="a_node55"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.P1P0BubbleInterpolationConditions" ns1:title="P1P0BubbleInterpolationConditions" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="529.62,-1073.75 341.88,-1073.75 341.88,-1053 529.62,-1053 529.62,-1073.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1060.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">P1P0BubbleInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge43" class="edge">
+<ns0:title>InterpolationConditions-&gt;P1P0BubbleInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M196.21,-1078.35C236.57,-1075.81 289.48,-1072.49 335.22,-1069.62" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="335.98,-1071.33 340.86,-1069.27 335.76,-1067.83 335.98,-1071.33" />
+</ns0:g>
+
+<ns0:g id="node58" class="node">
+<ns0:title>QuadraticLagrangeCubeNodalInterpolationConditions</ns0:title>
+<ns0:g id="a_node58"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.QuadraticLagrangeCubeNodalInterpolationConditions" ns1:title="Obtains the DOF from the function values at vertices and" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="573.5,-1034.75 298,-1034.75 298,-1014 573.5,-1014 573.5,-1034.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1021.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">QuadraticLagrangeCubeNodalInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge47" class="edge">
+<ns0:title>InterpolationConditions-&gt;QuadraticLagrangeCubeNodalInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M175.14,-1071.5C208.53,-1063.33 256.01,-1052.24 298,-1044.38 313.86,-1041.41 330.82,-1038.62 347.21,-1036.12" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="347.79,-1037.8 352.47,-1035.32 347.27,-1034.34 347.79,-1037.8" />
+</ns0:g>
+
+<ns0:g id="node60" class="node">
+<ns0:title>QuadraticLagrangeNodalInterpolationConditions</ns0:title>
+<ns0:g id="a_node60"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.QuadraticLagrangeNodalInterpolationConditions" ns1:title="Obtains the DOF from the function values at vertices and" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="561.12,-995.75 310.38,-995.75 310.38,-975 561.12,-975 561.12,-995.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-982.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">QuadraticLagrangeNodalInterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge49" class="edge">
+<ns0:title>InterpolationConditions-&gt;QuadraticLagrangeNodalInterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M150.23,-1071.77C180.07,-1054.9 241.68,-1022.17 298,-1005.38 308.38,-1002.28 319.35,-999.66 330.38,-997.43" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="331.2,-999.05 335.77,-996.38 330.53,-995.62 331.2,-999.05" />
+</ns0:g>
+
+<ns0:g id="node69" class="node">
+<ns0:title>p0InterpolationConditions</ns0:title>
+<ns0:g id="a_node69"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.p0InterpolationConditions" ns1:title="p0InterpolationConditions" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="506.75,-956.75 364.75,-956.75 364.75,-936 506.75,-936 506.75,-956.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-943.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">p0InterpolationConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge55" class="edge">
+<ns0:title>InterpolationConditions-&gt;p0InterpolationConditions</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M143.35,-1071.52C168.73,-1047.96 232.96,-992.17 298,-966.38 316.72,-958.95 337.86,-954.25 357.82,-951.27" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="358.8,-952.9 363.51,-950.47 358.31,-949.44 358.8,-952.9" />
+</ns0:g>
+
+<ns0:g id="node40" class="node">
+<ns0:title>FiniteElementFunction</ns0:title>
+<ns0:g id="a_node40"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.FiniteElementFunction" ns1:title="A member of a finite element space of scalar functions." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="193.38,-1424.75 68.62,-1424.75 68.62,-1404 193.38,-1404 193.38,-1424.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1411.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FiniteElementFunction</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node41" class="node">
+<ns0:title>FluxBoundaryConditions</ns0:title>
+<ns0:g id="a_node41"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.FluxBoundaryConditions" ns1:title="Generating class for the fluxBoundaryConditions dictionaries." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="198.62,-1463.75 63.38,-1463.75 63.38,-1443 198.62,-1443 198.62,-1463.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1450.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FluxBoundaryConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node42" class="node">
+<ns0:title>FluxBoundaryConditionsGlobalElementBoundaries</ns0:title>
+<ns0:g id="a_node42"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.FluxBoundaryConditionsGlobalElementBoundaries" ns1:title="mwf original version that sets indeces based on all element boundaries" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="262,-1502.75 0,-1502.75 0,-1482 262,-1482 262,-1502.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1489.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">FluxBoundaryConditionsGlobalElementBoundaries</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node49" class="node">
+<ns0:title>MultilevelProjectionOperators</ns0:title>
+<ns0:g id="a_node49"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.MultilevelProjectionOperators" ns1:title="A class that takes a hierarchical (multiLevel) mesh and generates" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="211.75,-1541.75 50.25,-1541.75 50.25,-1521 211.75,-1521 211.75,-1541.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1528.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MultilevelProjectionOperators</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node62" class="node">
+<ns0:title>ReferenceCube</ns0:title>
+<ns0:g id="a_node62"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ReferenceCube" ns1:title="The unit cube in :math:`R^n, n&lt;=3`" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="480.88,-1600.75 390.62,-1600.75 390.62,-1580 480.88,-1580 480.88,-1600.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1587.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ReferenceCube</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node63" class="node">
+<ns0:title>ReferenceElement</ns0:title>
+<ns0:g id="a_node63"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ReferenceElement" ns1:title="A base class for simple domains on which" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="184,-1580.75 78,-1580.75 78,-1560 184,-1560 184,-1580.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1567.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ReferenceElement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge51" class="edge">
+<ns0:title>ReferenceElement-&gt;ReferenceCube</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M184.39,-1573.84C240.45,-1577.54 328.76,-1583.37 384.13,-1587.03" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="384.52,-1588.81 389.62,-1587.39 384.75,-1585.32 384.52,-1588.81" />
+</ns0:g>
+
+<ns0:g id="node65" class="node">
+<ns0:title>ReferenceSimplex</ns0:title>
+<ns0:g id="a_node65"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ReferenceSimplex" ns1:title="The unit simplex in :math:`R^n, n&lt;=3`" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="488.38,-1561.75 383.12,-1561.75 383.12,-1541 488.38,-1541 488.38,-1561.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="435.75" y="-1548.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ReferenceSimplex</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge52" class="edge">
+<ns0:title>ReferenceElement-&gt;ReferenceSimplex</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M184.39,-1567.09C237.92,-1563.73 320.86,-1558.52 376.45,-1555.03" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="377.11,-1556.75 381.99,-1554.69 376.89,-1553.25 377.11,-1556.75" />
+</ns0:g>
+
+<ns0:g id="node64" class="node">
+<ns0:title>ReferenceFiniteElement</ns0:title>
+<ns0:g id="a_node64"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.ReferenceFiniteElement" ns1:title="The geometric element, local function space, and interpolation" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="197.5,-1619.75 64.5,-1619.75 64.5,-1599 197.5,-1599 197.5,-1619.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1606.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ReferenceFiniteElement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node66" class="node">
+<ns0:title>StressBoundaryConditions</ns0:title>
+<ns0:g id="a_node66"><ns0:a ns1:href="../api/proteus.FemTools.html#proteus.FemTools.StressBoundaryConditions" ns1:title="A class for generating the list of element boundaries" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="203.12,-1658.75 58.88,-1658.75 58.88,-1638 203.12,-1638 203.12,-1658.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="131" y="-1645.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">StressBoundaryConditions</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

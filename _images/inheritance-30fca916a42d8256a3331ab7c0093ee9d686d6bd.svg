@@ -1,0 +1,29 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="270pt" height="29pt" viewBox="0.00 0.00 270.00 29.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24.75)">
+<ns0:title>inheritancec5d8c8cc17</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>ADR.SubgridError</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.ADR.html#proteus.ADR.SubgridError" ns1:title="SubgridError approximation for ADR equations" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="262.25,-20.75 162.25,-20.75 162.25,0 262.25,0 262.25,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="212.25" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ADR.SubgridError</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>SubgridError.SGE_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.SubgridError.html#proteus.SubgridError.SGE_base" ns1:title="SubgridError.SGE_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="126.25,-20.75 0,-20.75 0,0 126.25,0 126.25,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="63.12" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SubgridError.SGE_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>SubgridError.SGE_base-&gt;ADR.SubgridError</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M126.52,-10.38C136.19,-10.38 146.13,-10.38 155.64,-10.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="156.39,-12.13 161.39,-10.38 156.39,-8.63 156.39,-12.13" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

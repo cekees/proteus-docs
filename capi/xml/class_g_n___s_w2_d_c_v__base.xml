@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="class_g_n___s_w2_d_c_v__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>GN_SW2DCV_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1_g_n___s_w2_d_c_v" prot="public" virt="non-virtual">proteus::GN_SW2DCV&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_g_n___s_w2_d_c_v_8h" local="no">/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1ac6e00955095da826c07d5a65e419776c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::GN_SW2DCV_base::~GN_SW2DCV_base</definition>
+        <argsstring>()</argsstring>
+        <name>~GN_SW2DCV_base</name>
+        <qualifiedname>GN_SW2DCV_base::~GN_SW2DCV_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="100" column="11" bodyfile="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1a5b33d4c88a7e4b3dd541b5f70f916315" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::GN_SW2DCV_base::convexLimiting</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>convexLimiting</name>
+        <qualifiedname>GN_SW2DCV_base::convexLimiting</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="101" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1a5e49a5b0ce82c1c95134f8d188e9818d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double proteus::GN_SW2DCV_base::calculateEdgeBasedCFL</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateEdgeBasedCFL</name>
+        <qualifiedname>GN_SW2DCV_base::calculateEdgeBasedCFL</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="102" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1a96c8d36742bb4fc5afa1ce02116ae219" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::GN_SW2DCV_base::calculatePreStep</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculatePreStep</name>
+        <qualifiedname>GN_SW2DCV_base::calculatePreStep</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="103" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1a1ac43fccfb24332a85000fc2e53c0749" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::GN_SW2DCV_base::calculateEV</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateEV</name>
+        <qualifiedname>GN_SW2DCV_base::calculateEV</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="104" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1a466bcea3f26e99528f4637a26fab8a17" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::GN_SW2DCV_base::calculateBoundsAndHighOrderRHS</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateBoundsAndHighOrderRHS</name>
+        <qualifiedname>GN_SW2DCV_base::calculateBoundsAndHighOrderRHS</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="105" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1a92156b52499e59979bf4a6d64c8e9a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::GN_SW2DCV_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>GN_SW2DCV_base::calculateResidual</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="106" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1adc06967c3986dc25591598de03d840b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::GN_SW2DCV_base::calculateMassMatrix</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateMassMatrix</name>
+        <qualifiedname>GN_SW2DCV_base::calculateMassMatrix</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="107" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_n___s_w2_d_c_v__base_1a365f88a8453ae8e07310eace89a1059c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::GN_SW2DCV_base::calculateLumpedMassMatrix</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateLumpedMassMatrix</name>
+        <qualifiedname>GN_SW2DCV_base::calculateLumpedMassMatrix</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="108" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GN_SW2DCV_base</label>
+        <link refid="class_g_n___s_w2_d_c_v__base"/>
+      </node>
+      <node id="2">
+        <label>proteus::GN_SW2DCV&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1_g_n___s_w2_d_c_v"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" line="98" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/GN_SW2DCV.h" bodystart="98" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_g_n___s_w2_d_c_v__base_1a466bcea3f26e99528f4637a26fab8a17" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>calculateBoundsAndHighOrderRHS</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1a5e49a5b0ce82c1c95134f8d188e9818d" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>calculateEdgeBasedCFL</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1a1ac43fccfb24332a85000fc2e53c0749" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>calculateEV</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1a365f88a8453ae8e07310eace89a1059c" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>calculateLumpedMassMatrix</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1adc06967c3986dc25591598de03d840b1" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>calculateMassMatrix</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1a96c8d36742bb4fc5afa1ce02116ae219" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>calculatePreStep</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1a92156b52499e59979bf4a6d64c8e9a06" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>calculateResidual</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1a5b33d4c88a7e4b3dd541b5f70f916315" prot="public" virt="pure-virtual"><scope>GN_SW2DCV_base</scope><name>convexLimiting</name></member>
+      <member refid="class_g_n___s_w2_d_c_v__base_1ac6e00955095da826c07d5a65e419776c" prot="public" virt="virtual"><scope>GN_SW2DCV_base</scope><name>~GN_SW2DCV_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="mcdp_8h" kind="file" language="C++">
     <compoundname>mcdp.h</compoundname>
     <includedby refid="_elasto_plastic_8h" local="yes">ElastoPlastic.h</includedby>
     <invincdepgraph>
-      <node id="1">
-        <label>mcdp.h</label>
-        <link refid="mcdp_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>cElastoPlastic.cpp</label>
-        <link refid="c_elasto_plastic_8cpp"/>
-      </node>
       <node id="2">
         <label>ElastoPlastic.h</label>
         <link refid="_elasto_plastic_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
+      <node id="3">
+        <label>cElastoPlastic.cpp</label>
+        <link refid="c_elasto_plastic_8cpp"/>
+      </node>
+      <node id="1">
+        <label>mcdp.h</label>
+        <link refid="mcdp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
     </invincdepgraph>
-      <sectiondef kind="func">
+    <sectiondef kind="func">
       <memberdef kind="function" id="mcdp_8h_1a614eafa80f09ae3c88dd4d7be33cb596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void mcdp</definition>
@@ -73,16 +73,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/mcdp.h" line="2" column="13" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/mcdp.h" bodystart="2" bodyend="451"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/mcdp.h" line="2" column="13" bodyfile="/work/cekees/proteus/proteus/elastoplastic/mcdp.h" bodystart="2" bodyend="451"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2" refid="mcdp_8h_1a614eafa80f09ae3c88dd4d7be33cb596" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mcdp_8h_1a614eafa80f09ae3c88dd4d7be33cb596" kindref="member">mcdp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" kindref="member">c</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>stress,<sp/></highlight><highlight class="comment">//inputs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="mcdp_8h_1a614eafa80f09ae3c88dd4d7be33cb596" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="mcdp_8h_1a614eafa80f09ae3c88dd4d7be33cb596" kindref="member">mcdp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="jf_8h_1a63f410abde93141c9013b7d3f3971738" kindref="member">c</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>stress,<sp/></highlight><highlight class="comment">//inputs</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/><ref refid="group__analytical_solutions_1ga31fe0a5e02da8c2ed2761f3aabf86e0d" kindref="member">df</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>g,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/><ref refid="_headers_8h_1a51d5468d74b4eccfb8e26ea458562120" kindref="member">r</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>dr,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>stress_3)<sp/></highlight><highlight class="comment">//outputs</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSymTen=6,sXX=0,sYY=1,sZZ=2,sYZ=3,sZY=3,sXZ=4,sZX=4,sXY=5,sYX=5;</highlight></codeline>
@@ -293,7 +293,7 @@
 <codeline lineno="210"><highlight class="normal"></highlight></codeline>
 <codeline lineno="211"><highlight class="normal"><sp/><sp/>stress_3<sp/>=<sp/>sqrt(2)*sqrt(targ)*sin(-asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/><ref refid="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" kindref="member">s</ref>*sqrt(3)/3;</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref><sp/>=<sp/>-<ref refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" kindref="member">c</ref>*cos(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)<sp/>+<sp/>sqrt(2)*sqrt(targ)*(sqrt(3)*cos(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3<sp/>+<sp/>sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3)/2<sp/>+<sp/><ref refid="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" kindref="member">s</ref>*sqrt(3)*sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)/3;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><ref refid="_headers_8h_1a760cfab91ff5a05317014c341a24853f" kindref="member">f</ref><sp/>=<sp/>-<ref refid="jf_8h_1a63f410abde93141c9013b7d3f3971738" kindref="member">c</ref>*cos(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)<sp/>+<sp/>sqrt(2)*sqrt(targ)*(sqrt(3)*cos(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3<sp/>+<sp/>sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3)/2<sp/>+<sp/><ref refid="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" kindref="member">s</ref>*sqrt(3)*sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)/3;</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/>df_dtmp[SKEY]<sp/>=<sp/>sqrt(3)*sin(<ref refid="_headers_8h_1ace0097aceb19d2d05a51f5d244573c4f" kindref="member">phi</ref>)/3;</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"></highlight></codeline>
@@ -313,7 +313,7 @@
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
 <codeline lineno="231"><highlight class="normal"><sp/><sp/><ref refid="group__analytical_solutions_1ga31fe0a5e02da8c2ed2761f3aabf86e0d" kindref="member">df</ref>[sXY]<sp/>=<sp/>df_dtmp[SKEY]*ds[sXY]<sp/>+<sp/>df_dtmp[TARGKEY]*dtarg[sXY]<sp/>+<sp/>df_dtmp[J3KEY]*dJ3[sXY];</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/>g<sp/>=<sp/>-2*<ref refid="_headers_8h_1aa0903c8c48f55ad539ee4e47f2d020ba" kindref="member">c</ref>*sqrt(3)*cos(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)/(3<sp/>+<sp/>sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>))<sp/>+<sp/>2*sqrt(3)*(-sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3<sp/>-<sp/>sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/>sqrt(2)*sqrt(targ)*sin(-asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/><ref refid="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" kindref="member">s</ref>*sqrt(3))*sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)/(3*(3<sp/>+<sp/>sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)))<sp/>+<sp/>sqrt(pow(-sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3<sp/>-<sp/>sqrt(2)*sqrt(targ)*sin(-asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3,<sp/>2)/6<sp/>+<sp/>pow(-sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/>sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3,<sp/>2)/6<sp/>+<sp/>pow(sqrt(2)*sqrt(targ)*sin(-asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/>sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3,<sp/>2)/6);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/>g<sp/>=<sp/>-2*<ref refid="jf_8h_1a63f410abde93141c9013b7d3f3971738" kindref="member">c</ref>*sqrt(3)*cos(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)/(3<sp/>+<sp/>sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>))<sp/>+<sp/>2*sqrt(3)*(-sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3<sp/>-<sp/>sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/>sqrt(2)*sqrt(targ)*sin(-asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/><ref refid="_headers_8h_1a7cbe4dbecea8b00e5845e24579f6036d" kindref="member">s</ref>*sqrt(3))*sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)/(3*(3<sp/>+<sp/>sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)))<sp/>+<sp/>sqrt(pow(-sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3<sp/>-<sp/>sqrt(2)*sqrt(targ)*sin(-asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3,<sp/>2)/6<sp/>+<sp/>pow(-sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/>sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3)/3,<sp/>2)/6<sp/>+<sp/>pow(sqrt(2)*sqrt(targ)*sin(-asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3<sp/>+<sp/>sqrt(2)*sqrt(targ)*sin(asin(27*J3*sqrt(2)/pow(targ,<sp/>3.0/2.0))/3<sp/>+<sp/>2*M_PI/3)/3,<sp/>2)/6);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
 <codeline lineno="235"><highlight class="normal"><sp/><sp/>dg_dtmp[SKEY]<sp/>=<sp/>2*sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>)/(3<sp/>+<sp/>sin(<ref refid="_headers_8h_1acf2aa06bc881a993584c334b2b7c6e03" kindref="member">psi</ref>));</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
@@ -533,6 +533,6 @@
 <codeline lineno="450"><highlight class="normal"></highlight></codeline>
 <codeline lineno="451"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/elastoplastic/mcdp.h"/>
+    <location file="/work/cekees/proteus/proteus/elastoplastic/mcdp.h"/>
   </compounddef>
 </doxygen>

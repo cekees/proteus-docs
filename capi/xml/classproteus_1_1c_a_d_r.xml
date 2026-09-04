@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1c_a_d_r" kind="class" language="C++" prot="public">
     <compoundname>proteus::cADR</compoundname>
     <basecompoundref refid="classproteus_1_1c_a_d_r__base" prot="public" virt="non-virtual">proteus::cADR_base</basecompoundref>
-    <includes refid="_a_d_r_8h" local="no">/Users/cekees/proteus/proteus/ADR.h</includes>
+    <includes refid="_a_d_r_8h" local="no">/work/cekees/proteus/proteus/ADR.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,144 +39,305 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a2f5e5191ca7e18f9d3a4f0eba61cbc27" prot="public" static="no" mutable="no">
-        <type>std::set&lt; int &gt;</type>
-        <definition>std::set&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ifem_boundaries</definition>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classproteus_1_1c_a_d_r_1afa0393c4d05eb801b75333341eb0a01f" prot="public" static="no">
+        <type><ref refid="namespaceproteus_1a0c308272715853e7a4fe11c6efdd25f4" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, nDOF_trial_element, 4, nQuadraturePoints_element, nDOF_mesh_trial_element *nQuadraturePoints_elementBoundary &gt;</type>
+        <definition>using proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::GfType = GeneralizedFunctions&lt;nSpace, nDOF_trial_element, 4, nQuadraturePoints_element, nDOF_mesh_trial_element * nQuadraturePoints_elementBoundary&gt;</definition>
         <argsstring></argsstring>
-        <name>ifem_boundaries</name>
+        <name>GfType</name>
+        <qualifiedname>proteus::cADR::GfType</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="40" column="14" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="40" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="50" column="1" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a2f5e5191ca7e18f9d3a4f0eba61cbc27" prot="public" static="no" mutable="no">
+        <type>std::set&lt; int &gt;</type>
+        <definition>std::set&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ifem_boundaries</definition>
+        <argsstring></argsstring>
+        <name>ifem_boundaries</name>
+        <qualifiedname>proteus::cADR::ifem_boundaries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="41" column="10" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a503f547baa5728ef59a4709306cade67" prot="public" static="no" mutable="no">
         <type>std::set&lt; int &gt;</type>
         <definition>std::set&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ifem_boundary_elements</definition>
         <argsstring></argsstring>
         <name>ifem_boundary_elements</name>
+        <qualifiedname>proteus::cADR::ifem_boundary_elements</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="40" column="30" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="40" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="41" column="26" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1ac410bbc601ff706a5179d67414bf8330" prot="public" static="no" mutable="no">
         <type>std::set&lt; int &gt;</type>
         <definition>std::set&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cutfem_boundaries</definition>
         <argsstring></argsstring>
         <name>cutfem_boundaries</name>
+        <qualifiedname>proteus::cADR::cutfem_boundaries</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="41" column="7" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="41" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="42" column="1" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a7012807628c4aa581d03cf9b6e0ac2ec" prot="public" static="no" mutable="no">
         <type>std::set&lt; int &gt;</type>
         <definition>std::set&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cutfem_boundary_elements</definition>
         <argsstring></argsstring>
         <name>cutfem_boundary_elements</name>
+        <qualifiedname>proteus::cADR::cutfem_boundary_elements</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="41" column="25" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="41" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="42" column="19" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a7b2567bf1b9137fe6651cf4409f5b75f" prot="public" static="no" mutable="no">
         <type>std::valarray&lt; bool &gt;</type>
         <definition>std::valarray&lt;bool&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::elementIsActive</definition>
         <argsstring></argsstring>
         <name>elementIsActive</name>
+        <qualifiedname>proteus::cADR::elementIsActive</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="42" column="19" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="42" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="43" column="15" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a44ccd30cb4b8f19c2cfece20663f9c5c" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
         <argsstring></argsstring>
         <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::cADR::nDOF_test_X_trial_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="43" column="15" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="43" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="44" column="11" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a3bb76a168b4d52bec8572d0dc741dd1a" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::cADR::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="44" column="20" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="44" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="45" column="16" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="45" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a5563bd9219415c1cd04277d5c5c7d421" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceproteus_1ac61dbf98c43ac13d15c02ba156dc2ef3" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 3, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
-        <definition>GeneralizedFunctions&lt;nSpace,3,nQuadraturePoints_element,nQuadraturePoints_elementBoundary&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf</definition>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1afd601fc8eb672d983d6cce8e0e09c25d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classproteus_1_1c_a_d_r_1afa0393c4d05eb801b75333341eb0a01f" kindref="member">GfType</ref> &gt;</type>
+        <definition>std::vector&lt;GfType&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_f_cache</definition>
         <argsstring></argsstring>
-        <name>gf</name>
+        <name>gf_f_cache</name>
+        <qualifiedname>proteus::cADR::gf_f_cache</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="45" column="26" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="45" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="66" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="66" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1ad0547ed4043b189fb8eeab07594e8035" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceproteus_1ac61dbf98c43ac13d15c02ba156dc2ef3" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 3, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
-        <definition>GeneralizedFunctions&lt;nSpace,3,nQuadraturePoints_element,nQuadraturePoints_elementBoundary&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_s</definition>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a2782ee7728feda905c84161754eed45c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classproteus_1_1c_a_d_r_1afa0393c4d05eb801b75333341eb0a01f" kindref="member">GfType</ref> &gt;</type>
+        <definition>std::vector&lt;GfType&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_s_cache</definition>
         <argsstring></argsstring>
-        <name>gf_s</name>
+        <name>gf_s_cache</name>
+        <qualifiedname>proteus::cADR::gf_s_cache</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="46" column="26" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="46" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="66" column="24" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="66" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a0a667c6230dab96dc0abdaf97b94d8a0" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_s_interior_gen</definition>
+        <argsstring></argsstring>
+        <name>gf_s_interior_gen</name>
+        <qualifiedname>proteus::cADR::gf_s_interior_gen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="67" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1ad3ed1abc73999d637ce157c08958bc74" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_f_interior_gen</definition>
+        <argsstring></argsstring>
+        <name>gf_f_interior_gen</name>
+        <qualifiedname>proteus::cADR::gf_f_interior_gen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="67" column="31" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a95ed6047a5a925f2119d65dd57f04de7" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_f_boundary_gen</definition>
+        <argsstring></argsstring>
+        <name>gf_f_boundary_gen</name>
+        <qualifiedname>proteus::cADR::gf_f_boundary_gen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="67" column="49" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a19e8f4f071fc0141de8d2e3ab6086471" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_s_interior_icase</definition>
+        <argsstring></argsstring>
+        <name>gf_s_interior_icase</name>
+        <qualifiedname>proteus::cADR::gf_s_interior_icase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="68" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a98038ab5bc0261cb9060a4b5094bfc9f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_f_interior_icase</definition>
+        <argsstring></argsstring>
+        <name>gf_f_interior_icase</name>
+        <qualifiedname>proteus::cADR::gf_f_interior_icase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="68" column="33" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1aad41e6e2c15317605ce4213e794f29ef" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_f_boundary_icase</definition>
+        <argsstring></argsstring>
+        <name>gf_f_boundary_icase</name>
+        <qualifiedname>proteus::cADR::gf_f_boundary_icase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="68" column="53" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a73535015dc6b0e7576edf8062dd746a6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ifemGeometryGeneration</definition>
+        <argsstring></argsstring>
+        <name>ifemGeometryGeneration</name>
+        <qualifiedname>proteus::cADR::ifemGeometryGeneration</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="69" column="5" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classproteus_1_1c_a_d_r_1a2456f4a40890c6e3b3109264ce46a327" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nP_edge</definition>
+        <argsstring></argsstring>
+        <name>nP_edge</name>
+        <qualifiedname>proteus::cADR::nP_edge</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="54" column="18" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a93b20e529d57aa2cc0252135bdeb5b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cADR</definition>
         <argsstring>()</argsstring>
         <name>cADR</name>
+        <qualifiedname>proteus::cADR::cADR</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="47" column="5" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="47" bodyend="48"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="70" column="1" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a645d0b7675b8a4417ac50521576fffbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ensureIFEMCacheSized</definition>
+        <argsstring>(int nElements_global)</argsstring>
+        <name>ensureIFEMCacheSized</name>
+        <qualifiedname>proteus::cADR::ensureIFEMCacheSized</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nElements_global</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="73" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="73" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a07956ab045055611f75a8ca2c28c8fc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalDiffusiveFlux</definition>
         <argsstring>(int *rowptr, int *colind, const int &amp;isDOFBoundary, const int &amp;isDiffusiveFluxBoundary, const double n[nSpace], double *bc_a, const double &amp;bc_u, const double &amp;bc_flux, double *a, const double grad_potential[nSpace], const double &amp;u, const double &amp;penalty, double &amp;flux)</argsstring>
         <name>exteriorNumericalDiffusiveFlux</name>
+        <qualifiedname>proteus::cADR::exteriorNumericalDiffusiveFlux</qualifiedname>
         <param>
           <type>int *</type>
           <declname>rowptr</declname>
@@ -237,13 +398,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="56" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="56" bodyend="99"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="91" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="91" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1ac97a4d95e35a67302104ab2d1af9b42d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ExteriorNumericalDiffusiveFluxJacobian</definition>
         <argsstring>(int *rowptr, int *colind, const int &amp;isDOFBoundary, const int &amp;isDiffusiveFluxBoundary, const double n[nSpace], double *a, const double &amp;v, const double grad_v[nSpace], const double &amp;penalty)</argsstring>
         <name>ExteriorNumericalDiffusiveFluxJacobian</name>
+        <qualifiedname>proteus::cADR::ExteriorNumericalDiffusiveFluxJacobian</qualifiedname>
         <param>
           <type>int *</type>
           <declname>rowptr</declname>
@@ -288,13 +450,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="102" column="12" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="102" bodyend="130"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="136" column="15" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="136" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a3d413e329d09cab00bff74bc866b38ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;elementDiameter, const double &amp;dmt, const double dH[nSpace], double &amp;cfl, double &amp;tau)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::cADR::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>elementDiameter</declname>
@@ -322,13 +485,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="133" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="133" bodyend="150"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="166" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="166" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a0c1949faef4fe729b64051b5f4f04639" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;Ct_sge, const double G[nSpace *nSpace], const double &amp;A0, const double Ai[nSpace], double &amp;tau_v, double &amp;cfl)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::cADR::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>Ct_sge</declname>
@@ -361,13 +525,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="153" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="153" bodyend="165"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="185" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="185" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1abb65cd4246f79a2003d2b72a4b952a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateNumericalDiffusion</definition>
         <argsstring>(const double &amp;shockCapturingDiffusion, const double &amp;elementDiameter, const double &amp;strong_residual, const double grad_u[nSpace], double &amp;numDiff)</argsstring>
         <name>calculateNumericalDiffusion</name>
+        <qualifiedname>proteus::cADR::calculateNumericalDiffusion</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>shockCapturingDiffusion</declname>
@@ -395,13 +560,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="168" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="168" bodyend="185"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="199" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="199" bodyend="216"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1afbd6855b5dfe06a79e9c99f140140d8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFlux</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isFluxBoundary_u, const double n[nSpace], const double &amp;bc_u, const double &amp;bc_flux_u, const double &amp;u, const double velocity[nSpace], double &amp;flux)</argsstring>
         <name>exteriorNumericalAdvectiveFlux</name>
+        <qualifiedname>proteus::cADR::exteriorNumericalAdvectiveFlux</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -442,13 +608,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="188" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="188" bodyend="231"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="218" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="218" bodyend="260"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a6aa48efde7035bd33e9d76ac4e5b72bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFluxDerivative</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isFluxBoundary_u, const double n[nSpace], const double velocity[nSpace], double &amp;dflux)</argsstring>
         <name>exteriorNumericalAdvectiveFluxDerivative</name>
+        <qualifiedname>proteus::cADR::exteriorNumericalAdvectiveFluxDerivative</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -477,13 +644,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="234" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="234" bodyend="269"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="262" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="262" bodyend="297"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a3830b0617ed4e9f831f269f549f8361c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1ac2ddf9723abd4adac8dfec3cb043e85e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::updateEmbeddedBoundaryTerms</definition>
-        <argsstring>(const double embeddedBoundary_penalty, const double dV, double *embeddedBoundary_normal, const double u_s, const double u, const double grad_u[nSpace], const double a, double &amp;r, double &amp;dr, double &amp;ham, double *dham, double *f, double *df)</argsstring>
+        <argsstring>(const double embeddedBoundary_penalty, const double dV, double *embeddedBoundary_normal, const double u_s, const double u, const double grad_u[nSpace], const double a, double &amp;r, double &amp;dr, double &amp;ham, double *dham, double *f, double *df, const double D_s)</argsstring>
         <name>updateEmbeddedBoundaryTerms</name>
+        <qualifiedname>proteus::cADR::updateEmbeddedBoundaryTerms</qualifiedname>
         <param>
           <type>const double</type>
           <declname>embeddedBoundary_penalty</declname>
@@ -537,19 +705,119 @@
           <type>double *</type>
           <declname>df</declname>
         </param>
+        <param>
+          <type>const double</type>
+          <declname>D_s</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="271" column="17" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="271" bodyend="305"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="299" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="299" bodyend="333"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1aaac74774a85b7b679b34fa15aa7945da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a01dccc693e527bec4984f2a92275b032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::updateImmersedBoundaryTerms</definition>
+        <argsstring>(const double immersedBoundary_penalty, const double dV, double *immersedBoundary_normal, double x, double y, double z, const double u_s, const double u, const double grad_u[nSpace], const double a, double &amp;r, double &amp;dr, double &amp;ham, double *dham, double *f, double *df, const double fluxJump, const double *fluxJumpVector, const double D_f)</argsstring>
+        <name>updateImmersedBoundaryTerms</name>
+        <qualifiedname>proteus::cADR::updateImmersedBoundaryTerms</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>immersedBoundary_penalty</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>dV</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>immersedBoundary_normal</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>u_s</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>grad_u</declname>
+          <array>[nSpace]</array>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>ham</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>dham</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>df</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>fluxJump</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>fluxJumpVector</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>D_f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="335" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="335" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a8c7bd9608361c40ca3b61a122f8ead14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateElementResidual</definition>
-        <argsstring>(xt::pyarray&lt; double &gt; &amp;mesh_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_dof, xt::pyarray&lt; int &gt; &amp;mesh_l2g, xt::pyarray&lt; double &gt; &amp;x_ref, xt::pyarray&lt; double &gt; &amp;dV_ref, xt::pyarray&lt; double &gt; &amp;u_trial_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;u_test_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_ref, xt::pyarray&lt; double &gt; &amp;elementDiameter, xt::pyarray&lt; double &gt; &amp;elementBoundaryDiameter, xt::pyarray&lt; double &gt; &amp;nodeDiametersArray, xt::pyarray&lt; double &gt; &amp;cfl, double Ct_sge, double sc_uref, double sc_alpha, double useMetrics, xt::pyarray&lt; double &gt; &amp;mesh_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;dS_ref, xt::pyarray&lt; double &gt; &amp;u_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_test_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_trace_ref, xt::pyarray&lt; double &gt; &amp;normal_ref, xt::pyarray&lt; double &gt; &amp;boundaryJac_ref, int nElements_global, int nElementBoundaries_owned, xt::pyarray&lt; int &gt; &amp;u_l2g, xt::pyarray&lt; double &gt; &amp;u_dof, xt::pyarray&lt; int &gt; &amp;sd_rowptr, xt::pyarray&lt; int &gt; &amp;sd_colind, xt::pyarray&lt; double &gt; &amp;q_a, xt::pyarray&lt; double &gt; &amp;q_v, xt::pyarray&lt; double &gt; &amp;q_r, int lag_shockCapturingDiffusion, double shockCapturingDiffusion, xt::pyarray&lt; double &gt; &amp;q_numDiff_u, xt::pyarray&lt; double &gt; &amp;q_numDiff_u_last, int offset_u, int stride_u, xt::pyarray&lt; double &gt; &amp;elementResidual_u, int nExteriorElementBoundaries_global, xt::pyarray&lt; int &gt; &amp;exteriorElementBoundariesArray, xt::pyarray&lt; int &gt; &amp;elementBoundariesArray, xt::pyarray&lt; int &gt; &amp;elementBoundaryElementsArray, xt::pyarray&lt; int &gt; &amp;elementBoundaryLocalElementBoundariesArray, xt::pyarray&lt; double &gt; &amp;element_u, int eN, const bool embeddedBoundary, const double embeddedBoundary_penalty, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_normal_q, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_u_q, bool &amp;element_active, std::valarray&lt; bool &gt; &amp;elementIsActive)</argsstring>
+        <argsstring>(int icase_f, xt::pyarray&lt; double &gt; &amp;mesh_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_dof, xt::pyarray&lt; int &gt; &amp;mesh_l2g, xt::pyarray&lt; double &gt; &amp;x_ref, xt::pyarray&lt; double &gt; &amp;dV_ref, xt::pyarray&lt; double &gt; &amp;u_trial_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;u_test_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_ref, xt::pyarray&lt; double &gt; &amp;elementDiameter, xt::pyarray&lt; double &gt; &amp;elementBoundaryDiameter, xt::pyarray&lt; double &gt; &amp;nodeDiametersArray, xt::pyarray&lt; double &gt; &amp;cfl, double Ct_sge, double sc_uref, double sc_alpha, double useMetrics, xt::pyarray&lt; double &gt; &amp;mesh_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;dS_ref, xt::pyarray&lt; double &gt; &amp;u_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_test_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_trace_ref, xt::pyarray&lt; double &gt; &amp;normal_ref, xt::pyarray&lt; double &gt; &amp;boundaryJac_ref, int nElements_global, int nElementBoundaries_owned, xt::pyarray&lt; int &gt; &amp;u_l2g, xt::pyarray&lt; double &gt; &amp;u_dof, xt::pyarray&lt; int &gt; &amp;sd_rowptr, xt::pyarray&lt; int &gt; &amp;sd_colind, xt::pyarray&lt; double &gt; &amp;q_a, xt::pyarray&lt; double &gt; &amp;q_v, xt::pyarray&lt; double &gt; &amp;q_r, int lag_shockCapturingDiffusion, double shockCapturingDiffusion, xt::pyarray&lt; double &gt; &amp;q_numDiff_u, xt::pyarray&lt; double &gt; &amp;q_numDiff_u_last, int offset_u, int stride_u, xt::pyarray&lt; double &gt; &amp;elementResidual_u, int nExteriorElementBoundaries_global, xt::pyarray&lt; int &gt; &amp;exteriorElementBoundariesArray, xt::pyarray&lt; int &gt; &amp;elementBoundariesArray, xt::pyarray&lt; int &gt; &amp;elementBoundaryElementsArray, xt::pyarray&lt; int &gt; &amp;elementBoundaryLocalElementBoundariesArray, xt::pyarray&lt; double &gt; &amp;element_u, int eN, const bool embeddedBoundary, const double embeddedBoundary_penalty, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_normal_q, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_u_q, const bool immersedBoundary, const double immersedBoundary_penalty, xt::pyarray&lt; double &gt; &amp;immersedBoundary_sdf_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_normal_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_u_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_fluxJump_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_fluxJumpVector_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_solutionJump_nodes, double *element_phi_f, bool &amp;element_active, std::valarray&lt; bool &gt; &amp;elementIsActive, double *JA, double *JB, double &amp;L2_error, double &amp;Linfty_error, double mua, double mub, xt::pyarray&lt; double &gt; &amp;q_u_exact_inner, xt::pyarray&lt; double &gt; &amp;q_u_exact_outer, const bool PG)</argsstring>
         <name>calculateElementResidual</name>
+        <qualifiedname>proteus::cADR::calculateElementResidual</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>icase_f</declname>
+        </param>
         <param>
           <type>xt::pyarray&lt; double &gt; &amp;</type>
           <declname>mesh_trial_ref</declname>
@@ -767,6 +1035,42 @@
           <declname>embeddedBoundary_u_q</declname>
         </param>
         <param>
+          <type>const bool</type>
+          <declname>immersedBoundary</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>immersedBoundary_penalty</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_sdf_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_normal_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_u_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_fluxJump_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_fluxJumpVector_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_solutionJump_nodes</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>element_phi_f</declname>
+        </param>
+        <param>
           <type>bool &amp;</type>
           <declname>element_active</declname>
         </param>
@@ -774,19 +1078,56 @@
           <type>std::valarray&lt; bool &gt; &amp;</type>
           <declname>elementIsActive</declname>
         </param>
+        <param>
+          <type>double *</type>
+          <declname>JA</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>JB</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>L2_error</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Linfty_error</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mua</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mub</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>q_u_exact_inner</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>q_u_exact_outer</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>PG</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="307" column="17" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="307" bodyend="577"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="394" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="394" bodyend="922"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1ae7de58f6447443d50265f27d43c426a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::cADR::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1c_a_d_r__base_1a2ade9d7bdca597fd49c83011b6f2c64c">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -798,13 +1139,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="579" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="579" bodyend="1076"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="924" column="6" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="924" bodyend="1815"/>
       </memberdef>
-      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a1b64a693d02a71f5b11e2bd6f0ee5b98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classproteus_1_1c_a_d_r_1a93039c7b6195ef8fb3b8e17c8fd9ce55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateElementJacobian</definition>
-        <argsstring>(xt::pyarray&lt; double &gt; &amp;mesh_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_dof, xt::pyarray&lt; int &gt; &amp;mesh_l2g, xt::pyarray&lt; double &gt; &amp;x_ref, xt::pyarray&lt; double &gt; &amp;dV_ref, xt::pyarray&lt; double &gt; &amp;u_trial_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;u_test_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_ref, xt::pyarray&lt; double &gt; &amp;elementDiameter, xt::pyarray&lt; double &gt; &amp;elementBoundaryDiameter, xt::pyarray&lt; double &gt; &amp;nodeDiametersArray, xt::pyarray&lt; double &gt; &amp;cfl, double Ct_sge, double sc_uref, double sc_alpha, double useMetrics, xt::pyarray&lt; double &gt; &amp;mesh_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;dS_ref, xt::pyarray&lt; double &gt; &amp;u_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_test_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_trace_ref, xt::pyarray&lt; double &gt; &amp;normal_ref, xt::pyarray&lt; double &gt; &amp;boundaryJac_ref, int nElements_global, int nElementBoundaries_owned, xt::pyarray&lt; int &gt; &amp;u_l2g, xt::pyarray&lt; double &gt; &amp;u_dof, xt::pyarray&lt; int &gt; &amp;sd_rowptr, xt::pyarray&lt; int &gt; &amp;sd_colind, xt::pyarray&lt; double &gt; &amp;q_a, xt::pyarray&lt; double &gt; &amp;q_v, xt::pyarray&lt; double &gt; &amp;q_r, int lag_shockCapturing, double shockCapturingDiffusion, xt::pyarray&lt; double &gt; &amp;q_numDiff_u, xt::pyarray&lt; double &gt; &amp;q_numDiff_u_last, xt::pyarray&lt; double &gt; &amp;elementJacobian_u_u, xt::pyarray&lt; double &gt; &amp;element_u, int eN, const bool embeddedBoundary, const double embeddedBoundary_penalty, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_normal_q, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_u_q)</argsstring>
+        <argsstring>(int icase_f, xt::pyarray&lt; double &gt; &amp;mesh_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;mesh_dof, xt::pyarray&lt; int &gt; &amp;mesh_l2g, xt::pyarray&lt; double &gt; &amp;x_ref, xt::pyarray&lt; double &gt; &amp;dV_ref, xt::pyarray&lt; double &gt; &amp;u_trial_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_ref, xt::pyarray&lt; double &gt; &amp;u_test_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_ref, xt::pyarray&lt; double &gt; &amp;elementDiameter, xt::pyarray&lt; double &gt; &amp;elementBoundaryDiameter, xt::pyarray&lt; double &gt; &amp;nodeDiametersArray, xt::pyarray&lt; double &gt; &amp;cfl, double Ct_sge, double sc_uref, double sc_alpha, double useMetrics, xt::pyarray&lt; double &gt; &amp;mesh_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;mesh_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;dS_ref, xt::pyarray&lt; double &gt; &amp;u_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_trial_trace_ref, xt::pyarray&lt; double &gt; &amp;u_test_trace_ref, xt::pyarray&lt; double &gt; &amp;u_grad_test_trace_ref, xt::pyarray&lt; double &gt; &amp;normal_ref, xt::pyarray&lt; double &gt; &amp;boundaryJac_ref, int nElements_global, int nElementBoundaries_owned, xt::pyarray&lt; int &gt; &amp;u_l2g, xt::pyarray&lt; double &gt; &amp;u_dof, xt::pyarray&lt; int &gt; &amp;sd_rowptr, xt::pyarray&lt; int &gt; &amp;sd_colind, xt::pyarray&lt; double &gt; &amp;q_a, xt::pyarray&lt; double &gt; &amp;q_v, xt::pyarray&lt; double &gt; &amp;q_r, int lag_shockCapturing, double shockCapturingDiffusion, xt::pyarray&lt; double &gt; &amp;q_numDiff_u, xt::pyarray&lt; double &gt; &amp;q_numDiff_u_last, xt::pyarray&lt; double &gt; &amp;elementJacobian_u_u, xt::pyarray&lt; double &gt; &amp;element_u, int eN, const bool embeddedBoundary, const double embeddedBoundary_penalty, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_normal_q, xt::pyarray&lt; double &gt; &amp;embeddedBoundary_u_q, const bool immersedBoundary, const double immersedBoundary_penalty, xt::pyarray&lt; double &gt; &amp;immersedBoundary_sdf_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_normal_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_u_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_fluxJump_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_fluxJumpVector_q, xt::pyarray&lt; double &gt; &amp;immersedBoundary_solutionJump_nodes, double *element_phi_f, double mua, double mub, const bool PG)</argsstring>
         <name>calculateElementJacobian</name>
+        <qualifiedname>proteus::cADR::calculateElementJacobian</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>icase_f</declname>
+        </param>
         <param>
           <type>xt::pyarray&lt; double &gt; &amp;</type>
           <declname>mesh_trial_ref</declname>
@@ -993,19 +1339,68 @@
           <type>xt::pyarray&lt; double &gt; &amp;</type>
           <declname>embeddedBoundary_u_q</declname>
         </param>
+        <param>
+          <type>const bool</type>
+          <declname>immersedBoundary</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>immersedBoundary_penalty</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_sdf_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_normal_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_u_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_fluxJump_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_fluxJumpVector_q</declname>
+        </param>
+        <param>
+          <type>xt::pyarray&lt; double &gt; &amp;</type>
+          <declname>immersedBoundary_solutionJump_nodes</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>element_phi_f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mua</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mub</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>PG</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="1078" column="17" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="1078" bodyend="1301"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="1817" column="13" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="1817" bodyend="2234"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1c_a_d_r_1afb8d9a155070ef2cae11087d3a6a0d95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::cADR::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1c_a_d_r__base_1abc11fbf30b49406dd27dd1a096c17a79">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -1017,9 +1412,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/ADR.h" line="1303" column="10" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="1303" bodyend="1712"/>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="2236" column="6" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="2236" bodyend="2952"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -1037,11 +1432,9 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="4">
-        <label>std::set&lt; int &gt;</label>
-      </node>
-      <node id="5">
-        <label>std::valarray&lt; bool &gt;</label>
+      <node id="6">
+        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, true &gt;</label>
+        <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
       </node>
       <node id="1">
         <label>proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
@@ -1049,17 +1442,25 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
-          <edgelabel>gf</edgelabel>
-          <edgelabel>gf_s</edgelabel>
-        </childnode>
-        <childnode refid="4" relation="usage">
           <edgelabel>cutfem_boundaries</edgelabel>
           <edgelabel>cutfem_boundary_elements</edgelabel>
           <edgelabel>ifem_boundaries</edgelabel>
           <edgelabel>ifem_boundary_elements</edgelabel>
         </childnode>
-        <childnode refid="5" relation="usage">
+        <childnode refid="4" relation="usage">
           <edgelabel>elementIsActive</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>gf_f_cache</edgelabel>
+          <edgelabel>gf_s_cache</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>gf_f_boundary_gen</edgelabel>
+          <edgelabel>gf_f_boundary_icase</edgelabel>
+          <edgelabel>gf_f_interior_gen</edgelabel>
+          <edgelabel>gf_f_interior_icase</edgelabel>
+          <edgelabel>gf_s_interior_gen</edgelabel>
+          <edgelabel>gf_s_interior_icase</edgelabel>
         </childnode>
       </node>
       <node id="2">
@@ -1067,15 +1468,26 @@
         <link refid="classproteus_1_1c_a_d_r__base"/>
       </node>
       <node id="3">
-        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, 3, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</label>
-        <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
+        <label>std::set&lt; int &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::valarray&lt; bool &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, true &gt; &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::vector&lt; int &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/ADR.h" line="37" column="3" bodyfile="/Users/cekees/proteus/proteus/ADR.h" bodystart="38" bodyend="1713"/>
+    <location file="/work/cekees/proteus/proteus/ADR.h" line="38" column="1" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="39" bodyend="2953"/>
     <listofallmembers>
       <member refid="classproteus_1_1c_a_d_r_1a93b20e529d57aa2cc0252135bdeb5b68" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>cADR</name></member>
-      <member refid="classproteus_1_1c_a_d_r_1a1b64a693d02a71f5b11e2bd6f0ee5b98" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>calculateElementJacobian</name></member>
-      <member refid="classproteus_1_1c_a_d_r_1aaac74774a85b7b679b34fa15aa7945da" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>calculateElementResidual</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a93039c7b6195ef8fb3b8e17c8fd9ce55" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>calculateElementJacobian</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a8c7bd9608361c40ca3b61a122f8ead14" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>calculateElementResidual</name></member>
       <member refid="classproteus_1_1c_a_d_r_1afb8d9a155070ef2cae11087d3a6a0d95" prot="public" virt="virtual"><scope>proteus::cADR</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1c_a_d_r_1abb65cd4246f79a2003d2b72a4b952a98" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>calculateNumericalDiffusion</name></member>
       <member refid="classproteus_1_1c_a_d_r_1ae7de58f6447443d50265f27d43c426a9" prot="public" virt="virtual"><scope>proteus::cADR</scope><name>calculateResidual</name></member>
@@ -1085,16 +1497,27 @@
       <member refid="classproteus_1_1c_a_d_r_1ac410bbc601ff706a5179d67414bf8330" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>cutfem_boundaries</name></member>
       <member refid="classproteus_1_1c_a_d_r_1a7012807628c4aa581d03cf9b6e0ac2ec" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>cutfem_boundary_elements</name></member>
       <member refid="classproteus_1_1c_a_d_r_1a7b2567bf1b9137fe6651cf4409f5b75f" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>elementIsActive</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a645d0b7675b8a4417ac50521576fffbf" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>ensureIFEMCacheSized</name></member>
       <member refid="classproteus_1_1c_a_d_r_1afbd6855b5dfe06a79e9c99f140140d8e" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>exteriorNumericalAdvectiveFlux</name></member>
       <member refid="classproteus_1_1c_a_d_r_1a6aa48efde7035bd33e9d76ac4e5b72bd" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>exteriorNumericalAdvectiveFluxDerivative</name></member>
       <member refid="classproteus_1_1c_a_d_r_1a07956ab045055611f75a8ca2c28c8fc5" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>exteriorNumericalDiffusiveFlux</name></member>
       <member refid="classproteus_1_1c_a_d_r_1ac97a4d95e35a67302104ab2d1af9b42d" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>ExteriorNumericalDiffusiveFluxJacobian</name></member>
-      <member refid="classproteus_1_1c_a_d_r_1a5563bd9219415c1cd04277d5c5c7d421" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf</name></member>
-      <member refid="classproteus_1_1c_a_d_r_1ad0547ed4043b189fb8eeab07594e8035" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_s</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a95ed6047a5a925f2119d65dd57f04de7" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_f_boundary_gen</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1aad41e6e2c15317605ce4213e794f29ef" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_f_boundary_icase</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1afd601fc8eb672d983d6cce8e0e09c25d" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_f_cache</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1ad3ed1abc73999d637ce157c08958bc74" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_f_interior_gen</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a98038ab5bc0261cb9060a4b5094bfc9f" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_f_interior_icase</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a2782ee7728feda905c84161754eed45c" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_s_cache</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a0a667c6230dab96dc0abdaf97b94d8a0" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_s_interior_gen</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a19e8f4f071fc0141de8d2e3ab6086471" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>gf_s_interior_icase</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1afa0393c4d05eb801b75333341eb0a01f" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>GfType</name></member>
       <member refid="classproteus_1_1c_a_d_r_1a2f5e5191ca7e18f9d3a4f0eba61cbc27" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>ifem_boundaries</name></member>
       <member refid="classproteus_1_1c_a_d_r_1a503f547baa5728ef59a4709306cade67" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>ifem_boundary_elements</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a73535015dc6b0e7576edf8062dd746a6" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>ifemGeometryGeneration</name></member>
       <member refid="classproteus_1_1c_a_d_r_1a44ccd30cb4b8f19c2cfece20663f9c5c" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>nDOF_test_X_trial_element</name></member>
-      <member refid="classproteus_1_1c_a_d_r_1a3830b0617ed4e9f831f269f549f8361c" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>updateEmbeddedBoundaryTerms</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a2456f4a40890c6e3b3109264ce46a327" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>nP_edge</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1ac2ddf9723abd4adac8dfec3cb043e85e" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>updateEmbeddedBoundaryTerms</name></member>
+      <member refid="classproteus_1_1c_a_d_r_1a01dccc693e527bec4984f2a92275b032" prot="public" virt="non-virtual"><scope>proteus::cADR</scope><name>updateImmersedBoundaryTerms</name></member>
       <member refid="classproteus_1_1c_a_d_r__base_1af28aa3d167e8e7f915a79b970450a5cf" prot="public" virt="virtual"><scope>proteus::cADR</scope><name>~cADR_base</name></member>
     </listofallmembers>
   </compounddef>

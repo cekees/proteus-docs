@@ -1,30 +1,32 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_constant_density" kind="class" language="C++" prot="public">
     <compoundname>ConstantDensity</compoundname>
     <basecompoundref refid="class_density_relation" prot="public" virt="non-virtual">DensityRelation</basecompoundref>
-    <includes refid="density_relations_8h" local="no">/Users/cekees/proteus/proteus/densityRelations.h</includes>
-      <sectiondef kind="public-attrib">
+    <includes refid="density_relations_8h" local="no">/work/cekees/proteus/proteus/densityRelations.h</includes>
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_constant_density_1a6bf639915d8375e418d2178193f86fce" prot="public" static="no" mutable="no">
         <type>double</type>
         <definition>double ConstantDensity::rho_0</definition>
         <argsstring></argsstring>
         <name>rho_0</name>
+        <qualifiedname>ConstantDensity::rho_0</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="29" column="10" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="29" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="29" column="10" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="29" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_constant_density_1af12041e95c637078bd91f5bebd021f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>ConstantDensity::ConstantDensity</definition>
         <argsstring>(const double *rwork)</argsstring>
         <name>ConstantDensity</name>
+        <qualifiedname>ConstantDensity::ConstantDensity</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>rwork</declname>
@@ -35,13 +37,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="30" column="10" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="30" bodyend="35"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="30" column="10" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="30" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="class_constant_density_1af70c76a1802f02fc01e4e01ccf95ad33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void ConstantDensity::calc</definition>
         <argsstring>(const double &amp;psi)</argsstring>
         <name>calc</name>
+        <qualifiedname>ConstantDensity::calc</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>psi</declname>
@@ -52,38 +55,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="36" column="15" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="36" bodyend="40"/>
+        <location file="/work/cekees/proteus/proteus/densityRelations.h" line="36" column="15" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="36" bodyend="40"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>DensityRelation</label>
-        <link refid="class_density_relation"/>
-      </node>
       <node id="1">
         <label>ConstantDensity</label>
         <link refid="class_constant_density"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="2">
+        <label>DensityRelation</label>
+        <link refid="class_density_relation"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>DensityRelation</label>
-        <link refid="class_density_relation"/>
-      </node>
       <node id="1">
         <label>ConstantDensity</label>
         <link refid="class_constant_density"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>DensityRelation</label>
+        <link refid="class_density_relation"/>
+      </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/densityRelations.h" line="26" column="1" bodyfile="/Users/cekees/proteus/proteus/densityRelations.h" bodystart="27" bodyend="41"/>
+    <location file="/work/cekees/proteus/proteus/densityRelations.h" line="26" column="1" bodyfile="/work/cekees/proteus/proteus/densityRelations.h" bodystart="27" bodyend="41"/>
     <listofallmembers>
       <member refid="class_constant_density_1af70c76a1802f02fc01e4e01ccf95ad33" prot="public" virt="non-virtual"><scope>ConstantDensity</scope><name>calc</name></member>
       <member refid="class_constant_density_1af12041e95c637078bd91f5bebd021f58" prot="public" virt="non-virtual"><scope>ConstantDensity</scope><name>ConstantDensity</name></member>

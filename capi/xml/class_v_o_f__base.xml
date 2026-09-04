@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="class_v_o_f__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>VOF_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1_v_o_f" prot="public" virt="non-virtual">proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_v_o_f_8h" local="no">/work/cekees/proteus/proteus/mprans/VOF.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_v_o_f__base_1a8e8fe6b24e6c342a253ff5ae8e87e9ba" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::Rpos</definition>
+        <argsstring></argsstring>
+        <name>Rpos</name>
+        <qualifiedname>VOF_base::Rpos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="62" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1adac27c539db83f627fb86c0d4e64b87e" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::Rneg</definition>
+        <argsstring></argsstring>
+        <name>Rneg</name>
+        <qualifiedname>VOF_base::Rneg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="62" column="24" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1a765cbd01dda770ea046ff03ec07c0d8f" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::FluxCorrectionMatrix</definition>
+        <argsstring></argsstring>
+        <name>FluxCorrectionMatrix</name>
+        <qualifiedname>VOF_base::FluxCorrectionMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="63" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1a30c38736a3089df041e6a47873ade3a8" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::TransportMatrix</definition>
+        <argsstring></argsstring>
+        <name>TransportMatrix</name>
+        <qualifiedname>VOF_base::TransportMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="64" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1a71c68a5c66a446b71bbf106258677087" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::TransposeTransportMatrix</definition>
+        <argsstring></argsstring>
+        <name>TransposeTransportMatrix</name>
+        <qualifiedname>VOF_base::TransposeTransportMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="64" column="35" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1a136be66f29797d0a3198fbe54d42cffe" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::psi</definition>
+        <argsstring></argsstring>
+        <name>psi</name>
+        <qualifiedname>VOF_base::psi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="65" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1add02e96979382d838c7dc05894b673fd" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::eta</definition>
+        <argsstring></argsstring>
+        <name>eta</name>
+        <qualifiedname>VOF_base::eta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="65" column="23" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1a898494c6ae5c679ccb49265b2907bf7d" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::global_entropy_residual</definition>
+        <argsstring></argsstring>
+        <name>global_entropy_residual</name>
+        <qualifiedname>VOF_base::global_entropy_residual</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="65" column="27" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1ad44da89fd183682e1f8ee1a24ee12547" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::boundary_integral</definition>
+        <argsstring></argsstring>
+        <name>boundary_integral</name>
+        <qualifiedname>VOF_base::boundary_integral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="65" column="51" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1a7cda0f58b2ed4cf66480e28a1cfafe05" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::maxVel</definition>
+        <argsstring></argsstring>
+        <name>maxVel</name>
+        <qualifiedname>VOF_base::maxVel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="66" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_v_o_f__base_1a5fc2aa58a5a8443a082fe07b8d69832f" prot="public" static="no" mutable="no">
+        <type>std::valarray&lt; double &gt;</type>
+        <definition>std::valarray&lt;double&gt; proteus::VOF_base::maxEntRes</definition>
+        <argsstring></argsstring>
+        <name>maxEntRes</name>
+        <qualifiedname>VOF_base::maxEntRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="66" column="25" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_v_o_f__base_1a765ee1139e3ea0cae888188367a673a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::VOF_base::~VOF_base</definition>
+        <argsstring>()</argsstring>
+        <name>~VOF_base</name>
+        <qualifiedname>VOF_base::~VOF_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="67" column="13" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_o_f__base_1af6f44c18ce3b8f1ffe646a21bb30a555" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::VOF_base::calculateResidualElementBased</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidualElementBased</name>
+        <qualifiedname>VOF_base::calculateResidualElementBased</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="68" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_o_f__base_1a66ca42604f8fe5987341a3c4df59e707" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::VOF_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>VOF_base::calculateJacobian</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="69" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_o_f__base_1add792ee096b781c973931e45fb6478c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::VOF_base::FCTStep</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>FCTStep</name>
+        <qualifiedname>VOF_base::FCTStep</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="70" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_v_o_f__base_1a30c82283a710c548a17c22085646c738" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::VOF_base::calculateResidualEdgeBased</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidualEdgeBased</name>
+        <qualifiedname>VOF_base::calculateResidualEdgeBased</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="71" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>VOF_base</label>
+        <link refid="class_v_o_f__base"/>
+      </node>
+      <node id="2">
+        <label>proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1_v_o_f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>VOF_base</label>
+        <link refid="class_v_o_f__base"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>FluxCorrectionMatrix</edgelabel>
+          <edgelabel>Rneg</edgelabel>
+          <edgelabel>Rpos</edgelabel>
+          <edgelabel>TransportMatrix</edgelabel>
+          <edgelabel>TransposeTransportMatrix</edgelabel>
+          <edgelabel>boundary_integral</edgelabel>
+          <edgelabel>eta</edgelabel>
+          <edgelabel>global_entropy_residual</edgelabel>
+          <edgelabel>maxEntRes</edgelabel>
+          <edgelabel>maxVel</edgelabel>
+          <edgelabel>  ...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::valarray&lt; double &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="58" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="59" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_v_o_f__base_1ad44da89fd183682e1f8ee1a24ee12547" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>boundary_integral</name></member>
+      <member refid="class_v_o_f__base_1a66ca42604f8fe5987341a3c4df59e707" prot="public" virt="pure-virtual"><scope>VOF_base</scope><name>calculateJacobian</name></member>
+      <member refid="class_v_o_f__base_1a30c82283a710c548a17c22085646c738" prot="public" virt="pure-virtual"><scope>VOF_base</scope><name>calculateResidualEdgeBased</name></member>
+      <member refid="class_v_o_f__base_1af6f44c18ce3b8f1ffe646a21bb30a555" prot="public" virt="pure-virtual"><scope>VOF_base</scope><name>calculateResidualElementBased</name></member>
+      <member refid="class_v_o_f__base_1add02e96979382d838c7dc05894b673fd" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>eta</name></member>
+      <member refid="class_v_o_f__base_1add792ee096b781c973931e45fb6478c7" prot="public" virt="pure-virtual"><scope>VOF_base</scope><name>FCTStep</name></member>
+      <member refid="class_v_o_f__base_1a765cbd01dda770ea046ff03ec07c0d8f" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>FluxCorrectionMatrix</name></member>
+      <member refid="class_v_o_f__base_1a898494c6ae5c679ccb49265b2907bf7d" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>global_entropy_residual</name></member>
+      <member refid="class_v_o_f__base_1a5fc2aa58a5a8443a082fe07b8d69832f" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>maxEntRes</name></member>
+      <member refid="class_v_o_f__base_1a7cda0f58b2ed4cf66480e28a1cfafe05" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>maxVel</name></member>
+      <member refid="class_v_o_f__base_1a136be66f29797d0a3198fbe54d42cffe" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>psi</name></member>
+      <member refid="class_v_o_f__base_1adac27c539db83f627fb86c0d4e64b87e" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>Rneg</name></member>
+      <member refid="class_v_o_f__base_1a8e8fe6b24e6c342a253ff5ae8e87e9ba" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>Rpos</name></member>
+      <member refid="class_v_o_f__base_1a30c38736a3089df041e6a47873ade3a8" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>TransportMatrix</name></member>
+      <member refid="class_v_o_f__base_1a71c68a5c66a446b71bbf106258677087" prot="public" virt="non-virtual"><scope>VOF_base</scope><name>TransposeTransportMatrix</name></member>
+      <member refid="class_v_o_f__base_1a765ee1139e3ea0cae888188367a673a1" prot="public" virt="virtual"><scope>VOF_base</scope><name>~VOF_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

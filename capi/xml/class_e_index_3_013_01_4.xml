@@ -1,448 +1,481 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_e_index_3_013_01_4" kind="class" language="C++" prot="public">
     <compoundname>EIndex&lt; 3 &gt;</compoundname>
-    <includes refid="_comp_kernel_8h" local="no">/Users/cekees/proteus/proteus/CompKernel.h</includes>
+    <includes refid="_comp_kernel_8h" local="no">/work/cekees/proteus/proteus/CompKernel.h</includes>
     <templateparamlist>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ab39555a0dae407776e4deb808f6bc5fa" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::X</definition>
         <argsstring></argsstring>
         <name>X</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::X</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="18" column="13" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="18" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="18" column="13" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ab29c60d56b6f681705b83cc3ca763d84" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::Y</definition>
         <argsstring></argsstring>
         <name>Y</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::Y</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="18" column="14" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="18" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="18" column="14" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a228d90c624efc7e8ab5ae102dfde2fb9" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::Z</definition>
         <argsstring></argsstring>
         <name>Z</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::Z</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="18" column="15" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="18" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="18" column="15" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ae56fe1322e2fb09ad0c040c29b4a7ca2" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::XX</definition>
         <argsstring></argsstring>
         <name>XX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::XX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="19" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="19" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="19" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a04cdf59d950c1866d25b908690171345" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::XY</definition>
         <argsstring></argsstring>
         <name>XY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::XY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="19" column="7" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="19" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="19" column="7" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a84194fe868fd568ebd14f8ff45600c24" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::XZ</definition>
         <argsstring></argsstring>
         <name>XZ</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::XZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="19" column="9" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="19" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="19" column="9" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a47ae3150516aa0c0c86a0038e5aaba62" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::YX</definition>
         <argsstring></argsstring>
         <name>YX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::YX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="20" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="20" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="20" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a63437e38247a38da27c3e1f114e3c72e" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::YY</definition>
         <argsstring></argsstring>
         <name>YY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::YY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="20" column="7" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="20" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="20" column="7" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a8b99b6c641d932812084344950041595" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::YZ</definition>
         <argsstring></argsstring>
         <name>YZ</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::YZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="20" column="9" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="20" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="20" column="9" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a1aa3a8b74d1a84a0d19645e4e7db6f9f" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::ZX</definition>
         <argsstring></argsstring>
         <name>ZX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::ZX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="21" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="21" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="21" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1aafafabdaf018ca0dff774105b5d5cff6" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::ZY</definition>
         <argsstring></argsstring>
         <name>ZY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::ZY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="21" column="7" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="21" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="21" column="7" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a429ae932e62dddf6cccc0b1d1435b754" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::ZZ</definition>
         <argsstring></argsstring>
         <name>ZZ</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::ZZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="21" column="9" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="21" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="21" column="9" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a5437a58dadad072f74e3b5a584b6a747" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sXX</definition>
         <argsstring></argsstring>
         <name>sXX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sXX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="22" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="22" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="22" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a9282078cebe28852d9867f8813abca1d" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sXY</definition>
         <argsstring></argsstring>
         <name>sXY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sXY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="22" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="22" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="22" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a2104dc130b83d3807da45f78256e0f9d" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sXZ</definition>
         <argsstring></argsstring>
         <name>sXZ</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sXZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="22" column="11" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="22" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="22" column="11" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a6dba3c7584ab1dc553d8a3a99ad92bc6" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sYX</definition>
         <argsstring></argsstring>
         <name>sYX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sYX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="23" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="23" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="23" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ab65fd8cabe07ed165defd2c96798c9e9" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sYY</definition>
         <argsstring></argsstring>
         <name>sYY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sYY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="23" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="23" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="23" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ae72d0f8a927eb23e22bb4dba8656f97b" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sYZ</definition>
         <argsstring></argsstring>
         <name>sYZ</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sYZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="23" column="11" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="23" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="23" column="11" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a351561856372929bd17be40d89cb2ecb" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sZX</definition>
         <argsstring></argsstring>
         <name>sZX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sZX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="24" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="24" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="24" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ace392a19ac4a2f89e461f383d9789b02" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sZY</definition>
         <argsstring></argsstring>
         <name>sZY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sZY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="24" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="24" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="24" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1af3743aaa1463c5106206ce03ea6b4268" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::sZZ</definition>
         <argsstring></argsstring>
         <name>sZZ</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::sZZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="24" column="11" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="24" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="24" column="11" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ac707cd0a17eb232e8a23b23cc6d8e0db" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::nSymTen</definition>
         <argsstring></argsstring>
         <name>nSymTen</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::nSymTen</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="25" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="25" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="25" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a070ee515032d7b8d6f9fddabf2319ecd" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::XHX</definition>
         <argsstring></argsstring>
         <name>XHX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::XHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="26" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="26" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="26" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ab62b2a87867322f963af675af0fd533b" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::XHY</definition>
         <argsstring></argsstring>
         <name>XHY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::XHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="26" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="26" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="26" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a1ca685249b7639918669aba9625c270c" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::YHX</definition>
         <argsstring></argsstring>
         <name>YHX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::YHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="27" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="27" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="27" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1af8f69304d3f1de7189db1e93c5249401" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::YHY</definition>
         <argsstring></argsstring>
         <name>YHY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::YHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="27" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="27" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="27" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ae0c6eba400c15d92957950a212af9cdc" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::ZHX</definition>
         <argsstring></argsstring>
         <name>ZHX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::ZHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="28" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="28" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="28" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a0a7759305ffc0bad9589e53285061c19" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::ZHY</definition>
         <argsstring></argsstring>
         <name>ZHY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::ZHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="28" column="8" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="28" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="28" column="8" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a59fe696cec399676130dd1a1591479b9" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::HXHX</definition>
         <argsstring></argsstring>
         <name>HXHX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::HXHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="29" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="29" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="29" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1aeadc7ca5ce0bfbc1d93e2250be90ccdf" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::HXHY</definition>
         <argsstring></argsstring>
         <name>HXHY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::HXHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="29" column="9" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="29" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="29" column="9" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1ade715318ed1e165d8eca4642c5c2744b" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::HYHX</definition>
         <argsstring></argsstring>
         <name>HYHX</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::HYHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="30" column="5" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="30" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="30" column="5" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_e_index_3_013_01_4_1a5515cf2c50631276506a88b5f8edfb9e" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int EIndex&lt; 3 &gt;::HYHY</definition>
         <argsstring></argsstring>
         <name>HYHY</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::HYHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="30" column="9" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="30" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="30" column="9" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="30" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_e_index_3_013_01_4_1ab19d1447168a4de2ed39b0c0451a49d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>EIndex&lt; 3 &gt;::EIndex</definition>
         <argsstring>()</argsstring>
         <name>EIndex</name>
+        <qualifiedname>EIndex&lt; 3 &gt;::EIndex</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="31" column="3" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="31" bodyend="47"/>
+        <location file="/work/cekees/proteus/proteus/CompKernel.h" line="31" column="3" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="31" bodyend="47"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/CompKernel.h" line="15" column="1" bodyfile="/Users/cekees/proteus/proteus/CompKernel.h" bodystart="16" bodyend="48"/>
+    <location file="/work/cekees/proteus/proteus/CompKernel.h" line="15" column="1" bodyfile="/work/cekees/proteus/proteus/CompKernel.h" bodystart="16" bodyend="48"/>
     <listofallmembers>
       <member refid="class_e_index_3_013_01_4_1ab19d1447168a4de2ed39b0c0451a49d2" prot="public" virt="non-virtual"><scope>EIndex&lt; 3 &gt;</scope><name>EIndex</name></member>
       <member refid="class_e_index_3_013_01_4_1a59fe696cec399676130dd1a1591479b9" prot="public" virt="non-virtual"><scope>EIndex&lt; 3 &gt;</scope><name>HXHX</name></member>

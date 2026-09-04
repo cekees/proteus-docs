@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="namespaceproteus_1_1richards_1_1psk" kind="namespace" language="C++">
+    <compoundname>proteus::richards::psk</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceproteus_1_1richards_1_1psk_1a961e8c77edbc7dff02774f2f45ca019a" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>bc_kr</name>
+        <qualifiedname>proteus::richards::psk::bc_kr</qualifiedname>
+        <enumvalue id="namespaceproteus_1_1richards_1_1psk_1a961e8c77edbc7dff02774f2f45ca019aad9001acc14ebc2675ac70051ba1074a8" prot="public">
+          <name>burdine</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceproteus_1_1richards_1_1psk_1a961e8c77edbc7dff02774f2f45ca019aa23dca69dce76105c7e4596b10ce0ef57" prot="public">
+          <name>mualem</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1085" column="1" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1085" bodyend="1085"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceproteus_1_1richards_1_1psk_1a29c1fb08bda2b0a4f5c83387bbfbca03" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double proteus::richards::psk::gardner_alphaPsiCMax</definition>
+        <argsstring></argsstring>
+        <name>gardner_alphaPsiCMax</name>
+        <qualifiedname>proteus::richards::psk::gardner_alphaPsiCMax</qualifiedname>
+        <initializer>= 7.0e2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1333" column="18" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceproteus_1_1richards_1_1psk_1a77b50fe56881bb68b9c90b181e85ea0d" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double proteus::richards::psk::gardner_alphaPsiMax</definition>
+        <argsstring></argsstring>
+        <name>gardner_alphaPsiMax</name>
+        <qualifiedname>proteus::richards::psk::gardner_alphaPsiMax</qualifiedname>
+        <initializer>= 5.0e1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1341" column="18" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1341" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1a6febf9b520d9188bfa25288161e77e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::vgm_wetting</definition>
+        <argsstring>(const double psiC, const double alpha, const double n_vg, const double thetaR, const double thetaSR, double &amp;thetaW, double &amp;DthetaW_DpsiC, double &amp;KWr, double &amp;DKWr_DpsiC)</argsstring>
+        <name>vgm_wetting</name>
+        <qualifiedname>proteus::richards::psk::vgm_wetting</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>psiC</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>thetaW</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DthetaW_DpsiC</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>KWr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DKWr_DpsiC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="858" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="858" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1a091eaae43a2e8751c8d56e12c64a0229" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::vgm_invert_analytic</definition>
+        <argsstring>(const double m, const double rho, const double alpha, const double n_vg, const double thetaR, const double thetaSR, double &amp;u)</argsstring>
+        <name>vgm_invert_analytic</name>
+        <qualifiedname>proteus::richards::psk::vgm_invert_analytic</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="918" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="918" bodyend="943"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1ab79b2fa1dc46fb8a6180f13d775bdfb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::vgm_invert_newton</definition>
+        <argsstring>(const double m, const double rho, const double beta, const double alpha, const double n_vg, const double thetaR, const double thetaSR, double &amp;u)</argsstring>
+        <name>vgm_invert_newton</name>
+        <qualifiedname>proteus::richards::psk::vgm_invert_newton</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="954" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="954" bodyend="1065"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1a426f6b05a40d3e8c133a3dc63e2de4bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::richards::psk::bc_eta</definition>
+        <argsstring>(const double lam, const bc_kr kr_model)</argsstring>
+        <name>bc_eta</name>
+        <qualifiedname>proteus::richards::psk::bc_eta</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>lam</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceproteus_1_1richards_1_1psk_1a961e8c77edbc7dff02774f2f45ca019a" kindref="member">bc_kr</ref></type>
+          <declname>kr_model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1090" column="15" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1090" bodyend="1094"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1a3e351cfb96e78a4e8bd3946d111bd6f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::bc_wetting</definition>
+        <argsstring>(const double psiC, const double alpha, const double lam, const double thetaR, const double thetaSR, double &amp;thetaW, double &amp;DthetaW_DpsiC, double &amp;KWr, double &amp;DKWr_DpsiC, const bc_kr kr_model=bc_kr::burdine)</argsstring>
+        <name>bc_wetting</name>
+        <qualifiedname>proteus::richards::psk::bc_wetting</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>psiC</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>lam</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>thetaW</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DthetaW_DpsiC</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>KWr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DKWr_DpsiC</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceproteus_1_1richards_1_1psk_1a961e8c77edbc7dff02774f2f45ca019a" kindref="member">bc_kr</ref></type>
+          <declname>kr_model</declname>
+          <defval><ref refid="namespaceproteus_1_1richards_1_1psk_1a961e8c77edbc7dff02774f2f45ca019aad9001acc14ebc2675ac70051ba1074a8" kindref="member">bc_kr::burdine</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1096" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1096" bodyend="1134"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1aee3fc19d59ab10dddf6bbba70c464433" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::bc_invert_analytic</definition>
+        <argsstring>(const double m, const double rho, const double alpha, const double lam, const double thetaR, const double thetaSR, double &amp;u)</argsstring>
+        <name>bc_invert_analytic</name>
+        <qualifiedname>proteus::richards::psk::bc_invert_analytic</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>lam</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1136" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1136" bodyend="1163"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1a87ab997d7fd2b53f115f37d0532bbcfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::bc_invert_newton</definition>
+        <argsstring>(const double m, const double rho, const double beta, const double alpha, const double lam, const double thetaR, const double thetaSR, double &amp;u)</argsstring>
+        <name>bc_invert_newton</name>
+        <qualifiedname>proteus::richards::psk::bc_invert_newton</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>lam</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1194" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1194" bodyend="1271"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1adfdbbb230f30b1a918ccb5f7421e9fab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::gardner_wetting</definition>
+        <argsstring>(const double psiC, const double alpha, const double n_vg, const double thetaR, const double thetaSR, double &amp;thetaW, double &amp;DthetaW_DpsiC, double &amp;KWr, double &amp;DKWr_DpsiC)</argsstring>
+        <name>gardner_wetting</name>
+        <qualifiedname>proteus::richards::psk::gardner_wetting</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>psiC</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>thetaW</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DthetaW_DpsiC</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>KWr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>DKWr_DpsiC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1343" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1343" bodyend="1364"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1a13b1955ab3c613873c1adae13b3b7dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::gardner_invert_analytic</definition>
+        <argsstring>(const double m, const double rho, const double alpha, const double n_vg, const double thetaR, const double thetaSR, double &amp;u)</argsstring>
+        <name>gardner_invert_analytic</name>
+        <qualifiedname>proteus::richards::psk::gardner_invert_analytic</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1376" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1376" bodyend="1393"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1_1psk_1aadddb07483ee3084bca2ee7333998df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void proteus::richards::psk::gardner_invert_newton</definition>
+        <argsstring>(const double m, const double rho, const double beta, const double alpha, const double n_vg, const double thetaR, const double thetaSR, double &amp;u)</argsstring>
+        <name>gardner_invert_newton</name>
+        <qualifiedname>proteus::richards::psk::gardner_invert_newton</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>n_vg</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaR</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>thetaSR</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="1412" column="13" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="1412" bodyend="1476"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/pskRelations.h" line="844" column="1"/>
+  </compounddef>
+</doxygen>

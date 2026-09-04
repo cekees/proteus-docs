@@ -3,5 +3,5 @@ proteus.InputTranslators module
 
 .. automodule:: proteus.InputTranslators
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_sed_closure_8h" kind="file" language="C++">
     <compoundname>SedClosure.h</compoundname>
     <includes local="no">cmath</includes>
@@ -15,15 +15,6 @@
     <includedby refid="_r_a_n_s3_p_sed2_d_8h" local="yes">RANS3PSed2D.h</includedby>
     <includedby refid="_sed_closure_8cpp" local="yes">SedClosure.cpp</includedby>
     <incdepgraph>
-      <node id="2">
-        <label>cmath</label>
-      </node>
-      <node id="4">
-        <label>xtensor-python/pyarray.hpp</label>
-      </node>
-      <node id="3">
-        <label>iostream</label>
-      </node>
       <node id="1">
         <label>SedClosure.h</label>
         <link refid="_sed_closure_8h"/>
@@ -34,21 +25,30 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
+      <node id="2">
+        <label>cmath</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="4">
+        <label>xtensor-python/pyarray.hpp</label>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="18">
-        <label>SedClosure.cpp</label>
-        <link refid="_sed_closure_8cpp"/>
-      </node>
       <node id="3">
         <label>Dissipation.cpp</label>
         <link refid="_dissipation_8cpp"/>
       </node>
-      <node id="8">
-        <label>Kappa2D.h</label>
-        <link refid="_kappa2_d_8h"/>
-        <childnode refid="9" relation="include">
+      <node id="2">
+        <label>Dissipation.h</label>
+        <link refid="_dissipation_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>Dissipation2D.cpp</label>
+        <link refid="_dissipation2_d_8cpp"/>
       </node>
       <node id="4">
         <label>Dissipation2D.h</label>
@@ -56,15 +56,25 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="14">
-        <label>RANS3PSed.h</label>
-        <link refid="_r_a_n_s3_p_sed_8h"/>
-        <childnode refid="15" relation="include">
+      <node id="7">
+        <label>Kappa.cpp</label>
+        <link refid="_kappa_8cpp"/>
+      </node>
+      <node id="6">
+        <label>Kappa.h</label>
+        <link refid="_kappa_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="9">
         <label>Kappa2D.cpp</label>
         <link refid="_kappa2_d_8cpp"/>
+      </node>
+      <node id="8">
+        <label>Kappa2D.h</label>
+        <link refid="_kappa2_d_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
       <node id="11">
         <label>RANS3PF.cpp</label>
@@ -76,23 +86,9 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="15">
-        <label>RANS3PSed.cpp</label>
-        <link refid="_r_a_n_s3_p_sed_8cpp"/>
-      </node>
       <node id="13">
         <label>RANS3PF2D.cpp</label>
         <link refid="_r_a_n_s3_p_f2_d_8cpp"/>
-      </node>
-      <node id="7">
-        <label>Kappa.cpp</label>
-        <link refid="_kappa_8cpp"/>
-      </node>
-      <node id="16">
-        <label>RANS3PSed2D.h</label>
-        <link refid="_r_a_n_s3_p_sed2_d_8h"/>
-        <childnode refid="17" relation="include">
-        </childnode>
       </node>
       <node id="12">
         <label>RANS3PF2D.h</label>
@@ -100,21 +96,29 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>Kappa.h</label>
-        <link refid="_kappa_8h"/>
-        <childnode refid="7" relation="include">
+      <node id="15">
+        <label>RANS3PSed.cpp</label>
+        <link refid="_r_a_n_s3_p_sed_8cpp"/>
+      </node>
+      <node id="14">
+        <label>RANS3PSed.h</label>
+        <link refid="_r_a_n_s3_p_sed_8h"/>
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="17">
         <label>RANS3PSed2D.cpp</label>
         <link refid="_r_a_n_s3_p_sed2_d_8cpp"/>
       </node>
-      <node id="2">
-        <label>Dissipation.h</label>
-        <link refid="_dissipation_8h"/>
-        <childnode refid="3" relation="include">
+      <node id="16">
+        <label>RANS3PSed2D.h</label>
+        <link refid="_r_a_n_s3_p_sed2_d_8h"/>
+        <childnode refid="17" relation="include">
         </childnode>
+      </node>
+      <node id="18">
+        <label>SedClosure.cpp</label>
+        <link refid="_sed_closure_8cpp"/>
       </node>
       <node id="1">
         <label>SedClosure.h</label>
@@ -138,10 +142,6 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>Dissipation2D.cpp</label>
-        <link refid="_dissipation2_d_8cpp"/>
-      </node>
     </invincdepgraph>
     <innerclass refid="classproteus_1_1cpp_hsu_sed_stress" prot="public">proteus::cppHsuSedStress</innerclass>
     <innernamespace refid="namespaceproteus">proteus</innernamespace>
@@ -160,7 +160,7 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceproteus" kindref="compound">proteus</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{<sp/><sp/></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSpace&gt;</highlight></codeline>
-<codeline lineno="11" refid="classproteus_1_1cpp_hsu_sed_stress" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1cpp_hsu_sed_stress" kindref="compound">cppHsuSedStress</ref></highlight></codeline>
+<codeline lineno="11" refid="classproteus_1_1cpp_hsu_sed_stress" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1cpp_hsu_sed_stress_1af00a36372c63b832620d79a3ea9fc352" kindref="member">cppHsuSedStress</ref></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="14" refid="classproteus_1_1cpp_hsu_sed_stress_1af00a36372c63b832620d79a3ea9fc352" refkind="member"><highlight class="normal"><sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1af00a36372c63b832620d79a3ea9fc352" kindref="member">cppHsuSedStress</ref>(</highlight></codeline>
@@ -333,7 +333,7 @@
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_p<sp/>=<sp/>rhoSolid/beta;</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_c<sp/>=<sp/>l_c/(sqrt(theta_n)<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_l<sp/>=<sp/>0.165*kappa_n/(epsilon_n<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/><ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(t_c,t_l);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/>std::min(t_c,t_l);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha=<sp/>t_cl/(t_cl<sp/>+<sp/>t_p);</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>term<sp/>=<sp/>beta/(rhoFluid*(1.-sedF));</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>es_1<sp/>=<sp/>2.*term*(1-alpha)*sedF*kappa_n;</highlight></codeline>
@@ -401,7 +401,7 @@
 <codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_p<sp/>=<sp/>rhoSolid/beta;</highlight></codeline>
 <codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_c<sp/>=<sp/>l_c/(sqrt(theta_n)<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_l<sp/>=<sp/>0.165*kappa_n/(epsilon_n<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/><ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(t_c,t_l);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/>std::min(t_c,t_l);</highlight></codeline>
 <codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha=<sp/>t_cl/(t_cl<sp/>+<sp/>t_p);</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>term<sp/>=<sp/>beta/(rhoFluid*(1.-sedF));</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>es_1<sp/>=<sp/>2.*term*(1-alpha)*sedF*kappa_n;</highlight></codeline>
@@ -464,7 +464,7 @@
 <codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_p<sp/>=<sp/>rhoSolid/beta;</highlight></codeline>
 <codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_c<sp/>=<sp/>l_c/(sqrt(theta_n)<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
 <codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_l<sp/>=<sp/>0.165*kappa_n/(epsilon_n<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/><ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(t_c,t_l);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/>std::min(t_c,t_l);</highlight></codeline>
 <codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha=<sp/>t_cl/(t_cl<sp/>+<sp/>t_p);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>term<sp/>=<sp/>beta/(rhoFluid*(1.-sedF));</highlight></codeline>
 <codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>es_1<sp/>=<sp/>2.*term*rhoSolid*(1-alpha)*sedF;</highlight></codeline>
@@ -660,7 +660,7 @@
 <codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_p<sp/>=<sp/>rhoSolid/beta;</highlight></codeline>
 <codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_c<sp/>=<sp/>l_c/(sqrt(theta)<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
 <codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_l<sp/>=<sp/>0.165*kappa/(epsilon<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
-<codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/><ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(t_c,t_l);</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_cl<sp/>=<sp/>std::min(t_c,t_l);</highlight></codeline>
 <codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha=<sp/>t_cl/(t_cl<sp/>+<sp/>t_p);</highlight></codeline>
 <codeline lineno="513"><highlight class="normal"></highlight></codeline>
 <codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Jint1<sp/>=<sp/>4.<sp/>*<sp/>alpha<sp/>*<sp/>beta<sp/>*<sp/>kappa<sp/>/(<sp/>3.*<sp/>rhoSolid)<sp/><sp/>;</highlight></codeline>
@@ -749,7 +749,7 @@
 <codeline lineno="597"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="jf_8h_1a8ed7b83d132a542e57a2b1b6cac74aad" kindref="member">pf</ref><sp/>=<sp/>0.;</highlight></codeline>
 <codeline lineno="598"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sedF<sp/>&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a8d28107b126a8e8d8e151375d448ad5b" kindref="member">frFraction_</ref>)</highlight></codeline>
 <codeline lineno="599"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="600"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedLim<sp/>=<ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(sedF,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a70990b3eac11d82c3986246929dc52b8" kindref="member">vos_limiter_</ref>);</highlight></codeline>
+<codeline lineno="600"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedLim<sp/>=std::min(sedF,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a70990b3eac11d82c3986246929dc52b8" kindref="member">vos_limiter_</ref>);</highlight></codeline>
 <codeline lineno="601"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="jf_8h_1a8ed7b83d132a542e57a2b1b6cac74aad" kindref="member">pf</ref><sp/>=<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a1c3608989450828f4cdf8a1ebe501c6d" kindref="member">fContact_</ref>*pow(sedLim-<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a8d28107b126a8e8d8e151375d448ad5b" kindref="member">frFraction_</ref>,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a13aff994caf29c05dc734f1e39369115" kindref="member">mContact_</ref>)<sp/>/<sp/>(<sp/>pow(<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a2d93dc9105637b6fbdb62d1ff5e2b62b" kindref="member">maxFraction_</ref><sp/>-<sp/>sedLim,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1abba2fab312c239f49bd759d378c41bbb" kindref="member">nContact_</ref>)<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
 <codeline lineno="602"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
 <codeline lineno="603"><highlight class="normal"></highlight></codeline>
@@ -765,7 +765,7 @@
 <codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="jf_8h_1a8ed7b83d132a542e57a2b1b6cac74aad" kindref="member">pf</ref><sp/>=<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a9621e2999678f1eecbcafec0e28e223a" kindref="member">p_friction</ref>(sedF);</highlight></codeline>
 <codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sedF<sp/>&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a8d28107b126a8e8d8e151375d448ad5b" kindref="member">frFraction_</ref><sp/>)<sp/></highlight></codeline>
 <codeline lineno="615"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedLim<sp/>=<ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(sedF,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a70990b3eac11d82c3986246929dc52b8" kindref="member">vos_limiter_</ref>);</highlight></codeline>
+<codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedLim<sp/>=std::min(sedF,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a70990b3eac11d82c3986246929dc52b8" kindref="member">vos_limiter_</ref>);</highlight></codeline>
 <codeline lineno="617"><highlight class="normal"></highlight></codeline>
 <codeline lineno="618"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>den1<sp/>=<sp/>(sedLim<sp/>-<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a8d28107b126a8e8d8e151375d448ad5b" kindref="member">frFraction_</ref>);</highlight></codeline>
 <codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>den2<sp/>=<sp/>(<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a2d93dc9105637b6fbdb62d1ff5e2b62b" kindref="member">maxFraction_</ref><sp/>-<sp/>sedLim);</highlight></codeline>
@@ -800,7 +800,7 @@
 <codeline lineno="648"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sedF<sp/>&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a8d28107b126a8e8d8e151375d448ad5b" kindref="member">frFraction_</ref>)<sp/></highlight></codeline>
 <codeline lineno="649"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mu_sf<sp/>=<sp/><ref refid="jf_8h_1a8ed7b83d132a542e57a2b1b6cac74aad" kindref="member">pf</ref><sp/>*<sp/>sqrt(2.)<sp/>*<sp/>sin(<ref refid="classproteus_1_1cpp_hsu_sed_stress_1aa9f23dda0b78d962752e9e9b3cb7a7ec" kindref="member">angFriction_</ref>)<sp/>/<sp/>(2<sp/>*<sp/>sqrt(sumS)<sp/>+<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab9bcda64d491498219bdf32f21eb2f48" kindref="member">small_</ref>);</highlight></codeline>
-<codeline lineno="651"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1aecad8a41536628999334b49323472e02" kindref="member">mu_fr</ref><sp/>=<sp/><ref refid="jf_8h_1ac6afabdc09a49a433ee19d8a9486056d" kindref="member">std::min</ref>(mu_sf,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a3fecee907f597c66423e840db994f139" kindref="member">mu_fr_limiter_</ref>);<sp/></highlight></codeline>
+<codeline lineno="651"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1aecad8a41536628999334b49323472e02" kindref="member">mu_fr</ref><sp/>=<sp/>std::min(mu_sf,<ref refid="classproteus_1_1cpp_hsu_sed_stress_1a3fecee907f597c66423e840db994f139" kindref="member">mu_fr_limiter_</ref>);<sp/></highlight></codeline>
 <codeline lineno="652"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
 <codeline lineno="653"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(sedF<sp/><sp/>&gt;<sp/>0.0<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="654"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
@@ -860,7 +860,7 @@
 <codeline lineno="708"><highlight class="normal"></highlight></codeline>
 <codeline lineno="709"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="710"><highlight class="normal"></highlight></codeline>
-<codeline lineno="711" refid="classproteus_1_1cpp_hsu_sed_stress_1a47ebe9f796f264249cc782a0344e8de4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a47ebe9f796f264249cc782a0344e8de4" kindref="member">xt_mIntFluid</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedF,</highlight></codeline>
+<codeline lineno="711" refid="classproteus_1_1cpp_hsu_sed_stress_1add3e6dea775434a96fb02be7ab9087e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1add3e6dea775434a96fb02be7ab9087e3" kindref="member">xt_mIntFluid</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedF,</highlight></codeline>
 <codeline lineno="712"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhoFluid,</highlight></codeline>
 <codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;&amp;<sp/>uFluid_n,<sp/></highlight><highlight class="comment">//Fluid<sp/>velocity</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="714"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;&amp;<sp/>uSolid_n,<sp/></highlight><highlight class="comment">//Sediment<sp/>velocity</highlight><highlight class="normal"></highlight></codeline>
@@ -902,7 +902,7 @@
 <codeline lineno="750"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="751"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="752"><highlight class="normal"></highlight></codeline>
-<codeline lineno="753" refid="classproteus_1_1cpp_hsu_sed_stress_1ab8a4618211c3fe135e54f894611faf1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1ab8a4618211c3fe135e54f894611faf1a" kindref="member">xt_mIntSolid</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedF,</highlight></codeline>
+<codeline lineno="753" refid="classproteus_1_1cpp_hsu_sed_stress_1a173afed59ce51807e69056c747c22b75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a173afed59ce51807e69056c747c22b75" kindref="member">xt_mIntSolid</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedF,</highlight></codeline>
 <codeline lineno="754"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhoFluid,</highlight></codeline>
 <codeline lineno="755"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;&amp;<sp/>uFluid_n,<sp/></highlight><highlight class="comment">//Fluid<sp/>velocity</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="756"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;&amp;<sp/>uSolid_n,<sp/></highlight><highlight class="comment">//Sediment<sp/>velocity</highlight><highlight class="normal"></highlight></codeline>
@@ -943,7 +943,7 @@
 <codeline lineno="791"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="792"><highlight class="normal"></highlight></codeline>
 <codeline lineno="793"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="794" refid="classproteus_1_1cpp_hsu_sed_stress_1a4754259322d52af936e1648353e3e11c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a4754259322d52af936e1648353e3e11c" kindref="member">xt_mIntgradC</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedF,</highlight></codeline>
+<codeline lineno="794" refid="classproteus_1_1cpp_hsu_sed_stress_1a1d303e74c67fb1f770847569131d3582" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;<sp/><ref refid="classproteus_1_1cpp_hsu_sed_stress_1a1d303e74c67fb1f770847569131d3582" kindref="member">xt_mIntgradC</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sedF,</highlight></codeline>
 <codeline lineno="795"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhoFluid,</highlight></codeline>
 <codeline lineno="796"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;&amp;<sp/>uFluid_n,<sp/></highlight><highlight class="comment">//Fluid<sp/>velocity</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="797"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xt::pyarray&lt;double&gt;&amp;<sp/>uSolid_n,<sp/></highlight><highlight class="comment">//Sediment<sp/>velocity</highlight><highlight class="normal"></highlight></codeline>
@@ -1103,6 +1103,6 @@
 <codeline lineno="951"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="952"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/SedClosure.h"/>
+    <location file="/work/cekees/proteus/proteus/mprans/SedClosure.h"/>
   </compounddef>
 </doxygen>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="namespaceproteus_1_1detail" kind="namespace" language="C++">
     <compoundname>proteus::detail</compoundname>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceproteus_1_1detail_1a79a79167d5bf84735771f1dc3541873d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceproteus_1_1detail_1a871525f59cadf9b0e428ca92d380765e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>class OS</type>
@@ -13,9 +13,10 @@
           </param>
         </templateparamlist>
         <type>OS &amp;</type>
-        <definition>OS&amp; proteus::detail::print_map</definition>
+        <definition>OS &amp; proteus::detail::print_map</definition>
         <argsstring>(OS &amp;os, const std::string &amp;name, const M &amp;m)</argsstring>
         <name>print_map</name>
+        <qualifiedname>proteus::detail::print_map</qualifiedname>
         <param>
           <type>OS &amp;</type>
           <declname>os</declname>
@@ -34,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="36" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" bodystart="36" bodyend="51"/>
+        <location file="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="36" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" bodystart="36" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="namespaceproteus_1_1detail_1ac67772aafdb8b2d80aedb75e7179f501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -46,6 +47,7 @@
         <definition>std::string proteus::detail::key_error_messagei</definition>
         <argsstring>(const T &amp;key)</argsstring>
         <name>key_error_messagei</name>
+        <qualifiedname>proteus::detail::key_error_messagei</qualifiedname>
         <param>
           <type>const <ref refid="_headers_8h_1a38fec5c94a02f67ba7bf45025dd3ac80" kindref="member">T</ref> &amp;</type>
           <declname>key</declname>
@@ -56,13 +58,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.h" line="105" column="28" bodyfile="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.h" bodystart="105" bodyend="108"/>
+        <location file="/work/cekees/proteus/proteus/mprans/ArgumentsDict.h" line="105" column="28" bodyfile="/work/cekees/proteus/proteus/mprans/ArgumentsDict.h" bodystart="105" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="namespaceproteus_1_1detail_1aeca99bf51bb7274dcf2c9f231112412c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string proteus::detail::key_error_message</definition>
         <argsstring>(const std::string &amp;key)</argsstring>
         <name>key_error_message</name>
+        <qualifiedname>proteus::detail::key_error_message</qualifiedname>
         <param>
           <type>const std::string &amp;</type>
           <declname>key</declname>
@@ -73,13 +76,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.h" line="110" column="28" bodyfile="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.h" bodystart="110" bodyend="113"/>
+        <location file="/work/cekees/proteus/proteus/mprans/ArgumentsDict.h" line="110" column="28" bodyfile="/work/cekees/proteus/proteus/mprans/ArgumentsDict.h" bodystart="110" bodyend="113"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="33" column="5"/>
+    <location file="/work/cekees/proteus/proteus/mprans/ArgumentsDict.cpp" line="33" column="5"/>
   </compounddef>
 </doxygen>

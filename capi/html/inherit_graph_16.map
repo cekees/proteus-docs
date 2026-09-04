@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcpp_multi_segmented_cable.html" title=" " alt="" coords="5,5,176,32"/>
+<area shape="rect" id="Node000000" href="$class_c_l_s_v_o_f__base.html" title=" " alt="" coords="34,13,144,40"/>
+<area shape="rect" id="Node000001" href="$classproteus_1_1_c_l_s_v_o_f.html" title=" " alt="" coords="221,5,517,101"/>
+<area shape="poly" id="edge11_Node000000_Node000001" title=" " alt="" coords="159,30,223,38,218,40,160,36"/>
+<area shape="rect" id="Node000002" href="$classproteus_1_1_c_l_s_v_o_f__base.html" title=" " alt="" coords="5,65,173,92"/>
+<area shape="poly" id="edge12_Node000002_Node000001" title=" " alt="" coords="188,67,223,66,218,67,189,72"/>
 </map>

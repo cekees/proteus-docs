@@ -1,13 +1,46 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_c_l_s_v_o_f_8cpp" kind="file" language="C++">
     <compoundname>CLSVOF.cpp</compoundname>
     <includes local="yes">pybind11/pybind11.h</includes>
     <includes local="yes">pybind11/stl_bind.h</includes>
     <includes refid="_c_l_s_v_o_f_8h" local="yes">CLSVOF.h</includes>
     <incdepgraph>
-      <node id="7">
-        <label>valarray</label>
+      <node id="8">
+        <label>CompKernel.h</label>
+        <link refid="_comp_kernel_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ModelFactory.h</label>
+        <link refid="_model_factory_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ArgumentsDict.h</label>
+        <link refid="_arguments_dict_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CLSVOF.cpp</label>
+        <link refid="_c_l_s_v_o_f_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>CLSVOF.h</label>
@@ -27,21 +60,20 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>CLSVOF.cpp</label>
-        <link refid="_c_l_s_v_o_f_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
       <node id="5">
         <label>cmath</label>
       </node>
-      <node id="15">
-        <label>xtensor/xio.hpp</label>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="11">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="3">
+        <label>pybind11/stl_bind.h</label>
       </node>
       <node id="12">
         <label>stdexcept</label>
@@ -49,49 +81,18 @@
       <node id="13">
         <label>string</label>
       </node>
-      <node id="8">
-        <label>CompKernel.h</label>
-        <link refid="_comp_kernel_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>map</label>
+      <node id="7">
+        <label>valarray</label>
       </node>
       <node id="14">
         <label>xtensor-python/pyarray.hpp</label>
       </node>
-      <node id="10">
-        <label>ArgumentsDict.h</label>
-        <link refid="_arguments_dict_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>pybind11/pybind11.h</label>
-      </node>
-      <node id="6">
-        <label>iostream</label>
-      </node>
-      <node id="3">
-        <label>pybind11/stl_bind.h</label>
-      </node>
-      <node id="9">
-        <label>ModelFactory.h</label>
-        <link refid="_model_factory_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
+      <node id="15">
+        <label>xtensor/io/xio.hpp</label>
       </node>
     </incdepgraph>
-      <sectiondef kind="define">
+    <innerclass refid="class_c_l_s_v_o_f__base" prot="public">CLSVOF_base</innerclass>
+    <sectiondef kind="define">
       <memberdef kind="define" id="_c_l_s_v_o_f_8cpp_1a17aae50ec30d0ac23ea339b4d09812a6" prot="public" static="no">
         <name>FORCE_IMPORT_ARRAY</name>
         <briefdescription>
@@ -100,10 +101,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/CLSVOF.cpp" line="4" column="9" bodyfile="/Users/cekees/proteus/proteus/mprans/CLSVOF.cpp" bodystart="4" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/CLSVOF.cpp" line="4" column="9" bodyfile="/work/cekees/proteus/proteus/mprans/CLSVOF.cpp" bodystart="4" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
+    </sectiondef>
+    <sectiondef kind="func">
       <memberdef kind="function" id="_c_l_s_v_o_f_8cpp_1a33569fec55c0210c1a61c6cf8267b9bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>PYBIND11_MODULE</definition>
@@ -121,9 +122,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/CLSVOF.cpp" line="22" column="1" bodyfile="/Users/cekees/proteus/proteus/mprans/CLSVOF.cpp" bodystart="22" bodyend="37"/>
+        <location file="/work/cekees/proteus/proteus/mprans/CLSVOF.cpp" line="22" column="1" bodyfile="/work/cekees/proteus/proteus/mprans/CLSVOF.cpp" bodystart="22" bodyend="37"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -147,26 +148,26 @@
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">py<sp/>=<sp/>pybind11;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classproteus_1_1_c_l_s_v_o_f__base" kindref="compound">proteus::CLSVOF_base</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>py::return_value_policy;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classproteus_1_1_c_l_s_v_o_f__base" kindref="compound">proteus::CLSVOF_base</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">py::return_value_policy;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="_c_l_s_v_o_f_8cpp_1a33569fec55c0210c1a61c6cf8267b9bc" refkind="member"><highlight class="normal"><ref refid="_c_l_s_v_o_f_8cpp_1a33569fec55c0210c1a61c6cf8267b9bc" kindref="member">PYBIND11_MODULE</ref>(cCLSVOF,<sp/>m)</highlight></codeline>
+<codeline lineno="22" refid="_c_l_s_v_o_f_8cpp_1a33569fec55c0210c1a61c6cf8267b9bc" refkind="member"><highlight class="normal"><ref refid="_a_d_r_8cpp_1a455460d611bd1abdd903a35b36fa0d8f" kindref="member">PYBIND11_MODULE</ref>(cCLSVOF,<sp/>m)</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>xt::import_numpy();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>py::class_&lt;CLSVOF_base&gt;(m,<sp/></highlight><highlight class="stringliteral">&quot;cCLSVOF_base&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(<ref refid="_fourier_8cpp_1a2858154e2009b0e6e616f313177762bc" kindref="member">py::init</ref>(&amp;<ref refid="namespaceproteus_1a3984afb3f7ef1bc2c7976c96a830129f" kindref="member">proteus::newCLSVOF</ref>))</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::calculateResidual<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::calculateJacobian<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMetricsAtEOS&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::calculateMetricsAtEOS<sp/><sp/><sp/><sp/>,<sp/>return_value_policy::take_ownership)</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMetricsAtETS&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::calculateMetricsAtETS<sp/><sp/><sp/><sp/>,<sp/>return_value_policy::take_ownership)</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;normalReconstruction&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::normalReconstruction<sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateRhsL2Proj&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::calculateRhsL2Proj<sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateLumpedMassMatrix&quot;</highlight><highlight class="normal">,<sp/>&amp;CLSVOF_base::calculateLumpedMassMatrix)</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;assembleSpinUpSystem&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::assembleSpinUpSystem<sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;FCTStep&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;CLSVOF_base::FCTStep<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(py::init(&amp;<ref refid="namespaceproteus_1a079ce9c9060834ff571db69d3b8bba4e" kindref="member">proteus::newCLSVOF</ref>))</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateResidual&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1aa1782445dd7ce20d9106c9e723fe59bc" kindref="member">CLSVOF_base::calculateResidual</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateJacobian&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1a2ecb1aff9e8d15ce06e1a91b594bbf48" kindref="member">CLSVOF_base::calculateJacobian</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMetricsAtEOS&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1a507fb4db3c43bc6a2da507118b2794a2" kindref="member">CLSVOF_base::calculateMetricsAtEOS</ref><sp/><sp/><sp/><sp/>,<sp/>return_value_policy::take_ownership)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateMetricsAtETS&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1a23830883bc0122ad2d4c5a09801a281a" kindref="member">CLSVOF_base::calculateMetricsAtETS</ref><sp/><sp/><sp/><sp/>,<sp/>return_value_policy::take_ownership)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;normalReconstruction&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1a9042b1980fd453006e2952f6355383b2" kindref="member">CLSVOF_base::normalReconstruction</ref><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateRhsL2Proj&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1aee578c56fa83dc77635c941f57ffde60" kindref="member">CLSVOF_base::calculateRhsL2Proj</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;calculateLumpedMassMatrix&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1a42067ab4205883b32389835260223268" kindref="member">CLSVOF_base::calculateLumpedMassMatrix</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;assembleSpinUpSystem&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1ad171368d1f604ca0a79fad0b97561de6" kindref="member">CLSVOF_base::assembleSpinUpSystem</ref><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.def(</highlight><highlight class="stringliteral">&quot;FCTStep&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>&amp;<ref refid="class_c_l_s_v_o_f__base_1a0d80381cacb6c4ad992869b083a53f1b" kindref="member">CLSVOF_base::FCTStep</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/mprans/CLSVOF.cpp"/>
+    <location file="/work/cekees/proteus/proteus/mprans/CLSVOF.cpp"/>
   </compounddef>
 </doxygen>

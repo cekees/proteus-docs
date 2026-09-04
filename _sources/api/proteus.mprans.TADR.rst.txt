@@ -1,0 +1,7 @@
+proteus.mprans.TADR module
+==========================
+
+.. automodule:: proteus.mprans.TADR
+   :members:
+   :show-inheritance:
+   :undoc-members:

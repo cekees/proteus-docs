@@ -1,4 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classproteus_1_1_elasto_plastic__base.html" title=" " alt="" coords="5,42,191,69"/>
-<area shape="rect" id="node2" href="$classproteus_1_1_elasto_plastic.html" title=" " alt="" coords="239,5,549,105"/>
+<area shape="rect" id="Node000000" href="$class_n_c_l_s__base.html" title=" " alt="" coords="34,13,127,40"/>
+<area shape="rect" id="Node000001" href="$classproteus_1_1_n_c_l_s.html" title=" " alt="" coords="204,5,500,101"/>
+<area shape="poly" id="edge58_Node000000_Node000001" title=" " alt="" coords="142,30,206,38,201,39,142,35"/>
+<area shape="rect" id="Node000002" href="$classproteus_1_1_n_c_l_s__base.html" title=" " alt="" coords="5,65,156,92"/>
+<area shape="poly" id="edge59_Node000002_Node000001" title=" " alt="" coords="171,67,206,67,201,67,172,73"/>
 </map>

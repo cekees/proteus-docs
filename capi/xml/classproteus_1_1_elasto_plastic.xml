@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_elasto_plastic" kind="class" language="C++" prot="public">
     <compoundname>proteus::ElastoPlastic</compoundname>
     <basecompoundref refid="classproteus_1_1_elasto_plastic__base" prot="public" virt="non-virtual">proteus::ElastoPlastic_base</basecompoundref>
-    <includes refid="_elasto_plastic_8h" local="no">/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h</includes>
+    <includes refid="_elasto_plastic_8h" local="no">/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,482 +39,519 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a02f178b4878c34c2530d606c23473eec" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::ElastoPlastic::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="47" column="32" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="47" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="47" column="32" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a5b4d77c0ffc3e7730bfb1da4dab7fe13" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
         <argsstring></argsstring>
         <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::ElastoPlastic::nDOF_test_X_trial_element</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="49" column="27" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="49" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="49" column="27" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a66bf1788d38d706fe4903feb97b732cb" prot="public" static="no" mutable="no">
         <type><ref refid="class_e_index" kindref="compound">EIndex</ref>&lt; nSpace &gt;</type>
         <definition>EIndex&lt;nSpace&gt; proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ei</definition>
         <argsstring></argsstring>
         <name>ei</name>
+        <qualifiedname>proteus::ElastoPlastic::ei</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="51" column="24" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="51" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="51" column="24" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a5c58766f0b44c51373c9fb49684ec797" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::X</definition>
         <argsstring></argsstring>
         <name>X</name>
+        <qualifiedname>proteus::ElastoPlastic::X</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="53" column="27" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="53" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="53" column="27" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a2d4238dc8d42defe8ea3d20cfd51b111" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Y</definition>
         <argsstring></argsstring>
         <name>Y</name>
+        <qualifiedname>proteus::ElastoPlastic::Y</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="53" column="28" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="53" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="53" column="28" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a8af3fdc8c7ad4a7d1091baa3ef5bb1e8" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::Z</definition>
         <argsstring></argsstring>
         <name>Z</name>
+        <qualifiedname>proteus::ElastoPlastic::Z</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="53" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="53" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="53" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a47ab3553b913a85fd1eda479819bba13" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::XX</definition>
         <argsstring></argsstring>
         <name>XX</name>
+        <qualifiedname>proteus::ElastoPlastic::XX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="54" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="54" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="54" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a84f8795eb2f02740fb213b8e5323524c" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::XY</definition>
         <argsstring></argsstring>
         <name>XY</name>
+        <qualifiedname>proteus::ElastoPlastic::XY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="54" column="25" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="54" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="54" column="25" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1ae628a342ab5ededef11595eebb0db587" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::XZ</definition>
         <argsstring></argsstring>
         <name>XZ</name>
+        <qualifiedname>proteus::ElastoPlastic::XZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="54" column="27" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="54" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="54" column="27" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a2759761575e90fe26aa4f80d96443bd0" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::YX</definition>
         <argsstring></argsstring>
         <name>YX</name>
+        <qualifiedname>proteus::ElastoPlastic::YX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="55" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="55" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="55" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1af251b5a20efa205f649e6bde9fb0ec4f" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::YY</definition>
         <argsstring></argsstring>
         <name>YY</name>
+        <qualifiedname>proteus::ElastoPlastic::YY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="55" column="25" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="55" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="55" column="25" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1aba3a736b3dcc5176b6a00d9f54482bbd" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::YZ</definition>
         <argsstring></argsstring>
         <name>YZ</name>
+        <qualifiedname>proteus::ElastoPlastic::YZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="55" column="27" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="55" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="55" column="27" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1aefbe2b5be9f27713dd60a8ca76b63b70" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ZX</definition>
         <argsstring></argsstring>
         <name>ZX</name>
+        <qualifiedname>proteus::ElastoPlastic::ZX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="56" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="56" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="56" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a82084e40b5b44b2d92b0cc082f597678" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ZY</definition>
         <argsstring></argsstring>
         <name>ZY</name>
+        <qualifiedname>proteus::ElastoPlastic::ZY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="56" column="25" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="56" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="56" column="25" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a110579806e3dae920a362d61de068fde" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ZZ</definition>
         <argsstring></argsstring>
         <name>ZZ</name>
+        <qualifiedname>proteus::ElastoPlastic::ZZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="56" column="27" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="56" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="56" column="27" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a4ff7c909d33e35e50f6767ce96dcdabb" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sXX</definition>
         <argsstring></argsstring>
         <name>sXX</name>
+        <qualifiedname>proteus::ElastoPlastic::sXX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="57" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="57" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="57" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a99e1a602122c2de720083ede8fa0903b" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sXY</definition>
         <argsstring></argsstring>
         <name>sXY</name>
+        <qualifiedname>proteus::ElastoPlastic::sXY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="57" column="26" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="57" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="57" column="26" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1ad2787edd73bbf488d3d22ec412286b7c" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sXZ</definition>
         <argsstring></argsstring>
         <name>sXZ</name>
+        <qualifiedname>proteus::ElastoPlastic::sXZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="57" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="57" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="57" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a9ebb192d57e7d997f059708509b5c0c1" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sYX</definition>
         <argsstring></argsstring>
         <name>sYX</name>
+        <qualifiedname>proteus::ElastoPlastic::sYX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="58" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="58" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="58" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a66ec30ed690be4121be5023e3af61074" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sYY</definition>
         <argsstring></argsstring>
         <name>sYY</name>
+        <qualifiedname>proteus::ElastoPlastic::sYY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="58" column="26" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="58" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="58" column="26" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a63090f966c5126329835b6ddec2f45bd" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sYZ</definition>
         <argsstring></argsstring>
         <name>sYZ</name>
+        <qualifiedname>proteus::ElastoPlastic::sYZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="58" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="58" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="58" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a0ef1738f002f38411c1e9de408fd34e4" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sZX</definition>
         <argsstring></argsstring>
         <name>sZX</name>
+        <qualifiedname>proteus::ElastoPlastic::sZX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="59" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="59" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="59" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a7b4abe563f1b4409c2c662a5ca347a50" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sZY</definition>
         <argsstring></argsstring>
         <name>sZY</name>
+        <qualifiedname>proteus::ElastoPlastic::sZY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="59" column="26" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="59" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="59" column="26" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1ad7a2c110fe6f82232bf9cdd8f6ddd07f" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::sZZ</definition>
         <argsstring></argsstring>
         <name>sZZ</name>
+        <qualifiedname>proteus::ElastoPlastic::sZZ</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="59" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="59" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="59" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1aef4d5a42bde308cc57db87dcdeda14ed" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nSymTen</definition>
         <argsstring></argsstring>
         <name>nSymTen</name>
+        <qualifiedname>proteus::ElastoPlastic::nSymTen</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="60" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="60" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="60" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a857f2787782cf54c510bf971d678f9e5" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::XHX</definition>
         <argsstring></argsstring>
         <name>XHX</name>
+        <qualifiedname>proteus::ElastoPlastic::XHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="61" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="61" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="61" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a28b35810b3b1717ceb35da26da67aa98" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::XHY</definition>
         <argsstring></argsstring>
         <name>XHY</name>
+        <qualifiedname>proteus::ElastoPlastic::XHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="61" column="26" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="61" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="61" column="26" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1ab2df7371afe916200f6f700ddc0ff093" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::YHX</definition>
         <argsstring></argsstring>
         <name>YHX</name>
+        <qualifiedname>proteus::ElastoPlastic::YHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="62" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="62" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="62" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a077871af2ca2f75f8b9d0e89955dceeb" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::YHY</definition>
         <argsstring></argsstring>
         <name>YHY</name>
+        <qualifiedname>proteus::ElastoPlastic::YHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="62" column="26" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="62" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="62" column="26" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a25aa0db88f2aaffc6d3abd571c9832d6" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ZHX</definition>
         <argsstring></argsstring>
         <name>ZHX</name>
+        <qualifiedname>proteus::ElastoPlastic::ZHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="63" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="63" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="63" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a1c0bd59b27caa11fb34d96b36af48e38" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ZHY</definition>
         <argsstring></argsstring>
         <name>ZHY</name>
+        <qualifiedname>proteus::ElastoPlastic::ZHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="63" column="26" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="63" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="63" column="26" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a1bb9c448ca5a8a6fb4a76c21d286d3c1" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::HXHX</definition>
         <argsstring></argsstring>
         <name>HXHX</name>
+        <qualifiedname>proteus::ElastoPlastic::HXHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="64" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="64" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="64" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a5b809dd09f546fb31ffa75cf715bd0a2" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::HXHY</definition>
         <argsstring></argsstring>
         <name>HXHY</name>
+        <qualifiedname>proteus::ElastoPlastic::HXHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="64" column="27" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="64" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="64" column="27" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a1f05ab96c55a8824ff57e4a4a484cad7" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::HYHX</definition>
         <argsstring></argsstring>
         <name>HYHX</name>
+        <qualifiedname>proteus::ElastoPlastic::HYHX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="65" column="23" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="65" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="65" column="23" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_elasto_plastic_1a314997172566c15fcf07bc4a3b015cdb" prot="public" static="no" mutable="no">
         <type>const int</type>
         <definition>const int proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::HYHY</definition>
         <argsstring></argsstring>
         <name>HYHY</name>
+        <qualifiedname>proteus::ElastoPlastic::HYHY</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="65" column="27" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="65" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="65" column="27" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="65" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1a6ac2c47dfa78461787f2ca26c1abaabd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ElastoPlastic</definition>
         <argsstring>()</argsstring>
         <name>ElastoPlastic</name>
+        <qualifiedname>proteus::ElastoPlastic::ElastoPlastic</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="67" column="17" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="67" bodyend="85"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="67" column="17" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="67" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1af2b646b110bab441eb174fd9a283cd98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateStrain</definition>
         <argsstring>(double *D, double *strain)</argsstring>
         <name>calculateStrain</name>
+        <qualifiedname>proteus::ElastoPlastic::calculateStrain</qualifiedname>
         <param>
           <type>double *</type>
           <declname>D</declname>
@@ -529,13 +566,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="87" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="87" bodyend="96"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="87" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="87" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1aafeaf354ba3143065493f8c6f12650fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::elasticStress</definition>
         <argsstring>(const double *C, const double *strain, double *stress)</argsstring>
         <name>elasticStress</name>
+        <qualifiedname>proteus::ElastoPlastic::elasticStress</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>C</declname>
@@ -554,13 +592,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="98" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="98" bodyend="106"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="98" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="98" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1a6f48267e1522e198d94e57f918eef915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::elasticStrain</definition>
         <argsstring>(const double *Cinv, const double *stress, double *strain)</argsstring>
         <name>elasticStrain</name>
+        <qualifiedname>proteus::ElastoPlastic::elasticStrain</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>Cinv</declname>
@@ -579,13 +618,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="108" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="108" bodyend="116"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="108" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="108" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1a83a840efbe31d8f40a2666f362a4630d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::elasticModuli</definition>
         <argsstring>(const double &amp;E, const double &amp;nu, double *C, double *Cinv)</argsstring>
         <name>elasticModuli</name>
+        <qualifiedname>proteus::ElastoPlastic::elasticModuli</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>E</declname>
@@ -608,13 +648,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="118" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="118" bodyend="168"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="118" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="118" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1aaa491a9d47180e7758dc2f6b955a4344" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateConstitutiveModel</definition>
         <argsstring>(const double *materialProperties, const double *stress, double &amp;f, double *df, double *r, double *dr, double &amp;stress_3)</argsstring>
         <name>evaluateConstitutiveModel</name>
+        <qualifiedname>proteus::ElastoPlastic::evaluateConstitutiveModel</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>materialProperties</declname>
@@ -649,13 +690,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="170" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="170" bodyend="241"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="170" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="170" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1a92ce6de3b6fcfdc06390b9cd4a54db48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::differenceJacobian</definition>
         <argsstring>(const double *materialProperties, const double *stress, const double &amp;f, double *df, const double *r, double *dr)</argsstring>
         <name>differenceJacobian</name>
+        <qualifiedname>proteus::ElastoPlastic::differenceJacobian</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>materialProperties</declname>
@@ -686,13 +728,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="243" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="243" bodyend="266"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="243" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="243" bodyend="266"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1a467d3c28e07e7b71cf6d35ce9b9266d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(int usePicard, const double pore_pressure, const double *materialProperties, const double *strain0, const double *strain_last, const double *Delta_strain, const double *plasticStrain_last, double *plasticStrain, double *stress, double *dstress)</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::ElastoPlastic::evaluateCoefficients</qualifiedname>
         <param>
           <type>int</type>
           <declname>usePicard</declname>
@@ -739,13 +782,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="267" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="267" bodyend="740"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="267" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="267" bodyend="740"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1a835a1499ab70761f18dc5b00fc47fbe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalStressFlux</definition>
         <argsstring>(const double &amp;pore_pressure_ext, const int &amp;isDOFBoundary_u, const int &amp;isDOFBoundary_v, const int &amp;isDOFBoundary_w, const int &amp;isStressFluxBoundary_u, const int &amp;isStressFluxBoundary_v, const int &amp;isStressFluxBoundary_w, const double &amp;penalty, const double &amp;u, const double &amp;v, const double &amp;w, const double &amp;bc_u, const double &amp;bc_v, const double &amp;bc_w, const double &amp;bc_stressFlux_u, const double &amp;bc_stressFlux_v, const double &amp;bc_stressFlux_w, const double *stress, const double *normal, double &amp;stressFlux_u, double &amp;stressFlux_v, double &amp;stressFlux_w)</argsstring>
         <name>exteriorNumericalStressFlux</name>
+        <qualifiedname>proteus::ElastoPlastic::exteriorNumericalStressFlux</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>pore_pressure_ext</declname>
@@ -840,13 +884,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="742" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="742" bodyend="804"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="742" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="742" bodyend="804"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1aca44451fbe1e5dbb421b8022b647404c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalStressFluxJacobian</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isDOFBoundary_v, const int &amp;isDOFBoundary_w, const double *normal, const double *dstress, const double &amp;penalty, const double &amp;disp_trial, const double *disp_grad_trial, double &amp;dstressFlux_u_u, double &amp;dstressFlux_u_v, double &amp;dstressFlux_u_w, double &amp;dstressFlux_v_u, double &amp;dstressFlux_v_v, double &amp;dstressFlux_v_w, double &amp;dstressFlux_w_u, double &amp;dstressFlux_w_v, double &amp;dstressFlux_w_w)</argsstring>
         <name>exteriorNumericalStressFluxJacobian</name>
+        <qualifiedname>proteus::ElastoPlastic::exteriorNumericalStressFluxJacobian</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -921,13 +966,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="806" column="29" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="806" bodyend="899"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="806" column="29" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="806" bodyend="899"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1a1d19f2b2dd217ca24dde29029a1b9b97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::ElastoPlastic::calculateResidual</qualifiedname>
         <reimplements refid="classproteus_1_1_elasto_plastic__base_1af0d55b18e9b6ddfcc8a9d4bb986d6bdd">calculateResidual</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -939,13 +985,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="901" column="30" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="901" bodyend="1339"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="901" column="30" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="901" bodyend="1339"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_elasto_plastic_1ad7293c133dca7e7171e0fb92dc8d34a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::ElastoPlastic::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1_elasto_plastic__base_1a6db246a7e2f13631970b6870dcd56ab5">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -957,29 +1004,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="1341" column="30" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="1341" bodyend="1803"/>
+        <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="1341" column="30" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="1341" bodyend="1803"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>proteus::ElastoPlastic_base</label>
-        <link refid="classproteus_1_1_elasto_plastic__base"/>
-      </node>
       <node id="1">
         <label>proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_elasto_plastic"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="2">
         <label>proteus::ElastoPlastic_base</label>
         <link refid="classproteus_1_1_elasto_plastic__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>EIndex&lt; nSpace &gt;</label>
+        <link refid="class_e_index"/>
       </node>
       <node id="1">
         <label>proteus::ElastoPlastic&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
@@ -990,12 +1037,12 @@
           <edgelabel>ei</edgelabel>
         </childnode>
       </node>
-      <node id="3">
-        <label>EIndex&lt; nSpace &gt;</label>
-        <link refid="class_e_index"/>
+      <node id="2">
+        <label>proteus::ElastoPlastic_base</label>
+        <link refid="classproteus_1_1_elasto_plastic__base"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="44" column="13" bodyfile="/Users/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="45" bodyend="1804"/>
+    <location file="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" line="44" column="13" bodyfile="/work/cekees/proteus/proteus/elastoplastic/ElastoPlastic.h" bodystart="45" bodyend="1804"/>
     <listofallmembers>
       <member refid="classproteus_1_1_elasto_plastic_1ad7293c133dca7e7171e0fb92dc8d34a0" prot="public" virt="virtual"><scope>proteus::ElastoPlastic</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1_elasto_plastic_1a1d19f2b2dd217ca24dde29029a1b9b97" prot="public" virt="virtual"><scope>proteus::ElastoPlastic</scope><name>calculateResidual</name></member>

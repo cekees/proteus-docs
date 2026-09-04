@@ -3,5 +3,5 @@ proteus.mprans.PresInit module
 
 .. automodule:: proteus.mprans.PresInit
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

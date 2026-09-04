@@ -3,5 +3,5 @@ proteus.elastoplastic.ElastoPlastic module
 
 .. automodule:: proteus.elastoplastic.ElastoPlastic
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

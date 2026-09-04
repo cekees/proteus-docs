@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="class_richards__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Richards_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1richards_1_1_richards" prot="public" virt="non-virtual">proteus::richards::Richards&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_richards_8h" local="no">/work/cekees/proteus/proteus/richards/Richards.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_richards__base_1ab02b292c906e43eefe4f690ed058cc5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::richards::Richards_base::~Richards_base</definition>
+        <argsstring>()</argsstring>
+        <name>~Richards_base</name>
+        <qualifiedname>Richards_base::~Richards_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="56" column="11" bodyfile="/work/cekees/proteus/proteus/richards/Richards.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_richards__base_1ae20e7768b3bcd39be9d0bf2374dcd6e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::Richards_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>Richards_base::calculateResidual</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="57" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_richards__base_1a35c1a7fdb773ae55bc5128b83b5c52aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::Richards_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>Richards_base::calculateJacobian</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="58" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_richards__base_1a829b694b2ac3bc15eeff34d3d723ec65" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::Richards_base::invert</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>invert</name>
+        <qualifiedname>Richards_base::invert</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="59" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_richards__base_1a12c3b38fff417c507b7b8abb717e6dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::Richards_base::FCTStep</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>FCTStep</name>
+        <qualifiedname>Richards_base::FCTStep</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="60" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_richards__base_1a21067e3730a1e9126c30649702815d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::Richards_base::kth_FCT_step</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>kth_FCT_step</name>
+        <qualifiedname>Richards_base::kth_FCT_step</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="61" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_richards__base_1a398ad6031dacd60c0d9e4cc0470a4df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::Richards_base::calculateResidual_entropy_viscosity</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual_entropy_viscosity</name>
+        <qualifiedname>Richards_base::calculateResidual_entropy_viscosity</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="62" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_richards__base_1ad0a77b07426746c5b0b04411ec0835e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::richards::Richards_base::calculateMassMatrix</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateMassMatrix</name>
+        <qualifiedname>Richards_base::calculateMassMatrix</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="63" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Richards_base</label>
+        <link refid="class_richards__base"/>
+      </node>
+      <node id="2">
+        <label>proteus::richards::Richards&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1richards_1_1_richards"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="53" column="1" bodyfile="/work/cekees/proteus/proteus/richards/Richards.h" bodystart="53" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_richards__base_1a35c1a7fdb773ae55bc5128b83b5c52aa" prot="public" virt="pure-virtual"><scope>Richards_base</scope><name>calculateJacobian</name></member>
+      <member refid="class_richards__base_1ad0a77b07426746c5b0b04411ec0835e6" prot="public" virt="pure-virtual"><scope>Richards_base</scope><name>calculateMassMatrix</name></member>
+      <member refid="class_richards__base_1ae20e7768b3bcd39be9d0bf2374dcd6e1" prot="public" virt="pure-virtual"><scope>Richards_base</scope><name>calculateResidual</name></member>
+      <member refid="class_richards__base_1a398ad6031dacd60c0d9e4cc0470a4df1" prot="public" virt="pure-virtual"><scope>Richards_base</scope><name>calculateResidual_entropy_viscosity</name></member>
+      <member refid="class_richards__base_1a12c3b38fff417c507b7b8abb717e6dfd" prot="public" virt="pure-virtual"><scope>Richards_base</scope><name>FCTStep</name></member>
+      <member refid="class_richards__base_1a829b694b2ac3bc15eeff34d3d723ec65" prot="public" virt="pure-virtual"><scope>Richards_base</scope><name>invert</name></member>
+      <member refid="class_richards__base_1a21067e3730a1e9126c30649702815d01" prot="public" virt="pure-virtual"><scope>Richards_base</scope><name>kth_FCT_step</name></member>
+      <member refid="class_richards__base_1ab02b292c906e43eefe4f690ed058cc5a" prot="public" virt="virtual"><scope>Richards_base</scope><name>~Richards_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

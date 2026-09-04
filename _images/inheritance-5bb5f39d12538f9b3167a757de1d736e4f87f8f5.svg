@@ -1,0 +1,500 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="716pt" height="867pt" viewBox="0.00 0.00 716.00 867.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 862.75)">
+<ns0:title>inheritance478a470905</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>BlockedDofOrderType</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.BlockedDofOrderType" ns1:title="Manages the DOF for blocked velocity and pressure ordering." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="352.25,-59.75 231.25,-59.75 231.25,-39 352.25,-39 352.25,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BlockedDofOrderType</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>DofOrderInfo</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.DofOrderInfo" ns1:title="Base class for managing DOF ordering information" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="125.88,-40.75 46.88,-40.75 46.88,-20 125.88,-20 125.88,-40.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-27.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DofOrderInfo</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>DofOrderInfo-&gt;BlockedDofOrderType</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M126.11,-33.99C153.87,-36.59 191.97,-40.15 224.52,-43.19" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="225.06,-45 230.2,-43.72 225.38,-41.51 225.06,-45" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>InterlacedDofOrderType</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.InterlacedDofOrderType" ns1:title="Manages the DOF for interlaced velocity and pressure ordering." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="357.5,-20.75 226,-20.75 226,0 357.5,0 357.5,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InterlacedDofOrderType</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>DofOrderInfo-&gt;InterlacedDofOrderType</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M126.11,-26.57C152.47,-23.97 188.14,-20.47 219.54,-17.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="220.2,-19.07 225.01,-16.84 219.86,-15.59 220.2,-19.07" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>ChebyshevSemiIteration</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.ChebyshevSemiIteration" ns1:title="Class for implementing the ChebyshevSemiIteration." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="359.75,-371.75 223.75,-371.75 223.75,-351 359.75,-351 359.75,-371.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-358.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ChebyshevSemiIteration</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>LinearSolver</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.LinearSolver" ns1:title="The base class for linear solvers." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="124.75,-234.75 48,-234.75 48,-214 124.75,-214 124.75,-234.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-221.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LinearSolver</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>LinearSolver-&gt;ChebyshevSemiIteration</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M95.16,-235.02C112.69,-258.17 157.72,-313.29 208.75,-341.38 213.65,-344.07 218.92,-346.41 224.33,-348.44" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="224.23,-350.26 229.53,-350.26 225.39,-346.96 224.23,-350.26" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>GaussSeidel</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.GaussSeidel" ns1:title="Damped Gauss-Seidel." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="329.75,-332.75 253.75,-332.75 253.75,-312 329.75,-312 329.75,-332.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-319.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GaussSeidel</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>LinearSolver-&gt;GaussSeidel</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M100.73,-235.1C122.22,-251.86 166.39,-284.21 208.75,-302.38 220.9,-307.59 234.67,-311.61 247.42,-314.63" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="247.58,-316.47 252.84,-315.87 248.35,-313.05 247.58,-316.47" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>Jacobi</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.Jacobi" ns1:title="Damped Jacobi iteration." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="318.75,-293.75 264.75,-293.75 264.75,-273 318.75,-273 318.75,-293.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-280.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Jacobi</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>LinearSolver-&gt;Jacobi</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M118.88,-235.18C143.27,-243.38 177.97,-254.69 208.75,-263.38 224.92,-267.94 243.04,-272.42 258.14,-275.99" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="258.4,-277.85 263.67,-277.28 259.2,-274.44 258.4,-277.85" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>KSP_petsc4py</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.KSP_petsc4py" ns1:title="A class that interfaces Proteus with PETSc KSP." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="333.88,-254.75 249.62,-254.75 249.62,-234 333.88,-234 333.88,-254.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-241.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">KSP_petsc4py</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>LinearSolver-&gt;KSP_petsc4py</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M125.15,-228.09C158.49,-231.37 207.24,-236.16 243.22,-239.7" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="243.43,-241.48 248.57,-240.23 243.77,-238 243.43,-241.48" />
+</ns0:g>
+
+<ns0:g id="node12" class="node">
+<ns0:title>LU</ns0:title>
+<ns0:g id="a_node12"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.LU" ns1:title="A wrapper for pysparse's wrapper for superlu." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="318.75,-215.75 264.75,-215.75 264.75,-195 318.75,-195 318.75,-215.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-202.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LU</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>LinearSolver-&gt;LU</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M125.15,-220.85C163.48,-217.26 222.19,-211.78 258.43,-208.39" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="258.92,-210.11 263.74,-207.9 258.6,-206.62 258.92,-210.11" />
+</ns0:g>
+
+<ns0:g id="node32" class="node">
+<ns0:title>StarBILU</ns0:title>
+<ns0:g id="a_node32"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.StarBILU" ns1:title="Alternating Schwarz Method on 'blocks' consisting of consectutive rows in system for things like dg ..." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="320.75,-176.75 262.75,-176.75 262.75,-156 320.75,-156 320.75,-176.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-163.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">StarBILU</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge23" class="edge">
+<ns0:title>LinearSolver-&gt;StarBILU</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M119.92,-213.56C144.26,-205.63 178.44,-194.81 208.75,-186.38 224.31,-182.05 241.68,-177.74 256.41,-174.23" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="257.35,-175.81 261.81,-172.96 256.55,-172.4 257.35,-175.81" />
+</ns0:g>
+
+<ns0:g id="node33" class="node">
+<ns0:title>StarILU</ns0:title>
+<ns0:g id="a_node33"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.StarILU" ns1:title="Alternating Schwarz Method on node stars." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="318.75,-137.75 264.75,-137.75 264.75,-117 318.75,-117 318.75,-137.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-124.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">StarILU</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge24" class="edge">
+<ns0:title>LinearSolver-&gt;StarILU</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M101.1,-213.52C122.76,-196.92 166.73,-165.25 208.75,-147.38 224.44,-140.7 242.81,-135.96 258.18,-132.78" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="259.27,-134.34 263.83,-131.65 258.58,-130.91 259.27,-134.34" />
+</ns0:g>
+
+<ns0:g id="node35" class="node">
+<ns0:title>TwoLevel</ns0:title>
+<ns0:g id="a_node35"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.TwoLevel" ns1:title="A generic two-level multiplicative Schwarz solver." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="322.25,-98.75 261.25,-98.75 261.25,-78 322.25,-78 322.25,-98.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-85.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">TwoLevel</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge25" class="edge">
+<ns0:title>LinearSolver-&gt;TwoLevel</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M95.18,-213.83C112.75,-190.88 157.87,-136.23 208.75,-108.38 222.81,-100.68 239.82,-95.91 254.7,-92.97" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="255.59,-94.58 260.19,-91.95 254.95,-91.14 255.59,-94.58" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>ConstantNullSpace</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.ConstantNullSpace" ns1:title="ConstantNullSpace" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="345.88,-449.75 237.62,-449.75 237.62,-429 345.88,-429 345.88,-449.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-436.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConstantNullSpace</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>SolverNullSpace</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.SolverNullSpace" ns1:title="SolverNullSpace" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="134.12,-429.75 38.62,-429.75 38.62,-409 134.12,-409 134.12,-429.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-416.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SolverNullSpace</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>SolverNullSpace-&gt;ConstantNullSpace</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M134.54,-424.01C163.25,-426.84 200.18,-430.47 230.92,-433.49" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="231.48,-435.3 236.63,-434.05 231.82,-431.82 231.48,-435.3" />
+</ns0:g>
+
+<ns0:g id="node20" class="node">
+<ns0:title>NavierStokesConstantPressure</ns0:title>
+<ns0:g id="a_node20"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.NavierStokesConstantPressure" ns1:title="NavierStokesConstantPressure" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="374.75,-410.75 208.75,-410.75 208.75,-390 374.75,-390 374.75,-410.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-397.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesConstantPressure</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge13" class="edge">
+<ns0:title>SolverNullSpace-&gt;NavierStokesConstantPressure</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M134.54,-414.97C154.69,-413.09 178.88,-410.83 202.15,-408.65" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="202.79,-410.35 207.61,-408.14 202.46,-406.87 202.79,-410.35" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>KSP_Preconditioner</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.KSP_Preconditioner" ns1:title="Base class for PETSc KSP precondtioners." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="141.62,-527.75 31.12,-527.75 31.12,-507 141.62,-507 141.62,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">KSP_Preconditioner</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node22" class="node">
+<ns0:title>SchurPrecon</ns0:title>
+<ns0:g id="a_node22"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.SchurPrecon" ns1:title="Base class for PETSc Schur complement preconditioners." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="329.75,-566.75 253.75,-566.75 253.75,-546 329.75,-546 329.75,-566.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-553.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SchurPrecon</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge19" class="edge">
+<ns0:title>KSP_Preconditioner-&gt;SchurPrecon</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M141.88,-527.83C174.97,-534.17 216.63,-542.16 247.45,-548.07" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="247.49,-549.86 252.73,-549.08 248.15,-546.42 247.49,-549.86" />
+</ns0:g>
+
+<ns0:g id="node36" class="node">
+<ns0:title>petsc_ASM</ns0:title>
+<ns0:g id="a_node36"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.petsc_ASM" ns1:title="ASM PETSc preconditioner class." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="326.38,-527.75 257.12,-527.75 257.12,-507 326.38,-507 326.38,-527.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-514.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">petsc_ASM</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge26" class="edge">
+<ns0:title>KSP_Preconditioner-&gt;petsc_ASM</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M141.88,-517.38C176.04,-517.38 219.33,-517.38 250.41,-517.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="251.09,-519.13 256.09,-517.38 251.09,-515.63 251.09,-519.13" />
+</ns0:g>
+
+<ns0:g id="node37" class="node">
+<ns0:title>petsc_LU</ns0:title>
+<ns0:g id="a_node37"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.petsc_LU" ns1:title="LU PETSc preconditioner class." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="321.88,-488.75 261.62,-488.75 261.62,-468 321.88,-468 321.88,-488.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-475.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">petsc_LU</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge27" class="edge">
+<ns0:title>KSP_Preconditioner-&gt;petsc_LU</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M141.88,-506.92C177.84,-500.03 223.91,-491.19 255.21,-485.19" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="255.95,-486.83 260.53,-484.17 255.29,-483.39 255.95,-486.83" />
+</ns0:g>
+
+<ns0:g id="node13" class="node">
+<ns0:title>MGM</ns0:title>
+<ns0:g id="a_node13"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.MGM" ns1:title="A generic multigrid W cycle." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="318.75,-644.75 264.75,-644.75 264.75,-624 318.75,-624 318.75,-644.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-631.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MGM</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node14" class="node">
+<ns0:title>MultilevelLinearSolver</ns0:title>
+<ns0:g id="a_node14"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.MultilevelLinearSolver" ns1:title="A generic multilevel solver." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="149.12,-624.75 23.62,-624.75 23.62,-604 149.12,-604 149.12,-624.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-611.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MultilevelLinearSolver</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>MultilevelLinearSolver-&gt;MGM</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M149.5,-620.48C185.34,-624.01 228.94,-628.3 258.14,-631.17" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="258.61,-632.97 263.75,-631.72 258.95,-629.49 258.61,-632.97" />
+</ns0:g>
+
+<ns0:g id="node16" class="node">
+<ns0:title>NI</ns0:title>
+<ns0:g id="a_node16"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.NI" ns1:title="A generic nested iteration solver." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="318.75,-605.75 264.75,-605.75 264.75,-585 318.75,-585 318.75,-605.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-592.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NI</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>MultilevelLinearSolver-&gt;NI</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M149.5,-608.57C185.34,-605.22 228.94,-601.15 258.14,-598.42" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="258.94,-600.1 263.75,-597.9 258.61,-596.62 258.94,-600.1" />
+</ns0:g>
+
+<ns0:g id="node15" class="node">
+<ns0:title>ModelInfo</ns0:title>
+<ns0:g id="a_node15"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.ModelInfo" ns1:title="This class stores the model information needed to initialize a" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="118.75,-663.75 54,-663.75 54,-643 118.75,-643 118.75,-663.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-650.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelInfo</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node17" class="node">
+<ns0:title>NavierStokes2D</ns0:title>
+<ns0:g id="a_node17"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.NavierStokes2D" ns1:title="NavierStokes2D" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="678.25,-643.75 584.25,-643.75 584.25,-623 678.25,-623 678.25,-643.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="631.25" y="-630.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokes2D</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node18" class="node">
+<ns0:title>NavierStokesSchur</ns0:title>
+<ns0:g id="a_node18"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.NavierStokesSchur" ns1:title="Schur complement preconditioners for Navier-Stokes problems." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="518.25,-585.75 410.75,-585.75 410.75,-565 518.25,-565 518.25,-585.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="464.5" y="-572.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesSchur</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>NavierStokesSchur-&gt;NavierStokes2D</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M488.12,-586.16C505.85,-594.34 531.27,-605.48 554.25,-613.38 561.96,-616.02 570.22,-618.53 578.34,-620.81" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="578.5,-622.67 583.78,-622.3 579.42,-619.29 578.5,-622.67" />
+</ns0:g>
+
+<ns0:g id="node19" class="node">
+<ns0:title>NavierStokes3D</ns0:title>
+<ns0:g id="a_node19"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.NavierStokes3D" ns1:title="NavierStokes3D" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="678.25,-604.75 584.25,-604.75 584.25,-584 678.25,-584 678.25,-604.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="631.25" y="-591.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokes3D</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>NavierStokesSchur-&gt;NavierStokes3D</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M518.53,-581.49C537.47,-583.67 558.77,-586.13 577.67,-588.31" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="578.05,-590.12 583.22,-588.95 578.46,-586.64 578.05,-590.12" />
+</ns0:g>
+
+<ns0:g id="node23" class="node">
+<ns0:title>NavierStokes_TwoPhasePCD</ns0:title>
+<ns0:g id="a_node23"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.NavierStokes_TwoPhasePCD" ns1:title="Two-phase PCD Schur complement approximation class." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="708.25,-565.75 554.25,-565.75 554.25,-545 708.25,-545 708.25,-565.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="631.25" y="-552.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokes_TwoPhasePCD</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge16" class="edge">
+<ns0:title>NavierStokesSchur-&gt;NavierStokes_TwoPhasePCD</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M518.53,-568.94C527.79,-567.81 537.62,-566.62 547.46,-565.43" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="548.41,-567.07 553.17,-564.73 547.99,-563.6 548.41,-567.07" />
+</ns0:g>
+
+<ns0:g id="node30" class="node">
+<ns0:title>Schur_Sp</ns0:title>
+<ns0:g id="a_node30"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.Schur_Sp" ns1:title="Implements the SIMPLE Schur complement approximation proposed" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="661.38,-526.75 601.12,-526.75 601.12,-506 661.38,-506 661.38,-526.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="631.25" y="-513.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Schur_Sp</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge22" class="edge">
+<ns0:title>NavierStokesSchur-&gt;Schur_Sp</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M495.89,-564.58C503.28,-561.76 511.11,-558.6 518.25,-555.38 534.74,-547.93 537.39,-542.94 554.25,-536.38 567.14,-531.35 581.75,-527.17 594.68,-523.95" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="595.7,-525.51 600.15,-522.63 594.88,-522.1 595.7,-525.51" />
+</ns0:g>
+
+<ns0:g id="node21" class="node">
+<ns0:title>NavierStokesPressureCorrection</ns0:title>
+<ns0:g id="a_node21"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.NavierStokesPressureCorrection" ns1:title="NavierStokesPressureCorrection" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="172.75,-702.75 0,-702.75 0,-682 172.75,-682 172.75,-702.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-689.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NavierStokesPressureCorrection</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge14" class="edge">
+<ns0:title>SchurPrecon-&gt;NavierStokesSchur</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M330.22,-554.85C354.67,-556.36 386.87,-559.78 413.49,-563.6" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="413.83,-565.42 419.03,-564.42 414.34,-561.96 413.83,-565.42" />
+</ns0:g>
+
+<ns0:g id="edge15" class="edge">
+<ns0:title>SchurPrecon-&gt;NavierStokesSchur</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M330.22,-566.24C351.94,-569.73 379.78,-573.08 404.39,-575.26" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="404.69,-577.04 409.82,-575.72 404.98,-573.55 404.69,-577.04" />
+</ns0:g>
+
+<ns0:g id="node28" class="node">
+<ns0:title>Schur_LSC</ns0:title>
+<ns0:g id="a_node28"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.Schur_LSC" ns1:title="The Least-Squares Communtator preconditioner for saddle" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="497.62,-546.75 431.38,-546.75 431.38,-526 497.62,-526 497.62,-546.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="464.5" y="-533.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Schur_LSC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge20" class="edge">
+<ns0:title>SchurPrecon-&gt;Schur_LSC</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M330.22,-551.99C358.24,-548.7 396.44,-544.23 424.76,-540.91" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="425.49,-542.59 430.25,-540.27 425.08,-539.11 425.49,-542.59" />
+</ns0:g>
+
+<ns0:g id="node29" class="node">
+<ns0:title>Schur_Qp</ns0:title>
+<ns0:g id="a_node29"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.Schur_Qp" ns1:title="A Navier-Stokes (or Stokes) preconditioner which uses the" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="495.38,-507.75 433.62,-507.75 433.62,-487 495.38,-487 495.38,-507.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="464.5" y="-494.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Schur_Qp</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge21" class="edge">
+<ns0:title>SchurPrecon-&gt;Schur_Qp</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M330.08,-549.31C344.3,-546.09 360.5,-541.78 374.75,-536.38 391.67,-529.96 394.26,-524.82 410.75,-517.38 416.06,-514.98 421.75,-512.62 427.36,-510.4" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="428.65,-511.77 432.68,-508.33 427.39,-508.51 428.65,-511.77" />
+</ns0:g>
+
+<ns0:g id="node24" class="node">
+<ns0:title>OperatorConstructor</ns0:title>
+<ns0:g id="a_node24"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.OperatorConstructor" ns1:title="Base class for operator constructors." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="143.88,-741.75 28.88,-741.75 28.88,-721 143.88,-721 143.88,-741.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-728.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">OperatorConstructor</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node25" class="node">
+<ns0:title>OperatorConstructor_oneLevel</ns0:title>
+<ns0:g id="a_node25"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.OperatorConstructor_oneLevel" ns1:title="A class for building common discrete operators from one-level" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="374,-761.75 209.5,-761.75 209.5,-741 374,-741 374,-761.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-748.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">OperatorConstructor_oneLevel</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge17" class="edge">
+<ns0:title>OperatorConstructor-&gt;OperatorConstructor_oneLevel</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M144.3,-736.97C162.43,-738.76 182.93,-740.77 202.73,-742.72" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="203.23,-744.53 208.38,-743.27 203.58,-741.04 203.23,-744.53" />
+</ns0:g>
+
+<ns0:g id="node26" class="node">
+<ns0:title>OperatorConstructor_rans2p</ns0:title>
+<ns0:g id="a_node26"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.OperatorConstructor_rans2p" ns1:title="A class for building common discrete rans2p operators." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="368.38,-722.75 215.12,-722.75 215.12,-702 368.38,-702 368.38,-722.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="291.75" y="-709.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">OperatorConstructor_rans2p</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge18" class="edge">
+<ns0:title>OperatorConstructor-&gt;OperatorConstructor_rans2p</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M144.3,-726.06C164.19,-724.2 186.94,-722.07 208.48,-720.06" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="209.25,-721.75 214.07,-719.54 208.93,-718.26 209.25,-721.75" />
+</ns0:g>
+
+<ns0:g id="node27" class="node">
+<ns0:title>SchurOperatorConstructor</ns0:title>
+<ns0:g id="a_node27"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.SchurOperatorConstructor" ns1:title="Generate matrices for use in Schur complement preconditioner operators." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="157.38,-780.75 15.38,-780.75 15.38,-760 157.38,-760 157.38,-780.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-767.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SchurOperatorConstructor</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node31" class="node">
+<ns0:title>SimpleDarcyFC</ns0:title>
+<ns0:g id="a_node31"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.SimpleDarcyFC" ns1:title="SimpleDarcyFC" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="131.88,-819.75 40.88,-819.75 40.88,-799 131.88,-799 131.88,-819.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-806.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SimpleDarcyFC</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node34" class="node">
+<ns0:title>StorageSet</ns0:title>
+<ns0:g id="a_node34"><ns0:a ns1:href="../api/proteus.LinearSolvers.html#proteus.LinearSolvers.StorageSet" ns1:title="StorageSet" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="121,-858.75 51.75,-858.75 51.75,-838 121,-838 121,-858.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="86.38" y="-845.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">StorageSet</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

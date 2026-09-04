@@ -3,5 +3,5 @@ proteus.cshockCapturing module
 
 .. automodule:: proteus.cshockCapturing
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:

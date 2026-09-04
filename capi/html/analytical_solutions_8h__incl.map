@@ -1,6 +1,9 @@
 <map id="analyticalSolutions.h" name="analyticalSolutions.h">
-<area shape="rect" id="node1" title=" " alt="" coords="52,5,195,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,68,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="93,80,154,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="178,80,242,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="51,5,208,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,73,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,33,69,73,65,69,111,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,81,162,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,32,132,66,127,64,128,36"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="187,81,256,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="147,31,196,71,191,72,145,36"/>
 </map>

@@ -3,8 +3,8 @@ proteus.mprans package
 
 .. automodule:: proteus.mprans
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Submodules
 ----------
@@ -38,6 +38,7 @@ Submodules
    proteus.mprans.SW2D
    proteus.mprans.SW2DCV
    proteus.mprans.SpatialTools
+   proteus.mprans.TADR
    proteus.mprans.VOF
    proteus.mprans.VOF3P
    proteus.mprans.VOS3P

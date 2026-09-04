@@ -1,0 +1,23 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="88pt" height="68pt" viewBox="0.00 0.00 88.00 68.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 63.75)">
+<ns0:title>inheritancec11b212303</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>MatlabWriter</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.Viewers.html#proteus.Viewers.MatlabWriter" ns1:title="collect functionality for generating visualation data and commands in matlab" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="79.75,-20.75 0,-20.75 0,0 79.75,0 79.75,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="39.88" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MatlabWriter</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>V_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.Viewers.html#proteus.Viewers.V_base" ns1:title="V_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="66.88,-59.75 12.88,-59.75 12.88,-39 66.88,-39 66.88,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="39.88" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">V_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

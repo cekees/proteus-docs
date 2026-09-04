@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="namespacem__comp__co2_1_1eos" kind="namespace" language="C++">
+    <compoundname>m_comp_co2::eos</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1a163d6cfc5b413d4cc3a877015dc1c04e" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::R_CM3_BAR</definition>
+        <argsstring></argsstring>
+        <name>R_CM3_BAR</name>
+        <qualifiedname>m_comp_co2::eos::R_CM3_BAR</qualifiedname>
+        <initializer>= 83.1446</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="17" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1a8e8b2a06511e4443a0a17b14ce19a197" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::P0_BAR</definition>
+        <argsstring></argsstring>
+        <name>P0_BAR</name>
+        <qualifiedname>m_comp_co2::eos::P0_BAR</qualifiedname>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="18" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1ad8b04e05b5dd6a8d38804622dd103707" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::M_PER_KG_H2O</definition>
+        <argsstring></argsstring>
+        <name>M_PER_KG_H2O</name>
+        <qualifiedname>m_comp_co2::eos::M_PER_KG_H2O</qualifiedname>
+        <initializer>= 55.508</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="19" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1ae3b5ac0348594799ab86a43480f1d6cc" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::A_CO2_0</definition>
+        <argsstring></argsstring>
+        <name>A_CO2_0</name>
+        <qualifiedname>m_comp_co2::eos::A_CO2_0</qualifiedname>
+        <initializer>= 7.54e7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="21" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1a0f777028a37bb4dc5e7437d49b81bfa4" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::A_CO2_1</definition>
+        <argsstring></argsstring>
+        <name>A_CO2_1</name>
+        <qualifiedname>m_comp_co2::eos::A_CO2_1</qualifiedname>
+        <initializer>= 4.02e4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="22" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1af6ea3dd825e3104d78a0fd21eab7d572" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::A_H2O_CO2</definition>
+        <argsstring></argsstring>
+        <name>A_H2O_CO2</name>
+        <qualifiedname>m_comp_co2::eos::A_H2O_CO2</qualifiedname>
+        <initializer>= 7.89e7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="23" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1ad6bcde158f9139c74b66105dad995ac9" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::B_CO2</definition>
+        <argsstring></argsstring>
+        <name>B_CO2</name>
+        <qualifiedname>m_comp_co2::eos::B_CO2</qualifiedname>
+        <initializer>= 27.80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="24" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1a4f57287a864c0110e129a6e3bf8f73e4" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::B_H2O</definition>
+        <argsstring></argsstring>
+        <name>B_H2O</name>
+        <qualifiedname>m_comp_co2::eos::B_H2O</qualifiedname>
+        <initializer>= 18.10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="25" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1a7dccef188cd3f8c1c0625899f3a8328b" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::V_H2O</definition>
+        <argsstring></argsstring>
+        <name>V_H2O</name>
+        <qualifiedname>m_comp_co2::eos::V_H2O</qualifiedname>
+        <initializer>= 18.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="27" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1abf10e47c99af0556a273d0331c1e5ff9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::V_CO2</definition>
+        <argsstring></argsstring>
+        <name>V_CO2</name>
+        <qualifiedname>m_comp_co2::eos::V_CO2</qualifiedname>
+        <initializer>= 32.1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="27" column="25" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1a31fc64d2914970f43c809438c139a863" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::C_F_BRINE</definition>
+        <argsstring></argsstring>
+        <name>C_F_BRINE</name>
+        <qualifiedname>m_comp_co2::eos::C_F_BRINE</qualifiedname>
+        <initializer>= 4.5e-10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="32" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1aec55af1b997933566dd5843f1a52e5ec" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::P_REF_BRINE</definition>
+        <argsstring></argsstring>
+        <name>P_REF_BRINE</name>
+        <qualifiedname>m_comp_co2::eos::P_REF_BRINE</qualifiedname>
+        <initializer>= 1.01325e5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="33" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1acaab72981c7ebf48c3a58404e452c2ee" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::M_CO2_KG</definition>
+        <argsstring></argsstring>
+        <name>M_CO2_KG</name>
+        <qualifiedname>m_comp_co2::eos::M_CO2_KG</qualifiedname>
+        <initializer>= 0.04401</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="35" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1abcc57d0fa5cca2479559e1a526096eeb" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::M_H2O_KG</definition>
+        <argsstring></argsstring>
+        <name>M_H2O_KG</name>
+        <qualifiedname>m_comp_co2::eos::M_H2O_KG</qualifiedname>
+        <initializer>= 0.018015</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="36" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1ae7725e546c8bae65a75a0856e620f622" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::K0_H2O[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>K0_H2O</name>
+        <qualifiedname>m_comp_co2::eos::K0_H2O</qualifiedname>
+        <initializer>= {-2.215, 3.162e-2, -1.294e-4, 4.187e-7, -7.331e-10}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="39" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1af9e3a007abec04cbbd13de4b2c81c2b2" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::K0_CO2_G[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>K0_CO2_G</name>
+        <qualifiedname>m_comp_co2::eos::K0_CO2_G</qualifiedname>
+        <initializer>= { 1.188, 1.307e-2, -5.445e-5, 0.0, 0.0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="40" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1abfa6434a27ad56b07be7f21ece3add16" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::K0_CO2_L[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>K0_CO2_L</name>
+        <qualifiedname>m_comp_co2::eos::K0_CO2_L</qualifiedname>
+        <initializer>= { 1.168, 1.361e-2, -5.135e-5, 0.0, 0.0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="41" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1a5e74037651d0689968336ec1d28446fd" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::TC_CO2_K</definition>
+        <argsstring></argsstring>
+        <name>TC_CO2_K</name>
+        <qualifiedname>m_comp_co2::eos::TC_CO2_K</qualifiedname>
+        <initializer>= 304.1282</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="43" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1aefdddf9a42322c6f1b3de69d4c1cce9d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::PC_CO2_BAR</definition>
+        <argsstring></argsstring>
+        <name>PC_CO2_BAR</name>
+        <qualifiedname>m_comp_co2::eos::PC_CO2_BAR</qualifiedname>
+        <initializer>= 73.773</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="43" column="28" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacem__comp__co2_1_1eos_1ac2883169206166c8ae5bc3a685cbb6c2" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::SW_A[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>SW_A</name>
+        <qualifiedname>m_comp_co2::eos::SW_A</qualifiedname>
+        <initializer>= {-7.0602087, 1.9391218, -1.6463597, -3.2995634}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="44" column="18" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a1e6b648d172367e504db783a8147939c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::poly_logK0</definition>
+        <argsstring>(const double c[5], double T_C)</argsstring>
+        <name>poly_logK0</name>
+        <qualifiedname>m_comp_co2::eos::poly_logK0</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>c</declname>
+          <array>[5]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="46" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a4b4dfa44ea2a48295f5cfd12f2583174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::co2_saturation_pressure_bar</definition>
+        <argsstring>(double T_C)</argsstring>
+        <name>co2_saturation_pressure_bar</name>
+        <qualifiedname>m_comp_co2::eos::co2_saturation_pressure_bar</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="50" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a84c1477e5039aa9e1a315d38d83b5f10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool m_comp_co2::eos::co2_is_liquid</definition>
+        <argsstring>(double T_C, double P_bar)</argsstring>
+        <name>co2_is_liquid</name>
+        <qualifiedname>m_comp_co2::eos::co2_is_liquid</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>P_bar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="59" column="13" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a6dbb233c7e2a81582b0ed3b4ca4dabf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int m_comp_co2::eos::solve_cubic_real</definition>
+        <argsstring>(double b, double c, double d, double r[3])</argsstring>
+        <name>solve_cubic_real</name>
+        <qualifiedname>m_comp_co2::eos::solve_cubic_real</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+          <array>[3]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="65" column="12" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="65" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a4f0c940524f74875bb28c64c2dfb4701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::rk_molar_volume</definition>
+        <argsstring>(double T_C, double P_bar, bool liquid)</argsstring>
+        <name>rk_molar_volume</name>
+        <qualifiedname>m_comp_co2::eos::rk_molar_volume</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>P_bar</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>liquid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="90" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="90" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a0fda85887f0acf48c6ba4750141c3401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::ln_phi</definition>
+        <argsstring>(double T_C, double P_bar, double V, double b_k, double sum_aik)</argsstring>
+        <name>ln_phi</name>
+        <qualifiedname>m_comp_co2::eos::ln_phi</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>P_bar</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b_k</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sum_aik</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="112" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="112" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a17da4f2d60bb984e21bec1296eb0a376" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void m_comp_co2::eos::spycher_pruess_solubility</definition>
+        <argsstring>(double T_C, double P_bar, double, double &amp;x_CO2, double &amp;y_H2O)</argsstring>
+        <name>spycher_pruess_solubility</name>
+        <qualifiedname>m_comp_co2::eos::spycher_pruess_solubility</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>P_bar</declname>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>x_CO2</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>y_H2O</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="127" column="13" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="127" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1a6083b44ce7f4124fb3e98f8ebd8bc560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::co2_rich_molar_density</definition>
+        <argsstring>(double T_C, double P_bar)</argsstring>
+        <name>co2_rich_molar_density</name>
+        <qualifiedname>m_comp_co2::eos::co2_rich_molar_density</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>P_bar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="143" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="143" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1adf2fdaa8e8a17126d078569a912a1f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::pure_water_density_gcc</definition>
+        <argsstring>(double T_C)</argsstring>
+        <name>pure_water_density_gcc</name>
+        <qualifiedname>m_comp_co2::eos::pure_water_density_gcc</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="147" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="147" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacem__comp__co2_1_1eos_1aca63ffc0f5e8f1b7a3375b0beecadcb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double m_comp_co2::eos::brine_molar_density</definition>
+        <argsstring>(double T_C, double P_bar, double x_CO2)</argsstring>
+        <name>brine_molar_density</name>
+        <qualifiedname>m_comp_co2::eos::brine_molar_density</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>T_C</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>P_bar</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x_CO2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="154" column="15" bodyfile="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" bodystart="154" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/work/cekees/proteus/proteus/m_comp_co2/co2_brine_eos.h" line="14" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classc_a_d_r__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>cADR_base</compoundname>
+    <derivedcompoundref refid="classproteus_1_1c_a_d_r" prot="public" virt="non-virtual">proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
+    <includes refid="_a_d_r_8h" local="no">/work/cekees/proteus/proteus/ADR.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classc_a_d_r__base_1af28aa3d167e8e7f915a79b970450a5cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual proteus::cADR_base::~cADR_base</definition>
+        <argsstring>()</argsstring>
+        <name>~cADR_base</name>
+        <qualifiedname>cADR_base::~cADR_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="26" column="9" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classc_a_d_r__base_1a2ade9d7bdca597fd49c83011b6f2c64c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::cADR_base::calculateResidual</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateResidual</name>
+        <qualifiedname>cADR_base::calculateResidual</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="27" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classc_a_d_r__base_1abc11fbf30b49406dd27dd1a096c17a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void proteus::cADR_base::calculateJacobian</definition>
+        <argsstring>(arguments_dict &amp;args)=0</argsstring>
+        <name>calculateJacobian</name>
+        <qualifiedname>cADR_base::calculateJacobian</qualifiedname>
+        <param>
+          <type>arguments_dict &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/ADR.h" line="28" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>cADR_base</label>
+        <link refid="classc_a_d_r__base"/>
+      </node>
+      <node id="2">
+        <label>proteus::cADR&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classproteus_1_1c_a_d_r"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/work/cekees/proteus/proteus/ADR.h" line="23" column="1" bodyfile="/work/cekees/proteus/proteus/ADR.h" bodystart="24" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classc_a_d_r__base_1abc11fbf30b49406dd27dd1a096c17a79" prot="public" virt="pure-virtual"><scope>cADR_base</scope><name>calculateJacobian</name></member>
+      <member refid="classc_a_d_r__base_1a2ade9d7bdca597fd49c83011b6f2c64c" prot="public" virt="pure-virtual"><scope>cADR_base</scope><name>calculateResidual</name></member>
+      <member refid="classc_a_d_r__base_1af28aa3d167e8e7f915a79b970450a5cf" prot="public" virt="virtual"><scope>cADR_base</scope><name>~cADR_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

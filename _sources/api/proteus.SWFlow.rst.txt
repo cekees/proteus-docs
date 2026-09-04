@@ -3,8 +3,8 @@ proteus.SWFlow package
 
 .. automodule:: proteus.SWFlow
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Subpackages
 -----------

@@ -1,28 +1,30 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_kappa__base" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>proteus::Kappa_base</compoundname>
     <derivedcompoundref refid="classproteus_1_1_kappa" prot="public" virt="non-virtual">proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</derivedcompoundref>
-    <includes refid="_kappa_8h" local="no">/Users/cekees/proteus/proteus/mprans/Kappa.h</includes>
-      <sectiondef kind="public-func">
+    <includes refid="_kappa_8h" local="no">/work/cekees/proteus/proteus/mprans/Kappa.h</includes>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_kappa__base_1a9eb5e4f8c007db253e868d8de19d8410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
         <definition>virtual proteus::Kappa_base::~Kappa_base</definition>
         <argsstring>()</argsstring>
         <name>~Kappa_base</name>
+        <qualifiedname>proteus::Kappa_base::~Kappa_base</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="19" column="13" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="19" bodyend="19"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="19" column="13" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa__base_1a4b10953a4ff6d7cb1293d5c2a88f5a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void proteus::Kappa_base::setSedClosure</definition>
         <argsstring>(double aDarcy, double betaForch, double grain, double packFraction, double packMargin, double maxFraction, double frFraction, double sigmaC, double C3e, double C4e, double eR, double fContact, double mContact, double nContact, double angFriction, double vos_limiter, double mu_fr_limiter)</argsstring>
         <name>setSedClosure</name>
+        <qualifiedname>proteus::Kappa_base::setSedClosure</qualifiedname>
         <reimplementedby refid="classproteus_1_1_kappa_1ac18cf7bafc96cb2776e1a1f33e9ff809">setSedClosure</reimplementedby>
         <param>
           <type>double</type>
@@ -98,13 +100,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="20" column="19" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="20" bodyend="36"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="20" column="19" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="20" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa__base_1a5709ceafc9c563022e6440185b562e4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void proteus::Kappa_base::calculateResidual</definition>
         <argsstring>(arguments_dict &amp;args)=0</argsstring>
         <name>calculateResidual</name>
+        <qualifiedname>proteus::Kappa_base::calculateResidual</qualifiedname>
         <reimplementedby refid="classproteus_1_1_kappa_1ace75e8a440df088ac18cb88851845ab3">calculateResidual</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -116,13 +119,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="37" column="18"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="37" column="18"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_kappa__base_1ab8ca1f31a4d2ca4ae0dae6d0496ab729" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void proteus::Kappa_base::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)=0</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::Kappa_base::calculateJacobian</qualifiedname>
         <reimplementedby refid="classproteus_1_1_kappa_1adbc82b0f0c4c022be0e2127428e3ec43">calculateJacobian</reimplementedby>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -134,26 +138,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="38" column="18"/>
+        <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="38" column="18"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1">
-        <label>proteus::Kappa_base</label>
-        <link refid="classproteus_1_1_kappa__base"/>
-      </node>
       <node id="2">
         <label>proteus::Kappa&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_kappa"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="1">
+        <label>proteus::Kappa_base</label>
+        <link refid="classproteus_1_1_kappa__base"/>
+      </node>
     </inheritancegraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/Kappa.h" line="15" column="3" bodyfile="/Users/cekees/proteus/proteus/mprans/Kappa.h" bodystart="16" bodyend="39"/>
+    <location file="/work/cekees/proteus/proteus/mprans/Kappa.h" line="15" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/Kappa.h" bodystart="16" bodyend="39"/>
     <listofallmembers>
       <member refid="classproteus_1_1_kappa__base_1ab8ca1f31a4d2ca4ae0dae6d0496ab729" prot="public" virt="pure-virtual"><scope>proteus::Kappa_base</scope><name>calculateJacobian</name></member>
       <member refid="classproteus_1_1_kappa__base_1a5709ceafc9c563022e6440185b562e4d" prot="public" virt="pure-virtual"><scope>proteus::Kappa_base</scope><name>calculateResidual</name></member>

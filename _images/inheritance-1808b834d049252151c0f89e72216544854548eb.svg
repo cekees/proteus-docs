@@ -1,0 +1,38 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="245pt" height="68pt" viewBox="0.00 0.00 245.00 68.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 63.75)">
+<ns0:title>inheritancef0f7c8435a</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>MinAlgo_base</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../api/proteus.Optimizers.html#proteus.Optimizers.MinAlgo_base" ns1:title="This is the base class for the minimization algorthms class," target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="108.25,-20.75 24,-20.75 24,0 108.25,0 108.25,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="66.12" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MinAlgo_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>fminbound</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../api/proteus.Optimizers.html#proteus.Optimizers.fminbound" ns1:title="This is a function that uses a golden ratio routine for finding" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="236.75,-20.75 168.25,-20.75 168.25,0 236.75,0 236.75,-20.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="202.5" y="-7.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">fminbound</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>MinAlgo_base-&gt;fminbound</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M108.54,-10.38C125.42,-10.38 144.86,-10.38 161.59,-10.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="162.34,-12.13 167.34,-10.38 162.34,-8.63 162.34,-12.13" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ObjectiveFunction_base</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../api/proteus.Optimizers.html#proteus.Optimizers.ObjectiveFunction_base" ns1:title="ObjectiveFunction_base" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="132.25,-59.75 0,-59.75 0,-39 132.25,-39 132.25,-59.75" />
+<ns0:text xml:space="preserve" text-anchor="middle" x="66.12" y="-46.25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ObjectiveFunction_base</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+</ns0:svg>

@@ -1,0 +1,15 @@
+proteus.m\_comp\_co2 package
+============================
+
+.. automodule:: proteus.m_comp_co2
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   proteus.m_comp_co2.m_comp_co2

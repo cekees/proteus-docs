@@ -1,46 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="equivalent__polynomials__coefficients__quad_8h" kind="file" language="C++">
     <compoundname>equivalent_polynomials_coefficients_quad.h</compoundname>
     <includedby refid="equivalent__polynomials_8h" local="yes">equivalent_polynomials.h</includedby>
     <invincdepgraph>
-      <node id="1">
-        <label>equivalent_polynomials_coefficients_quad.h</label>
-        <link refid="equivalent__polynomials__coefficients__quad_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>RANS2P2D.cpp</label>
-        <link refid="_r_a_n_s2_p2_d_8cpp"/>
+      <node id="4">
+        <label>ADR.cpp</label>
+        <link refid="_a_d_r_8cpp"/>
       </node>
       <node id="3">
         <label>ADR.h</label>
         <link refid="_a_d_r_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-      </node>
-      <node id="12">
-        <label>RANS3PF.cpp</label>
-        <link refid="_r_a_n_s3_p_f_8cpp"/>
-      </node>
-      <node id="11">
-        <label>RANS3PF.h</label>
-        <link refid="_r_a_n_s3_p_f_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>RDLS.cpp</label>
-        <link refid="_r_d_l_s_8cpp"/>
-      </node>
-      <node id="14">
-        <label>RANS3PF2D.cpp</label>
-        <link refid="_r_a_n_s3_p_f2_d_8cpp"/>
-      </node>
-      <node id="8">
-        <label>RANS2P.cpp</label>
-        <link refid="_r_a_n_s2_p_8cpp"/>
       </node>
       <node id="2">
         <label>equivalent_polynomials.h</label>
@@ -59,12 +31,28 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-      </node>
-      <node id="13">
-        <label>RANS3PF2D.h</label>
-        <link refid="_r_a_n_s3_p_f2_d_8h"/>
-        <childnode refid="14" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
+      </node>
+      <node id="1">
+        <label>equivalent_polynomials_coefficients_quad.h</label>
+        <link refid="equivalent__polynomials__coefficients__quad_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MCorr.cpp</label>
+        <link refid="_m_corr_8cpp"/>
+      </node>
+      <node id="5">
+        <label>MCorr.h</label>
+        <link refid="_m_corr_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>RANS2P.cpp</label>
+        <link refid="_r_a_n_s2_p_8cpp"/>
       </node>
       <node id="7">
         <label>RANS2P.h</label>
@@ -72,19 +60,9 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="15">
-        <label>RDLS.h</label>
-        <link refid="_r_d_l_s_8h"/>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>ADR.cpp</label>
-        <link refid="_a_d_r_8cpp"/>
-      </node>
-      <node id="6">
-        <label>MCorr.cpp</label>
-        <link refid="_m_corr_8cpp"/>
+      <node id="10">
+        <label>RANS2P2D.cpp</label>
+        <link refid="_r_a_n_s2_p2_d_8cpp"/>
       </node>
       <node id="9">
         <label>RANS2P2D.h</label>
@@ -92,10 +70,44 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MCorr.h</label>
-        <link refid="_m_corr_8h"/>
-        <childnode refid="6" relation="include">
+      <node id="12">
+        <label>RANS3PF.cpp</label>
+        <link refid="_r_a_n_s3_p_f_8cpp"/>
+      </node>
+      <node id="11">
+        <label>RANS3PF.h</label>
+        <link refid="_r_a_n_s3_p_f_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>RANS3PF2D.cpp</label>
+        <link refid="_r_a_n_s3_p_f2_d_8cpp"/>
+      </node>
+      <node id="13">
+        <label>RANS3PF2D.h</label>
+        <link refid="_r_a_n_s3_p_f2_d_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>RDLS.cpp</label>
+        <link refid="_r_d_l_s_8cpp"/>
+      </node>
+      <node id="15">
+        <label>RDLS.h</label>
+        <link refid="_r_d_l_s_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>VOF.cpp</label>
+        <link refid="_v_o_f_8cpp"/>
+      </node>
+      <node id="17">
+        <label>VOF.h</label>
+        <link refid="_v_o_f_8h"/>
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -116,7 +128,7 @@
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_D);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="12" refid="namespaceequivalent__polynomials_1a530690346b6f4f7faa3e95a2b7ebd70c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a530690346b6f4f7faa3e95a2b7ebd70c" kindref="member">_calculate_b&lt;1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
+<codeline lineno="12" refid="namespaceequivalent__polynomials_1a530690346b6f4f7faa3e95a2b7ebd70c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;1&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi3,</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_D)</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -135,7 +147,7 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="31" refid="namespaceequivalent__polynomials_1a833584f0d7ef56f14fb2b909c66531e9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a833584f0d7ef56f14fb2b909c66531e9" kindref="member">_calculate_b&lt;2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
+<codeline lineno="31" refid="namespaceequivalent__polynomials_1a833584f0d7ef56f14fb2b909c66531e9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;2&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi3,</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_D)</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -172,7 +184,7 @@
 <codeline lineno="65"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="68" refid="namespaceequivalent__polynomials_1aa0f439c753c489d12d4df62d51d4b7c5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1aa0f439c753c489d12d4df62d51d4b7c5" kindref="member">_calculate_b&lt;3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
+<codeline lineno="68" refid="namespaceequivalent__polynomials_1aa0f439c753c489d12d4df62d51d4b7c5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;3&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi3,</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_D)</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -239,7 +251,7 @@
 <codeline lineno="132"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;&gt;</highlight></codeline>
-<codeline lineno="135" refid="namespaceequivalent__polynomials_1a14ca2a5010de55f731f64fada9cb7f81" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1a14ca2a5010de55f731f64fada9cb7f81" kindref="member">_calculate_b&lt;4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
+<codeline lineno="135" refid="namespaceequivalent__polynomials_1a14ca2a5010de55f731f64fada9cb7f81" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceequivalent__polynomials_1ad859dcd2d5b47f1bd52fd7c33d433176" kindref="member">_calculate_b&lt;4&gt;</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta01,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta02,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta31,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta32,</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi3,</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_H,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_ImH,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b_D)</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -353,6 +365,6 @@
 <codeline lineno="246"><highlight class="normal">}</highlight><highlight class="comment">//equivalent_polynomials</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/equivalent_polynomials_coefficients_quad.h"/>
+    <location file="/work/cekees/proteus/proteus/equivalent_polynomials_coefficients_quad.h"/>
   </compounddef>
 </doxygen>

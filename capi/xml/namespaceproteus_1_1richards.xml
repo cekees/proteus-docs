@@ -1,31 +1,206 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
-  <compounddef id="namespaceproteus_1_1richards" kind="namespace" language="Python">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="namespaceproteus_1_1richards" kind="namespace" language="C++">
     <compoundname>proteus::richards</compoundname>
-    <innernamespace refid="namespaceproteus_1_1richards_1_1Richards">proteus::richards::Richards</innernamespace>
-      <sectiondef kind="var">
-      <memberdef kind="variable" id="namespaceproteus_1_1richards_1a486953d9b55df3ea72e0e2d196a193af" prot="private" static="no" mutable="no">
-        <type>list</type>
-        <definition>list proteus::richards.__all__</definition>
-        <argsstring></argsstring>
-        <name>__all__</name>
-        <initializer>=  [&quot;Richards&quot;,
-           &quot;cRichards&quot;]</initializer>
+    <innerclass refid="classproteus_1_1richards_1_1_a_d_r" prot="public">proteus::richards::ADR</innerclass>
+    <innerclass refid="classproteus_1_1richards_1_1_a_d_r__base" prot="public">proteus::richards::ADR_base</innerclass>
+    <innerclass refid="classproteus_1_1richards_1_1_richards" prot="public">proteus::richards::Richards</innerclass>
+    <innerclass refid="classproteus_1_1richards_1_1_richards__base" prot="public">proteus::richards::Richards_base</innerclass>
+    <innernamespace refid="namespaceproteus_1_1richards_1_1psk">proteus::richards::psk</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1a5c99493cee286e9693bd46c06d7000e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_d_r__base" kindref="compound">ADR_base</ref> *</type>
+        <definition>ADR_base * proteus::richards::newADR</definition>
+        <argsstring>(int nSpaceIn, int nQuadraturePoints_elementIn, int nDOF_mesh_trial_elementIn, int nDOF_trial_elementIn, int nDOF_test_elementIn, int nQuadraturePoints_elementBoundaryIn, int CompKernelFlag)</argsstring>
+        <name>newADR</name>
+        <qualifiedname>proteus::richards::newADR</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nSpaceIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nQuadraturePoints_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_mesh_trial_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_trial_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_test_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nQuadraturePoints_elementBoundaryIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CompKernelFlag</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="richards/__init__.py" line="5" column="1" bodyfile="richards/__init__.py" bodystart="5" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/richards/ADR.h" line="609" column="19" bodyfile="/work/cekees/proteus/proteus/richards/ADR.h" bodystart="609" bodyend="650"/>
       </memberdef>
-      </sectiondef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1a5ec9caebeaf6449f5491f9e63bee8bea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::richards::ENTROPY</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>ENTROPY</name>
+        <qualifiedname>proteus::richards::ENTROPY</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="30" column="15" bodyfile="/work/cekees/proteus/proteus/richards/Richards.h" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1a739d643191a1965c66a33362c998033f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::richards::DENTROPY</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>DENTROPY</name>
+        <qualifiedname>proteus::richards::DENTROPY</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="34" column="15" bodyfile="/work/cekees/proteus/proteus/richards/Richards.h" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1a9204962aa2685580ca8a017ecbed1c71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::richards::ENTROPY_LOG</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>ENTROPY_LOG</name>
+        <qualifiedname>proteus::richards::ENTROPY_LOG</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="39" column="15" bodyfile="/work/cekees/proteus/proteus/richards/Richards.h" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1a2dcd994d0cdb3e6707df74a081b13100" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double proteus::richards::DENTROPY_LOG</definition>
+        <argsstring>(const double &amp;phi, const double &amp;phiL, const double &amp;phiR)</argsstring>
+        <name>DENTROPY_LOG</name>
+        <qualifiedname>proteus::richards::DENTROPY_LOG</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiL</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>phiR</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="43" column="15" bodyfile="/work/cekees/proteus/proteus/richards/Richards.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceproteus_1_1richards_1ae3a7d051c797fa8207f05e83b3d1fe9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_richards__base" kindref="compound">Richards_base</ref> *</type>
+        <definition>Richards_base * proteus::richards::newRichards</definition>
+        <argsstring>(int nSpaceIn, int nQuadraturePoints_elementIn, int nDOF_mesh_trial_elementIn, int nDOF_trial_elementIn, int nDOF_test_elementIn, int nQuadraturePoints_elementBoundaryIn, int CompKernelFlag)</argsstring>
+        <name>newRichards</name>
+        <qualifiedname>proteus::richards::newRichards</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nSpaceIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nQuadraturePoints_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_mesh_trial_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_trial_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDOF_test_elementIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nQuadraturePoints_elementBoundaryIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CompKernelFlag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/richards/Richards.h" line="2235" column="22" bodyfile="/work/cekees/proteus/proteus/richards/Richards.h" bodystart="2235" bodyend="2245"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><verbatim>Modules for simulating variably saturated single-phase flow
-</verbatim> </para>
     </detaileddescription>
-    <location file="richards/__init__.py" line="1" column="1"/>
+    <location file="/work/cekees/proteus/proteus/pskRelations.h" line="842" column="1"/>
   </compounddef>
 </doxygen>

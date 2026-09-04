@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="group__pskrelations" kind="group">
     <compoundname>pskrelations</compoundname>
     <title>pskrelations</title>
+    <innerfile refid="psk_relations_8h">pskRelations.h</innerfile>
     <innerclass refid="class_psk_relation" prot="public">PskRelation</innerclass>
     <innerclass refid="class_simple_p_s_k" prot="public">SimplePSK</innerclass>
     <innerclass refid="class_v_g_morig" prot="public">VGMorig</innerclass>
@@ -13,6 +14,7 @@
     <innerclass refid="class_fractional_flow_variables" prot="public">FractionalFlowVariables</innerclass>
     <innerclass refid="struct_compressible_n___fractional_flow_variables" prot="public">CompressibleN_FractionalFlowVariables</innerclass>
     <innerclass refid="class_psk_spline" prot="public">PskSpline</innerclass>
+    <innernamespace refid="namespaceproteus">proteus</innernamespace>
     <briefdescription>
 <para>A library of pressure-saturation-permeability relations. </para>
     </briefdescription>

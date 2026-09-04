@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="classproteus_1_1_v_o_f" kind="class" language="C++" prot="public">
     <compoundname>proteus::VOF</compoundname>
     <basecompoundref refid="classproteus_1_1_v_o_f__base" prot="public" virt="non-virtual">proteus::VOF_base</basecompoundref>
-    <includes refid="_v_o_f_8h" local="no">/Users/cekees/proteus/proteus/mprans/VOF.h</includes>
+    <includes refid="_v_o_f_8h" local="no">/work/cekees/proteus/proteus/mprans/VOF.h</includes>
     <templateparamlist>
       <param>
         <type>class CompKernelType</type>
@@ -39,53 +39,99 @@
         <defname>nQuadraturePoints_elementBoundary</defname>
       </param>
     </templateparamlist>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classproteus_1_1_v_o_f_1afde538001f7f1324dd634c5e2f9216c0" prot="public" static="no" mutable="no">
-        <type>const int</type>
-        <definition>const int proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classproteus_1_1_v_o_f_1ac853d67fbcc7aa6ab09af849e0bfe9d9" prot="public" static="no" mutable="no">
+        <type>std::set&lt; int &gt;</type>
+        <definition>std::set&lt;int&gt; proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cutfem_boundaries</definition>
         <argsstring></argsstring>
-        <name>nDOF_test_X_trial_element</name>
+        <name>cutfem_boundaries</name>
+        <qualifiedname>proteus::VOF::cutfem_boundaries</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="71" column="17" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="71" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="84" column="16" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_v_o_f_1a891da55c538ef07c7f44b6fb064bc387" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, int &gt;</type>
+        <definition>std::map&lt;int, int&gt; proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::cutfem_local_boundaries</definition>
+        <argsstring></argsstring>
+        <name>cutfem_local_boundaries</name>
+        <qualifiedname>proteus::VOF::cutfem_local_boundaries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="85" column="16" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classproteus_1_1_v_o_f_1afde538001f7f1324dd634c5e2f9216c0" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::nDOF_test_X_trial_element</definition>
+        <argsstring></argsstring>
+        <name>nDOF_test_X_trial_element</name>
+        <qualifiedname>proteus::VOF::nDOF_test_X_trial_element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="86" column="17" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classproteus_1_1_v_o_f_1a04685fb31099beac826a23ddd25346de" prot="public" static="no" mutable="no">
         <type>CompKernelType</type>
         <definition>CompKernelType proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::ck</definition>
         <argsstring></argsstring>
         <name>ck</name>
+        <qualifiedname>proteus::VOF::ck</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="72" column="22" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="72" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="87" column="22" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="87" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+      <memberdef kind="variable" id="classproteus_1_1_v_o_f_1af325ba0aceecc016d1bec58838c8f055" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceproteus_1a0c308272715853e7a4fe11c6efdd25f4" kindref="member">GeneralizedFunctions</ref>&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</type>
+        <definition>GeneralizedFunctions&lt;nSpace,2,nQuadraturePoints_element,nQuadraturePoints_elementBoundary&gt; proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::gf_s</definition>
+        <argsstring></argsstring>
+        <name>gf_s</name>
+        <qualifiedname>proteus::VOF::gf_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="88" column="28" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1ab3f4a1752d3a3b90fccabbcaaf09da31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::VOF</definition>
         <argsstring>()</argsstring>
         <name>VOF</name>
+        <qualifiedname>proteus::VOF::VOF</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="73" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="73" bodyend="76"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="89" column="3" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="89" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a1a33866307702adc72905715bfbf9d25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateCFL</definition>
         <argsstring>(const double &amp;elementDiameter, const double df[nSpace], double &amp;cfl)</argsstring>
         <name>calculateCFL</name>
+        <qualifiedname>proteus::VOF::calculateCFL</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>elementDiameter</declname>
@@ -105,13 +151,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="79" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="79" bodyend="90"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="95" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="95" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1aa6d89426b245c9e400250f3eacb2f1d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::evaluateCoefficients</definition>
         <argsstring>(const double v[nSpace], const double &amp;u, const double &amp;porosity, double &amp;m, double &amp;dm, double f[nSpace], double df[nSpace])</argsstring>
         <name>evaluateCoefficients</name>
+        <qualifiedname>proteus::VOF::evaluateCoefficients</qualifiedname>
         <param>
           <type>const double</type>
           <declname>v</declname>
@@ -149,13 +196,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="93" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="93" bodyend="108"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="109" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="109" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a76495c80f636f7d6c58f3e281d850ae6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;elementDiameter, const double &amp;dmt, const double dH[nSpace], double &amp;cfl, double &amp;tau)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::VOF::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>elementDiameter</declname>
@@ -183,13 +231,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="111" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="111" bodyend="126"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="127" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="127" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a6cd1f496c8912e45297711f816c84c7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateSubgridError_tau</definition>
         <argsstring>(const double &amp;Ct_sge, const double G[nSpace *nSpace], const double &amp;A0, const double Ai[nSpace], double &amp;tau_v, double &amp;cfl)</argsstring>
         <name>calculateSubgridError_tau</name>
+        <qualifiedname>proteus::VOF::calculateSubgridError_tau</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>Ct_sge</declname>
@@ -222,13 +271,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="129" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="129" bodyend="142"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="145" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="145" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a3f2124037f399dfdd586cde55f5f8486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateNumericalDiffusion</definition>
         <argsstring>(const double &amp;shockCapturingDiffusion, const double &amp;elementDiameter, const double &amp;strong_residual, const double grad_u[nSpace], double &amp;numDiff)</argsstring>
         <name>calculateNumericalDiffusion</name>
+        <qualifiedname>proteus::VOF::calculateNumericalDiffusion</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>shockCapturingDiffusion</declname>
@@ -256,13 +306,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="145" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="145" bodyend="162"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="161" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="161" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a024eac730db14a23039a3c2a83af7c3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFlux</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isFluxBoundary_u, const double n[nSpace], const double &amp;bc_u, const double &amp;bc_flux_u, const double &amp;u, const double velocity[nSpace], double &amp;flux)</argsstring>
         <name>exteriorNumericalAdvectiveFlux</name>
+        <qualifiedname>proteus::VOF::exteriorNumericalAdvectiveFlux</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -303,13 +354,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="165" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="165" bodyend="212"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="181" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="181" bodyend="222"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1af58cd707fe9f41770cd1cbb04acffc67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::exteriorNumericalAdvectiveFluxDerivative</definition>
         <argsstring>(const int &amp;isDOFBoundary_u, const int &amp;isFluxBoundary_u, const double n[nSpace], const double velocity[nSpace], double &amp;dflux)</argsstring>
         <name>exteriorNumericalAdvectiveFluxDerivative</name>
+        <qualifiedname>proteus::VOF::exteriorNumericalAdvectiveFluxDerivative</qualifiedname>
         <param>
           <type>const int &amp;</type>
           <declname>isDOFBoundary_u</declname>
@@ -338,13 +390,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="215" column="14" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="215" bodyend="248"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="225" column="14" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="225" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1aff9433fe2431f11e322786cd36eb8b01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidualElementBased</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidualElementBased</name>
+        <qualifiedname>proteus::VOF::calculateResidualElementBased</qualifiedname>
         <reimplements refid="classproteus_1_1_v_o_f__base_1af6f44c18ce3b8f1ffe646a21bb30a555">calculateResidualElementBased</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -356,13 +409,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="250" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="250" bodyend="882"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="259" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="259" bodyend="1244"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a3093cce94fb5dd6e16daab31faf116ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateJacobian</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateJacobian</name>
+        <qualifiedname>proteus::VOF::calculateJacobian</qualifiedname>
         <reimplements refid="classproteus_1_1_v_o_f__base_1a66ca42604f8fe5987341a3c4df59e707">calculateJacobian</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -373,14 +427,16 @@
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
+<para>double gamma_v_dim = rho_0*(nu_0 + norm_v*h_cutfem + alphaBDF*h_cutfem*h_cutfem);</para>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="884" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="884" bodyend="1340"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="1246" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="1246" bodyend="1911"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a003faf00ee75c400368f1f74f62327a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::FCTStep</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>FCTStep</name>
+        <qualifiedname>proteus::VOF::FCTStep</qualifiedname>
         <reimplements refid="classproteus_1_1_v_o_f__base_1add792ee096b781c973931e45fb6478c7">FCTStep</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -392,13 +448,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="1342" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="1342" bodyend="1455"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="1913" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="1913" bodyend="2026"/>
       </memberdef>
       <memberdef kind="function" id="classproteus_1_1_v_o_f_1a70a2c6aa393c77be5f1fb9bb97c69e26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;::calculateResidualEdgeBased</definition>
         <argsstring>(arguments_dict &amp;args)</argsstring>
         <name>calculateResidualEdgeBased</name>
+        <qualifiedname>proteus::VOF::calculateResidualEdgeBased</qualifiedname>
         <reimplements refid="classproteus_1_1_v_o_f__base_1a30c82283a710c548a17c22085646c738">calculateResidualEdgeBased</reimplements>
         <param>
           <type><ref refid="structproteus_1_1arguments__dict" kindref="compound">arguments_dict</ref> &amp;</type>
@@ -410,9 +467,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="1457" column="12" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="1457" bodyend="2019"/>
+        <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="2028" column="12" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="2028" bodyend="2590"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -430,10 +487,23 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>equivalent_polynomials::GeneralizedFunctions_mix&lt; nSpace, nP_ifem, nP, nQ, nEBQ, true &gt;&lt; nSpace, 2, nQuadraturePoints_element, nQuadraturePoints_elementBoundary &gt;</label>
+        <link refid="classequivalent__polynomials_1_1_generalized_functions__mix"/>
+      </node>
       <node id="1">
         <label>proteus::VOF&lt; CompKernelType, nSpace, nQuadraturePoints_element, nDOF_mesh_trial_element, nDOF_trial_element, nDOF_test_element, nQuadraturePoints_elementBoundary &gt;</label>
         <link refid="classproteus_1_1_v_o_f"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>cutfem_boundaries</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>cutfem_local_boundaries</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>gf_s</edgelabel>
         </childnode>
       </node>
       <node id="2">
@@ -450,14 +520,20 @@
           <edgelabel>global_entropy_residual</edgelabel>
           <edgelabel>maxEntRes</edgelabel>
           <edgelabel>maxVel</edgelabel>
-          <edgelabel>...</edgelabel>
+          <edgelabel>  ...</edgelabel>
         </childnode>
+      </node>
+      <node id="5">
+        <label>std::map&lt; int, int &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::set&lt; int &gt;</label>
       </node>
       <node id="3">
         <label>std::valarray&lt; double &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/mprans/VOF.h" line="68" column="5" bodyfile="/Users/cekees/proteus/proteus/mprans/VOF.h" bodystart="69" bodyend="2020"/>
+    <location file="/work/cekees/proteus/proteus/mprans/VOF.h" line="81" column="5" bodyfile="/work/cekees/proteus/proteus/mprans/VOF.h" bodystart="82" bodyend="2591"/>
     <listofallmembers>
       <member refid="classproteus_1_1_v_o_f__base_1ad44da89fd183682e1f8ee1a24ee12547" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>boundary_integral</name></member>
       <member refid="classproteus_1_1_v_o_f_1a1a33866307702adc72905715bfbf9d25" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>calculateCFL</name></member>
@@ -468,12 +544,15 @@
       <member refid="classproteus_1_1_v_o_f_1a76495c80f636f7d6c58f3e281d850ae6" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>calculateSubgridError_tau</name></member>
       <member refid="classproteus_1_1_v_o_f_1a6cd1f496c8912e45297711f816c84c7a" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>calculateSubgridError_tau</name></member>
       <member refid="classproteus_1_1_v_o_f_1a04685fb31099beac826a23ddd25346de" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>ck</name></member>
+      <member refid="classproteus_1_1_v_o_f_1ac853d67fbcc7aa6ab09af849e0bfe9d9" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>cutfem_boundaries</name></member>
+      <member refid="classproteus_1_1_v_o_f_1a891da55c538ef07c7f44b6fb064bc387" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>cutfem_local_boundaries</name></member>
       <member refid="classproteus_1_1_v_o_f__base_1add02e96979382d838c7dc05894b673fd" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>eta</name></member>
       <member refid="classproteus_1_1_v_o_f_1aa6d89426b245c9e400250f3eacb2f1d6" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>evaluateCoefficients</name></member>
       <member refid="classproteus_1_1_v_o_f_1a024eac730db14a23039a3c2a83af7c3a" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>exteriorNumericalAdvectiveFlux</name></member>
       <member refid="classproteus_1_1_v_o_f_1af58cd707fe9f41770cd1cbb04acffc67" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>exteriorNumericalAdvectiveFluxDerivative</name></member>
       <member refid="classproteus_1_1_v_o_f_1a003faf00ee75c400368f1f74f62327a9" prot="public" virt="virtual"><scope>proteus::VOF</scope><name>FCTStep</name></member>
       <member refid="classproteus_1_1_v_o_f__base_1a765cbd01dda770ea046ff03ec07c0d8f" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>FluxCorrectionMatrix</name></member>
+      <member refid="classproteus_1_1_v_o_f_1af325ba0aceecc016d1bec58838c8f055" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>gf_s</name></member>
       <member refid="classproteus_1_1_v_o_f__base_1a898494c6ae5c679ccb49265b2907bf7d" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>global_entropy_residual</name></member>
       <member refid="classproteus_1_1_v_o_f__base_1a5fc2aa58a5a8443a082fe07b8d69832f" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>maxEntRes</name></member>
       <member refid="classproteus_1_1_v_o_f__base_1a7cda0f58b2ed4cf66480e28a1cfafe05" prot="public" virt="non-virtual"><scope>proteus::VOF</scope><name>maxVel</name></member>

@@ -1,44 +1,47 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="class_b_c_m" kind="class" language="C++" prot="public">
     <compoundname>BCM</compoundname>
     <basecompoundref refid="class_psk_relation" prot="public" virt="non-virtual">PskRelation</basecompoundref>
     <derivedcompoundref refid="class_b_c_b" prot="public" virt="non-virtual">BCB</derivedcompoundref>
-    <includes refid="psk_relations_8h" local="no">/Users/cekees/proteus/proteus/pskRelations.h</includes>
-      <sectiondef kind="public-attrib">
+    <includes refid="psk_relations_8h" local="no">/work/cekees/proteus/proteus/pskRelations.h</includes>
+    <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_b_c_m_1a8d411e8c4fd344be56caaeecf99c9b05" prot="public" static="no" mutable="no">
         <type>double</type>
         <definition>double BCM::pd</definition>
         <argsstring></argsstring>
         <name>pd</name>
+        <qualifiedname>BCM::pd</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="518" column="10" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="518" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="519" column="10" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="519" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_b_c_m_1a834aab275304f5f838e7a8482c391c6d" prot="public" static="no" mutable="no">
         <type>double</type>
         <definition>double BCM::lambda</definition>
         <argsstring></argsstring>
         <name>lambda</name>
+        <qualifiedname>BCM::lambda</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="518" column="12" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="518" bodyend="-1"/>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="519" column="12" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="519" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
+    </sectiondef>
+    <sectiondef kind="public-func">
       <memberdef kind="function" id="class_b_c_m_1ae1f278012bcaa0c7a0f9cff605b719a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>BCM::BCM</definition>
         <argsstring>(const double *rwork, const int *iwork=0)</argsstring>
         <name>BCM</name>
+        <qualifiedname>BCM::BCM</qualifiedname>
         <param>
           <type>const double *</type>
           <declname>rwork</declname>
@@ -54,13 +57,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="520" column="3" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="520" bodyend="524"/>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="521" column="3" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="521" bodyend="525"/>
       </memberdef>
       <memberdef kind="function" id="class_b_c_m_1aaf5c7f8f81dc55c03d4e959e0cd84fe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void BCM::setParams</definition>
         <argsstring>(const double *rwork, const int *iwork=0)</argsstring>
         <name>setParams</name>
+        <qualifiedname>BCM::setParams</qualifiedname>
         <reimplements refid="class_psk_relation_1a30b1846138c6cf1e5d343d19e00ffa8a">setParams</reimplements>
         <param>
           <type>const double *</type>
@@ -77,13 +81,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="526" column="15" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="526" bodyend="532"/>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="527" column="15" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="527" bodyend="533"/>
       </memberdef>
       <memberdef kind="function" id="class_b_c_m_1a84da3640e9c5ddc0610852d97494fbec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void BCM::calc</definition>
         <argsstring>(const double &amp;Sw)</argsstring>
         <name>calc</name>
+        <qualifiedname>BCM::calc</qualifiedname>
         <param>
           <type>const double &amp;</type>
           <declname>Sw</declname>
@@ -94,9 +99,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="533" column="15" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="533" bodyend="554"/>
+        <location file="/work/cekees/proteus/proteus/pskRelations.h" line="534" column="15" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="534" bodyend="555"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -131,7 +136,7 @@
         <link refid="class_psk_relation"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/cekees/proteus/proteus/pskRelations.h" line="515" column="1" bodyfile="/Users/cekees/proteus/proteus/pskRelations.h" bodystart="516" bodyend="555"/>
+    <location file="/work/cekees/proteus/proteus/pskRelations.h" line="516" column="1" bodyfile="/work/cekees/proteus/proteus/pskRelations.h" bodystart="517" bodyend="556"/>
     <listofallmembers>
       <member refid="class_b_c_m_1ae1f278012bcaa0c7a0f9cff605b719a2" prot="public" virt="non-virtual"><scope>BCM</scope><name>BCM</name></member>
       <member refid="class_b_c_m_1a84da3640e9c5ddc0610852d97494fbec" prot="public" virt="non-virtual"><scope>BCM</scope><name>calc</name></member>

@@ -1,116 +1,116 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
   <compounddef id="_n_u_r_b_sshapes_8f" kind="file" language="Fortran">
     <compoundname>NURBSshapes.f</compoundname>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="_n_u_r_b_sshapes_8f_1af472e2a0fabed72025fa9c6fef6f2c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_n_u_r_b_sshapes_8f_1ac8a30dcd178919c2230e988e11f03421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>subroutine</type>
         <definition>subroutine eval_shape_3d</definition>
-        <argsstring>(NSD, P, Q, R, NSHL, MCP, NCP, OCP, NEL, U_KNOT, V_KNOT, W_KNOT, B_NET, ni, nj, nk, u_hat, v_hat, w_hat, nders, shl, shgradl, shgradg, shhessg, dxidx, DetJ)</argsstring>
+        <argsstring>(nsd, p, q, r, nshl, mcp, ncp, ocp, nel, u_knot, v_knot, w_knot, b_net, ni, nj, nk, u_hat, v_hat, w_hat, nders, shl, shgradl, shgradg, shhessg, dxidx, detj)</argsstring>
         <name>eval_shape_3d</name>
         <param>
-          <type>NSD</type>
-          <defname>NSD</defname>
+          <type>integer</type>
+          <defname>nsd</defname>
         </param>
         <param>
-          <type>P</type>
-          <defname>P</defname>
+          <type>integer</type>
+          <defname>p</defname>
         </param>
         <param>
-          <type>Q</type>
-          <defname>Q</defname>
+          <type>integer</type>
+          <defname>q</defname>
         </param>
         <param>
-          <type>R</type>
-          <defname>R</defname>
+          <type>integer</type>
+          <defname>r</defname>
         </param>
         <param>
-          <type>NSHL</type>
-          <defname>NSHL</defname>
+          <type>integer</type>
+          <defname>nshl</defname>
         </param>
         <param>
-          <type>MCP</type>
-          <defname>MCP</defname>
+          <type>integer</type>
+          <defname>mcp</defname>
         </param>
         <param>
-          <type>NCP</type>
-          <defname>NCP</defname>
+          <type>integer</type>
+          <defname>ncp</defname>
         </param>
         <param>
-          <type>OCP</type>
-          <defname>OCP</defname>
+          <type>integer</type>
+          <defname>ocp</defname>
         </param>
         <param>
-          <type>NEL</type>
-          <defname>NEL</defname>
+          <type>integer</type>
+          <defname>nel</defname>
         </param>
         <param>
-          <type>U_KNOT</type>
-          <defname>U_KNOT</defname>
+          <type>real*8, dimension(mcp+p+1)</type>
+          <defname>u_knot</defname>
         </param>
         <param>
-          <type>V_KNOT</type>
-          <defname>V_KNOT</defname>
+          <type>real*8, dimension(ncp+<ref refid="_headers_8h_1a1fd0784d88f1dd3a465423f8a63d1af2" kindref="member">q</ref>+1)</type>
+          <defname>v_knot</defname>
         </param>
         <param>
-          <type>W_KNOT</type>
-          <defname>W_KNOT</defname>
+          <type>real*8, dimension(ocp+<ref refid="_headers_8h_1a51d5468d74b4eccfb8e26ea458562120" kindref="member">r</ref>+1)</type>
+          <defname>w_knot</defname>
         </param>
         <param>
-          <type>B_NET</type>
-          <defname>B_NET</defname>
+          <type>real*8, dimension(mcp,ncp,ocp,nsd+1)</type>
+          <defname>b_net</defname>
         </param>
         <param>
-          <type>ni</type>
+          <type>integer</type>
           <defname>ni</defname>
         </param>
         <param>
-          <type>nj</type>
+          <type>integer</type>
           <defname>nj</defname>
         </param>
         <param>
-          <type>nk</type>
+          <type>integer</type>
           <defname>nk</defname>
         </param>
         <param>
-          <type>u_hat</type>
+          <type>real*8</type>
           <defname>u_hat</defname>
         </param>
         <param>
-          <type>v_hat</type>
+          <type>real*8</type>
           <defname>v_hat</defname>
         </param>
         <param>
-          <type>w_hat</type>
+          <type>real*8</type>
           <defname>w_hat</defname>
         </param>
         <param>
-          <type>nders</type>
+          <type>integer</type>
           <defname>nders</defname>
         </param>
         <param>
-          <type>shl</type>
+          <type>real*8, dimension(nshl)</type>
           <defname>shl</defname>
         </param>
         <param>
-          <type>shgradl</type>
+          <type>real*8, dimension(nshl,nsd)</type>
           <defname>shgradl</defname>
         </param>
         <param>
-          <type>shgradg</type>
+          <type>real*8, dimension(nshl,nsd)</type>
           <defname>shgradg</defname>
         </param>
         <param>
-          <type>shhessg</type>
+          <type>real*8, dimension(nshl,nsd,nsd)</type>
           <defname>shhessg</defname>
         </param>
         <param>
-          <type>dxidx</type>
+          <type>real*8, dimension(nsd,nsd)</type>
           <defname>dxidx</defname>
         </param>
         <param>
-          <type>DetJ</type>
-          <defname>DetJ</defname>
+          <type>real</type>
+          <defname>detj</defname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/NURBSshapes.f" line="3" column="1" bodyfile="/Users/cekees/proteus/proteus/NURBSshapes.f" bodystart="9" bodyend="460"/>
+        <location file="/work/cekees/proteus/proteus/NURBSshapes.f" line="3" column="1" bodyfile="/work/cekees/proteus/proteus/NURBSshapes.f" bodystart="9" bodyend="460"/>
       </memberdef>
       <memberdef kind="function" id="_n_u_r_b_sshapes_8f_1a822f4caebb87bef294950bc2795ac8a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>subroutine</type>
@@ -126,31 +126,31 @@
         <argsstring>(i, pl, ml, u, nders, u_knotl, ders)</argsstring>
         <name>dersbasisfuns</name>
         <param>
-          <type>i</type>
+          <type>integer</type>
           <defname>i</defname>
         </param>
         <param>
-          <type>pl</type>
+          <type>integer</type>
           <defname>pl</defname>
         </param>
         <param>
-          <type>ml</type>
+          <type>integer</type>
           <defname>ml</defname>
         </param>
         <param>
-          <type>u</type>
+          <type>real*8</type>
           <defname>u</defname>
         </param>
         <param>
-          <type>nders</type>
+          <type>integer</type>
           <defname>nders</defname>
         </param>
         <param>
-          <type>u_knotl</type>
+          <type>real*8, dimension(pl+ml+1)</type>
           <defname>u_knotl</defname>
         </param>
         <param>
-          <type>ders</type>
+          <type>real*8, dimension(nders+1,pl+1)</type>
           <defname>ders</defname>
         </param>
         <briefdescription>
@@ -159,9 +159,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/cekees/proteus/proteus/NURBSshapes.f" line="468" column="1" bodyfile="/Users/cekees/proteus/proteus/NURBSshapes.f" bodystart="469" bodyend="548"/>
+        <location file="/work/cekees/proteus/proteus/NURBSshapes.f" line="468" column="1" bodyfile="/work/cekees/proteus/proteus/NURBSshapes.f" bodystart="469" bodyend="548"/>
       </memberdef>
-      </sectiondef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -169,7 +169,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3" refid="_n_u_r_b_sshapes_8f_1af472e2a0fabed72025fa9c6fef6f2c6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">subroutine<sp/></highlight><highlight class="normal"><ref refid="_n_u_r_b_sshapes_8f_1af472e2a0fabed72025fa9c6fef6f2c6f" kindref="member">eval_shape_3d</ref>(</highlight></codeline>
+<codeline lineno="3" refid="_n_u_r_b_sshapes_8f_1ac8a30dcd178919c2230e988e11f03421" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">subroutine<sp/></highlight><highlight class="normal"><ref refid="_n_u_r_b_sshapes_8f_1ac8a30dcd178919c2230e988e11f03421" kindref="member">eval_shape_3d</ref>(</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>&amp;<sp/><sp/>NSD,P,Q,R,NSHL,MCP,NCP,OCP,NEL,</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>&amp;<sp/><sp/>U_KNOT,V_KNOT,W_KNOT,B_NET,</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>&amp;<sp/><sp/>ni,nj,nk,u_hat,v_hat,w_hat,nders,</highlight></codeline>
@@ -717,6 +717,6 @@
 <codeline lineno="548"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="549"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">end</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/cekees/proteus/proteus/NURBSshapes.f"/>
+    <location file="/work/cekees/proteus/proteus/NURBSshapes.f"/>
   </compounddef>
 </doxygen>
