@@ -1,0 +1,53 @@
+# Assemble and publish the versioned site to GitHub Pages (prototype).
+# Layout (notes/docs-hubs-plan.md in cekees/fleet):
+#   /            latest release docs   (from the gh-pages branch: Proteus 1.9.0 docs)
+#   /lite/       latest release JupyterLite (release asset lite-1.9.0-prototype)
+#   /main/       nightly from cekees/main (placeholder for now)
+# Deployed as a Pages artifact, so publishing never adds commits to the repo.
+# The gh-pages CNAME (proteustoolkit.org) is dropped: this fork must not claim it.
+name: pages
+on:
+  push:
+    branches: [prototype]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: release-docs
+      - name: Assemble site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p _site/lite _site/main
+          rsync -a --exclude .git --exclude CNAME release-docs/ _site/
+          gh release download lite-1.9.0-prototype -R "$GITHUB_REPOSITORY" -p jupyterlite.tgz -D "$RUNNER_TEMP"
+          tar -xzf "$RUNNER_TEMP/jupyterlite.tgz" -C _site/lite --strip-components=1
+          cp site/main-placeholder.html _site/main/index.html
+          touch _site/.nojekyll
+          echo "site size: $(du -sh _site | cut -f1)"; du -sh _site/* | sort -h | tail -5
+          echo "files over 50 MB:"; find _site -type f -size +50M -exec ls -la {} \; || true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
