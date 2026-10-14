@@ -5,6 +5,7 @@
 #   /main/       nightly from cekees/main (placeholder for now)
 # Deployed as a Pages artifact, so publishing never adds commits to the repo.
 # The gh-pages CNAME (proteustoolkit.org) is dropped: this fork must not claim it.
+# doctrees/ and .buildinfo are Sphinx build caches, not site content.
 name: pages
 on:
   push:
@@ -32,7 +33,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p _site/lite _site/main
-          rsync -a --exclude .git --exclude CNAME release-docs/ _site/
+          rsync -a --exclude .git --exclude CNAME --exclude doctrees --exclude .buildinfo release-docs/ _site/
           gh release download lite-1.9.0-prototype -R "$GITHUB_REPOSITORY" -p jupyterlite.tgz -D "$RUNNER_TEMP"
           tar -xzf "$RUNNER_TEMP/jupyterlite.tgz" -C _site/lite --strip-components=1
           cp site/main-placeholder.html _site/main/index.html
